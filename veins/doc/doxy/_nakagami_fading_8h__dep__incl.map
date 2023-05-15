@@ -1,0 +1,10 @@
+digraph "NakagamiFading.h" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,224,84"];
+	Node1 [label="NakagamiFading.h", height="0.22", width="1.44", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="113,68", rects="61,60,165,76"];
+	Node2 [label="NakagamiFading.cc", height="0.22", width="1.47", color=black, fillcolor=white, style=filled, URL="$_nakagami_fading_8cc.html", pos="53,16", rects="0,8,107,24"];
+	Node3 [label="PhyLayer80211p.cc", height="0.22", width="1.39", color=black, fillcolor=white, style=filled, URL="$_phy_layer80211p_8cc.html", pos="174,16", rects="124,8,224,24"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,104,60 97,54 86,44 72,32 63,24"];
+	Node1 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,123,60 130,54 141,44 155,32 164,24"];
+}

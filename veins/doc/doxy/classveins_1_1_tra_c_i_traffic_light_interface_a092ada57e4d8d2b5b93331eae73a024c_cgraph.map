@@ -1,0 +1,11 @@
+digraph "veins::TraCITrafficLightInterface::getCurrentPhase" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,496,28"];
+	Node1 [label="veins::TraCITrafficLight\lInterface::getCurrentPhase", height="0.39", width="1.92", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="78,14", rects="9,0,148,28"];
+	Node2 [label="veins::TraCITrafficLight\lInterface::getCurrentLogic", height="0.39", width="1.92", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_traffic_light_interface.html#a7a0309763a62c52ea70ac82348abb581", pos="253,14", rects="184,0,322,28"];
+	Node3 [label="veins::TraCITrafficLight\lProgram::getLogic", height="0.39", width="1.78", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_traffic_light_program.html#a9ebe65b2056c80ee2d27ce849e8bcc46", pos="423,14", rects="359,0,488,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,184,14 148,14 157,14 165,14 174,14"];
+	Node2 -> Node3 [color=midnightblue, style=solid, pos="e,358,14 322,14 331,14 340,14 348,14"];
+}

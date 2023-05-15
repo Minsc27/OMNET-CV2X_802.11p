@@ -1,0 +1,11 @@
+digraph "veins::TimerManager::create" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,298,74"];
+	Node1 [label="veins::TimerManager\l::create", height="0.39", width="1.56", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="65,37", rects="9,23,122,51"];
+	Node2 [label="veins::TimerSpecification\l::finalize", height="0.39", width="1.81", color=black, fillcolor=white, style=filled, URL="$structveins_1_1_timer_specification.html#a50bab2e5ee6dfa1c92f5e185d582dd8e", tooltip="Finalizes this instance such that its values are independent of current simulation time...", pos="224,60", rects="159,46,290,74"];
+	Node3 [label="veins::TimerSpecification\l::valid", height="0.39", width="1.81", color=black, fillcolor=white, style=filled, URL="$structveins_1_1_timer_specification.html#abd57508502d3961d1f51ff8235aaeb95", tooltip="Checks validity of this specification, i.e., whether all necessary information is set...", pos="224,14", rects="159,0,290,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,158,50 122,45 131,46 139,48 148,49"];
+	Node1 -> Node3 [color=midnightblue, style=solid, pos="e,158,24 122,29 131,28 139,26 148,25"];
+}

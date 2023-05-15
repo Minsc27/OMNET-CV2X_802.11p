@@ -1,0 +1,11 @@
+digraph "veins::DemoBaseApplLayer::handleSelfMsg" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,308,74"];
+	Node1 [label="veins::DemoBaseApplLayer\l::handleSelfMsg", height="0.39", width="2.00", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="81,37", rects="9,23,154,51"];
+	Node2 [label="veins::MyVeinsApp::\lhandleSelfMsg", height="0.39", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_my_veins_app.html#aa3e39be56f1316a986b039fc4e2002df", tooltip="handle self messages ", pos="245,60", rects="191,46,300,74"];
+	Node3 [label="veins::TraCIDemo11p\l::handleSelfMsg", height="0.39", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_demo11p.html#a3ee2d9b315e56cddbedbc6bdcf8ddd00", tooltip="handle self messages ", pos="245,14", rects="190,0,300,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,154,47 162,48 172,49 181,50 190,52"];
+	Node1 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,154,27 163,26 172,24 181,24 190,22"];
+}

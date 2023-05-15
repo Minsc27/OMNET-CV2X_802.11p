@@ -1,0 +1,58 @@
+digraph "veins::TraCITrafficLightInterface" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,1290,700"];
+	Node1 [label="veins::TraCITrafficLight\lInterface", height="0.39", width="1.78", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="1217,406", rects="1153,392,1282,420"];
+	Node2 [label=cSimpleModule, height="0.22", width="1.19", color=grey75, fillcolor=white, style=filled, pos="61,176", rects="18,168,104,184"];
+	Node3 [label="veins::Coord", height="0.22", width="0.94", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_coord.html", tooltip="Class for storing 3D coordinates. ", pos="234,465", rects="200,457,268,473"];
+	Node4 [label=cObject, height="0.22", width="0.64", color=grey75, fillcolor=white, style=filled, pos="61,465", rects="38,457,85,473"];
+	Node5 [label="veins::TraCICommandInterface\l::Trafficlight", height="0.39", width="2.28", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_command_interface_1_1_trafficlight.html", pos="918,598", rects="836,584,1000,612"];
+	Node6 [label="veins::TraCIConnection", height="0.22", width="1.69", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_connection.html", pos="234,640", rects="173,632,296,648"];
+	Node7 [label="veins::HasLogProxy", height="0.22", width="1.47", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_has_log_proxy.html", tooltip="Helper class for logging from classes not derived from cComponent. ", pos="61,576", rects="8,568,114,584"];
+	Node8 [label="veins::TraCICommandInterface", height="0.22", width="2.28", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_command_interface.html", pos="570,588", rects="488,580,652,596"];
+	Node9 [label="veins::TraCICommandInterface\l::VersionConfig", height="0.39", width="2.28", color=black, fillcolor=white, style=filled, URL="$structveins_1_1_tra_c_i_command_interface_1_1_version_config.html", pos="234,588", rects="152,574,316,602"];
+	Node10 [label=simtime_t, height="0.22", width="0.81", color=grey75, fillcolor=white, style=filled, pos="570,269", rects="541,261,600,277"];
+	Node11 [label="veins::TraCITrafficLight\lProgram", height="0.39", width="1.78", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_traffic_light_program.html", pos="918,246", rects="854,232,983,260"];
+	Node12 [label="veins::TraCIScenarioManager", height="0.22", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager.html", tooltip="Creates and moves nodes controlled by a TraCI server. ", pos="918,286", rects="842,278,995,294"];
+	Node13 [label=cISimulationLifecycleListener, height="0.22", width="2.17", color=grey75, fillcolor=white, style=filled, pos="570,48", rects="492,40,649,56"];
+	Node14 [label="veins::AnnotationManager", height="0.22", width="1.92", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_annotation_manager.html", tooltip="manages annotations on the OMNeT++ canvas. ", pos="234,222", rects="165,214,304,230"];
+	Node15 [label="veins::VehicleObstacleControl", height="0.22", width="2.14", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_vehicle_obstacle_control.html", tooltip="VehicleObstacleControl models moving obstacles that block radio transmissions. ", pos="570,141", rects="493,133,647,149"];
+	Node16 [label="veins::AnnotationManager\l::Group", height="0.39", width="1.92", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_annotation_manager_1_1_group.html", pos="234,132", rects="165,118,304,146"];
+	Node17 [label="veins::TraCIRegionOfInterest", height="0.22", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_region_of_interest.html", tooltip="Can return whether a given position lies within the simulation&#39;s region of interest. ", pos="570,324", rects="494,316,647,332"];
+	Node18 [label=cMessage, height="0.22", width="0.78", color=grey75, fillcolor=white, style=filled, pos="570,184", rects="542,176,598,192"];
+	Node19 [label="veins::BaseWorldUtility", height="0.22", width="1.72", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_world_utility.html", tooltip="Provides information and utility methods for the whole simulation. ", pos="570,452", rects="508,444,632,460"];
+	Node2 -> Node1 [dir=back, color=midnightblue, style=solid, pos="s,104,170 113,167 113,167 114,166 114,166 122,161 147,97 152,89 182,49 184,10 234,10 234,10 234,10 918,10 1056,10 1067,112 1134,\
+232 1149,257 1146,266 1150,296 1153,314 1148,320 1152,339 1157,360 1158,369 1174,384 1177,386 1182,389 1188,392"];
+	Node3 -> Node1 [dir=back, color=darkorchid3, style=dashed, label=" position", pos="s,268,466 278,467 290,468 304,470 316,473 325,474 326,478 334,480 394,491 410,481 470,480 625,475 664,473 818,459 900,451 920,44\
+5 1000,435 1051,428 1109,420 1152,415", lp="744,477"];
+	Node4 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,85,465 95,465 125,465 169,465 200,465"];
+	Node3 -> Node3 [dir=back, color=darkorchid3, style=dashed, label=" ZERO", pos="s,254,473 259,478 262,485 254,491 234,491 209,491 203,481 214,473", lp="234,499"];
+	Node5 -> Node1 [dir=back, color=darkorchid3, style=dashed, label=" tlCommandInterface", pos="s,1000,607 1008,607 1052,606 1102,597 1134,564 1179,517 1109,467 1152,420 1152,420 1152,420 1152,419", lp="1076,613"];
+	Node6 -> Node5 [dir=back, color=darkorchid3, style=dashed, label=" connection", pos="s,296,646 306,647 315,648 325,648 334,649 550,658 605,641 818,614 824,613 830,612 836,612", lp="570,657"];
+	Node7 -> Node6 [dir=back, color=midnightblue, style=solid, pos="s,114,584 122,589 136,602 132,620 152,632 158,635 165,638 172,639"];
+	Node8 -> Node5 [dir=back, color=darkorchid3, style=dashed, label=" traci", pos="s,652,590 661,590 716,592 783,594 836,595", lp="744,602"];
+	Node7 -> Node8 [dir=back, color=midnightblue, style=solid, pos="s,114,568 122,567 132,567 143,566 152,565 225,560 244,561 316,565 379,568 450,574 501,580"];
+	Node9 -> Node8 [dir=back, color=darkorchid3, style=dashed, label=" versionConfig", pos="s,316,588 325,588 376,588 439,588 488,588", lp="402,596"];
+	Node6 -> Node8 [dir=back, color=darkorchid3, style=dashed, label=" connection", pos="s,296,634 305,633 308,633 312,633 316,632 385,623 405,630 470,608 479,605 480,600 488,598 490,597 492,597 494,596", lp="402,637"];
+	Node10 -> Node1 [dir=back, color=darkorchid3, style=dashed, label=" nextSwitchTime\nupdateInterval", pos="s,600,264 608,264 624,264 640,267 652,277 677,297 647,325 670,347 787,451 863,381 1018,396 1063,400 1113,403 1152,404", lp="918,417"];
+	Node8 -> Node1 [dir=back, color=darkorchid3, style=dashed, label=" commandInterface", pos="s,643,580 652,579 806,562 1126,526 1134,518 1167,487 1123,451 1152,420", lp="918,565"];
+	Node11 -> Node1 [dir=back, color=darkorchid3, style=dashed, label=" programDefinition", pos="s,983,238 992,238 1038,236 1097,243 1134,280 1168,312 1122,347 1152,383 1156,388 1160,390 1164,392", lp="1076,288"];
+	Node12 -> Node1 [dir=back, color=darkorchid3, style=dashed, label=" manager", pos="s,995,292 1004,295 1067,317 1079,335 1134,376 1143,382 1143,387 1152,392", lp="1076,384"];
+	Node2 -> Node12 [dir=back, color=midnightblue, style=solid, pos="s,104,173 113,169 113,168 114,168 114,168 141,152 125,124 152,109 218,74 761,93 818,139 837,154 831,167 834,190 835,195 834,261 \
+836,265 841,270 853,275 868,278"];
+	Node13 -> Node12 [dir=back, color=midnightblue, style=solid, pos="s,649,45 657,45 719,45 796,51 818,72 838,91 832,164 834,190 835,195 834,261 836,265 841,270 853,275 868,278"];
+	Node14 -> Node12 [dir=back, color=darkorchid3, style=dashed, label=" annotations", pos="s,304,226 312,228 314,229 315,229 316,230 402,259 402,313 488,341 559,362 754,382 818,347 841,334 828,311 850,300 854,298 859,29\
+6 864,294", lp="570,371"];
+	Node2 -> Node14 [dir=back, color=midnightblue, style=solid, pos="s,104,181 113,184 113,184 114,184 114,184 134,193 133,205 152,214 156,216 160,217 164,218"];
+	Node10 -> Node12 [dir=back, color=darkorchid3, style=dashed, label=" firstStepAt\nconnectAt\nupdateInterval", pos="s,600,266 609,265 628,264 650,263 670,262 736,259 757,238 818,262 829,265 827,273 836,278 838,279 839,279 841,280", lp="744,282"];
+	Node15 -> Node12 [dir=back, color=darkorchid3, style=dashed, label=" vehicleObstacleControl", pos="s,647,141 655,141 718,144 795,151 818,171 840,190 830,204 834,233 835,236 834,262 836,265 841,270 853,275 868,278", lp="744,179"];
+	Node2 -> Node15 [dir=back, color=midnightblue, style=solid, pos="s,104,178 112,178 191,181 344,182 470,159 479,158 480,155 488,153 494,152 501,150 508,149"];
+	Node14 -> Node15 [dir=back, color=darkorchid3, style=dashed, label=" annotations", pos="s,304,215 313,214 314,214 315,214 316,214 385,205 415,231 470,190 486,179 473,163 488,151 489,150 491,149 493,149", lp="402,221"];
+	Node16 -> Node15 [dir=back, color=darkorchid3, style=dashed, label=" vehicleAnnotationGroup", pos="s,304,134 313,134 367,136 439,138 493,139", lp="402,147"];
+	Node17 -> Node12 [dir=back, color=darkorchid3, style=dashed, label=" roi", pos="s,647,328 655,328 704,328 766,324 818,306 828,302 827,297 836,294 838,293 840,293 841,292", lp="744,335"];
+	Node18 -> Node12 [dir=back, color=darkorchid3, style=dashed, label=" connectAndStartTrigger\nexecuteOneTimestepTrigger", pos="s,598,187 606,188 621,189 637,190 652,192 727,202 761,170 818,217 838,232 818,253 836,270 840,273 847,276 856,278", lp="744,231"];
+	Node19 -> Node12 [dir=back, color=darkorchid3, style=dashed, label=" world", pos="s,632,448 640,446 644,446 648,445 652,444 729,426 767,441 818,382 842,354 811,327 836,302 839,299 846,296 853,294", lp="744,447"];
+	Node2 -> Node19 [dir=back, color=midnightblue, style=solid, pos="s,97,184 105,187 108,189 111,190 114,192 126,200 142,230 152,239 284,353 324,385 488,442 494,444 501,446 508,447"];
+	Node3 -> Node19 [dir=back, color=darkorchid3, style=dashed, label=" playgroundSize", pos="s,268,464 276,464 335,461 440,457 508,454", lp="402,468"];
+}

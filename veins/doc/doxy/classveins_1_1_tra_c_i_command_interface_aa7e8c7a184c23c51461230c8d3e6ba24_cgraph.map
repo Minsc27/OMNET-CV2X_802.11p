@@ -1,0 +1,27 @@
+digraph "veins::TraCICommandInterface::genericGetCoordList" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,678,166"];
+	Node1 [label="veins::TraCICommandInterface\l::genericGetCoordList", height="0.39", width="2.28", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="90,83", rects="8,69,172,97"];
+	Node2 [label="veins::TraCIBuffer::eof", height="0.22", width="1.67", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_buffer.html#a557599847e1cd7733e715752b35c0248", pos="270,146", rects="210,138,331,154"];
+	Node3 [label="veins::TraCIConnection\l::query", height="0.39", width="1.69", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_connection.html#aaf49494fd564d7e88f1c539d9fd8aff8", tooltip="sends a single command via TraCI, checks status response, returns additional responses. ", pos="270,106", rects="209,92,332,120"];
+	Node4 [label="veins::TraCIConnection\l::sendMessage", height="0.39", width="1.69", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_connection.html#ae9525e27e903007d2fb3382e790a748a", tooltip="sends a message via TraCI (after adding the header) ", pos="442,106", rects="381,92,504,120"];
+	Node5 [label="veins::socket", height="0.22", width="0.94", color=black, fillcolor=white, style=filled, URL="$namespaceveins.html#a3e04988b53f0d0109602feb7895b4302", pos="611,124", rects="577,116,645,132"];
+	Node6 [label="veins::TraCIBuffer::str", height="0.22", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_buffer.html#a82188788949eca6bd7c48b1476f67b95", pos="611,87", rects="553,79,670,95"];
+	Node7 [label="veins::makeTraCICommand", height="0.22", width="2.03", color=black, fillcolor=white, style=filled, URL="$namespaceveins.html#af83b40d9114af922837b09398bc72005", tooltip="returns byte-buffer containing a TraCI command with optional parameters ", pos="442,66", rects="369,58,516,74"];
+	Node8 [label="veins::TraCIConnection\l::receiveMessage", height="0.39", width="1.69", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_connection.html#abec53685d1816f11e2ab2797bdc467fb", tooltip="receives a message via TraCI (and strips the header) ", pos="442,152", rects="381,138,504,166"];
+	Node9 [label="veins::TraCIBuffer\l::readByteOrFull", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_buffer.html#a4a1425438cc59da99ec750aaf393d1a1", tooltip="first read a Byte. ", pos="270,60", rects="219,46,321,74"];
+	Node10 [label="veins::TraCIConnection\l::traci2omnet", height="0.39", width="1.69", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_connection.html#ad772313d64cfe4a00505041700c8eb96", tooltip="convert TraCI coordinates to OMNeT++ coordinates ", pos="270,14", rects="209,0,332,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,209,139 173,97 191,107 188,122 202,133"];
+	Node1 -> Node3 [color=midnightblue, style=solid, pos="e,208,98 172,93 181,94 190,96 199,97"];
+	Node3 -> Node4 [color=midnightblue, style=solid, pos="e,380,106 332,106 345,106 358,106 370,106"];
+	Node4 -> Node5 [color=midnightblue, style=solid, pos="e,577,121 504,113 526,116 549,117 568,120"];
+	Node4 -> Node6 [color=midnightblue, style=solid, pos="e,552,94 504,99 517,97 530,96 542,95"];
+	Node3 -> Node7 [color=midnightblue, style=solid, pos="e,368,74 332,92 345,87 349,82 358,78"];
+	Node7 -> Node6 [color=midnightblue, style=solid, pos="e,552,79 516,74 529,75 534,76 542,77"];
+	Node3 -> Node8 [color=midnightblue, style=solid, pos="e,380,141 332,120 349,126 352,132 368,138 369,138 370,138 370,139"];
+	Node8 -> Node5 [color=midnightblue, style=solid, pos="e,577,128 504,140 519,137 536,134 552,132 557,131 562,130 567,129"];
+	Node1 -> Node9 [color=midnightblue, style=solid, pos="e,219,67 172,73 185,71 197,69 209,68"];
+	Node1 -> Node10 [color=midnightblue, style=solid, pos="e,208,28 172,69 191,60 189,46 201,34"];
+}

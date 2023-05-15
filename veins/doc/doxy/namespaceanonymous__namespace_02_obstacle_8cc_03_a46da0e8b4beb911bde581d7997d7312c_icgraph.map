@@ -1,0 +1,9 @@
+digraph "anonymous_namespace{Obstacle::cc}::segmentsIntersectAt" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,384,28"];
+	Node1 [label="anonymous_namespace\l\{Obstacle::cc\}::segmentsIntersectAt", height="0.39", width="2.39", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="95,14", rects="9,0,182,28"];
+	Node2 [label="veins::Obstacle::getIntersections", height="0.22", width="2.19", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_obstacle.html#afc450752c8f11bf096880afd5b96e30d", tooltip="get a list of points (in [0, 1]) along the line between sender and receiver where the beam intersects...", pos="297,14", rects="218,6,376,22"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,182,14 192,14 201,14 209,14 218,14"];
+}

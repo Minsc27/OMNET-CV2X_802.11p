@@ -1,0 +1,15 @@
+digraph "veins::TraCIMobility::getVehicleCommandInterface" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,506,97"];
+	Node1 [label="veins::TraCIMobility\l::getVehicleCommandInterface", height="0.39", width="2.22", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="89,60", rects="9,46,170,74"];
+	Node2 [label="veins::TraCIMobility\l::handleSelfMsg", height="0.39", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_mobility.html#aa1f9009fe55066959ba341d50818374b", tooltip="Called upon arrival of a self messages. ", pos="279,83", rects="225,69,334,97"];
+	Node3 [label="veins::DemoBaseApplLayer\l::initialize", height="0.39", width="2.00", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_demo_base_appl_layer.html#acca47f0d4a756e78ca29d2e4271af396", pos="279,37", rects="207,23,352,51"];
+	Node4 [label="veins::MyVeinsApp::\linitialize", height="0.39", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_my_veins_app.html#a73f5b68ba9bb4b66b2a3fecf875be114", pos="443,60", rects="389,46,498,74"];
+	Node5 [label="veins::TraCIDemo11p\l::initialize", height="0.39", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_demo11p.html#ac52eef213e4579f7d5f671385b506b78", pos="443,14", rects="388,0,498,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,170,70 179,71 194,73 210,74 224,76"];
+	Node1 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,170,50 179,49 188,48 197,47 206,46"];
+	Node3 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,352,47 360,48 370,49 379,50 388,52"];
+	Node3 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,352,27 361,26 370,24 379,24 388,22"];
+}

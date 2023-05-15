@@ -1,0 +1,27 @@
+digraph "veins::SimpleObstacleShadowing" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,826,274"];
+	Node1 [label="veins::SimpleObstacleShadowing", height="0.22", width="2.33", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="734,196", rects="650,188,818,204"];
+	Node2 [label="veins::AnalogueModel", height="0.22", width="1.64", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_analogue_model.html", tooltip="Interface for the analogue models of the physical layer. ", pos="465,264", rects="406,256,524,272"];
+	Node3 [label="veins::HasLogProxy", height="0.22", width="1.47", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_has_log_proxy.html", tooltip="Helper class for logging from classes not derived from cComponent. ", pos="202,264", rects="149,256,255,272"];
+	Node4 [label="veins::Coord", height="0.22", width="0.94", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_coord.html", tooltip="Class for storing 3D coordinates. ", pos="465,196", rects="431,188,499,204"];
+	Node5 [label=cObject, height="0.22", width="0.64", color=grey75, fillcolor=white, style=filled, pos="202,204", rects="179,196,226,212"];
+	Node6 [label="veins::ObstacleControl", height="0.22", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_obstacle_control.html", tooltip="ObstacleControl models obstacles that block radio transmissions. ", pos="465,122", rects="407,114,523,130"];
+	Node7 [label=cSimpleModule, height="0.22", width="1.19", color=grey75, fillcolor=white, style=filled, pos="51,148", rects="8,140,94,156"];
+	Node8 [label="veins::AnnotationManager", height="0.22", width="1.92", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_annotation_manager.html", tooltip="manages annotations on the OMNeT++ canvas. ", pos="202,123", rects="133,115,272,131"];
+	Node9 [label="veins::BBoxLookup", height="0.22", width="1.44", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_b_box_lookup.html", tooltip="Fast grid-based spatial datastructure to find obstacles (geometric shapes) in a bounding box...", pos="202,70", rects="150,62,255,78"];
+	Node10 [label="veins::AnnotationManager\l::Group", height="0.39", width="1.92", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_annotation_manager_1_1_group.html", pos="202,18", rects="133,4,272,32"];
+	Node2 -> Node1 [dir=back, color=midnightblue, style=solid, pos="s,524,256 532,254 576,242 589,236 632,216 641,212 642,208 650,206 652,205 654,205 656,204"];
+	Node3 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,255,264 265,264 308,264 364,264 406,264"];
+	Node4 -> Node1 [dir=back, color=darkorchid3, style=dashed, label=" playgroundSize", pos="s,499,196 509,196 547,196 603,196 650,196", lp="587,204"];
+	Node5 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,226,203 235,203 285,202 380,199 431,197"];
+	Node4 -> Node4 [dir=back, color=darkorchid3, style=dashed, label=" ZERO", pos="s,485,204 490,209 493,216 485,222 465,222 440,222 434,212 445,204", lp="465,230"];
+	Node6 -> Node1 [dir=back, color=darkorchid3, style=dashed, label=" obstacleControl", pos="s,523,130 532,132 576,144 588,154 632,176 641,180 642,183 650,186 652,187 655,187 657,188", lp="587,184"];
+	Node7 -> Node6 [dir=back, color=midnightblue, style=solid, pos="s,94,154 103,155 170,162 290,169 388,142 397,139 398,135 406,132 408,131 410,131 412,130"];
+	Node8 -> Node6 [dir=back, color=darkorchid3, style=dashed, label=" annotations", pos="s,272,123 280,123 321,122 370,122 407,122", lp="339,130"];
+	Node7 -> Node8 [dir=back, color=midnightblue, style=solid, pos="s,94,140 102,138 113,135 118,133 132,131"];
+	Node9 -> Node6 [dir=back, color=darkorchid3, style=dashed, label=" bboxLookup", pos="s,255,76 264,77 267,77 269,78 272,78 324,87 339,84 388,102 397,105 398,108 406,112 408,113 411,113 413,114", lp="339,110"];
+	Node10 -> Node6 [dir=back, color=darkorchid3, style=dashed, label=" annotationGroup", pos="s,272,32 281,34 327,42 350,30 388,62 404,76 391,90 406,104 411,108 417,111 423,114", lp="339,70"];
+}

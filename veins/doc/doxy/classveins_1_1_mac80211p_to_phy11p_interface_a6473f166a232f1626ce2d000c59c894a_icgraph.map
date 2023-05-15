@@ -1,0 +1,11 @@
+digraph "veins::Mac80211pToPhy11pInterface::changeListeningChannel" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,364,74"];
+	Node1 [label="veins::Mac80211pToPhy11p\lInterface::changeListeningChannel", height="0.39", width="2.47", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="98,37", rects="9,23,188,51"];
+	Node2 [label="veins::Mac1609_4::change\lServiceChannel", height="0.39", width="1.81", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_mac1609__4.html#a10d9d54636ddeb247ba3456a658ba00c", pos="290,60", rects="225,46,356,74"];
+	Node3 [label="veins::Mac1609_4::handle\lSelfMsg", height="0.39", width="1.78", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_mac1609__4.html#a50663c27a2a1782c618309345687e142", tooltip="Handle self messages such as timers. ", pos="290,14", rects="226,0,355,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,188,48 197,49 206,50 216,51 224,52"];
+	Node1 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,188,26 196,25 206,24 216,23 225,22"];
+}

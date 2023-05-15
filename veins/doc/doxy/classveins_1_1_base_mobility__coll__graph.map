@@ -1,0 +1,36 @@
+digraph "veins::BaseMobility" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,828,468"];
+	Node1 [label="veins::BaseMobility", height="0.22", width="1.42", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="768,245", rects="717,237,820,253"];
+	Node2 [label="veins::BatteryAccess", height="0.22", width="1.47", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_battery_access.html", tooltip="Extends BaseModule by several methods which provide access to the battery module. ...", pos="556,406", rects="503,398,610,414"];
+	Node3 [label="veins::BaseModule", height="0.22", width="1.36", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_module.html", tooltip="Base class for all simple modules of a host. ", pos="182,425", rects="133,417,232,433"];
+	Node4 [label=cSimpleModule, height="0.22", width="1.19", color=grey75, fillcolor=white, style=filled, pos="51,387", rects="8,379,94,395"];
+	Node5 [label=cListener, height="0.22", width="0.75", color=grey75, fillcolor=white, style=filled, pos="51,444", rects="24,436,78,452"];
+	Node6 [label="veins::BaseBattery", height="0.22", width="1.36", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_battery.html", tooltip="Base class for any power source. ", pos="319,450", rects="270,442,368,458"];
+	Node7 [label="veins::Coord", height="0.22", width="0.94", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_coord.html", tooltip="Class for storing 3D coordinates. ", pos="319,238", rects="285,230,353,246"];
+	Node8 [label=cObject, height="0.22", width="0.64", color=grey75, fillcolor=white, style=filled, pos="182,183", rects="159,175,206,191"];
+	Node9 [label="veins::Move", height="0.22", width="0.92", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_move.html", tooltip="Class to store object position and movement. ", pos="556,172", rects="523,164,589,180"];
+	Node10 [label=simtime_t, height="0.22", width="0.81", color=grey75, fillcolor=white, style=filled, pos="319,85", rects="290,77,349,93"];
+	Node11 [label=cMessage, height="0.22", width="0.78", color=grey75, fillcolor=white, style=filled, pos="556,18", rects="528,10,584,26"];
+	Node12 [label="veins::BaseWorldUtility", height="0.22", width="1.72", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_world_utility.html", tooltip="Provides information and utility methods for the whole simulation. ", pos="556,324", rects="494,316,618,332"];
+	Node2 -> Node1 [dir=back, color=midnightblue, style=solid, pos="s,610,401 619,398 661,379 674,370 698,332 714,308 708,298 714,271 715,267 715,265 716,262 718,258 724,255 731,253"];
+	Node3 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,232,422 240,422 312,418 433,412 502,409"];
+	Node4 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,94,395 102,398 114,404 117,410 132,416 133,416 134,417 135,417"];
+	Node5 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,78,440 86,439 101,437 117,435 132,432"];
+	Node6 -> Node2 [dir=back, color=darkorchid3, style=dashed, label=" battery", pos="s,368,442 376,440 419,433 432,431 476,420 485,417 486,415 494,414 497,413 500,413 502,412", lp="431,445"];
+	Node3 -> Node6 [dir=back, color=midnightblue, style=solid, pos="s,232,433 241,435 252,437 256,439 270,442"];
+	Node7 -> Node1 [dir=back, color=darkorchid3, style=dashed, label=" startPosition", pos="s,353,241 362,243 364,243 366,244 368,245 377,248 378,252 382,260 383,261 385,266 386,268 414,285 618,263 716,251", lp="556,279"];
+	Node8 -> Node7 [dir=back, color=midnightblue, style=solid, pos="s,206,183 214,184 220,186 227,188 232,191 254,202 249,218 270,230 275,232 280,234 285,235"];
+	Node7 -> Node7 [dir=back, color=darkorchid3, style=dashed, label=" ZERO", pos="s,339,246 344,251 347,258 339,264 319,264 294,264 288,254 299,246", lp="319,272"];
+	Node9 -> Node1 [dir=back, color=darkorchid3, style=dashed, label=" move", pos="s,589,174 597,175 604,176 611,178 618,180 666,196 669,220 716,237", lp="667,236"];
+	Node8 -> Node9 [dir=back, color=midnightblue, style=solid, pos="s,206,182 215,182 285,180 452,175 523,173"];
+	Node7 -> Node9 [dir=back, color=darkorchid3, style=dashed, label=" lastPos\ndirection\norientation\nstartPos", pos="s,353,235 362,233 364,232 366,231 368,230 379,224 377,217 386,212 430,186 446,190 494,180 503,178 513,176 523,175", lp="431,238"];
+	Node10 -> Node9 [dir=back, color=darkorchid3, style=dashed, label=" startTime", pos="s,349,84 359,84 393,86 443,94 476,122 492,134 479,150 494,163 502,169 513,172 523,173", lp="431,130"];
+	Node10 -> Node1 [dir=back, color=darkorchid3, style=dashed, label=" updateInterval", pos="s,349,80 357,79 389,75 436,73 476,81 583,101 621,105 698,182 714,197 708,208 722,225 727,230 734,234 740,237", lp="556,125"];
+	Node11 -> Node1 [dir=back, color=darkorchid3, style=dashed, label=" moveMsg", pos="s,584,17 593,17 631,16 684,18 698,32 729,63 689,193 716,228 719,232 723,235 727,237", lp="667,40"];
+	Node12 -> Node1 [dir=back, color=darkorchid3, style=dashed, label=" world", pos="s,618,316 626,314 657,309 672,314 698,292 713,279 701,264 716,253", lp="667,320"];
+	Node4 -> Node12 [dir=back, color=midnightblue, style=solid, pos="s,94,382 103,381 196,368 393,345 494,332"];
+	Node7 -> Node12 [dir=back, color=darkorchid3, style=dashed, label=" playgroundSize", pos="s,353,239 362,242 364,243 366,245 368,246 386,259 370,277 386,292 424,323 446,307 494,316", lp="431,320"];
+}

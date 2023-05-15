@@ -1,0 +1,9 @@
+digraph "veins::TraCIBuffer::readByteOrFull" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,318,28"];
+	Node1 [label="veins::TraCIBuffer\l::readByteOrFull", height="0.39", width="1.42", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="59,14", rects="8,0,110,28"];
+	Node2 [label="veins::TraCICommandInterface\l::genericGetCoordList", height="0.39", width="2.28", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_command_interface.html#aa7e8c7a184c23c51461230c8d3e6ba24", pos="228,14", rects="146,0,310,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,110,14 120,14 128,14 137,14 146,14"];
+}

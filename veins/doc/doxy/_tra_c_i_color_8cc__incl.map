@@ -1,0 +1,16 @@
+digraph "TraCIColor.cc" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,188,200"];
+	Node1 [label="TraCIColor.cc", height="0.22", width="1.06", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="89,184", rects="51,176,128,192"];
+	Node2 [label="veins/modules/mobility\l/traci/TraCIColor.h", height="0.39", width="1.72", color=black, fillcolor=white, style=filled, URL="$_tra_c_i_color_8h.html", pos="89,126", rects="27,112,152,140"];
+	Node3 [label="veins/veins.h", height="0.22", width="1.00", color=black, fillcolor=white, style=filled, URL="$veins_8h.html", pos="89,68", rects="53,60,125,76"];
+	Node4 [label=memory, height="0.22", width="0.72", color=grey75, fillcolor=white, style=filled, pos="26,16", rects="0,8,52,24"];
+	Node5 [label=utility, height="0.22", width="0.53", color=grey75, fillcolor=white, style=filled, pos="89,16", rects="70,8,109,24"];
+	Node6 [label="omnetpp.h", height="0.22", width="0.86", color=grey75, fillcolor=white, style=filled, pos="157,16", rects="126,8,188,24"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,89,140 89,176 89,170 89,159 89,150"];
+	Node2 -> Node3 [color=midnightblue, style=solid, pos="e,89,76 89,112 89,104 89,94 89,85"];
+	Node3 -> Node4 [color=midnightblue, style=solid, pos="e,36,24 79,60 69,52 55,40 43,30"];
+	Node3 -> Node5 [color=midnightblue, style=solid, pos="e,89,24 89,60 89,53 89,42 89,33"];
+	Node3 -> Node6 [color=midnightblue, style=solid, pos="e,146,24 100,60 111,52 127,39 139,30"];
+}

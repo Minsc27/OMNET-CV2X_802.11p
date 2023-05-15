@@ -1,0 +1,11 @@
+digraph "veins::DemoBaseApplLayer::~DemoBaseApplLayer" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,438,28"];
+	Node1 [label="veins::DemoBaseApplLayer\l::~DemoBaseApplLayer", height="0.39", width="2.00", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="81,14", rects="9,0,154,28"];
+	Node2 [label="veins::BaseModule::\lfindHost", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_module.html#a1d2d2af49918dfb9ae036b1d086b123a", tooltip="Function to get a pointer to the host module. ", pos="241,14", rects="190,0,292,28"];
+	Node3 [label="veins::FindModule::\lfindHost", height="0.39", width="1.39", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_find_module.html#a01accd625bef9763ba8baabc5e9d5eeb", tooltip="Returns a pointer to the host module of the passed module. ", pos="379,14", rects="329,0,430,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,190,14 154,14 163,14 171,14 180,14"];
+	Node2 -> Node3 [color=midnightblue, style=solid, pos="e,328,14 292,14 301,14 309,14 318,14"];
+}

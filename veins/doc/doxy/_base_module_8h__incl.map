@@ -1,0 +1,19 @@
+digraph "BaseModule.h" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,244,188"];
+	Node1 [label="BaseModule.h", height="0.22", width="1.08", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="74,172", rects="35,164,114,180"];
+	Node2 [label=sstream, height="0.22", width="0.64", color=grey75, fillcolor=white, style=filled, pos="23,120", rects="0,112,47,128"];
+	Node3 [label="veins/veins.h", height="0.22", width="1.00", color=black, fillcolor=white, style=filled, URL="$veins_8h.html", pos="123,68", rects="87,60,159,76"];
+	Node4 [label=memory, height="0.22", width="0.72", color=grey75, fillcolor=white, style=filled, pos="60,16", rects="34,8,86,24"];
+	Node5 [label=utility, height="0.22", width="0.53", color=grey75, fillcolor=white, style=filled, pos="123,16", rects="104,8,143,24"];
+	Node6 [label="omnetpp.h", height="0.22", width="0.86", color=grey75, fillcolor=white, style=filled, pos="191,16", rects="160,8,222,24"];
+	Node7 [label="veins/base/utils/HostState.h", height="0.22", width="1.97", color=black, fillcolor=white, style=filled, URL="$_host_state_8h.html", pos="173,120", rects="102,112,244,128"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,31,128 66,164 59,156 47,144 38,135"];
+	Node1 -> Node3 [color=midnightblue, style=solid, pos="e,116,76 76,164 78,152 84,130 93,112 98,101 105,91 111,83"];
+	Node3 -> Node4 [color=midnightblue, style=solid, pos="e,70,24 113,60 103,52 89,40 77,30"];
+	Node3 -> Node5 [color=midnightblue, style=solid, pos="e,123,24 123,60 123,53 123,42 123,33"];
+	Node3 -> Node6 [color=midnightblue, style=solid, pos="e,180,24 134,60 145,52 161,39 173,30"];
+	Node1 -> Node7 [color=midnightblue, style=solid, pos="e,158,128 89,164 106,155 131,142 150,132"];
+	Node7 -> Node3 [color=midnightblue, style=solid, pos="e,131,76 165,112 158,104 146,92 137,83"];
+}

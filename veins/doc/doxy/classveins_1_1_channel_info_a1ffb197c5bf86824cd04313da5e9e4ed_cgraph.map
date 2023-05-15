@@ -1,0 +1,16 @@
+digraph "veins::ChannelInfo::checkAndCleanInterval" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,616,124"];
+	Node1 [label="veins::ChannelInfo\l::checkAndCleanInterval", height="0.39", width="1.81", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="73,68", rects="8,54,138,82"];
+	Node2 [label="veins::ChannelInfo\l::canDiscardInterval", height="0.39", width="1.44", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_channel_info.html#ab4da0befdce7f2b27ae4a61d66ec2167", tooltip="Returns true if all information inside the passed interval can be deleted. ", pos="227,110", rects="175,96,280,124"];
+	Node3 [label="veins::ChannelInfo\l::isIntersecting", height="0.39", width="1.39", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_channel_info.html#a2a4e738d7d51c1dc53ba7404b68103ec", tooltip="Returns true if there is at least one AirFrame in the passed AirFrameMatrix which intersect with the ...", pos="367,110", rects="317,96,418,124"];
+	Node4 [label="veins::ChannelInfo\l::BaseIntersectionIterator::next", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_channel_info_1_1_base_intersection_iterator.html#ac8cb02d11bbba3ab83fe39a400aa320d", tooltip="Increases the iterator to the next intersecting AirFrame and returns a pointer to this AirFrame...", pos="531,89", rects="455,75,608,103"];
+	Node5 [label="veins::ChannelInfo\l::IntersectionIterator\l::eraseAirFrame", height="0.56", width="1.44", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_channel_info_1_1_intersection_iterator.html#a375fa550d8ff120ec17ace70de51389f", tooltip="Erases the AirFrame the iterator currently points to from the AirFrameMatrix. ", pos="227,20", rects="175,0,280,40"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,174,96 138,82 151,85 156,88 165,92"];
+	Node2 -> Node3 [color=midnightblue, style=solid, pos="e,316,110 280,110 289,110 297,110 306,110"];
+	Node3 -> Node4 [color=midnightblue, style=solid, pos="e,454,99 418,104 427,103 435,102 444,100"];
+	Node1 -> Node5 [color=midnightblue, style=solid, pos="e,174,40 138,54 151,50 156,47 165,44"];
+	Node1 -> Node4 [color=midnightblue, style=solid, pos="e,454,86 138,71 219,75 356,82 445,86"];
+}

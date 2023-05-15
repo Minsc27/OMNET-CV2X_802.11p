@@ -1,0 +1,26 @@
+digraph "Decider.h" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,304,200"];
+	Node1 [label="Decider.h", height="0.22", width="0.75", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="164,184", rects="137,176,192,192"];
+	Node2 [label="veins/veins.h", height="0.22", width="1.00", color=black, fillcolor=white, style=filled, URL="$veins_8h.html", pos="164,68", rects="128,60,200,76"];
+	Node3 [label=memory, height="0.22", width="0.72", color=grey75, fillcolor=white, style=filled, pos="101,16", rects="75,8,127,24"];
+	Node4 [label=utility, height="0.22", width="0.53", color=grey75, fillcolor=white, style=filled, pos="164,16", rects="145,8,184,24"];
+	Node5 [label="omnetpp.h", height="0.22", width="0.86", color=grey75, fillcolor=white, style=filled, pos="232,16", rects="201,8,263,24"];
+	Node6 [label="veins/base/phyLayer\l/DeciderToPhyInterface.h", height="0.39", width="1.89", color=black, fillcolor=white, style=filled, URL="$_decider_to_phy_interface_8h.html", pos="68,126", rects="0,112,137,140"];
+	Node7 [label=vector, height="0.22", width="0.56", color=grey75, fillcolor=white, style=filled, pos="30,68", rects="10,60,50,76"];
+	Node8 [label=list, height="0.22", width="0.39", color=grey75, fillcolor=white, style=filled, pos="82,68", rects="68,60,97,76"];
+	Node9 [label="veins/modules/utility\l/HasLogProxy.h", height="0.39", width="1.56", color=black, fillcolor=white, style=filled, URL="$_has_log_proxy_8h.html", pos="248,126", rects="192,112,305,140"];
+	Node10 [label=string, height="0.22", width="0.50", color=grey75, fillcolor=white, style=filled, pos="248,68", rects="230,60,267,76"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,164,76 164,176 164,156 164,109 164,84"];
+	Node2 -> Node3 [color=midnightblue, style=solid, pos="e,111,24 154,60 144,52 130,40 118,30"];
+	Node2 -> Node4 [color=midnightblue, style=solid, pos="e,164,24 164,60 164,53 164,42 164,33"];
+	Node2 -> Node5 [color=midnightblue, style=solid, pos="e,221,24 175,60 186,52 202,39 214,30"];
+	Node1 -> Node6 [color=midnightblue, style=solid, pos="e,91,140 151,176 137,168 117,155 99,145"];
+	Node6 -> Node7 [color=midnightblue, style=solid, pos="e,35,76 59,112 54,104 46,92 40,83"];
+	Node6 -> Node8 [color=midnightblue, style=solid, pos="e,80,76 71,112 73,104 76,93 78,85"];
+	Node6 -> Node2 [color=midnightblue, style=solid, pos="e,151,76 91,112 107,103 129,89 144,80"];
+	Node1 -> Node9 [color=midnightblue, style=solid, pos="e,228,140 176,176 187,168 206,155 221,145"];
+	Node9 -> Node10 [color=midnightblue, style=solid, pos="e,248,76 248,112 248,104 248,94 248,85"];
+	Node9 -> Node2 [color=midnightblue, style=solid, pos="e,176,76 228,112 215,103 196,90 183,81"];
+}

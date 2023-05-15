@@ -1,0 +1,35 @@
+digraph "veins::AnnotationManager::drawPolygon" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,744,301"];
+	Node1 [label="veins::AnnotationManager\l::drawPolygon", height="0.39", width="1.92", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="78,152", rects="9,138,148,166"];
+	Node2 [label="veins::ObstacleControl::add", height="0.22", width="1.89", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_obstacle_control.html#a206a6e9155d1b201841d0718e65ed30f", pos="261,241", rects="193,233,330,249"];
+	Node3 [label="veins::ObstacleControl\l::addFromXml", height="0.39", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_obstacle_control.html#a1e5fceb8e8d9616622cc12551231c9d3", pos="451,287", rects="393,273,509,301"];
+	Node4 [label="veins::ObstacleControl\l::initialize", height="0.39", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_obstacle_control.html#adffe1ace6d536aa9a27402006707962f", pos="650,287", rects="592,273,708,301"];
+	Node5 [label="veins::ObstacleControl\l::addFromTypeAndShape", height="0.39", width="1.86", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_obstacle_control.html#a5854911238d0af091d44f155bb768437", pos="451,241", rects="384,227,519,255"];
+	Node6 [label="veins::AnnotationManager\l::addFromXml", height="0.39", width="1.92", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_annotation_manager.html#a946e1967906528815fbe61cb8cfb2986", tooltip="adds Annotations from an XML document; example below. ", pos="261,198", rects="192,184,331,212"];
+	Node7 [label="veins::AnnotationManager\l::initialize", height="0.39", width="1.92", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_annotation_manager.html#af1b9b5eacc0afa3a90fbf48a7f00a539", pos="451,195", rects="382,181,521,209"];
+	Node8 [label="veins::AnnotationManager\l::drawPolygon", height="0.39", width="1.92", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_annotation_manager.html#a51c3cecfcf9fd3f315177b07bb7ab040", pos="261,152", rects="192,138,331,166"];
+	Node9 [label="veins::VehicleObstacleControl\l::drawVehicleObstacles", height="0.39", width="2.14", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_vehicle_obstacle_control.html#a4195ba888ec7c4662bf813bde8e0fc45", pos="261,106", rects="184,92,338,120"];
+	Node10 [label="veins::VehicleObstacleControl\l::getPotentialObstacles", height="0.39", width="2.14", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_vehicle_obstacle_control.html#ab98060c628b51496d26c95962a30517f", tooltip="get distance and height of potential obstacles ", pos="451,106", rects="374,92,528,120"];
+	Node11 [label="veins::VehicleObstacleShadowing\l::filterSignal", height="0.39", width="2.36", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_vehicle_obstacle_shadowing.html#aa1a8069440240b74a7a8ea0c91b06116", tooltip="Filters a specified Signal by adding an attenuation over time to the Signal. ", pos="650,106", rects="565,92,736,120"];
+	Node12 [label="veins::TraCIScenarioManager\l::init_traci", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager.html#a5389f3fc889b1fe3fd126c33a7d9ae36", pos="261,60", rects="185,46,338,74"];
+	Node13 [label="veins::TraCIScenarioManager\l::handleSelfMsg", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager.html#a86a0b91aab8823c087c33b99f3a06b1f", pos="451,60", rects="375,46,528,74"];
+	Node14 [label="veins::TraCIScenarioManager\l::handleMessage", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager.html#ac66ce95372a25d1860ad24748363090d", pos="650,60", rects="574,46,727,74"];
+	Node15 [label="veins::TraCIScenarioManager\lLaunchd::init_traci", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager_launchd.html#a5547124fea3c83e5492a9cdb029948c9", pos="451,14", rects="375,0,528,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,148,166 155,172 172,192 159,216 184,233 187,235 189,236 192,237"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,330,246 339,249 357,255 357,265 374,273 380,275 386,277 393,279"];
+	Node3 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,509,287 519,287 542,287 569,287 592,287"];
+	Node2 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,330,241 340,241 354,241 369,241 383,241"];
+	Node1 -> Node6 [dir=back, color=midnightblue, style=solid, pos="s,148,166 156,169 167,174 171,179 184,184 186,185 189,185 191,186"];
+	Node6 -> Node7 [dir=back, color=midnightblue, style=solid, pos="s,331,197 340,197 353,197 368,196 381,196"];
+	Node1 -> Node8 [dir=back, color=midnightblue, style=solid, pos="s,148,152 158,152 169,152 180,152 191,152"];
+	Node1 -> Node9 [dir=back, color=midnightblue, style=solid, pos="s,148,138 156,134 167,129 171,124 184,120"];
+	Node9 -> Node10 [dir=back, color=midnightblue, style=solid, pos="s,338,106 348,106 357,106 365,106 374,106"];
+	Node10 -> Node11 [dir=back, color=midnightblue, style=solid, pos="s,528,106 538,106 547,106 555,106 564,106"];
+	Node1 -> Node12 [dir=back, color=midnightblue, style=solid, pos="s,148,138 154,132 172,113 160,90 184,74"];
+	Node12 -> Node13 [dir=back, color=midnightblue, style=solid, pos="s,338,60 348,60 357,60 365,60 374,60"];
+	Node13 -> Node14 [dir=back, color=midnightblue, style=solid, pos="s,528,60 538,60 550,60 561,60 573,60"];
+	Node12 -> Node15 [dir=back, color=midnightblue, style=solid, pos="s,338,46 346,42 357,37 361,32 374,28"];
+}

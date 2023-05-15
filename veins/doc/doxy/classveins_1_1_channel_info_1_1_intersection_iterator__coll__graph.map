@@ -1,0 +1,20 @@
+digraph "veins::ChannelInfo::IntersectionIterator" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,830,258"];
+	Node1 [label="veins::ChannelInfo\l::IntersectionIterator", height="0.39", width="1.44", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="769,186", rects="717,172,822,200"];
+	Node2 [label="veins::ChannelInfo\l::BaseIntersectionIterator\l\< AirFrameMatrix, AirFrameMatrix\l::iterator, AirFrameTimeList\l::iterator \>", height="0.89", width="2.64", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_channel_info_1_1_base_intersection_iterator.html", pos="582,186", rects="487,154,678,218"];
+	Node3 [label=simtime_t, height="0.22", width="0.81", color=grey75, fillcolor=white, style=filled, pos="38,202", rects="9,194,68,210"];
+	Node4 [label="veins::ChannelInfo\l::BaseIntersectionIterator\l\< C, ItMatrix, ItList \>", height="0.56", width="1.78", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_channel_info_1_1_base_intersection_iterator.html", tooltip="Iterator for every intersection of a specific interval in a AirFrameMatrix. ", pos="224,122", rects="160,102,288,142"];
+	Node5 [label=ItList, height="0.22", width="0.47", color=grey75, fillcolor=white, style=filled, pos="38,122", rects="21,114,56,130"];
+	Node6 [label=ItMatrix, height="0.22", width="0.69", color=grey75, fillcolor=white, style=filled, pos="38,70", rects="13,62,64,78"];
+	Node7 [label=C, height="0.22", width="0.39", color=grey75, fillcolor=white, style=filled, pos="38,18", rects="24,10,53,26"];
+	Node2 -> Node1 [dir=back, color=midnightblue, style=solid, pos="s,678,186 687,186 697,186 707,186 716,186"];
+	Node3 -> Node2 [dir=back, color=darkorchid3, style=dashed, label=" from\nto", pos="s,68,210 76,213 79,214 81,216 86,217 111,221 118,217 142,217 287,214 324,223 468,208 474,207 480,206 486,206", lp="224,230"];
+	Node4 -> Node2 [dir=back, color=orange, style=dashed, label=" \< AirFrameMatrix, AirFrame\lMatrix::iterator, AirFrameTime\lList::iterator \>", pos="s,288,133 297,135 351,145 426,159 486,169", lp="387,184"];
+	Node5 -> Node4 [dir=back, color=darkorchid3, style=dashed, label=" startIt", pos="s,56,122 64,122 89,122 127,122 160,122", lp="114,130"];
+	Node3 -> Node4 [dir=back, color=darkorchid3, style=dashed, label=" from\nto", pos="s,68,194 76,190 113,174 120,159 159,142", lp="114,199"];
+	Node6 -> Node4 [dir=back, color=darkorchid3, style=dashed, label=" endIt", pos="s,64,77 73,79 101,87 133,96 160,104", lp="114,105"];
+	Node7 -> Node4 [dir=back, color=darkorchid3, style=dashed, label=" intervals", pos="s,53,20 60,21 83,26 119,38 142,61 156,73 146,86 160,98 162,100 165,101 167,102", lp="114,69"];
+}

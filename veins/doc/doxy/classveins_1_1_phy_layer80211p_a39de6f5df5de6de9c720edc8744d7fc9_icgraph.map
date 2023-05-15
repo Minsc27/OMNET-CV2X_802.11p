@@ -1,0 +1,9 @@
+digraph "veins::PhyLayer80211p::initializeSimplePathlossModel" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,376,28"];
+	Node1 [label="veins::PhyLayer80211p\l::initializeSimplePathlossModel", height="0.39", width="2.19", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="87,14", rects="8,0,166,28"];
+	Node2 [label="veins::PhyLayer80211p\l::getAnalogueModelFromName", height="0.39", width="2.28", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_phy_layer80211p.html#ae9a4ddccf5652f8376aee93c2be56730", tooltip="Creates and returns an instance of the AnalogueModel with the specified name. ", pos="285,14", rects="203,0,368,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,166,14 176,14 185,14 193,14 202,14"];
+}

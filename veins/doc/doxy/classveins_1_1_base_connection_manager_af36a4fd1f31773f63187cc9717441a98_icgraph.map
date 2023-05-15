@@ -1,0 +1,18 @@
+digraph "veins::BaseConnectionManager::updateNicConnections" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,920,74"];
+	Node1 [label="veins::BaseConnectionManager\l::updateNicConnections", height="0.39", width="2.22", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="89,37", rects="9,23,170,51"];
+	Node2 [label="veins::BaseConnectionManager\l::checkGrid", height="0.39", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_connection_manager.html#a063c137e5a6d73ff846321b511d48a32", tooltip="Check connections of a nic in the grid. ", pos="287,37", rects="207,23,368,51"];
+	Node3 [label="veins::BaseConnectionManager\l::updateConnections", height="0.39", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_connection_manager.html#af87d8c9c33b54eb6bf8a5f43e6e36a96", tooltip="Updates the connections of the nic with \"nicID\". ", pos="485,37", rects="405,23,566,51"];
+	Node4 [label="veins::BaseConnectionManager\l::registerNic", height="0.39", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_connection_manager.html#a35d8c27aeacff47e0e62135ffe065078", tooltip="Registers a nic to have its connections managed by ConnectionManager. ", pos="683,60", rects="603,46,764,74"];
+	Node5 [label="veins::ChannelAccess\l::receiveSignal", height="0.39", width="1.56", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_channel_access.html#a152e2780da20c82d3751d521142a5f90", tooltip="Called by the signalling mechanism to inform of changes. ", pos="856,37", rects="800,23,912,51"];
+	Node6 [label="veins::BaseConnectionManager\l::updateNicPos", height="0.39", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_connection_manager.html#af264b3c891bde0a49dd003c584c997ac", tooltip="Updates the position information of a registered nic. ", pos="683,14", rects="603,0,764,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,170,37 180,37 189,37 197,37 206,37"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,368,37 378,37 387,37 395,37 404,37"];
+	Node3 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,566,46 575,47 584,49 593,49 602,51"];
+	Node4 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,764,49 773,48 782,46 791,46 800,44"];
+	Node3 -> Node6 [dir=back, color=midnightblue, style=solid, pos="s,566,28 575,27 584,25 593,25 602,23"];
+	Node6 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,764,25 773,26 782,28 791,28 800,30"];
+}

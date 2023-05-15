@@ -1,0 +1,9 @@
+digraph "veins::Signal::getMinInRange" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,332,16"];
+	Node1 [label="veins::Signal::getMinInRange", height="0.22", width="2.06", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="83,8", rects="9,0,158,16"];
+	Node2 [label="veins::Signal::getDataMin", height="0.22", width="1.81", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#a0d2bc4ce3c2139d7271e2b2ca5adb67a", tooltip="Minimum power level in milliwatt in the data frequency range. ", pos="259,8", rects="194,0,324,16"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,158,8 168,8 177,8 185,8 194,8"];
+}

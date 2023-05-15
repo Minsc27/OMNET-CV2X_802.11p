@@ -1,0 +1,14 @@
+digraph "SignalManager.h" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,276,136"];
+	Node1 [label="SignalManager.h", height="0.22", width="1.28", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="142,120", rects="96,112,188,128"];
+	Node2 [label="RoadsCanvasVisualizer.h", height="0.22", width="1.86", color=black, fillcolor=white, style=filled, URL="$_roads_canvas_visualizer_8h.html", pos="70,68", rects="3,60,137,76"];
+	Node3 [label="RoadsCanvasVisualizer.cc", height="0.22", width="1.92", color=black, fillcolor=white, style=filled, URL="$_roads_canvas_visualizer_8cc.html", pos="69,16", rects="0,8,138,24"];
+	Node4 [label="RoadsOsgVisualizer.h", height="0.22", width="1.61", color=black, fillcolor=white, style=filled, URL="$_roads_osg_visualizer_8h.html", pos="215,68", rects="157,60,274,76"];
+	Node5 [label="RoadsOsgVisualizer.cc", height="0.22", width="1.67", color=black, fillcolor=white, style=filled, URL="$_roads_osg_visualizer_8cc.html", pos="216,16", rects="156,8,276,24"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,131,112 124,107 111,97 93,84 82,76"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,70,60 70,51 70,42 70,31 69,24"];
+	Node1 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,153,112 160,107 174,97 192,84 203,76"];
+	Node4 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,215,60 215,51 215,42 215,31 216,24"];
+}

@@ -1,0 +1,19 @@
+digraph "veins::TraCIConnection::query" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,478,108"];
+	Node1 [label="veins::TraCIConnection\l::query", height="0.39", width="1.69", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="70,60", rects="9,46,132,74"];
+	Node2 [label="veins::makeTraCICommand", height="0.22", width="2.03", color=black, fillcolor=white, style=filled, URL="$namespaceveins.html#af83b40d9114af922837b09398bc72005", tooltip="returns byte-buffer containing a TraCI command with optional parameters ", pos="242,100", rects="169,92,316,108"];
+	Node3 [label="veins::TraCIBuffer::str", height="0.22", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_buffer.html#a82188788949eca6bd7c48b1476f67b95", pos="411,80", rects="353,72,470,88"];
+	Node4 [label="veins::TraCIConnection\l::receiveMessage", height="0.39", width="1.69", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_connection.html#abec53685d1816f11e2ab2797bdc467fb", tooltip="receives a message via TraCI (and strips the header) ", pos="242,14", rects="181,0,304,28"];
+	Node5 [label="veins::socket", height="0.22", width="0.94", color=black, fillcolor=white, style=filled, URL="$namespaceveins.html#a3e04988b53f0d0109602feb7895b4302", pos="411,40", rects="377,32,445,48"];
+	Node6 [label="veins::TraCIConnection\l::sendMessage", height="0.39", width="1.69", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_connection.html#ae9525e27e903007d2fb3382e790a748a", tooltip="sends a message via TraCI (after adding the header) ", pos="242,60", rects="181,46,304,74"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,168,92 132,74 145,79 149,83 159,88"];
+	Node2 -> Node3 [color=midnightblue, style=solid, pos="e,352,88 316,92 325,91 333,90 342,89"];
+	Node1 -> Node4 [color=midnightblue, style=solid, pos="e,180,24 132,46 149,39 152,33 168,28 169,28 170,28 171,27"];
+	Node4 -> Node5 [color=midnightblue, style=solid, pos="e,377,35 304,24 320,27 337,29 352,32 357,33 362,33 367,34"];
+	Node1 -> Node6 [color=midnightblue, style=solid, pos="e,180,60 132,60 145,60 158,60 170,60"];
+	Node6 -> Node5 [color=midnightblue, style=solid, pos="e,377,44 304,53 326,50 349,48 368,45"];
+	Node6 -> Node3 [color=midnightblue, style=solid, pos="e,352,73 304,67 317,69 330,70 342,72"];
+}

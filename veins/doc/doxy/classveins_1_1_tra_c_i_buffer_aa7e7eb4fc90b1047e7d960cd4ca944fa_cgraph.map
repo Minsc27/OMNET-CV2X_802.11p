@@ -1,0 +1,9 @@
+digraph "veins::TraCIBuffer::write" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,252,28"];
+	Node1 [label="veins::TraCIBuffer\l::write", height="0.39", width="1.42", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="59,14", rects="8,0,110,28"];
+	Node2 [label="veins::isBigEndian", height="0.22", width="1.36", color=black, fillcolor=white, style=filled, URL="$namespaceveins.html#af50368edf283a729c6096472ee299637", pos="195,14", rects="146,6,244,22"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,146,14 110,14 119,14 127,14 136,14"];
+}

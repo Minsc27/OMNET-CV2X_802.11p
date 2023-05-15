@@ -1,0 +1,53 @@
+digraph "veins::NicEntryDirect" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,1300,551"];
+	Node1 [label="veins::NicEntryDirect", height="0.22", width="1.58", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="1235,173", rects="1178,165,1292,181"];
+	Node2 [label="veins::NicEntry", height="0.22", width="1.17", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_nic_entry.html", tooltip="NicEntry is used by ConnectionManager to store the necessary information for each nic...", pos="1098,173", rects="1056,165,1140,181"];
+	Node3 [label="veins::HasLogProxy", height="0.22", width="1.47", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_has_log_proxy.html", tooltip="Helper class for logging from classes not derived from cComponent. ", pos="906,283", rects="853,275,959,291"];
+	Node4 [label="veins::ChannelAccess", height="0.22", width="1.56", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_channel_access.html", tooltip="Basic class for all physical layers, please don&#39;t touch!! ", pos="906,249", rects="850,241,962,257"];
+	Node5 [label="veins::BatteryAccess", height="0.22", width="1.47", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_battery_access.html", tooltip="Extends BaseModule by several methods which provide access to the battery module. ...", pos="639,489", rects="586,481,693,497"];
+	Node6 [label="veins::BaseModule", height="0.22", width="1.36", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_module.html", tooltip="Base class for all simple modules of a host. ", pos="182,508", rects="133,500,232,516"];
+	Node7 [label=cSimpleModule, height="0.22", width="1.19", color=grey75, fillcolor=white, style=filled, pos="51,451", rects="8,443,94,459"];
+	Node8 [label=cListener, height="0.22", width="0.75", color=grey75, fillcolor=white, style=filled, pos="51,527", rects="24,519,78,535"];
+	Node9 [label="veins::BaseBattery", height="0.22", width="1.36", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_battery.html", tooltip="Base class for any power source. ", pos="351,533", rects="302,525,400,541"];
+	Node10 [label=ChannelMobilityAccessType, height="0.22", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_access_module_wrap.html", tooltip="Finds and returns the pointer to a module of type T. ", pos="639,287", rects="563,279,715,295"];
+	Node11 [label="veins::Coord", height="0.22", width="0.94", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_coord.html", tooltip="Class for storing 3D coordinates. ", pos="351,245", rects="317,237,385,253"];
+	Node12 [label=cObject, height="0.22", width="0.64", color=grey75, fillcolor=white, style=filled, pos="182,245", rects="159,237,206,253"];
+	Node13 [label="veins::BaseConnectionManager", height="0.22", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_connection_manager.html", tooltip="Module to control the channel and handle all connection related stuff. ", pos="639,182", rects="559,174,720,190"];
+	Node14 [label="veins::BaseConnectionManager\l::GridCoord", height="0.39", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_connection_manager_1_1_grid_coord.html", tooltip="Represents a position inside a grid. ", pos="351,18", rects="271,4,432,32"];
+	Node15 [label="veins::Heading", height="0.22", width="1.08", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_heading.html", tooltip="Stores a Heading in rad, with 0 degrees being east and 90 degrees being north. ", pos="639,110", rects="600,102,679,118"];
+	Node16 [label="veins::AntennaPosition", height="0.22", width="1.67", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_antenna_position.html", tooltip="Stores the position of the host&#39;s antenna along with its speed, so that it can be linearly extrapolat...", pos="639,333", rects="579,325,699,341"];
+	Node17 [label=simtime_t, height="0.22", width="0.81", color=grey75, fillcolor=white, style=filled, pos="351,355", rects="322,347,381,363"];
+	Node18 [label="veins::BaseWorldUtility", height="0.22", width="1.72", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_world_utility.html", tooltip="Provides information and utility methods for the whole simulation. ", pos="639,407", rects="577,399,701,415"];
+	Node2 -> Node1 [dir=back, color=midnightblue, style=solid, pos="s,1140,173 1150,173 1159,173 1168,173 1178,173"];
+	Node3 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,959,283 967,282 992,278 1020,270 1038,252 1059,231 1037,210 1056,189 1059,186 1063,183 1067,181"];
+	Node4 -> Node2 [dir=back, color=darkorchid3, style=dashed, label=" chAccess", pos="s,962,241 971,237 1009,220 1013,198 1056,181", lp="1009,240"];
+	Node5 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,693,487 702,486 708,485 714,483 720,481 776,462 800,461 832,413 857,376 844,358 848,315 849,309 847,273 850,269 854,264 859,26\
+0 865,257"];
+	Node6 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,232,506 240,506 329,502 499,495 585,491"];
+	Node7 -> Node6 [dir=back, color=midnightblue, style=solid, pos="s,94,459 102,464 115,475 114,489 132,499 133,499 133,500 134,500"];
+	Node8 -> Node6 [dir=back, color=midnightblue, style=solid, pos="s,78,523 86,522 101,520 117,518 132,515"];
+	Node9 -> Node5 [dir=back, color=darkorchid3, style=dashed, label=" battery", pos="s,400,529 408,528 416,527 425,526 432,525 481,517 493,515 540,503 549,500 550,498 558,497 567,495 576,494 585,492", lp="495,529"];
+	Node6 -> Node9 [dir=back, color=midnightblue, style=solid, pos="s,232,516 241,518 252,520 256,523 270,525 280,526 291,528 302,529"];
+	Node10 -> Node4 [dir=back, color=darkgreen, style=solid, pos="s,715,280 724,278 771,272 785,274 832,263 841,261 842,258 850,257"];
+	Node11 -> Node4 [dir=back, color=darkorchid3, style=dashed, label=" antennaOffset", pos="s,385,245 394,245 494,246 739,248 850,249", lp="639,255"];
+	Node12 -> Node11 [dir=back, color=midnightblue, style=solid, pos="s,206,245 215,245 245,245 287,245 317,245"];
+	Node11 -> Node11 [dir=back, color=darkorchid3, style=dashed, label=" ZERO", pos="s,371,253 376,258 379,265 371,271 351,271 326,271 320,261 331,253", lp="351,279"];
+	Node13 -> Node4 [dir=back, color=darkorchid3, style=dashed, label=" cc", pos="s,720,190 729,191 773,197 792,193 832,219 843,225 839,234 849,241", lp="785,227"];
+	Node7 -> Node13 [dir=back, color=midnightblue, style=solid, pos="s,93,443 99,436 157,368 65,293 132,228 191,171 431,172 558,178"];
+	Node11 -> Node13 [dir=back, color=darkorchid3, style=dashed, label=" playgroundSize\nfindDistance", pos="s,385,249 394,249 407,248 421,244 432,237 447,227 436,212 450,203 490,175 510,195 558,190", lp="495,217"];
+	Node14 -> Node13 [dir=back, color=darkorchid3, style=dashed, label=" gridDim", pos="s,432,32 441,36 490,57 508,67 540,113 557,137 537,155 558,174", lp="495,121"];
+	Node15 -> Node4 [dir=back, color=darkorchid3, style=dashed, label=" antennaHeading", pos="s,679,111 688,112 698,114 710,116 720,118 773,133 797,129 832,170 851,192 830,212 850,233 853,236 857,239 862,241", lp="785,178"];
+	Node15 -> Node15 [dir=back, color=darkorchid3, style=dashed, label=" nan", pos="s,662,118 667,122 672,129 662,136 639,136 611,136 603,126 616,118", lp="639,144"];
+	Node16 -> Node4 [dir=back, color=darkorchid3, style=dashed, label=" antennaPosition", pos="s,699,329 708,328 712,327 716,326 720,325 772,312 788,311 832,283 842,276 841,270 850,265 855,262 861,259 867,257", lp="785,327"];
+	Node11 -> Node16 [dir=back, color=darkorchid3, style=dashed, label=" p\nv", pos="s,385,245 395,246 407,247 420,249 432,253 458,260 518,292 540,308 549,314 549,319 558,324 565,327 572,329 579,330", lp="495,322"];
+	Node17 -> Node16 [dir=back, color=darkorchid3, style=dashed, label=" t", pos="s,381,353 390,352 438,348 522,342 579,338", lp="495,354"];
+	Node18 -> Node4 [dir=back, color=darkorchid3, style=dashed, label=" world", pos="s,701,403 709,402 713,401 716,400 720,399 775,382 798,383 832,339 852,313 829,292 850,269 855,264 861,260 867,257", lp="785,401"];
+	Node7 -> Node18 [dir=back, color=midnightblue, style=solid, pos="s,94,455 104,456 195,463 387,470 540,427 549,424 550,419 558,417 564,415 570,413 577,412"];
+	Node11 -> Node18 [dir=back, color=darkorchid3, style=dashed, label=" playgroundSize", pos="s,385,245 394,245 410,246 426,248 432,254 469,288 417,327 450,366 481,401 535,410 577,411", lp="495,415"];
+	Node11 -> Node2 [dir=back, color=darkorchid3, style=dashed, label=" pos", pos="s,385,248 394,248 407,247 421,243 432,235 442,227 443,192 450,182 486,131 500,115 558,93 728,33 788,75 962,119 997,128 1007,128 \
+1038,143 1047,147 1048,151 1056,156 1062,159 1070,162 1076,165", lp="785,92"];
+	Node15 -> Node2 [dir=back, color=darkorchid3, style=dashed, label=" heading", pos="s,679,111 688,111 727,111 783,114 832,120 933,133 957,145 1056,165", lp="906,151"];
+}

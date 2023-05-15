@@ -1,0 +1,15 @@
+digraph "veins::Decider80211p::setChannelIdleStatus" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,312,166"];
+	Node1 [label="veins::Decider80211p\l::setChannelIdleStatus", height="0.39", width="1.58", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="65,83", rects="8,69,122,97"];
+	Node2 [label="veins::PhyLayer80211p\l::handleSelfMessage", height="0.39", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_phy_layer80211p.html#a020601bba0e334a622dc8e193c5946b0", tooltip="Handle self scheduled messages. ", pos="231,152", rects="173,138,290,166"];
+	Node3 [label="veins::Decider80211p\l::processNewSignal", height="0.39", width="1.44", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider80211p.html#a6604c73b2ee786a4eeca5abe6f072cab", tooltip="Processes a new Signal. ", pos="231,106", rects="179,92,284,120"];
+	Node4 [label="veins::Decider80211p\l::processSignalEnd", height="0.39", width="1.44", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider80211p.html#a389f17ab33d4fc22b499593fa0837faf", tooltip="Processes a received AirFrame. ", pos="231,60", rects="179,46,284,74"];
+	Node5 [label="veins::PhyLayer80211p\l::requestChannelStatusIfIdle", height="0.39", width="2.03", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_phy_layer80211p.html#a6851aaac3c59b66568847e75691ba3e5", tooltip="Explicit request to PHY for the channel status. ", pos="231,14", rects="158,0,304,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,122,97 130,103 142,114 140,127 158,138 163,141 167,143 172,144"];
+	Node1 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,122,91 131,92 146,95 163,96 178,99"];
+	Node1 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,122,75 131,74 146,71 163,70 178,67"];
+	Node1 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,122,69 129,64 142,52 140,38 158,28"];
+}

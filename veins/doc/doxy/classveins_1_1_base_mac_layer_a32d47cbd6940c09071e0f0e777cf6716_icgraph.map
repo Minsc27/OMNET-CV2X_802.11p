@@ -1,0 +1,9 @@
+digraph "veins::BaseMacLayer::encapsMsg" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,276,28"];
+	Node1 [label="veins::BaseMacLayer\l::encapsMsg", height="0.39", width="1.56", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="64,14", rects="8,0,120,28"];
+	Node2 [label="veins::BaseMacLayer\l::handleUpperMsg", height="0.39", width="1.56", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mac_layer.html#a00e3c0935a4e53b889a1c32848f1fed0", tooltip="Handle messages comming from the network layer. ", pos="212,14", rects="156,0,268,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,120,14 130,14 139,14 147,14 156,14"];
+}

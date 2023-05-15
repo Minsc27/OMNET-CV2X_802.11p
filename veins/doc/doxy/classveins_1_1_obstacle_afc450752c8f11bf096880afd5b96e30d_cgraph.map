@@ -1,0 +1,11 @@
+digraph "veins::Obstacle::getIntersections" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,384,62"];
+	Node1 [label="veins::Obstacle::getIntersections", height="0.22", width="2.19", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="87,34", rects="8,26,166,42"];
+	Node2 [label="veins::Obstacle::getShape", height="0.22", width="1.75", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_obstacle.html#a1e5a701e21f19186862a7e93fbf3727f", pos="289,54", rects="226,46,352,62"];
+	Node3 [label="anonymous_namespace\l\{Obstacle::cc\}::segmentsIntersectAt", height="0.39", width="2.39", color=black, fillcolor=white, style=filled, URL="$namespaceanonymous__namespace_02_obstacle_8cc_03.html#a46da0e8b4beb911bde581d7997d7312c", pos="289,14", rects="203,0,376,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,226,48 166,42 183,43 186,44 202,46 207,47 211,47 216,47"];
+	Node1 -> Node3 [color=midnightblue, style=solid, pos="e,202,23 166,26 175,25 183,25 192,24"];
+}

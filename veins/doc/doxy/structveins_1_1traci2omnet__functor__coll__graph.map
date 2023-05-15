@@ -1,0 +1,12 @@
+digraph "veins::traci2omnet_functor" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,264,178"];
+	Node1 [label="veins::traci2omnet\l_functor", height="0.39", width="1.33", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="108,22", rects="60,8,156,36"];
+	Node2 [label="std::unary_function\l\< TraCICoord, Coord \>", height="0.39", width="1.72", color=grey75, fillcolor=white, style=filled, pos="62,102", rects="0,88,125,116"];
+	Node3 [label="veins::TraCIConnection", height="0.22", width="1.69", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_connection.html", pos="203,102", rects="142,94,265,110"];
+	Node4 [label="veins::HasLogProxy", height="0.22", width="1.47", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_has_log_proxy.html", tooltip="Helper class for logging from classes not derived from cComponent. ", pos="203,162", rects="150,154,256,170"];
+	Node2 -> Node1 [dir=back, color=midnightblue, style=solid, pos="s,70,88 74,80 82,66 92,49 100,36"];
+	Node3 -> Node1 [dir=back, color=darkorchid3, style=dashed, label=" owner", pos="s,193,94 187,89 170,74 143,51 125,36", lp="188,62"];
+	Node4 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,203,154 203,145 203,133 203,119 203,110"];
+}

@@ -1,0 +1,18 @@
+digraph "TraCILauncher.cc" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,343,148"];
+	Node1 [label="TraCILauncher.cc", height="0.22", width="1.36", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="172,132", rects="123,124,221,140"];
+	Node2 [label="veins/veins.h", height="0.22", width="1.00", color=black, fillcolor=white, style=filled, URL="$veins_8h.html", pos="89,74", rects="53,66,125,82"];
+	Node3 [label=memory, height="0.22", width="0.72", color=grey75, fillcolor=white, style=filled, pos="26,16", rects="0,8,52,24"];
+	Node4 [label=utility, height="0.22", width="0.53", color=grey75, fillcolor=white, style=filled, pos="89,16", rects="70,8,109,24"];
+	Node5 [label="omnetpp.h", height="0.22", width="0.86", color=grey75, fillcolor=white, style=filled, pos="157,16", rects="126,8,188,24"];
+	Node6 [label="sys/wait.h", height="0.22", width="0.81", color=grey75, fillcolor=white, style=filled, pos="172,74", rects="143,66,201,82"];
+	Node7 [label="veins/modules/mobility\l/traci/TraCILauncher.h", height="0.39", width="1.72", color=black, fillcolor=white, style=filled, URL="$_tra_c_i_launcher_8h.html", pos="281,74", rects="219,60,344,88"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,101,82 160,124 147,115 124,98 108,87"];
+	Node2 -> Node3 [color=midnightblue, style=solid, pos="e,35,24 80,66 70,57 54,41 41,30"];
+	Node2 -> Node4 [color=midnightblue, style=solid, pos="e,89,24 89,66 89,58 89,44 89,33"];
+	Node2 -> Node5 [color=midnightblue, style=solid, pos="e,147,24 98,66 109,57 127,41 140,30"];
+	Node1 -> Node6 [color=midnightblue, style=solid, pos="e,172,82 172,124 172,116 172,102 172,91"];
+	Node1 -> Node7 [color=midnightblue, style=solid, pos="e,255,88 187,124 202,116 226,103 246,93"];
+}

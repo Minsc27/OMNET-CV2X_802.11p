@@ -1,0 +1,13 @@
+digraph "veins::BBoxLookup::findOverlapping" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,632,28"];
+	Node1 [label="veins::BBoxLookup::\lfindOverlapping", height="0.39", width="1.50", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="62,14", rects="8,0,116,28"];
+	Node2 [label="veins::ObstacleControl\l::getIntersections", height="0.39", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_obstacle_control.html#a3e6455d7151b46ce3ca7ce780261fedb", tooltip="get hit obstacles (along with a list of points (in [0, 1]) along the line between sender and receiver...", pos="210,14", rects="152,0,268,28"];
+	Node3 [label="veins::ObstacleControl\l::calculateAttenuation", height="0.39", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_obstacle_control.html#ae3bc0ffe81dd2ca3145636656f392204", tooltip="calculate additional attenuation by obstacles, return multiplicative factor ", pos="362,14", rects="304,0,420,28"];
+	Node4 [label="veins::SimpleObstacleShadowing\l::filterSignal", height="0.39", width="2.33", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_simple_obstacle_shadowing.html#a232c35993ba999b86d6e700d2152c98a", tooltip="Filters a specified Signal by adding an attenuation over time to the Signal. ", pos="540,14", rects="456,0,624,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,116,14 126,14 135,14 143,14 152,14"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,268,14 277,14 286,14 295,14 304,14"];
+	Node3 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,420,14 430,14 438,14 447,14 456,14"];
+}

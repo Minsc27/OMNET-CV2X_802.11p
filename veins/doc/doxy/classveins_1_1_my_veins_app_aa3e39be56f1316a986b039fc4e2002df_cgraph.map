@@ -1,0 +1,19 @@
+digraph "veins::MyVeinsApp::handleSelfMsg" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,832,94"];
+	Node1 [label="veins::MyVeinsApp::\lhandleSelfMsg", height="0.39", width="1.50", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="63,57", rects="9,43,118,71"];
+	Node2 [label="veins::DemoBaseApplLayer\l::handleSelfMsg", height="0.39", width="2.00", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_demo_base_appl_layer.html#aec3c66232b9ca518c76021c8f2f1dc40", tooltip="handle self messages ", pos="227,57", rects="155,43,300,71"];
+	Node3 [label="veins::DemoBaseApplLayer\l::populateWSM", height="0.39", width="2.00", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_demo_base_appl_layer.html#aecfff5ce1d91dcdb319272042375e6b2", tooltip="sets all the necessary fields in the WSM, BSM, or WSA. ", pos="409,80", rects="337,66,482,94"];
+	Node4 [label="veins::DemoBaseApplLayer\l::sendDown", height="0.39", width="2.00", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_demo_base_appl_layer.html#ac473178d13013063c13943d343a672f4", tooltip="overloaded for error handling and stats recording purposes ", pos="409,34", rects="337,20,482,48"];
+	Node5 [label="veins::DemoBaseApplLayer\l::checkAndTrackPacket", height="0.39", width="2.00", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_demo_base_appl_layer.html#a92eee52f9f934fa6118dbad5422f4269", tooltip="helper function for error handling and stats recording purposes ", pos="591,54", rects="519,40,664,68"];
+	Node6 [label="veins::BaseLayer::sendDown", height="0.22", width="2.03", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_layer.html#a1873d6e3fc6d92cf8482b39f1c5ac6c8", tooltip="Sends a message to the lower layer. ", pos="591,14", rects="518,6,664,22"];
+	Node7 [label="veins::BaseLayer::record\lPacket", height="0.39", width="1.72", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_layer.html#a33f4f320f4b6c4ec48651847338ff47f", pos="762,14", rects="700,0,824,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,154,57 118,57 127,57 135,57 144,57"];
+	Node2 -> Node3 [color=midnightblue, style=solid, pos="e,336,71 300,66 309,67 317,68 326,70"];
+	Node2 -> Node4 [color=midnightblue, style=solid, pos="e,336,43 300,48 309,47 317,46 326,44"];
+	Node4 -> Node5 [color=midnightblue, style=solid, pos="e,518,46 482,42 491,43 499,44 508,45"];
+	Node4 -> Node6 [color=midnightblue, style=solid, pos="e,518,22 482,26 491,25 499,24 508,23"];
+	Node6 -> Node7 [color=midnightblue, style=solid, pos="e,700,14 664,14 673,14 681,14 690,14"];
+}

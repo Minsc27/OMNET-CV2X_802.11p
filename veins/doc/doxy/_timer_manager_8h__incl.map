@@ -1,0 +1,20 @@
+digraph "TimerManager.h" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,317,136"];
+	Node1 [label="TimerManager.h", height="0.22", width="1.28", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="120,120", rects="74,112,166,128"];
+	Node2 [label=functional, height="0.22", width="0.83", color=grey75, fillcolor=white, style=filled, pos="30,68", rects="0,60,61,76"];
+	Node3 [label=map, height="0.22", width="0.44", color=grey75, fillcolor=white, style=filled, pos="94,68", rects="78,60,110,76"];
+	Node4 [label=string, height="0.22", width="0.50", color=grey75, fillcolor=white, style=filled, pos="146,68", rects="128,60,165,76"];
+	Node5 [label="veins/veins.h", height="0.22", width="1.00", color=black, fillcolor=white, style=filled, URL="$veins_8h.html", pos="218,68", rects="182,60,254,76"];
+	Node6 [label=memory, height="0.22", width="0.72", color=grey75, fillcolor=white, style=filled, pos="155,16", rects="129,8,181,24"];
+	Node7 [label=utility, height="0.22", width="0.53", color=grey75, fillcolor=white, style=filled, pos="218,16", rects="199,8,238,24"];
+	Node8 [label="omnetpp.h", height="0.22", width="0.86", color=grey75, fillcolor=white, style=filled, pos="286,16", rects="255,8,317,24"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,44,76 106,112 91,103 69,90 52,81"];
+	Node1 -> Node3 [color=midnightblue, style=solid, pos="e,98,76 116,112 112,104 107,94 102,84"];
+	Node1 -> Node4 [color=midnightblue, style=solid, pos="e,142,76 124,112 128,104 133,94 138,84"];
+	Node1 -> Node5 [color=midnightblue, style=solid, pos="e,203,76 135,112 152,103 176,90 195,80"];
+	Node5 -> Node6 [color=midnightblue, style=solid, pos="e,165,24 208,60 198,52 184,40 172,30"];
+	Node5 -> Node7 [color=midnightblue, style=solid, pos="e,218,24 218,60 218,53 218,42 218,33"];
+	Node5 -> Node8 [color=midnightblue, style=solid, pos="e,275,24 229,60 240,52 256,39 268,30"];
+}

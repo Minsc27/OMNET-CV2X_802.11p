@@ -1,0 +1,9 @@
+digraph "veins::TraCIScenarioManager::unsubscribeFromTrafficLightVariables" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,382,28"];
+	Node1 [label="veins::TraCIScenarioManager\l::unsubscribeFromTrafficLightVariables", height="0.39", width="2.86", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="112,14", rects="9,0,216,28"];
+	Node2 [label="veins::TraCIBuffer::eof", height="0.22", width="1.67", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_buffer.html#a557599847e1cd7733e715752b35c0248", pos="313,14", rects="253,6,374,22"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,252,14 216,14 225,14 234,14 242,14"];
+}

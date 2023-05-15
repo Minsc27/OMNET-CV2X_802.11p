@@ -1,0 +1,33 @@
+digraph "veins::BaseWorldUtility::initializeIfNecessary" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,1074,143"];
+	Node1 [label="veins::BaseWorldUtility\l::initializeIfNecessary", height="0.39", width="1.72", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="70,60", rects="8,46,132,74"];
+	Node2 [label="veins::BaseWorldUtility\l::getRandomPosition", height="0.39", width="1.72", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_world_utility.html#a3c574ecd7a055ba2407f638ce548bc24", tooltip="Random position somewhere in the playground. ", pos="230,83", rects="168,69,292,97"];
+	Node3 [label="veins::BaseMobility\l::getRandomPosition", height="0.39", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mobility.html#ad1ddc43c422d35b51b87d98a038b055e", tooltip="Random position somewhere in the playground. ", pos="397,129", rects="343,115,452,143"];
+	Node4 [label="veins::BaseMobility\l::initialize", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mobility.html#ac865e9d430a27e6a3076c0d9293fef35", tooltip="Initializes mobility model parameters. ", pos="397,83", rects="346,69,449,97"];
+	Node5 [label="veins::LinearMobility\l::initialize", height="0.39", width="1.56", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_linear_mobility.html#ac94ebc62ac059949810368634398004b", tooltip="Initializes mobility model parameters. ", pos="559,129", rects="503,115,616,143"];
+	Node6 [label="veins::TraCIMobility\l::initialize", height="0.39", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_mobility.html#a9945ece48d11a01a7973f991b467e848", pos="559,83", rects="505,69,614,97"];
+	Node7 [label="veins::BaseMobility\l::placeRandomlyIfOutside", height="0.39", width="1.89", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mobility.html#a933475f97d6ab7bf834e4d07beda131b", tooltip="Utility function to place the node randomly if it goes outside the playground. ", pos="397,37", rects="329,23,466,51"];
+	Node8 [label="veins::BaseMobility\l::handleIfOutside", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mobility.html#aae36006995d117a723134cbe1fee5e90", tooltip="Main border handling function. ", pos="559,37", rects="508,23,611,51"];
+	Node9 [label="veins::LinearMobility\l::fixIfHostGetsOutside", height="0.39", width="1.64", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_linear_mobility.html#a506fdc3882892c0fc4427df73736010e", tooltip="Should be redefined in subclasses. ", pos="711,60", rects="652,46,770,74"];
+	Node10 [label="veins::LinearMobility\l::makeMove", height="0.39", width="1.56", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_linear_mobility.html#af310806b2b41572de1428e56474bba56", tooltip="Move the host. ", pos="863,60", rects="807,46,920,74"];
+	Node11 [label="veins::TraCIMobility\l::fixIfHostGetsOutside", height="0.39", width="1.64", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_mobility.html#a4fa20054882e4a7fb5b03a13576311c3", tooltip="called after each read to check for (and handle) invalid positions ", pos="711,14", rects="652,0,770,28"];
+	Node12 [label="veins::TraCIMobility\l::changePosition", height="0.39", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_mobility.html#a3137899bb330551c9823c40b4ed8b8fc", pos="863,14", rects="809,0,918,28"];
+	Node13 [label="veins::TraCIMobility\l::nextPosition", height="0.39", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_mobility.html#ae53642be0d88b9f146cf55a5d990f1a2", pos="1011,14", rects="957,0,1066,28"];
+	Node14 [label="veins::BaseWorldUtility\l::initialize", height="0.39", width="1.72", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_world_utility.html#ad6800876f5c13a7bfedaa0048e4eded6", pos="230,37", rects="168,23,292,51"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,132,69 141,70 150,72 159,72 168,74"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,292,97 300,100 311,105 315,110 328,115 333,117 337,118 342,119"];
+	Node2 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,292,83 301,83 316,83 331,83 345,83"];
+	Node4 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,449,92 458,94 461,95 464,96 466,97 483,102 486,108 502,115"];
+	Node4 -> Node6 [dir=back, color=midnightblue, style=solid, pos="s,449,83 459,83 474,83 489,83 504,83"];
+	Node2 -> Node7 [dir=back, color=midnightblue, style=solid, pos="s,292,69 300,65 311,60 315,55 328,51"];
+	Node7 -> Node8 [dir=back, color=midnightblue, style=solid, pos="s,466,37 475,37 486,37 497,37 507,37"];
+	Node8 -> Node9 [dir=back, color=midnightblue, style=solid, pos="s,611,45 620,46 630,48 641,49 652,51"];
+	Node9 -> Node10 [dir=back, color=midnightblue, style=solid, pos="s,770,60 780,60 789,60 797,60 806,60"];
+	Node8 -> Node11 [dir=back, color=midnightblue, style=solid, pos="s,611,29 620,28 630,26 641,25 652,23"];
+	Node11 -> Node12 [dir=back, color=midnightblue, style=solid, pos="s,770,14 779,14 789,14 799,14 808,14"];
+	Node12 -> Node13 [dir=back, color=midnightblue, style=solid, pos="s,918,14 928,14 937,14 947,14 956,14"];
+	Node1 -> Node14 [dir=back, color=midnightblue, style=solid, pos="s,132,51 141,50 150,48 159,48 168,46"];
+}

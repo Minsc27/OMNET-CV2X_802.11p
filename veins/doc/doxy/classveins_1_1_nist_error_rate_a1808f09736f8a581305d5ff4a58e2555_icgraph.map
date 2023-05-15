@@ -1,0 +1,17 @@
+digraph "veins::NistErrorRate::get16QamBer" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,852,28"];
+	Node1 [label="veins::NistErrorRate\l::get16QamBer", height="0.39", width="1.50", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="62,14", rects="8,0,116,28"];
+	Node2 [label="veins::NistErrorRate\l::getFec16QamBer", height="0.39", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_nist_error_rate.html#a457f142bf69a3b9d28e8a5a37e48f1a7", tooltip="Return BER of QAM16 at the given SNR after applying FEC. ", pos="206,14", rects="152,0,260,28"];
+	Node3 [label="veins::NistErrorRate\l::getChunkSuccessRate", height="0.39", width="1.67", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_nist_error_rate.html#a25b315284a666a5065540f8f1da1cbe5", pos="357,14", rects="297,0,418,28"];
+	Node4 [label="veins::Decider80211p\l::packetOk", height="0.39", width="1.44", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider80211p.html#a25ca0927f831000b88741dc0db84246c", tooltip="computes if packet is ok or has errors ", pos="507,14", rects="455,0,560,28"];
+	Node5 [label="veins::Decider80211p\l::checkIfSignalOk", height="0.39", width="1.44", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider80211p.html#a01349c12df6c01678d1e25553b754819", tooltip="Checks a mapping against a specific threshold (element-wise). ", pos="649,14", rects="597,0,702,28"];
+	Node6 [label="veins::Decider80211p\l::processSignalEnd", height="0.39", width="1.44", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider80211p.html#a389f17ab33d4fc22b499593fa0837faf", tooltip="Processes a received AirFrame. ", pos="791,14", rects="739,0,844,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,116,14 126,14 135,14 143,14 152,14"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,260,14 270,14 279,14 287,14 296,14"];
+	Node3 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,418,14 427,14 436,14 446,14 454,14"];
+	Node4 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,560,14 569,14 578,14 588,14 596,14"];
+	Node5 -> Node6 [dir=back, color=midnightblue, style=solid, pos="s,702,14 711,14 720,14 730,14 738,14"];
+}

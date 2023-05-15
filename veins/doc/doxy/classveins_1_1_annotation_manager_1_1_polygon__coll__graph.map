@@ -1,0 +1,10 @@
+digraph "veins::AnnotationManager::Polygon" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,138,190"];
+	Node1 [label="veins::AnnotationManager\l::Polygon", height="0.39", width="1.92", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="69,22", rects="0,8,139,36"];
+	Node2 [label="veins::AnnotationManager\l::Annotation", height="0.39", width="1.92", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_annotation_manager_1_1_annotation.html", pos="69,88", rects="0,74,139,102"];
+	Node3 [label="veins::AnnotationManager\l::Group", height="0.39", width="1.92", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_annotation_manager_1_1_group.html", pos="69,168", rects="0,154,139,182"];
+	Node2 -> Node1 [dir=back, color=midnightblue, style=solid, pos="s,69,74 69,64 69,55 69,44 69,36"];
+	Node3 -> Node2 [dir=back, color=darkorchid3, style=dashed, label=" group", pos="s,69,154 69,145 69,131 69,114 69,102", lp="90,128"];
+}

@@ -1,0 +1,17 @@
+digraph "veins::BaseMobility::handleIfOutside" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,570,74"];
+	Node1 [label="veins::BaseMobility\l::handleIfOutside", height="0.39", width="1.42", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="60,37", rects="9,23,112,51"];
+	Node2 [label="veins::LinearMobility\l::fixIfHostGetsOutside", height="0.39", width="1.64", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_linear_mobility.html#a506fdc3882892c0fc4427df73736010e", tooltip="Should be redefined in subclasses. ", pos="207,60", rects="148,46,266,74"];
+	Node3 [label="veins::LinearMobility\l::makeMove", height="0.39", width="1.56", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_linear_mobility.html#af310806b2b41572de1428e56474bba56", tooltip="Move the host. ", pos="359,60", rects="303,46,416,74"];
+	Node4 [label="veins::TraCIMobility\l::fixIfHostGetsOutside", height="0.39", width="1.64", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_mobility.html#a4fa20054882e4a7fb5b03a13576311c3", tooltip="called after each read to check for (and handle) invalid positions ", pos="207,14", rects="148,0,266,28"];
+	Node5 [label="veins::TraCIMobility\l::changePosition", height="0.39", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_mobility.html#a3137899bb330551c9823c40b4ed8b8fc", pos="359,14", rects="305,0,414,28"];
+	Node6 [label="veins::TraCIMobility\l::nextPosition", height="0.39", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_mobility.html#ae53642be0d88b9f146cf55a5d990f1a2", pos="507,14", rects="453,0,562,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,112,45 121,46 130,48 139,49 148,51"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,266,60 276,60 285,60 293,60 302,60"];
+	Node1 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,112,29 121,28 130,26 139,25 148,23"];
+	Node4 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,266,14 275,14 285,14 295,14 304,14"];
+	Node5 -> Node6 [dir=back, color=midnightblue, style=solid, pos="s,414,14 424,14 433,14 443,14 452,14"];
+}

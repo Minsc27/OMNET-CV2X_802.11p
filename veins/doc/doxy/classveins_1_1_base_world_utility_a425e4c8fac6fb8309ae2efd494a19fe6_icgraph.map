@@ -1,0 +1,27 @@
+digraph "veins::BaseWorldUtility::speedOfLight" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,1030,166"];
+	Node1 [label="veins::BaseWorldUtility\l::speedOfLight", height="0.39", width="1.72", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="70,83", rects="8,69,132,97"];
+	Node2 [label="veins::ChannelAccess\l::calculatePropagationDelay", height="0.39", width="1.97", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_channel_access.html#a01c12c70034ec0583ee5f4e1ac0f683b", tooltip="Calculates the propagation delay to the passed receiving nic. ", pos="245,152", rects="174,138,317,166"];
+	Node3 [label="veins::ChannelAccess\l::sendToChannel", height="0.39", width="1.56", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_channel_access.html#ae370934ad7b1feacc1cb6bd6ad437198", tooltip="Sends a message to all nics connected to this one. ", pos="435,152", rects="379,138,491,166"];
+	Node4 [label="veins::BasePhyLayer\l::sendMessageDown", height="0.39", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_phy_layer.html#a1fe847ed3e50ccf3a3740234dfee42b1", tooltip="Send the passed AirFrame to the channel. ", pos="634,152", rects="579,138,689,166"];
+	Node5 [label="veins::BasePhyLayer\l::handleUpperMessage", height="0.39", width="1.64", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_phy_layer.html#a17b1d469775962d23835dd5f43a639ac", tooltip="Handle messages received from the upper layer and start transmitting them. ", pos="816,152", rects="757,138,876,166"];
+	Node6 [label="veins::BasePhyLayer\l::handleMessage", height="0.39", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_phy_layer.html#a54c20b44779b724638e62f941b656f9c", tooltip="Process received messages and pass to specific handlers. ", pos="967,152", rects="912,138,1022,166"];
+	Node7 [label="veins::TwoRayInterference\lModel::filterSignal", height="0.39", width="1.97", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_two_ray_interference_model.html#a4c322a29e4987d2021bee9234a0ad0b9", tooltip="Has to be overriden by every implementation. ", pos="245,106", rects="174,92,316,120"];
+	Node8 [label="veins::SimplePathlossModel\l::filterSignal", height="0.39", width="1.97", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_simple_pathloss_model.html#a71783f3a91bb7178629fa58aadf793e4", tooltip="Filters a specified AirFrame&#39;s Signal by adding an attenuation over time to the Signal. ", pos="245,60", rects="174,46,316,74"];
+	Node9 [label="veins::VehicleObstacleControl\l::getVehicleAttenuationSingle", height="0.39", width="2.14", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_vehicle_obstacle_control.html#aba9a4a4986cd0141c6bd5404069f9460", tooltip="compute attenuation due to (single) vehicle. ", pos="245,14", rects="168,0,322,28"];
+	Node10 [label="veins::VehicleObstacleControl\l::getVehicleAttenuationDZ", height="0.39", width="2.14", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_vehicle_obstacle_control.html#adf2407d9dcb0830d99775342e3304f15", tooltip="compute attenuation due to vehicles. ", pos="435,14", rects="358,0,512,28"];
+	Node11 [label="veins::VehicleObstacleShadowing\l::filterSignal", height="0.39", width="2.36", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_vehicle_obstacle_shadowing.html#aa1a8069440240b74a7a8ea0c91b06116", tooltip="Filters a specified Signal by adding an attenuation over time to the Signal. ", pos="634,14", rects="549,0,720,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,132,97 140,103 152,114 150,128 168,138 170,139 171,140 173,141"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,317,152 327,152 344,152 362,152 379,152"];
+	Node3 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,491,152 501,152 526,152 555,152 579,152"];
+	Node4 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,689,152 699,152 717,152 738,152 756,152"];
+	Node5 -> Node6 [dir=back, color=midnightblue, style=solid, pos="s,876,152 886,152 895,152 903,152 912,152"];
+	Node1 -> Node7 [dir=back, color=midnightblue, style=solid, pos="s,132,91 141,92 151,94 163,95 174,97"];
+	Node1 -> Node8 [dir=back, color=midnightblue, style=solid, pos="s,132,75 141,74 151,72 163,71 174,69"];
+	Node1 -> Node9 [dir=back, color=midnightblue, style=solid, pos="s,132,69 140,63 152,52 150,38 168,28"];
+	Node9 -> Node10 [dir=back, color=midnightblue, style=solid, pos="s,322,14 332,14 341,14 349,14 358,14"];
+	Node10 -> Node11 [dir=back, color=midnightblue, style=solid, pos="s,512,14 522,14 531,14 539,14 548,14"];
+}

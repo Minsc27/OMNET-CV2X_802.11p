@@ -1,0 +1,12 @@
+digraph "veins::TraCIScenarioManagerLaunchd" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,260,148"];
+	Node1 [label="veins::TraCIScenarioManager\lLaunchd", height="0.39", width="2.11", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="112,22", rects="36,8,189,36"];
+	Node2 [label="veins::TraCIScenarioManager", height="0.22", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager.html", tooltip="Creates and moves nodes controlled by a TraCI server. ", pos="112,80", rects="36,72,189,88"];
+	Node3 [label=cSimpleModule, height="0.22", width="1.19", color=grey75, fillcolor=white, style=filled, pos="43,132", rects="0,124,86,140"];
+	Node4 [label=cISimulationLifecycleListener, height="0.22", width="2.17", color=grey75, fillcolor=white, style=filled, pos="182,132", rects="104,124,261,140"];
+	Node2 -> Node1 [dir=back, color=midnightblue, style=solid, pos="s,112,72 112,63 112,54 112,44 112,36"];
+	Node3 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,54,124 61,118 74,109 90,96 101,88"];
+	Node4 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,171,124 164,119 151,109 134,96 123,88"];
+}

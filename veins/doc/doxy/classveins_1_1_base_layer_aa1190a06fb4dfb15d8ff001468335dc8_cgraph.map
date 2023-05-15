@@ -1,0 +1,9 @@
+digraph "veins::BaseLayer::sendControlUp" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,344,28"];
+	Node1 [label="veins::BaseLayer::sendControlUp", height="0.22", width="2.33", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="92,14", rects="8,6,176,22"];
+	Node2 [label="veins::BaseLayer::record\lPacket", height="0.39", width="1.72", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_layer.html#a33f4f320f4b6c4ec48651847338ff47f", pos="274,14", rects="212,0,336,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,212,14 176,14 185,14 193,14 202,14"];
+}

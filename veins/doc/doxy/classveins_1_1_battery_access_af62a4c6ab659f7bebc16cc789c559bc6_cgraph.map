@@ -1,0 +1,9 @@
+digraph "veins::BatteryAccess::drawCurrent" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,258,28"];
+	Node1 [label="veins::BatteryAccess\l::drawCurrent", height="0.39", width="1.47", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="62,14", rects="9,0,116,28"];
+	Node2 [label="veins::BaseBattery\l::draw", height="0.39", width="1.36", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_battery.html#affd93b0b525452e73a068c5b3dac7411", tooltip="Draws power from the battery. ", pos="201,14", rects="152,0,250,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,152,14 116,14 125,14 133,14 142,14"];
+}

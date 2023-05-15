@@ -1,0 +1,9 @@
+digraph "veins::BaseModule::handleHostState" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,256,28"];
+	Node1 [label="veins::BaseModule::\lhandleHostState", height="0.39", width="1.42", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="59,14", rects="8,0,110,28"];
+	Node2 [label="veins::BaseModule::\lreceiveSignal", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_module.html#a16da8d7ff9635f5b3db51d16de3f208c", pos="197,14", rects="146,0,248,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,110,14 120,14 129,14 137,14 146,14"];
+}

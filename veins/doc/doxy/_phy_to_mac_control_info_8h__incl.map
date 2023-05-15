@@ -1,0 +1,32 @@
+digraph "PhyToMacControlInfo.h" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,528,264"];
+	Node1 [label="PhyToMacControlInfo.h", height="0.22", width="1.81", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="196,248", rects="131,240,262,256"];
+	Node2 [label="veins/veins.h", height="0.22", width="1.00", color=black, fillcolor=white, style=filled, URL="$veins_8h.html", pos="234,68", rects="198,60,270,76"];
+	Node3 [label=memory, height="0.22", width="0.72", color=grey75, fillcolor=white, style=filled, pos="171,16", rects="145,8,197,24"];
+	Node4 [label=utility, height="0.22", width="0.53", color=grey75, fillcolor=white, style=filled, pos="234,16", rects="215,8,254,24"];
+	Node5 [label="omnetpp.h", height="0.22", width="0.86", color=grey75, fillcolor=white, style=filled, pos="302,16", rects="271,8,333,24"];
+	Node6 [label="veins/base/phyLayer\l/Decider.h", height="0.39", width="1.56", color=black, fillcolor=white, style=filled, URL="$_decider_8h.html", pos="299,190", rects="243,176,355,204"];
+	Node7 [label="veins/base/phyLayer\l/DeciderToPhyInterface.h", height="0.39", width="1.89", color=black, fillcolor=white, style=filled, URL="$_decider_to_phy_interface_8h.html", pos="460,126", rects="392,112,529,140"];
+	Node8 [label=vector, height="0.22", width="0.56", color=grey75, fillcolor=white, style=filled, pos="434,68", rects="414,60,454,76"];
+	Node9 [label=list, height="0.22", width="0.39", color=grey75, fillcolor=white, style=filled, pos="486,68", rects="472,60,501,76"];
+	Node10 [label="veins/modules/utility\l/HasLogProxy.h", height="0.39", width="1.56", color=black, fillcolor=white, style=filled, URL="$_has_log_proxy_8h.html", pos="318,126", rects="262,112,375,140"];
+	Node11 [label=string, height="0.22", width="0.50", color=grey75, fillcolor=white, style=filled, pos="318,68", rects="300,60,337,76"];
+	Node12 [label="veins/base/utils/SimpleAddress.h", height="0.22", width="2.33", color=black, fillcolor=white, style=filled, URL="$_simple_address_8h.html", pos="84,190", rects="0,182,169,198"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,232,76 198,240 203,213 222,124 230,86"];
+	Node2 -> Node3 [color=midnightblue, style=solid, pos="e,181,24 224,60 214,52 200,40 188,30"];
+	Node2 -> Node4 [color=midnightblue, style=solid, pos="e,234,24 234,60 234,53 234,42 234,33"];
+	Node2 -> Node5 [color=midnightblue, style=solid, pos="e,291,24 245,60 256,52 272,39 284,30"];
+	Node1 -> Node6 [color=midnightblue, style=solid, pos="e,274,204 210,240 225,232 247,219 265,209"];
+	Node6 -> Node2 [color=midnightblue, style=solid, pos="e,235,76 282,176 272,166 260,153 253,140 243,121 238,98 236,83"];
+	Node6 -> Node7 [color=midnightblue, style=solid, pos="e,425,140 334,176 358,166 391,154 416,143"];
+	Node7 -> Node8 [color=midnightblue, style=solid, pos="e,438,76 454,112 450,104 445,93 442,84"];
+	Node7 -> Node9 [color=midnightblue, style=solid, pos="e,482,76 466,112 470,104 475,93 478,84"];
+	Node7 -> Node2 [color=midnightblue, style=solid, pos="e,265,76 405,112 365,102 311,88 274,78"];
+	Node6 -> Node10 [color=midnightblue, style=solid, pos="e,314,140 303,176 305,168 308,158 311,149"];
+	Node10 -> Node11 [color=midnightblue, style=solid, pos="e,318,76 318,112 318,104 318,94 318,85"];
+	Node10 -> Node2 [color=midnightblue, style=solid, pos="e,246,76 298,112 285,103 266,90 253,81"];
+	Node1 -> Node12 [color=midnightblue, style=solid, pos="e,100,198 180,240 161,230 129,213 108,202"];
+	Node12 -> Node2 [color=midnightblue, style=solid, pos="e,224,76 94,182 119,162 184,109 216,82"];
+}

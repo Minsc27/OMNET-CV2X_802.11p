@@ -1,0 +1,11 @@
+digraph "veins::PhyLayer80211p::initializeBreakpointPathlossModel" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,324,74"];
+	Node1 [label="veins::PhyLayer80211p\l::initializeBreakpointPathloss\lModel", height="0.56", width="2.06", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="82,37", rects="8,17,156,57"];
+	Node2 [label="veins::BaseWorldUtility\l::getPgs", height="0.39", width="1.72", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_world_utility.html#a08a8c00b81e5b70ab4cdfe611d4169b7", tooltip="Returns the playgroundSize. ", pos="254,60", rects="192,46,316,74"];
+	Node3 [label="veins::BaseWorldUtility\l::useTorus", height="0.39", width="1.72", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_world_utility.html#ac0e47ec8501896bb97172a70c31d7e06", tooltip="Returns true if our playground represents a torus (borders are connected) ", pos="254,14", rects="192,0,316,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,192,52 156,47 165,48 173,49 182,51"];
+	Node1 -> Node3 [color=midnightblue, style=solid, pos="e,192,22 156,27 165,26 173,25 182,23"];
+}

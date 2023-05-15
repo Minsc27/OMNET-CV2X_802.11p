@@ -1,0 +1,9 @@
+digraph "Graphical Class Hierarchy" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,238,28"];
+	Node1 [label=unary_function, height="0.22", width="1.22", color=grey75, fillcolor=white, style=filled, pos="53,14", rects="9,6,98,22"];
+	Node2 [label="veins::traci2omnet\l_functor", height="0.39", width="1.33", color=black, fillcolor=white, style=filled, URL="$structveins_1_1traci2omnet__functor.html", pos="182,14", rects="134,0,230,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,98,14 108,14 117,14 125,14 134,14"];
+}

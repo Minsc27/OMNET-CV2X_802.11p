@@ -1,0 +1,18 @@
+digraph "HasLogProxy.cc" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,191,200"];
+	Node1 [label="HasLogProxy.cc", height="0.22", width="1.22", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="56,184", rects="12,176,101,192"];
+	Node2 [label="veins/modules/utility\l/HasLogProxy.h", height="0.39", width="1.56", color=black, fillcolor=white, style=filled, URL="$_has_log_proxy_8h.html", pos="56,126", rects="0,112,113,140"];
+	Node3 [label=string, height="0.22", width="0.50", color=grey75, fillcolor=white, style=filled, pos="20,68", rects="2,60,39,76"];
+	Node4 [label="veins/veins.h", height="0.22", width="1.00", color=black, fillcolor=white, style=filled, URL="$veins_8h.html", pos="92,68", rects="56,60,128,76"];
+	Node5 [label=memory, height="0.22", width="0.72", color=grey75, fillcolor=white, style=filled, pos="29,16", rects="3,8,55,24"];
+	Node6 [label=utility, height="0.22", width="0.53", color=grey75, fillcolor=white, style=filled, pos="92,16", rects="73,8,112,24"];
+	Node7 [label="omnetpp.h", height="0.22", width="0.86", color=grey75, fillcolor=white, style=filled, pos="160,16", rects="129,8,191,24"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,56,140 56,176 56,170 56,159 56,150"];
+	Node2 -> Node3 [color=midnightblue, style=solid, pos="e,25,76 47,112 42,104 35,92 30,83"];
+	Node2 -> Node4 [color=midnightblue, style=solid, pos="e,87,76 65,112 70,104 77,92 82,83"];
+	Node4 -> Node5 [color=midnightblue, style=solid, pos="e,39,24 82,60 72,52 58,40 46,30"];
+	Node4 -> Node6 [color=midnightblue, style=solid, pos="e,92,24 92,60 92,53 92,42 92,33"];
+	Node4 -> Node7 [color=midnightblue, style=solid, pos="e,149,24 103,60 114,52 130,39 142,30"];
+}

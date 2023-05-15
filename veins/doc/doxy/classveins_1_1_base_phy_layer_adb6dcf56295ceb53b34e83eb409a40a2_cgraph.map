@@ -1,0 +1,17 @@
+digraph "veins::BasePhyLayer::filterSignal" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,308,176"];
+	Node1 [label="veins::BasePhyLayer\l::filterSignal", height="0.39", width="1.53", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="63,76", rects="8,62,118,90"];
+	Node2 [label="veins::AntennaPosition\l::getPositionAt", height="0.39", width="1.67", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_antenna_position.html#a57098d0c1c13859757b4aaf04cafe6eb", tooltip="Get the (linearly extrapolated) position at time t. ", pos="227,162", rects="167,148,287,176"];
+	Node3 [label="veins::Signal::setAnalogue\lModelList", height="0.39", width="1.83", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#a076f3041b7d3ffe462a12e5f9626521c", tooltip="Set the AnalogueModels associated with this Signal. ", pos="227,116", rects="161,102,293,130"];
+	Node4 [label="veins::Signal::setReceiverPoa", height="0.22", width="2.00", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#a14400bcd9d4ab51a2a0f44444fb628a4", tooltip="Set this signal&#39;s receiver POA. ", pos="227,76", rects="155,68,300,84"];
+	Node5 [label="veins::Signal::setSenderPoa", height="0.22", width="1.86", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#a5ae9df5dc12815b88e60e3358bfb6630", tooltip="Set this signal&#39;s sender POA. ", pos="227,42", rects="160,34,295,50"];
+	Node6 [label="veins::Heading::toCoord", height="0.22", width="1.69", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_heading.html#a97fba1b017beb1eb89b3fcdb3075e188", tooltip="Returns Coord of a unit vector (with x pointing east and y pointing south). ", pos="227,8", rects="166,0,288,16"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,167,154 118,90 143,107 130,130 154,148 155,149 157,150 158,151"];
+	Node1 -> Node3 [color=midnightblue, style=solid, pos="e,161,104 118,90 134,94 138,97 151,101"];
+	Node1 -> Node4 [color=midnightblue, style=solid, pos="e,154,76 118,76 127,76 135,76 144,76"];
+	Node1 -> Node5 [color=midnightblue, style=solid, pos="e,159,49 118,62 133,58 137,54 149,51"];
+	Node1 -> Node6 [color=midnightblue, style=solid, pos="e,166,11 119,62 140,47 132,28 154,16 155,16 156,15 157,15"];
+}

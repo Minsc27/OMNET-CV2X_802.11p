@@ -1,0 +1,15 @@
+digraph "veins::BasePhyLayer::initializeSampledAntenna1D" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,778,28"];
+	Node1 [label="veins::BasePhyLayer\l::initializeSampledAntenna1D", height="0.39", width="2.11", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="84,14", rects="8,0,160,28"];
+	Node2 [label="veins::BasePhyLayer\l::getAntennaFromName", height="0.39", width="1.78", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_phy_layer.html#a2f4ac3bf2db3af3055d8c9397d2ffe3e", tooltip="Create and return an instance of the Antenna with the specified name as a shared pointer. ", pos="260,14", rects="196,0,324,28"];
+	Node3 [label="veins::BasePhyLayer\l::initializeAntenna", height="0.39", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_phy_layer.html#a6831a45d54cb89ff44836fa811d239c2", tooltip="Initialize the Antenna with the data from the passed XML-config data. ", pos="415,14", rects="360,0,470,28"];
+	Node4 [label="veins::BasePhyLayer\l::initialize", height="0.39", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_phy_layer.html#a63e95c45ba5f46514ed9027c53216491", tooltip="Initialize members and associated objects according to parameterization. ", pos="561,14", rects="506,0,616,28"];
+	Node5 [label="veins::PhyLayer80211p\l::initialize", height="0.39", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_phy_layer80211p.html#abdd1c62986d1fd220eb5e51d4458811a", pos="711,14", rects="653,0,770,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,160,14 170,14 179,14 187,14 196,14"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,324,14 334,14 343,14 351,14 360,14"];
+	Node3 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,470,14 480,14 489,14 497,14 506,14"];
+	Node4 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,616,14 626,14 635,14 643,14 652,14"];
+}

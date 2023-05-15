@@ -1,0 +1,11 @@
+digraph "veins::BaseMacLayer::registerInterface" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,450,28"];
+	Node1 [label="veins::BaseMacLayer\l::registerInterface", height="0.39", width="1.56", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="64,14", rects="8,0,120,28"];
+	Node2 [label="veins::BaseMacLayer\l::initialize", height="0.39", width="1.56", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mac_layer.html#a689fa06067e9df73c7fa19512fe91117", tooltip="Initialization of the module and some variables. ", pos="212,14", rects="156,0,268,28"];
+	Node3 [label="veins::Mac1609_4::initialize", height="0.22", width="1.89", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_mac1609__4.html#a8d43b34c9fb0b918e447343e5fc344d4", tooltip="States of the channel selecting operation. ", pos="373,14", rects="305,6,442,22"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,120,14 130,14 139,14 147,14 156,14"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,268,14 278,14 287,14 295,14 304,14"];
+}

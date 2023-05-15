@@ -1,0 +1,11 @@
+digraph "veins::ChannelAccess::initialize" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,428,28"];
+	Node1 [label="veins::ChannelAccess\l::initialize", height="0.39", width="1.56", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="64,14", rects="8,0,120,28"];
+	Node2 [label="veins::BasePhyLayer\l::initialize", height="0.39", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_phy_layer.html#a63e95c45ba5f46514ed9027c53216491", tooltip="Initialize members and associated objects according to parameterization. ", pos="211,14", rects="156,0,266,28"];
+	Node3 [label="veins::PhyLayer80211p\l::initialize", height="0.39", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_phy_layer80211p.html#abdd1c62986d1fd220eb5e51d4458811a", pos="361,14", rects="303,0,420,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,120,14 130,14 139,14 147,14 156,14"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,266,14 276,14 285,14 293,14 302,14"];
+}

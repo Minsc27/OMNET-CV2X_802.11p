@@ -1,0 +1,9 @@
+digraph "veins::AccessModuleWrap::get" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,310,28"];
+	Node1 [label="veins::AccessModuleWrap::get", height="0.22", width="2.14", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="86,14", rects="9,6,164,22"];
+	Node2 [label="veins::FindModule::\lfindSubModule", height="0.39", width="1.39", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_find_module.html#a56591278058cab17db4d776cfde387a5", tooltip="Returns a pointer to a sub module of the passed module with the type of this template. ", pos="251,14", rects="201,0,302,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,200,14 164,14 173,14 182,14 190,14"];
+}

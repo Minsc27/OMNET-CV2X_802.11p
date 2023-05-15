@@ -1,0 +1,9 @@
+digraph "veins::AnnotationManagerAccess::getIfExists" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,294,28"];
+	Node1 [label="veins::AnnotationManager\lAccess::getIfExists", height="0.39", width="1.92", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="78,14", rects="9,0,148,28"];
+	Node2 [label="veins::FindModule::\lfindGlobalModule", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_find_module.html#a5235f90b10b3a297c25baeaa8a4194cf", tooltip="Returns a pointer to the module with the type of this template. ", pos="235,14", rects="184,0,286,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,184,14 148,14 157,14 165,14 174,14"];
+}

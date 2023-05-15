@@ -1,0 +1,30 @@
+digraph "TraCIRegionOfInterest.cc" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,486,264"];
+	Node1 [label="TraCIRegionOfInterest.cc", height="0.22", width="1.89", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="124,248", rects="56,240,192,256"];
+	Node2 [label=algorithm, height="0.22", width="0.81", color=grey75, fillcolor=white, style=filled, pos="29,190", rects="0,182,58,198"];
+	Node3 [label=sstream, height="0.22", width="0.64", color=grey75, fillcolor=white, style=filled, pos="99,190", rects="76,182,123,198"];
+	Node4 [label="veins/veins.h", height="0.22", width="1.00", color=black, fillcolor=white, style=filled, URL="$veins_8h.html", pos="386,68", rects="350,60,422,76"];
+	Node5 [label=memory, height="0.22", width="0.72", color=grey75, fillcolor=white, style=filled, pos="393,16", rects="367,8,419,24"];
+	Node6 [label=utility, height="0.22", width="0.53", color=grey75, fillcolor=white, style=filled, pos="463,16", rects="444,8,483,24"];
+	Node7 [label="omnetpp.h", height="0.22", width="0.86", color=grey75, fillcolor=white, style=filled, pos="318,16", rects="287,8,349,24"];
+	Node8 [label="veins/modules/mobility\l/traci/TraCIRegionOfInterest.h", height="0.39", width="2.22", color=black, fillcolor=white, style=filled, URL="$_tra_c_i_region_of_interest_8h.html", pos="273,190", rects="193,176,354,204"];
+	Node9 [label=list, height="0.22", width="0.39", color=grey75, fillcolor=white, style=filled, pos="192,126", rects="178,118,207,134"];
+	Node10 [label=set, height="0.22", width="0.39", color=grey75, fillcolor=white, style=filled, pos="238,126", rects="224,118,253,134"];
+	Node11 [label=string, height="0.22", width="0.50", color=grey75, fillcolor=white, style=filled, pos="288,126", rects="270,118,307,134"];
+	Node12 [label="veins/modules/mobility\l/traci/TraCICoord.h", height="0.39", width="1.72", color=black, fillcolor=white, style=filled, URL="$_tra_c_i_coord_8h.html", pos="386,126", rects="324,112,449,140"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,42,198 111,240 95,230 69,214 50,202"];
+	Node1 -> Node3 [color=midnightblue, style=solid, pos="e,103,198 121,240 117,231 111,217 107,206"];
+	Node1 -> Node4 [color=midnightblue, style=solid, pos="e,350,76 126,240 131,213 150,130 169,112 229,59 267,89 341,78"];
+	Node4 -> Node5 [color=midnightblue, style=solid, pos="e,392,24 387,60 388,53 390,42 391,33"];
+	Node4 -> Node6 [color=midnightblue, style=solid, pos="e,451,24 398,60 411,52 430,39 444,29"];
+	Node4 -> Node7 [color=midnightblue, style=solid, pos="e,329,24 375,60 364,52 348,39 336,30"];
+	Node1 -> Node8 [color=midnightblue, style=solid, pos="e,237,204 145,240 167,232 200,218 228,207"];
+	Node8 -> Node9 [color=midnightblue, style=solid, pos="e,201,134 254,176 241,166 224,153 208,141"];
+	Node8 -> Node10 [color=midnightblue, style=solid, pos="e,242,134 265,176 259,166 252,152 246,142"];
+	Node8 -> Node11 [color=midnightblue, style=solid, pos="e,286,134 276,176 278,166 282,153 284,143"];
+	Node8 -> Node6 [color=midnightblue, style=solid, pos="e,465,24 351,176 395,165 449,149 457,140 481,109 473,58 467,32"];
+	Node8 -> Node12 [color=midnightblue, style=solid, pos="e,361,140 298,176 314,167 335,155 353,145"];
+	Node12 -> Node4 [color=midnightblue, style=solid, pos="e,386,76 386,112 386,104 386,94 386,85"];
+}

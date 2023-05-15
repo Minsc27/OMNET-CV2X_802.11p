@@ -1,0 +1,8 @@
+digraph "veins::TraCITrafficLightProgram::Phase" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,143,136"];
+	Node1 [label="veins::TraCITrafficLight\lProgram::Phase", height="0.39", width="1.78", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="64,22", rects="0,8,129,36"];
+	Node2 [label=simtime_t, height="0.22", width="0.81", color=grey75, fillcolor=white, style=filled, pos="64,120", rects="35,112,94,128"];
+	Node2 -> Node1 [dir=back, color=darkorchid3, style=dashed, label=" maxDuration\nduration\nminDuration", pos="s,64,112 64,105 64,86 64,54 64,36", lp="103,74"];
+}

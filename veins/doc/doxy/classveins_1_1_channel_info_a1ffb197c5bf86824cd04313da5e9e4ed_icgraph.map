@@ -1,0 +1,28 @@
+digraph "veins::ChannelInfo::checkAndCleanInterval" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,1430,112"];
+	Node1 [label="veins::ChannelInfo\l::checkAndCleanInterval", height="0.39", width="1.81", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="73,77", rects="8,63,138,91"];
+	Node2 [label="veins::ChannelInfo\l::addToInactives", height="0.39", width="1.39", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_channel_info.html#a002d7a0fff6734bdb6d8ddebf799f7f5", tooltip="Moves a previously active AirFrame to the inactive AirFrames. ", pos="225,77", rects="175,63,276,91"];
+	Node3 [label="veins::ChannelInfo\l::removeAirFrame", height="0.39", width="1.39", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_channel_info.html#af9ee0be843528ee913df218f73d4d713", tooltip="Tells the ChannelInfo that an AirFrame is over. ", pos="363,77", rects="313,63,414,91"];
+	Node4 [label="veins::BasePhyLayer\l::handleAirFrameEndReceive", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_phy_layer.html#a4f8fde562c0004b498fc3294c3f54c2f", tooltip="Handle incoming AirFrames with the state AirFrameState::end_receive. ", pos="527,77", rects="451,63,604,91"];
+	Node5 [label="veins::BasePhyLayer\l::handleAirFrame", height="0.39", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_phy_layer.html#a8d6f371fa6ea6ca89cb78764a05f31dd", tooltip="Handle messages received from the channel. ", pos="1067,60", rects="1012,46,1122,74"];
+	Node6 [label="veins::BasePhyLayer\l::handleMessage", height="0.39", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_phy_layer.html#a54c20b44779b724638e62f941b656f9c", tooltip="Process received messages and pass to specific handlers. ", pos="1367,58", rects="1312,44,1422,72"];
+	Node7 [label="veins::PhyLayer80211p\l::handleSelfMessage", height="0.39", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_phy_layer80211p.html#a020601bba0e334a622dc8e193c5946b0", tooltip="Handle self scheduled messages. ", pos="1217,60", rects="1159,46,1276,74"];
+	Node8 [label="veins::BasePhyLayer\l::handleSelfMessage", height="0.39", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_phy_layer.html#a17088ad93f59e143ff6c7ba866a31982", tooltip="Handle self scheduled messages. ", pos="1217,14", rects="1162,0,1272,28"];
+	Node9 [label="veins::BasePhyLayer\l::handleAirFrameReceiving", height="0.39", width="1.97", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_phy_layer.html#a9dbbcf0004b22c622ec4b06a19b4f564", tooltip="Handle incoming AirFrames with the state AirFrameState::receiving. ", pos="712,56", rects="641,42,784,70"];
+	Node10 [label="veins::BasePhyLayer\l::handleAirFrameStartReceive", height="0.39", width="2.17", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_phy_layer.html#a671f083680882230b754b7e9578e6274", tooltip="Handle incoming AirFrames with the state AirFrameState::start_receive. ", pos="898,18", rects="820,4,976,32"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,138,77 147,77 156,77 166,77 174,77"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,276,77 286,77 295,77 303,77 312,77"];
+	Node3 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,414,77 424,77 433,77 441,77 450,77"];
+	Node4 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,604,78 614,79 623,79 631,79 640,79 790,80 828,83 976,71 988,70 1000,68 1012,67"];
+	Node5 -> Node6 [dir=back, color=midnightblue, style=solid, pos="s,1122,74 1131,76 1146,79 1158,83 1158,83 1211,89 1225,90 1276,83 1293,80 1296,76 1312,72"];
+	Node5 -> Node7 [dir=back, color=midnightblue, style=solid, pos="s,1122,60 1132,60 1141,60 1149,60 1158,60"];
+	Node5 -> Node8 [dir=back, color=midnightblue, style=solid, pos="s,1122,46 1131,42 1141,37 1145,33 1158,28 1159,28 1160,27 1162,27"];
+	Node8 -> Node6 [dir=back, color=midnightblue, style=solid, pos="s,1272,27 1281,30 1294,34 1298,39 1312,44"];
+	Node4 -> Node9 [dir=back, color=midnightblue, style=solid, pos="s,604,68 613,67 622,66 631,66 640,64"];
+	Node9 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,784,57 794,57 861,58 954,59 1012,59"];
+	Node9 -> Node10 [dir=back, color=midnightblue, style=solid, pos="s,784,42 792,40 803,37 807,34 820,32"];
+	Node10 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,976,32 985,34 995,38 999,41 1012,46"];
+}

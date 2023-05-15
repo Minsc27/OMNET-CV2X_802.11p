@@ -1,0 +1,11 @@
+digraph "veins::Heading::getRad" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,370,62"];
+	Node1 [label="veins::Heading::getRad", height="0.22", width="1.64", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="67,28", rects="8,20,126,36"];
+	Node2 [label="veins::TraCICoordinateTransformation\l::omnet2traciHeading", height="0.39", width="2.75", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_coordinate_transformation.html#a71fbd3362f762c9233b8633dc14e3ede", tooltip="TraCI&#39;s heading interpretation: 0 is north, 90 is east. ", pos="262,48", rects="163,34,362,62"];
+	Node3 [label="veins::operator\<\<", height="0.22", width="1.28", color=black, fillcolor=white, style=filled, URL="$namespaceveins.html#a1050fafc7711c48b53398e360ee1d269", pos="262,8", rects="216,0,309,16"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,126,34 135,35 144,36 153,37 162,38"];
+	Node1 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,126,20 135,19 144,18 153,17 162,16 180,14 199,12 215,11"];
+}

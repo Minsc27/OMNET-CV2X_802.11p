@@ -1,0 +1,30 @@
+digraph trafficLight {
+	graph [compound=true];
+	node [label="\N", fontsize=10, fontname=Helvetica];
+	edge [labelfontsize=10, labelfontname=Helvetica];
+	graph [bb="0,0,188,238"];
+	subgraph clusterdir_1e6382fee6062215f01e80f9061066b0 {
+		graph [bgcolor="#ddddee"];
+		graph [pencolor=black];
+		graph [label=traci];
+		graph [fontname=Helvetica];
+		graph [fontsize=10];
+		graph [URL="dir_1e6382fee6062215f01e80f9061066b0.html"];
+		graph [lp="94,222"];
+		graph [bb="8,146,180,230"];
+		subgraph clusterdir_08c351d6ab5c28d40dacc14b19dc1015 {
+			graph [bgcolor="#eeeeff"];
+			graph [label=""];
+			graph [URL="dir_08c351d6ab5c28d40dacc14b19dc1015.html"];
+			graph [lp=""];
+			graph [bb="16,154,172,206"];
+			dir_08c351d6ab5c28d40dacc14b19dc1015 [label=trafficLight, shape=plaintext, pos="58,180", width="0.94", height="0.50"];
+			dir_610c3045c4aa14c23de5dbd3d5d868c6 [label=logics, shape=box, color=black, fillcolor=white, style=filled, URL="dir_610c3045c4aa14c23de5dbd3d5d868c6.html", pos="137,180", width="0.75", height="0.50"];
+		}
+	}
+	dir_7ed75e2b1ee1c6cbf8e17dfb79841f91 [label=base, shape=box, color=red, fillcolor=white, style=filled, URL="dir_7ed75e2b1ee1c6cbf8e17dfb79841f91.html", pos="110,26", width="0.75", height="0.50"];
+	dir_9ea357ff8490171ff14d207de001a4ad [label=mobility, shape=box, color=red, fillcolor=white, style=filled, URL="dir_9ea357ff8490171ff14d207de001a4ad.html", pos="76,100", width="0.75", height="0.50"];
+	dir_08c351d6ab5c28d40dacc14b19dc1015 -> dir_9ea357ff8490171ff14d207de001a4ad [headlabel=2, labeldistance="1.5", headhref="dir_000025_000017.html", pos="e,72,118 62,162 64,152 67,139 70,127", head_lp="75,133"];
+	dir_610c3045c4aa14c23de5dbd3d5d868c6 -> dir_7ed75e2b1ee1c6cbf8e17dfb79841f91 [headlabel=1, labeldistance="1.5", headhref="dir_000026_000002.html", pos="e,113,44 134,162 130,135 121,85 115,54", head_lp="122,56"];
+	dir_9ea357ff8490171ff14d207de001a4ad -> dir_7ed75e2b1ee1c6cbf8e17dfb79841f91 [headlabel=16, labeldistance="1.5", headhref="dir_000017_000002.html", pos="e,101,44 84,82 88,73 93,63 97,53", head_lp="101,59"];
+}

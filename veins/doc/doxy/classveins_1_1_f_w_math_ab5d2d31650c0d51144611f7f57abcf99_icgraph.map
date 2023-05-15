@@ -1,0 +1,11 @@
+digraph "veins::FWMath::mW2dBm" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,334,74"];
+	Node1 [label="veins::FWMath::mW2dBm", height="0.22", width="1.92", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="78,37", rects="9,29,148,45"];
+	Node2 [label="veins::TwoRayInterference\lModel::filterSignal", height="0.39", width="1.97", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_two_ray_interference_model.html#a4c322a29e4987d2021bee9234a0ad0b9", tooltip="Has to be overriden by every implementation. ", pos="255,60", rects="184,46,326,74"];
+	Node3 [label="veins::NakagamiFading\l::filterSignal", height="0.39", width="1.72", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_nakagami_fading.html#a630ff5ca1212baf8d9afac0d017229da", tooltip="Simple Nakagami-m fading (based on a constant factor across all time and frequencies). ", pos="255,14", rects="193,0,317,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,148,45 157,46 166,47 175,48 184,50"];
+	Node1 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,148,29 157,28 169,26 181,25 193,23"];
+}

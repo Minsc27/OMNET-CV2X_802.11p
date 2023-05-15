@@ -1,0 +1,15 @@
+digraph "anonymous_namespace{BBoxLookup::cc}::makeRay" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,816,28"];
+	Node1 [label="anonymous_namespace\l\{BBoxLookup::cc\}::makeRay", height="0.39", width="2.06", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="82,14", rects="8,0,156,28"];
+	Node2 [label="veins::BBoxLookup::\lfindOverlapping", height="0.39", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_b_box_lookup.html#a4cf2a571f5a1a04ad0ea8b7588ebdd43", tooltip="Return all obstacles which have their bounding box touched by the transmission from sender to receive...", pos="246,14", rects="192,0,300,28"];
+	Node3 [label="veins::ObstacleControl\l::getIntersections", height="0.39", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_obstacle_control.html#a3e6455d7151b46ce3ca7ce780261fedb", tooltip="get hit obstacles (along with a list of points (in [0, 1]) along the line between sender and receiver...", pos="394,14", rects="336,0,452,28"];
+	Node4 [label="veins::ObstacleControl\l::calculateAttenuation", height="0.39", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_obstacle_control.html#ae3bc0ffe81dd2ca3145636656f392204", tooltip="calculate additional attenuation by obstacles, return multiplicative factor ", pos="546,14", rects="488,0,604,28"];
+	Node5 [label="veins::SimpleObstacleShadowing\l::filterSignal", height="0.39", width="2.33", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_simple_obstacle_shadowing.html#a232c35993ba999b86d6e700d2152c98a", tooltip="Filters a specified Signal by adding an attenuation over time to the Signal. ", pos="724,14", rects="640,0,808,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,156,14 166,14 175,14 183,14 192,14"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,300,14 310,14 319,14 327,14 336,14"];
+	Node3 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,452,14 461,14 470,14 479,14 488,14"];
+	Node4 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,604,14 614,14 622,14 631,14 640,14"];
+}

@@ -1,0 +1,25 @@
+digraph "veins::Signal::at" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,856,208"];
+	Node1 [label="veins::Signal::at", height="0.22", width="1.11", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="48,106", rects="8,98,88,114"];
+	Node2 [label="veins::PhyLayer80211p\l::attachSignal", height="0.39", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_phy_layer80211p.html#a1d1b85c74e35e6b7dd8a906a290e559c", tooltip="Attach a signal to the given AirFrame. ", pos="216,194", rects="158,180,275,208"];
+	Node3 [label="veins::VehicleObstacleShadowing\l::filterSignal", height="0.39", width="2.36", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_vehicle_obstacle_shadowing.html#aa1a8069440240b74a7a8ea0c91b06116", tooltip="Filters a specified Signal by adding an attenuation over time to the Signal. ", pos="620,127", rects="535,113,706,141"];
+	Node4 [label="veins::SignalUtils\l::anonymous_namespace\l\{SignalUtils::cc\}::getMaxInterference", height="0.56", width="2.56", color=black, fillcolor=white, style=filled, URL="$namespaceveins_1_1_signal_utils_1_1anonymous__namespace_02_signal_utils_8cc_03.html#adec53cec45469bce01bd893290800df5", pos="216,58", rects="124,38,308,78"];
+	Node5 [label="veins::SignalUtils\l::getMinSINR", height="0.39", width="1.25", color=black, fillcolor=white, style=filled, URL="$namespaceveins_1_1_signal_utils.html#a65bf87cf643cccf540dc5f0802a71427", tooltip="return the minimal Signal to (Interference + Noise) Ratio at any data channel of signalFrame&#39;s signal...", pos="421,34", rects="376,20,467,48"];
+	Node6 [label="veins::Decider80211p\l::checkIfSignalOk", height="0.39", width="1.44", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider80211p.html#a01349c12df6c01678d1e25553b754819", tooltip="Checks a mapping against a specific threshold (element-wise). ", pos="620,34", rects="568,20,673,48"];
+	Node7 [label="veins::Decider80211p\l::processSignalEnd", height="0.39", width="1.44", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider80211p.html#a389f17ab33d4fc22b499593fa0837faf", tooltip="Processes a received AirFrame. ", pos="795,34", rects="743,20,848,48"];
+	Node8 [label="veins::VehicleObstacleControl\l::getVehicleAttenuationSingle", height="0.39", width="2.14", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_vehicle_obstacle_control.html#aba9a4a4986cd0141c6bd5404069f9460", tooltip="compute attenuation due to (single) vehicle. ", pos="216,148", rects="139,134,293,162"];
+	Node9 [label="veins::VehicleObstacleControl\l::getVehicleAttenuationDZ", height="0.39", width="2.14", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_vehicle_obstacle_control.html#adf2407d9dcb0830d99775342e3304f15", tooltip="compute attenuation due to vehicles. ", pos="421,148", rects="344,134,498,162"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,88,114 95,120 112,138 100,162 124,180 134,187 145,191 157,193"];
+	Node1 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,88,107 97,107 194,111 413,119 534,124"];
+	Node1 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,88,98 96,94 107,88 110,83 124,78"];
+	Node4 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,308,47 317,46 338,44 358,42 375,39"];
+	Node5 -> Node6 [dir=back, color=midnightblue, style=solid, pos="s,467,34 476,34 505,34 539,34 567,34"];
+	Node6 -> Node7 [dir=back, color=midnightblue, style=solid, pos="s,673,34 683,34 702,34 723,34 742,34"];
+	Node1 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,72,98 80,94 83,92 85,90 88,88 112,67 98,44 124,29 166,6 303,19 375,28"];
+	Node1 -> Node8 [dir=back, color=midnightblue, style=solid, pos="s,88,114 96,117 107,123 110,129 124,134 129,136 134,137 139,138"];
+	Node8 -> Node9 [dir=back, color=midnightblue, style=solid, pos="s,293,148 303,148 317,148 330,148 344,148"];
+	Node9 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,498,140 507,139 516,138 525,137 534,136"];
+}

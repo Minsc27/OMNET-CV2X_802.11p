@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,178,28"];
+	Node1 [label="veins::BaseConnectionManager\l::CoordSet", height="0.39", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_connection_manager_1_1_coord_set.html", tooltip="Represents an minimalistic (hash)set of GridCoords. ", pos="89,14", rects="9,0,170,28"];
+}

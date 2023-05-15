@@ -1,0 +1,19 @@
+digraph "veins::SignalUtils::anonymous_namespace{SignalUtils::cc}::getMaxInterference" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,392,198"];
+	Node1 [label="veins::SignalUtils\l::anonymous_namespace\l\{SignalUtils::cc\}::getMaxInterference", height="0.56", width="2.56", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="100,105", rects="8,85,192,125"];
+	Node2 [label="veins::Signal::at", height="0.22", width="1.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#ae0890d174875e1a543f334165b0748c7", tooltip="Get the power in milliwatt for the given frequency index. ", pos="306,190", rects="266,182,346,198"];
+	Node3 [label="veins::Signal::getDataEnd", height="0.22", width="1.78", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#a62a31d71f9433b16854a94fa8b623713", tooltip="Get the absolute frequency index of first past-the-end data frequency. ", pos="306,156", rects="242,148,371,164"];
+	Node4 [label="veins::Signal::getDataStart", height="0.22", width="1.83", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#a94f5344ff07e386f870829b181067621", tooltip="Get the absolute frequency index of the first data frequency. ", pos="306,122", rects="240,114,372,130"];
+	Node5 [label="veins::Signal::getReceptionEnd", height="0.22", width="2.14", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#a5c2bffe68602700de93aca6403b7e2c8", tooltip="Get the point in time at which the signal reception ends. ", pos="306,88", rects="229,80,384,96"];
+	Node6 [label="veins::Signal::getReception\lStart", height="0.39", width="1.86", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#ae5d8659cd386548bef59f09a535a1148", tooltip="Get the point in time at which the signal reception starts. ", pos="306,48", rects="239,34,374,62"];
+	Node7 [label="veins::Signal::getSpectrum", height="0.22", width="1.83", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#a28faf6285303ba6bec080132f959ca6f", tooltip="Get the Spectrum this Signal is defined on. ", pos="306,8", rects="240,0,373,16"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,266,192 192,125 217,142 203,166 228,182 236,187 246,190 256,191"];
+	Node1 -> Node3 [color=midnightblue, style=solid, pos="e,241,152 192,125 210,132 211,141 228,148 229,148 230,149 231,149"];
+	Node1 -> Node4 [color=midnightblue, style=solid, pos="e,240,117 192,113 205,114 218,115 230,116"];
+	Node1 -> Node5 [color=midnightblue, style=solid, pos="e,228,94 192,97 201,96 209,96 218,95"];
+	Node1 -> Node6 [color=midnightblue, style=solid, pos="e,238,58 192,85 210,77 211,68 228,62 228,62 228,62 229,62"];
+	Node1 -> Node7 [color=midnightblue, style=solid, pos="e,239,10 192,85 220,64 200,35 228,16 229,16 230,15 230,15"];
+}

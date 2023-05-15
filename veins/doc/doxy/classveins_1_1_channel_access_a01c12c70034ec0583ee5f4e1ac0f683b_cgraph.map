@@ -1,0 +1,19 @@
+digraph "veins::ChannelAccess::calculatePropagationDelay" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,654,143"];
+	Node1 [label="veins::ChannelAccess\l::calculatePropagationDelay", height="0.39", width="1.97", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="80,60", rects="9,46,152,74"];
+	Node2 [label="veins::Coord::distance", height="0.22", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_coord.html#a7fc7cefa5db60ae560d5b72ae0a25532", tooltip="Returns the distance to Coord &#39;a&#39;. ", pos="250,100", rects="195,92,305,108"];
+	Node3 [label="anonymous_namespace\l\{BaseConnectionManager\l::cc\}::dist", height="0.56", width="1.89", color=black, fillcolor=white, style=filled, URL="$namespaceanonymous__namespace_02_base_connection_manager_8cc_03.html#a03d2870486bee7d8198d066f67d00e04", tooltip="On a torus the end and the begin of the axes are connected so you get a circle. ", pos="417,123", rects="349,103,486,143"];
+	Node4 [label="veins::FWMath::modulo", height="0.22", width="1.72", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_f_w_math.html#aa66a76d454bf3d91d8ec390c4737a7a1", tooltip="Returns the remainder r on division of dividend a by divisor n, using floored division. ", pos="584,123", rects="522,115,646,131"];
+	Node5 [label="veins::Coord::length", height="0.22", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_coord.html#aa330b25b3ec33bc78389be6589b4daaf", tooltip="Returns the length of this Coords position vector. ", pos="417,77", rects="366,69,468,85"];
+	Node6 [label="veins::AntennaPosition\l::getPositionAt", height="0.39", width="1.67", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_antenna_position.html#a57098d0c1c13859757b4aaf04cafe6eb", tooltip="Get the (linearly extrapolated) position at time t. ", pos="250,60", rects="190,46,310,74"];
+	Node7 [label="veins::BaseWorldUtility\l::speedOfLight", height="0.39", width="1.72", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_world_utility.html#a425e4c8fac6fb8309ae2efd494a19fe6", tooltip="Speed of light in meters per second. ", pos="250,14", rects="188,0,312,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,195,94 152,74 168,79 171,85 185,91"];
+	Node2 -> Node3 [color=midnightblue, style=solid, pos="e,348,113 305,107 308,107 310,108 312,108 321,109 329,110 338,112"];
+	Node3 -> Node4 [color=midnightblue, style=solid, pos="e,522,123 486,123 495,123 503,123 512,123"];
+	Node2 -> Node5 [color=midnightblue, style=solid, pos="e,366,82 305,93 308,93 310,92 312,92 329,89 332,87 348,85 351,85 353,84 356,84"];
+	Node1 -> Node6 [color=midnightblue, style=solid, pos="e,190,60 152,60 162,60 171,60 180,60"];
+	Node1 -> Node7 [color=midnightblue, style=solid, pos="e,188,28 152,46 165,41 170,37 179,32"];
+}

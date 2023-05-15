@@ -1,0 +1,8 @@
+digraph "veins::AnnotationManager::Annotation" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,138,124"];
+	Node1 [label="veins::AnnotationManager\l::Annotation", height="0.39", width="1.92", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="69,22", rects="0,8,139,36"];
+	Node2 [label="veins::AnnotationManager\l::Group", height="0.39", width="1.92", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_annotation_manager_1_1_group.html", pos="69,102", rects="0,88,139,116"];
+	Node2 -> Node1 [dir=back, color=darkorchid3, style=dashed, label=" group", pos="s,69,88 69,79 69,65 69,48 69,36", lp="90,62"];
+}

@@ -1,0 +1,11 @@
+digraph "veins::ChannelInfo::BaseIntersectionIterator&lt; C, ItMatrix, ItList &gt;" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,678,72"];
+	Node1 [label="veins::ChannelInfo\l::BaseIntersectionIterator\l\< C, ItMatrix, ItList \>", height="0.56", width="1.78", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="72,32", rects="8,12,136,52"];
+	Node2 [label="veins::ChannelInfo\l::BaseIntersectionIterator\l\< AirFrameMatrix, AirFrameMatrix\l::iterator, AirFrameTimeList\l::iterator \>", height="0.89", width="2.64", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_channel_info_1_1_base_intersection_iterator.html", pos="430,32", rects="335,0,526,64"];
+	Node3 [label="veins::ChannelInfo\l::IntersectionIterator", height="0.39", width="1.44", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_channel_info_1_1_intersection_iterator.html", tooltip="Type for a iterator over an AirFrame interval matrix. ", pos="617,32", rects="565,18,670,46"];
+	Node1 -> Node2 [dir=back, color=orange, style=dashed, label=" \< AirFrameMatrix, AirFrame\lMatrix::iterator, AirFrameTime\lList::iterator \>", pos="s,136,32 146,32 200,32 275,32 334,32", lp="235,52"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,526,32 535,32 545,32 555,32 564,32"];
+}

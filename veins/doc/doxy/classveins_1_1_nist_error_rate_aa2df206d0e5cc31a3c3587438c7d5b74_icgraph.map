@@ -1,0 +1,26 @@
+digraph "veins::NistErrorRate::calculatePe" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,852,166"];
+	Node1 [label="veins::NistErrorRate\l::calculatePe", height="0.39", width="1.50", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="62,83", rects="8,69,116,97"];
+	Node2 [label="veins::NistErrorRate\l::getFec16QamBer", height="0.39", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_nist_error_rate.html#a457f142bf69a3b9d28e8a5a37e48f1a7", tooltip="Return BER of QAM16 at the given SNR after applying FEC. ", pos="206,152", rects="152,138,260,166"];
+	Node3 [label="veins::NistErrorRate\l::getChunkSuccessRate", height="0.39", width="1.67", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_nist_error_rate.html#a25b315284a666a5065540f8f1da1cbe5", pos="357,83", rects="297,69,418,97"];
+	Node4 [label="veins::Decider80211p\l::packetOk", height="0.39", width="1.44", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider80211p.html#a25ca0927f831000b88741dc0db84246c", tooltip="computes if packet is ok or has errors ", pos="507,83", rects="455,69,560,97"];
+	Node5 [label="veins::Decider80211p\l::checkIfSignalOk", height="0.39", width="1.44", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider80211p.html#a01349c12df6c01678d1e25553b754819", tooltip="Checks a mapping against a specific threshold (element-wise). ", pos="649,83", rects="597,69,702,97"];
+	Node6 [label="veins::Decider80211p\l::processSignalEnd", height="0.39", width="1.44", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider80211p.html#a389f17ab33d4fc22b499593fa0837faf", tooltip="Processes a received AirFrame. ", pos="791,83", rects="739,69,844,97"];
+	Node7 [label="veins::NistErrorRate\l::getFec64QamBer", height="0.39", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_nist_error_rate.html#ac41a5562bd3d9b5b50352301af0f1189", tooltip="Return BER of QAM64 at the given SNR after applying FEC. ", pos="206,106", rects="152,92,260,120"];
+	Node8 [label="veins::NistErrorRate\l::getFecBpskBer", height="0.39", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_nist_error_rate.html#a03eb0d0c7cc0a63f450ea688ddb65117", tooltip="Return BER of BPSK at the given SNR after applying FEC. ", pos="206,60", rects="152,46,260,74"];
+	Node9 [label="veins::NistErrorRate\l::getFecQpskBer", height="0.39", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_nist_error_rate.html#a5814e5bd473a3127bf659d82edfd97fa", tooltip="Return BER of QPSK at the given SNR after applying FEC. ", pos="206,14", rects="152,0,260,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,116,97 123,102 136,113 135,127 152,138"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,260,138 267,132 280,121 279,107 296,97"];
+	Node3 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,418,83 427,83 436,83 446,83 454,83"];
+	Node4 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,560,83 569,83 578,83 588,83 596,83"];
+	Node5 -> Node6 [dir=back, color=midnightblue, style=solid, pos="s,702,83 711,83 720,83 730,83 738,83"];
+	Node1 -> Node7 [dir=back, color=midnightblue, style=solid, pos="s,116,92 125,93 134,95 143,96 152,97"];
+	Node7 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,260,98 269,97 278,95 287,94 296,92"];
+	Node1 -> Node8 [dir=back, color=midnightblue, style=solid, pos="s,116,74 125,73 134,71 143,70 152,69"];
+	Node8 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,260,68 269,69 278,71 287,72 296,74"];
+	Node1 -> Node9 [dir=back, color=midnightblue, style=solid, pos="s,116,69 123,63 136,52 135,38 152,28"];
+	Node9 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,260,28 267,33 280,44 279,58 296,69"];
+}

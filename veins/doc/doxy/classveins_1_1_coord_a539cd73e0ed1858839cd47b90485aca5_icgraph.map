@@ -1,0 +1,28 @@
+digraph "veins::Coord::squareLength" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,616,210"];
+	Node1 [label="veins::Coord::squareLength", height="0.22", width="1.92", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="78,86", rects="9,78,148,94"];
+	Node2 [label="veins::Move::setDirection\lByVector", height="0.39", width="1.78", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_move.html#ae583b55d97cf1f59cbb000a584efb67d", tooltip="Sets the direction to the passed vector, which must be already normalized or the 0-vector. ", pos="248,106", rects="184,92,312,120"];
+	Node3 [label="veins::BaseMobility\l::initialize", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mobility.html#ac865e9d430a27e6a3076c0d9293fef35", tooltip="Initializes mobility model parameters. ", pos="403,190", rects="352,176,455,204"];
+	Node4 [label="veins::LinearMobility\l::initialize", height="0.39", width="1.56", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_linear_mobility.html#ac94ebc62ac059949810368634398004b", tooltip="Initializes mobility model parameters. ", pos="551,196", rects="495,182,608,210"];
+	Node5 [label="veins::TraCIMobility\l::initialize", height="0.39", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_mobility.html#a9945ece48d11a01a7973f991b467e848", pos="551,150", rects="497,136,606,164"];
+	Node6 [label="veins::BaseMobility\l::handleBorderMsg", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mobility.html#a1cd10753592e8eeb018d8f774ce862c6", tooltip="Called upon arrival of a border messages. ", pos="403,106", rects="352,92,455,120"];
+	Node7 [label="veins::BaseMobility\l::handleMessage", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mobility.html#a64b618ee6a35eaebfcfba7d9266be4c8", tooltip="This modules should only receive self-messages. ", pos="551,104", rects="500,90,603,118"];
+	Node8 [label="veins::TraCIMobility\l::preInitialize", height="0.39", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_mobility.html#a678634249e120d1e2614a628d20006f6", pos="403,60", rects="349,46,458,74"];
+	Node9 [label="veins::TraCIMobility\l::changePosition", height="0.39", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_mobility.html#a3137899bb330551c9823c40b4ed8b8fc", pos="403,14", rects="349,0,458,28"];
+	Node10 [label="veins::TraCIMobility\l::nextPosition", height="0.39", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_mobility.html#ae53642be0d88b9f146cf55a5d990f1a2", pos="551,14", rects="497,0,606,28"];
+	Node11 [label="veins::Coord::sqrdist", height="0.22", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_coord.html#a978def8373c30430c6e7a04e0977a1a5", tooltip="Returns distance^2 to Coord &#39;a&#39; (omits calling square root). ", pos="248,66", rects="197,58,300,74"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,148,94 157,95 166,96 175,97 184,98"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,312,120 319,126 334,141 327,160 348,176 349,177 350,177 351,178"];
+	Node3 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,455,192 465,193 475,193 484,193 494,194"];
+	Node3 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,455,177 464,174 476,170 480,168 494,164 495,164 496,164 496,163"];
+	Node2 -> Node6 [dir=back, color=midnightblue, style=solid, pos="s,312,106 321,106 331,106 342,106 351,106"];
+	Node6 -> Node7 [dir=back, color=midnightblue, style=solid, pos="s,455,105 465,105 476,105 488,105 499,105"];
+	Node2 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,305,120 314,122 325,124 337,127 348,129 398,137 455,142 496,146"];
+	Node2 -> Node8 [dir=back, color=midnightblue, style=solid, pos="s,312,92 320,89 331,84 335,79 348,74"];
+	Node2 -> Node9 [dir=back, color=midnightblue, style=solid, pos="s,312,92 319,86 336,67 325,45 348,28"];
+	Node9 -> Node10 [dir=back, color=midnightblue, style=solid, pos="s,458,14 468,14 477,14 487,14 496,14"];
+	Node1 -> Node11 [dir=back, color=midnightblue, style=solid, pos="s,148,78 156,77 170,75 184,74 196,72"];
+}

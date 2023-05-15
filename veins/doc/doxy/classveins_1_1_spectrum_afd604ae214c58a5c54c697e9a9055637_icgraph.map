@@ -1,0 +1,11 @@
+digraph "veins::Spectrum::indexOf" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,314,62"];
+	Node1 [label="veins::Spectrum::indexOf", height="0.22", width="1.78", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="73,34", rects="9,26,138,42"];
+	Node2 [label="veins::Signal::atFrequency", height="0.22", width="1.83", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#ae509571a223362564f5d72027d1a0f11", tooltip="Get the power in milliwatt for the given frequency. ", pos="240,54", rects="174,46,306,62"];
+	Node3 [label="veins::PhyLayer80211p\l::attachSignal", height="0.39", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_phy_layer80211p.html#a1d1b85c74e35e6b7dd8a906a290e559c", tooltip="Attach a signal to the given AirFrame. ", pos="240,14", rects="182,0,299,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,138,42 147,43 156,44 165,45 174,46"];
+	Node1 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,138,26 147,25 158,24 170,23 181,21"];
+}

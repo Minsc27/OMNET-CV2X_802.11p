@@ -1,0 +1,13 @@
+digraph "veins::BaseMobility::getPositionAt" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,464,74"];
+	Node1 [label="veins::BaseMobility\l::getPositionAt", height="0.39", width="1.42", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="60,37", rects="9,23,112,51"];
+	Node2 [label="veins::MobileHostObstacle\l::getShape", height="0.39", width="1.89", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_mobile_host_obstacle.html#a8df004155dfcd958252947c517d7d985", pos="216,60", rects="148,46,284,74"];
+	Node3 [label="veins::MobileHostObstacle\l::getIntersectionPoint", height="0.39", width="1.89", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_mobile_host_obstacle.html#a97a8fa2ba85ea3dd7a84c7e89ad6e74e", tooltip="return closest point (in meters) along (senderPos–receiverPos) where this obstacle overlaps...", pos="388,60", rects="320,46,456,74"];
+	Node4 [label="veins::MobileHostObstacle\l::maybeInBounds", height="0.39", width="1.89", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_mobile_host_obstacle.html#a643935072d0f41cf30ec017ec438699f", pos="216,14", rects="148,0,284,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,112,45 120,46 129,48 139,48 148,50"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,284,60 294,60 303,60 311,60 320,60"];
+	Node1 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,112,29 120,28 129,26 139,26 148,24"];
+}

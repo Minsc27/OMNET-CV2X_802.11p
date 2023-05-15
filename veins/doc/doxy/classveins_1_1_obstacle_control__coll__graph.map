@@ -1,0 +1,16 @@
+digraph "veins::ObstacleControl" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,530,176"];
+	Node1 [label="veins::ObstacleControl", height="0.22", width="1.61", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="464,96", rects="406,88,522,104"];
+	Node2 [label=cSimpleModule, height="0.22", width="1.19", color=grey75, fillcolor=white, style=filled, pos="51,148", rects="8,140,94,156"];
+	Node3 [label="veins::AnnotationManager", height="0.22", width="1.92", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_annotation_manager.html", tooltip="manages annotations on the OMNeT++ canvas. ", pos="202,123", rects="133,115,272,131"];
+	Node4 [label="veins::BBoxLookup", height="0.22", width="1.44", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_b_box_lookup.html", tooltip="Fast grid-based spatial datastructure to find obstacles (geometric shapes) in a bounding box...", pos="202,70", rects="150,62,255,78"];
+	Node5 [label="veins::AnnotationManager\l::Group", height="0.39", width="1.92", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_annotation_manager_1_1_group.html", pos="202,18", rects="133,4,272,32"];
+	Node2 -> Node1 [dir=back, color=midnightblue, style=solid, pos="s,94,151 104,151 187,155 341,159 388,133 401,126 395,114 406,107 407,106 410,105 412,104"];
+	Node3 -> Node1 [dir=back, color=darkorchid3, style=dashed, label=" annotations", pos="s,272,116 281,115 314,111 353,108 388,104 394,103 400,103 406,102", lp="339,121"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,94,140 102,138 113,135 118,133 132,131"];
+	Node4 -> Node1 [dir=back, color=darkorchid3, style=dashed, label=" bboxLookup", pos="s,255,72 263,72 299,74 346,78 388,84 397,86 398,87 406,88", lp="339,92"];
+	Node5 -> Node1 [dir=back, color=darkorchid3, style=dashed, label=" annotationGroup", pos="s,272,32 281,34 326,41 347,30 388,56 400,64 395,73 406,80 411,83 417,86 422,88", lp="339,64"];
+}

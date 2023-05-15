@@ -1,0 +1,18 @@
+digraph "TraCITrafficLightAbstractLogic.cc" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,315,248"];
+	Node1 [label="TraCITrafficLightAbstract\lLogic.cc", height="0.39", width="1.97", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="159,226", rects="88,212,231,240"];
+	Node2 [label="veins/modules/world\l/traci/trafficLight\l/logics/TraCITrafficLightAbstract\lLogic.h", height="0.72", width="2.47", color=black, fillcolor=white, style=filled, URL="$_tra_c_i_traffic_light_abstract_logic_8h.html", pos="159,150", rects="70,124,248,176"];
+	Node3 [label="veins/veins.h", height="0.22", width="1.00", color=black, fillcolor=white, style=filled, URL="$veins_8h.html", pos="89,74", rects="53,66,125,82"];
+	Node4 [label=memory, height="0.22", width="0.72", color=grey75, fillcolor=white, style=filled, pos="26,16", rects="0,8,52,24"];
+	Node5 [label=utility, height="0.22", width="0.53", color=grey75, fillcolor=white, style=filled, pos="89,16", rects="70,8,109,24"];
+	Node6 [label="omnetpp.h", height="0.22", width="0.86", color=grey75, fillcolor=white, style=filled, pos="157,16", rects="126,8,188,24"];
+	Node7 [label="veins/modules/messages\l/TraCITrafficLightMessage_m.h", height="0.39", width="2.39", color=grey75, fillcolor=white, style=filled, pos="229,74", rects="143,60,315,88"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,159,176 159,212 159,205 159,195 159,186"];
+	Node2 -> Node3 [color=midnightblue, style=solid, pos="e,97,82 135,124 124,112 112,98 102,88"];
+	Node3 -> Node4 [color=midnightblue, style=solid, pos="e,35,24 80,66 70,57 54,41 41,30"];
+	Node3 -> Node5 [color=midnightblue, style=solid, pos="e,89,24 89,66 89,58 89,44 89,33"];
+	Node3 -> Node6 [color=midnightblue, style=solid, pos="e,147,24 98,66 109,57 127,41 140,30"];
+	Node2 -> Node7 [color=midnightblue, style=solid, pos="e,216,88 183,124 192,114 202,104 210,95"];
+}

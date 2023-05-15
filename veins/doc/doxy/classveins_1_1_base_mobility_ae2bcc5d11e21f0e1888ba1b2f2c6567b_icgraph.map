@@ -1,0 +1,9 @@
+digraph "veins::BaseMobility::getCurrentDirection" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,274,28"];
+	Node1 [label="veins::BaseMobility\l::getCurrentDirection", height="0.39", width="1.53", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="64,14", rects="9,0,120,28"];
+	Node2 [label="veins::TraCIMobility\l::nextPosition", height="0.39", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_mobility.html#ae53642be0d88b9f146cf55a5d990f1a2", pos="211,14", rects="157,0,266,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,120,14 130,14 139,14 147,14 156,14"];
+}

@@ -1,0 +1,31 @@
+digraph "AnnotationManager.h" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,464,240"];
+	Node1 [label="AnnotationManager.h", height="0.22", width="1.64", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="92,224", rects="33,216,152,232"];
+	Node2 [label=list, height="0.22", width="0.39", color=grey75, fillcolor=white, style=filled, pos="14,172", rects="0,164,29,180"];
+	Node3 [label="veins/veins.h", height="0.22", width="1.00", color=black, fillcolor=white, style=filled, URL="$veins_8h.html", pos="199,68", rects="163,60,235,76"];
+	Node4 [label=memory, height="0.22", width="0.72", color=grey75, fillcolor=white, style=filled, pos="136,16", rects="110,8,162,24"];
+	Node5 [label=utility, height="0.22", width="0.53", color=grey75, fillcolor=white, style=filled, pos="199,16", rects="180,8,219,24"];
+	Node6 [label="omnetpp.h", height="0.22", width="0.86", color=grey75, fillcolor=white, style=filled, pos="267,16", rects="236,8,298,24"];
+	Node7 [label="veins/base/utils/FindModule.h", height="0.22", width="2.17", color=black, fillcolor=white, style=filled, URL="$_find_module_8h.html", pos="162,120", rects="84,112,240,128"];
+	Node8 [label="veins/base/utils/Coord.h", height="0.22", width="1.75", color=black, fillcolor=white, style=filled, URL="$_coord_8h.html", pos="268,172", rects="205,164,331,180"];
+	Node9 [label="veins/base/utils/FWMath.h", height="0.22", width="1.94", color=black, fillcolor=white, style=filled, URL="$_f_w_math_8h.html", pos="366,120", rects="296,112,437,128"];
+	Node10 [label=cmath, height="0.22", width="0.56", color=grey75, fillcolor=white, style=filled, pos="310,68", rects="290,60,330,76"];
+	Node11 [label=limits, height="0.22", width="0.50", color=grey75, fillcolor=white, style=filled, pos="366,68", rects="348,60,384,76"];
+	Node12 [label=type_traits, height="0.22", width="0.86", color=grey75, fillcolor=white, style=filled, pos="433,68", rects="402,60,464,76"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,26,180 80,216 67,208 48,195 34,185"];
+	Node1 -> Node3 [color=midnightblue, style=solid, pos="e,171,76 87,216 76,196 52,145 75,112 80,105 127,89 161,79"];
+	Node3 -> Node4 [color=midnightblue, style=solid, pos="e,146,24 189,60 179,52 165,40 153,30"];
+	Node3 -> Node5 [color=midnightblue, style=solid, pos="e,199,24 199,60 199,53 199,42 199,33"];
+	Node3 -> Node6 [color=midnightblue, style=solid, pos="e,256,24 210,60 221,52 237,39 249,30"];
+	Node1 -> Node7 [color=midnightblue, style=solid, pos="e,157,128 97,216 109,198 137,157 152,135"];
+	Node7 -> Node3 [color=midnightblue, style=solid, pos="e,193,76 168,112 173,104 181,93 188,84"];
+	Node1 -> Node8 [color=midnightblue, style=solid, pos="e,240,180 119,216 149,207 198,193 232,183"];
+	Node8 -> Node3 [color=midnightblue, style=solid, pos="e,212,76 267,164 265,152 260,128 249,112 241,100 229,89 219,81"];
+	Node8 -> Node9 [color=midnightblue, style=solid, pos="e,351,128 283,164 300,155 324,142 343,132"];
+	Node9 -> Node10 [color=midnightblue, style=solid, pos="e,319,76 357,112 349,104 336,92 326,82"];
+	Node9 -> Node11 [color=midnightblue, style=solid, pos="e,366,76 366,112 366,105 366,94 366,85"];
+	Node9 -> Node12 [color=midnightblue, style=solid, pos="e,422,76 376,112 387,104 403,91 415,82"];
+	Node9 -> Node3 [color=midnightblue, style=solid, pos="e,225,76 340,112 312,103 266,89 235,79"];
+}

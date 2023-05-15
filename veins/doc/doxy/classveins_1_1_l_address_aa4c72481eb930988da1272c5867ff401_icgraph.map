@@ -1,0 +1,20 @@
+digraph "veins::LAddress::L2NULL" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,564,204"];
+	Node1 [label="veins::LAddress::L2NULL", height="0.22", width="1.89", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="76,102", rects="8,94,144,110"];
+	Node2 [label="veins::MacToNetwControlInfo\l::getAddressFromControlInfo", height="0.39", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_mac_to_netw_control_info.html#ab2bbb33d50d1c89ab82065af204f2a4c", pos="260,190", rects="180,176,340,204"];
+	Node3 [label="veins::BaseMacLayer\l::getMACAddress", height="0.39", width="1.56", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mac_layer.html#a51fdaa37f4bb9ace9760e8cad99d6c77", tooltip="Returns the MAC address of this MAC module. ", pos="260,144", rects="204,130,316,158"];
+	Node4 [label="veins::Mac1609_4::getMACAddress", height="0.22", width="2.47", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_mac1609__4.html#a7e122cb1f3eb15955be9719897448294", tooltip="Returns the MAC address of this MAC module. ", pos="466,123", rects="377,115,556,131"];
+	Node5 [label="veins::BaseMacLayer\l::initialize", height="0.39", width="1.56", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mac_layer.html#a689fa06067e9df73c7fa19512fe91117", tooltip="Initialization of the module and some variables. ", pos="260,60", rects="204,46,316,74"];
+	Node6 [label="veins::Mac1609_4::initialize", height="0.22", width="1.89", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_mac1609__4.html#a8d43b34c9fb0b918e447343e5fc344d4", tooltip="States of the channel selecting operation. ", pos="466,60", rects="398,52,535,68"];
+	Node7 [label="veins::BaseMacLayer\l::setMACAddress", height="0.39", width="1.56", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mac_layer.html#a8dc38af88b372b6c7c17c7da73d326db", tooltip="Sets the MAC address of this MAC module. ", pos="260,14", rects="204,0,316,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,144,110 151,116 169,134 156,158 180,176"];
+	Node1 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,144,110 152,113 163,118 166,124 180,130 188,133 196,135 204,137"];
+	Node3 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,316,137 325,136 342,134 360,133 376,131"];
+	Node1 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,144,106 154,106 218,110 309,115 376,118"];
+	Node1 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,144,94 152,91 163,85 166,79 180,74 188,71 196,69 204,67"];
+	Node5 -> Node6 [dir=back, color=midnightblue, style=solid, pos="s,316,60 325,60 348,60 374,60 397,60"];
+	Node1 -> Node7 [dir=back, color=midnightblue, style=solid, pos="s,144,94 151,88 169,69 156,45 180,28 187,23 195,20 204,17"];
+}

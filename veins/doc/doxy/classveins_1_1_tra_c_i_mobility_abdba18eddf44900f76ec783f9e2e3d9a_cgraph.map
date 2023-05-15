@@ -1,0 +1,9 @@
+digraph "veins::TraCIMobility::calculateHostPosition" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,290,28"];
+	Node1 [label="veins::TraCIMobility\l::calculateHostPosition", height="0.39", width="1.61", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="66,14", rects="8,0,124,28"];
+	Node2 [label="veins::Heading::toCoord", height="0.22", width="1.69", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_heading.html#a97fba1b017beb1eb89b3fcdb3075e188", tooltip="Returns Coord of a unit vector (with x pointing east and y pointing south). ", pos="221,14", rects="160,6,282,22"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,160,14 124,14 133,14 141,14 150,14"];
+}

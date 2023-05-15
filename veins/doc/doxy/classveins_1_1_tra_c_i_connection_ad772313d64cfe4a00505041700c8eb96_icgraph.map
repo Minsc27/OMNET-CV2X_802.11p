@@ -1,0 +1,11 @@
+digraph "veins::TraCIConnection::traci2omnet" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,340,74"];
+	Node1 [label="veins::TraCIConnection\l::traci2omnet", height="0.39", width="1.69", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="70,37", rects="9,23,132,51"];
+	Node2 [label="veins::TraCICommandInterface\l::genericGetCoord", height="0.39", width="2.28", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_command_interface.html#a7e859f8c0e52898b3a7c4a672c77799c", pos="250,60", rects="168,46,332,74"];
+	Node3 [label="veins::TraCICommandInterface\l::genericGetCoordList", height="0.39", width="2.28", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_command_interface.html#aa7e8c7a184c23c51461230c8d3e6ba24", pos="250,14", rects="168,0,332,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,132,45 141,46 150,48 159,48 168,50"];
+	Node1 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,132,29 141,28 150,26 159,26 168,24"];
+}

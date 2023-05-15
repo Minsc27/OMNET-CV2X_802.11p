@@ -1,0 +1,9 @@
+digraph "veins::BasePhyLayer::handleSelfMessage" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,272,28"];
+	Node1 [label="veins::BasePhyLayer\l::handleSelfMessage", height="0.39", width="1.53", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="63,14", rects="8,0,118,28"];
+	Node2 [label="veins::BasePhyLayer\l::handleMessage", height="0.39", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_phy_layer.html#a54c20b44779b724638e62f941b656f9c", tooltip="Process received messages and pass to specific handlers. ", pos="209,14", rects="154,0,264,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,118,14 128,14 137,14 145,14 154,14"];
+}

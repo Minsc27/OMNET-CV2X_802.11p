@@ -1,0 +1,27 @@
+digraph "veins::MobileHostObstacle::getShape" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,638,292"];
+	Node1 [label="veins::MobileHostObstacle\l::getShape", height="0.39", width="1.89", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="76,152", rects="8,138,144,166"];
+	Node2 [label="veins::Heading::fromCoord", height="0.22", width="1.92", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_heading.html#a9d6cfb66c818140b87edaa53a5aa483e", tooltip="Converts Coord to heading (with x pointing east and y pointing south). ", pos="249,284", rects="180,276,318,292"];
+	Node3 [label="veins::BaseMobility\l::getCurrentOrientation", height="0.39", width="1.69", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mobility.html#a9bb8057cebe93a63d3e9b8d1dcaca047", pos="249,244", rects="188,230,310,258"];
+	Node4 [label="veins::Move::getOrientation", height="0.22", width="1.94", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_move.html#a8424b8764b468e872e76f9ca5b6cc488", tooltip="Returns the orientation vector, i.e. ", pos="424,244", rects="354,236,494,252"];
+	Node5 [label="veins::MobileHostObstacle\l::getHostPositionOffset", height="0.39", width="1.89", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_mobile_host_obstacle.html#a4490b7990017ef6db049664c61fc4715", pos="249,198", rects="181,184,317,212"];
+	Node6 [label="veins::MobileHostObstacle\l::getLength", height="0.39", width="1.89", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_mobile_host_obstacle.html#a601b23d9849682a3eea03a3e5bc4c704", pos="249,152", rects="181,138,317,166"];
+	Node7 [label="veins::MobileHostObstacle\l::getMobility", height="0.39", width="1.89", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_mobile_host_obstacle.html#a0887cf8f1e5f0fe2d0846b3e0c58a3cb", pos="249,106", rects="181,92,317,120"];
+	Node8 [label="veins::BaseMobility\l::getPositionAt", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mobility.html#aa34127bb460764f5516cf9a284cbb8e9", tooltip="Returns the current position at the given simulation time. ", pos="249,60", rects="198,46,301,74"];
+	Node9 [label="veins::Move::getPositionAt", height="0.22", width="1.89", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_move.html#a952629602326681f6e385824c19e527c", tooltip="Returns the position of the Move (Host) at the specified point in time. ", pos="424,60", rects="356,52,492,68"];
+	Node10 [label="veins::math::almost\l_equal", height="0.39", width="1.36", color=black, fillcolor=white, style=filled, URL="$namespaceveins_1_1math.html#a8e7bde81401ddc00bf062333bf217491", tooltip="Compare two floats for approximate equality. ", pos="580,60", rects="531,46,630,74"];
+	Node11 [label="veins::MobileHostObstacle\l::getWidth", height="0.39", width="1.89", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_mobile_host_obstacle.html#a4fa9092226ba241ce5e79b3e25f41b50", pos="249,14", rects="181,0,317,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,180,276 144,166 180,198 146,237 173,269"];
+	Node1 -> Node3 [color=midnightblue, style=solid, pos="e,188,235 144,166 171,185 154,209 179,229"];
+	Node3 -> Node4 [color=midnightblue, style=solid, pos="e,354,244 310,244 321,244 332,244 344,244"];
+	Node1 -> Node5 [color=midnightblue, style=solid, pos="e,181,184 144,166 157,170 162,175 171,180"];
+	Node1 -> Node6 [color=midnightblue, style=solid, pos="e,181,152 144,152 153,152 162,152 171,152"];
+	Node1 -> Node7 [color=midnightblue, style=solid, pos="e,181,120 144,138 157,133 162,128 171,123"];
+	Node1 -> Node8 [color=midnightblue, style=solid, pos="e,197,65 144,138 171,118 154,93 180,74 182,72 185,70 188,69"];
+	Node8 -> Node9 [color=midnightblue, style=solid, pos="e,356,60 301,60 315,60 331,60 346,60"];
+	Node9 -> Node10 [color=midnightblue, style=solid, pos="e,530,60 492,60 502,60 511,60 520,60"];
+	Node1 -> Node11 [color=midnightblue, style=solid, pos="e,181,27 144,138 180,105 147,67 173,35"];
+}

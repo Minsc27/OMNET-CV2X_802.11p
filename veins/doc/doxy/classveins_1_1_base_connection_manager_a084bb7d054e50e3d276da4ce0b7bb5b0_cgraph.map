@@ -1,0 +1,17 @@
+digraph "veins::BaseConnectionManager::initialize" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,376,200"];
+	Node1 [label="veins::BaseConnectionManager\l::initialize", height="0.39", width="2.22", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="89,94", rects="9,80,170,108"];
+	Node2 [label="veins::BaseConnectionManager\l::calcInterfDist", height="0.39", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_connection_manager.html#a99dc9770c0ae535dc458586206a3235f", tooltip="Calculate interference distance. ", pos="287,186", rects="207,172,368,200"];
+	Node3 [label="veins::FindModule::\lfindGlobalModule", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_find_module.html#a5235f90b10b3a297c25baeaa8a4194cf", tooltip="Returns a pointer to the module with the type of this template. ", pos="287,140", rects="236,126,338,154"];
+	Node4 [label="veins::BaseWorldUtility\l::getPgs", height="0.39", width="1.72", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_world_utility.html#a08a8c00b81e5b70ab4cdfe611d4169b7", tooltip="Returns the playgroundSize. ", pos="287,94", rects="225,80,349,108"];
+	Node5 [label="veins::Coord::info", height="0.22", width="1.28", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_coord.html#a25b361254b68f3d13a9eb0a857d69a73", tooltip="Returns a string with the value of the coordinate. ", pos="287,54", rects="241,46,333,62"];
+	Node6 [label="veins::BaseWorldUtility\l::useTorus", height="0.39", width="1.72", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_world_utility.html#ac0e47ec8501896bb97172a70c31d7e06", tooltip="Returns true if our playground represents a torus (borders are connected) ", pos="287,14", rects="225,0,349,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,206,172 170,108 194,124 183,148 199,166"];
+	Node1 -> Node3 [color=midnightblue, style=solid, pos="e,236,133 170,108 187,113 190,120 206,126 212,128 219,130 226,131"];
+	Node1 -> Node4 [color=midnightblue, style=solid, pos="e,225,94 170,94 185,94 200,94 215,94"];
+	Node1 -> Node5 [color=midnightblue, style=solid, pos="e,241,55 170,80 187,74 189,66 206,62 214,60 223,58 232,56"];
+	Node1 -> Node6 [color=midnightblue, style=solid, pos="e,225,20 170,80 194,64 183,43 206,28 209,26 212,24 215,23"];
+}

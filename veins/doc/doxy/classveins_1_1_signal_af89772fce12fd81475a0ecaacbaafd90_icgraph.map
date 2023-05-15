@@ -1,0 +1,9 @@
+digraph "veins::Signal::setCenterFrequencyIndex" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,286,28"];
+	Node1 [label="veins::Signal::setCenter\lFrequencyIndex", height="0.39", width="1.61", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="66,14", rects="8,0,124,28"];
+	Node2 [label="veins::PhyLayer80211p\l::attachSignal", height="0.39", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_phy_layer80211p.html#a1d1b85c74e35e6b7dd8a906a290e559c", tooltip="Attach a signal to the given AirFrame. ", pos="219,14", rects="161,0,278,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,124,14 133,14 142,14 152,14 160,14"];
+}

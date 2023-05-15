@@ -1,0 +1,23 @@
+digraph "anonymous_namespace{BBoxLookup::cc}::intersects" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,854,178"];
+	Node1 [label="anonymous_namespace\l\{BBoxLookup::cc\}::intersects", height="0.39", width="2.00", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="81,95", rects="9,81,154,109"];
+	Node2 [label="veins::ChannelInfo\l::assertNoIntersections", height="0.39", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_channel_info.html#a86eb4a8cae1a123e9125cd0e8977c548", tooltip="Asserts that every inactive AirFrame is still intersecting with at least one active airframe or with ...", pos="254,164", rects="196,150,312,178"];
+	Node3 [label="veins::Obstacle::contains\lPoint", height="0.39", width="1.69", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_obstacle.html#a488f731b1986d35a419318bdce3a8168", pos="254,118", rects="193,104,315,132"];
+	Node4 [label="veins::BBoxLookup::\lfindOverlapping", height="0.39", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_b_box_lookup.html#a4cf2a571f5a1a04ad0ea8b7588ebdd43", tooltip="Return all obstacles which have their bounding box touched by the transmission from sender to receive...", pos="254,72", rects="200,58,308,86"];
+	Node5 [label="veins::ObstacleControl\l::getIntersections", height="0.39", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_obstacle_control.html#a3e6455d7151b46ce3ca7ce780261fedb", tooltip="get hit obstacles (along with a list of points (in [0, 1]) along the line between sender and receiver...", pos="422,72", rects="364,58,480,86"];
+	Node6 [label="veins::ObstacleControl\l::calculateAttenuation", height="0.39", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_obstacle_control.html#ae3bc0ffe81dd2ca3145636656f392204", tooltip="calculate additional attenuation by obstacles, return multiplicative factor ", pos="584,72", rects="526,58,642,86"];
+	Node7 [label="veins::SimpleObstacleShadowing\l::filterSignal", height="0.39", width="2.33", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_simple_obstacle_shadowing.html#a232c35993ba999b86d6e700d2152c98a", tooltip="Filters a specified Signal by adding an attenuation over time to the Signal. ", pos="762,72", rects="678,58,846,86"];
+	Node8 [label="anonymous_namespace\l\{MobileHostObstacle\l::cc\}::isPointInObstacle", height="0.56", width="1.78", color=black, fillcolor=white, style=filled, URL="$namespaceanonymous__namespace_02_mobile_host_obstacle_8cc_03.html#a4905f71256d96d9b1781ab9b31ec2a9e", pos="254,20", rects="190,0,318,40"];
+	Node9 [label="veins::MobileHostObstacle\l::getIntersectionPoint", height="0.39", width="1.89", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_mobile_host_obstacle.html#a97a8fa2ba85ea3dd7a84c7e89ad6e74e", tooltip="return closest point (in meters) along (senderPos–receiverPos) where this obstacle overlaps...", pos="422,20", rects="354,6,490,34"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,154,109 162,114 175,125 173,139 190,150 192,151 194,152 196,153"];
+	Node1 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,154,105 163,106 173,108 183,108 193,110"];
+	Node1 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,154,85 163,84 175,82 188,81 200,79"];
+	Node4 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,308,72 318,72 333,72 349,72 364,72"];
+	Node5 -> Node6 [dir=back, color=midnightblue, style=solid, pos="s,480,72 490,72 502,72 514,72 526,72"];
+	Node6 -> Node7 [dir=back, color=midnightblue, style=solid, pos="s,642,72 652,72 660,72 669,72 678,72"];
+	Node1 -> Node8 [dir=back, color=midnightblue, style=solid, pos="s,154,81 162,76 175,64 173,52 190,40"];
+	Node8 -> Node9 [dir=back, color=midnightblue, style=solid, pos="s,318,20 328,20 337,20 345,20 354,20"];
+}

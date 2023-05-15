@@ -1,0 +1,13 @@
+digraph "veins::VehicleObstacleControl::initialize" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,484,74"];
+	Node1 [label="veins::VehicleObstacleControl\l::initialize", height="0.39", width="2.14", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="85,37", rects="8,23,162,51"];
+	Node2 [label="veins::AnnotationManager\l::createGroup", height="0.39", width="1.92", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_annotation_manager.html#ac579f5fef019464b16a2e93a36868274", pos="268,60", rects="199,46,338,74"];
+	Node3 [label="veins::AnnotationManager\lAccess::getIfExists", height="0.39", width="1.92", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_annotation_manager_access.html#a078a458514be3927ea589e843a9bef72", pos="268,14", rects="199,0,338,28"];
+	Node4 [label="veins::FindModule::\lfindGlobalModule", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_find_module.html#a5235f90b10b3a297c25baeaa8a4194cf", tooltip="Returns a pointer to the module with the type of this template. ", pos="425,14", rects="374,0,476,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,198,51 162,47 171,48 179,49 188,50"];
+	Node1 -> Node3 [color=midnightblue, style=solid, pos="e,198,23 162,27 171,26 179,25 188,24"];
+	Node3 -> Node4 [color=midnightblue, style=solid, pos="e,374,14 338,14 347,14 355,14 364,14"];
+}

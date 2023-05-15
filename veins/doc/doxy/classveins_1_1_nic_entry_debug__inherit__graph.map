@@ -1,0 +1,10 @@
+digraph "veins::NicEntryDebug" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,116,136"];
+	Node1 [label="veins::NicEntryDebug", height="0.22", width="1.61", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="58,16", rects="0,8,117,24"];
+	Node2 [label="veins::NicEntry", height="0.22", width="1.17", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_nic_entry.html", tooltip="NicEntry is used by ConnectionManager to store the necessary information for each nic...", pos="58,68", rects="16,60,100,76"];
+	Node3 [label="veins::HasLogProxy", height="0.22", width="1.47", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_has_log_proxy.html", tooltip="Helper class for logging from classes not derived from cComponent. ", pos="58,120", rects="5,112,111,128"];
+	Node2 -> Node1 [dir=back, color=midnightblue, style=solid, pos="s,58,60 58,51 58,42 58,31 58,24"];
+	Node3 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,58,112 58,103 58,94 58,83 58,76"];
+}

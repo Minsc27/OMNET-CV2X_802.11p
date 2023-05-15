@@ -1,0 +1,14 @@
+digraph "veins::TraCIScenarioManager" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,322,148"];
+	Node1 [label="veins::TraCIScenarioManager", height="0.22", width="2.11", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="161,80", rects="85,72,238,88"];
+	Node2 [label=cSimpleModule, height="0.22", width="1.19", color=grey75, fillcolor=white, style=filled, pos="92,132", rects="49,124,135,140"];
+	Node3 [label=cISimulationLifecycleListener, height="0.22", width="2.17", color=grey75, fillcolor=white, style=filled, pos="231,132", rects="153,124,310,140"];
+	Node4 [label="veins::TraCIScenarioManager\lForker", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager_forker.html", tooltip="Extends the TraCIScenarioManager to automatically fork an instance of SUMO when needed. ", pos="76,22", rects="0,8,153,36"];
+	Node5 [label="veins::TraCIScenarioManager\lLaunchd", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager_launchd.html", tooltip="Extends the TraCIScenarioManager for use with sumo-launchd.py and SUMO. ", pos="246,22", rects="170,8,323,36"];
+	Node2 -> Node1 [dir=back, color=midnightblue, style=solid, pos="s,103,124 110,118 123,109 139,96 150,88"];
+	Node3 -> Node1 [dir=back, color=midnightblue, style=solid, pos="s,220,124 213,119 200,109 183,96 172,88"];
+	Node1 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,149,72 142,67 129,58 110,45 97,36"];
+	Node1 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,173,72 180,67 193,58 212,45 225,36"];
+}

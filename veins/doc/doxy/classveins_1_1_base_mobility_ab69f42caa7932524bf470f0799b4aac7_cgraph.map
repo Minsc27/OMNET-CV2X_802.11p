@@ -1,0 +1,25 @@
+digraph "veins::BaseMobility::checkIfOutside" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,446,268"];
+	Node1 [label="veins::BaseMobility\l::checkIfOutside", height="0.39", width="1.42", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="60,152", rects="9,138,112,166"];
+	Node2 [label="veins::Move::getDirection", height="0.22", width="1.78", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_move.html#a0fb3254da258f278489ed21f0d0559e3", tooltip="Returns the direction vector (which is unit less, because of normalization). ", pos="213,260", rects="149,252,278,268"];
+	Node3 [label="veins::Move::getStartPos", height="0.22", width="1.72", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_move.html#a48346d2be14eeca41bdb67f896508a67", tooltip="Returns the start position. ", pos="213,226", rects="151,218,275,234"];
+	Node4 [label="veins::Coord::info", height="0.22", width="1.28", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_coord.html#a25b361254b68f3d13a9eb0a857d69a73", tooltip="Returns a string with the value of the coordinate. ", pos="213,192", rects="167,184,259,200"];
+	Node5 [label="veins::BaseMobility\l::playgroundSizeX", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mobility.html#ab06dd8e4488b41a0a030807b6bdb639d", tooltip="Returns the width of the playground. ", pos="213,152", rects="162,138,265,166"];
+	Node6 [label="veins::BaseWorldUtility\l::getPgs", height="0.39", width="1.72", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_world_utility.html#a08a8c00b81e5b70ab4cdfe611d4169b7", tooltip="Returns the playgroundSize. ", pos="376,106", rects="314,92,438,120"];
+	Node7 [label="veins::BaseMobility\l::playgroundSizeY", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mobility.html#a1e3b73db40c3fb6cdfc4120bef6f1d88", tooltip="Returns the height of the playground. ", pos="213,106", rects="162,92,265,120"];
+	Node8 [label="veins::BaseMobility\l::playgroundSizeZ", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mobility.html#ae6263a43c7959ae008a21874dda4e622", tooltip="Returns the height of the playground. ", pos="213,60", rects="162,46,265,74"];
+	Node9 [label="veins::BaseWorldUtility\l::use2D", height="0.39", width="1.72", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_world_utility.html#ad67073ffe5557077cd4b96fa2138c536", tooltip="Returns true if the world is 2-dimensional. ", pos="213,14", rects="151,0,275,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,148,252 112,166 141,191 119,221 141,246"];
+	Node1 -> Node3 [color=midnightblue, style=solid, pos="e,151,220 112,166 133,181 126,200 143,214"];
+	Node1 -> Node4 [color=midnightblue, style=solid, pos="e,167,188 112,166 129,172 131,178 148,184 151,185 154,186 158,187"];
+	Node1 -> Node5 [color=midnightblue, style=solid, pos="e,161,152 112,152 125,152 138,152 151,152"];
+	Node5 -> Node6 [color=midnightblue, style=solid, pos="e,314,120 265,142 269,141 274,139 278,138 291,133 296,129 304,124"];
+	Node1 -> Node7 [color=midnightblue, style=solid, pos="e,161,116 112,138 129,131 132,125 148,120 149,119 150,119 151,119"];
+	Node7 -> Node6 [color=midnightblue, style=solid, pos="e,314,106 265,106 277,106 291,106 304,106"];
+	Node1 -> Node8 [color=midnightblue, style=solid, pos="e,161,67 112,138 138,117 122,93 148,74 149,73 151,72 152,71"];
+	Node8 -> Node6 [color=midnightblue, style=solid, pos="e,314,92 265,70 269,71 274,72 278,74 291,78 296,82 305,88"];
+	Node1 -> Node9 [color=midnightblue, style=solid, pos="e,151,26 112,138 148,104 114,66 143,33"];
+}

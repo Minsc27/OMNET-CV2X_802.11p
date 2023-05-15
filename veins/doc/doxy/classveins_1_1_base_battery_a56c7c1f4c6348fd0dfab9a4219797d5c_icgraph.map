@@ -1,0 +1,9 @@
+digraph "veins::BaseBattery::registerDevice" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,260,28"];
+	Node1 [label="veins::BaseBattery\l::registerDevice", height="0.39", width="1.36", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="57,14", rects="8,0,106,28"];
+	Node2 [label="veins::BatteryAccess\l::registerWithBattery", height="0.39", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_battery_access.html#a2286e83003b2919cbb496260a5b0d009", tooltip="Registers this module as a device with the battery module. ", pos="197,14", rects="142,0,252,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,106,14 116,14 125,14 133,14 142,14"];
+}

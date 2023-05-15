@@ -1,0 +1,13 @@
+digraph "veins::TraCIScenarioManagerForker::killServer" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,408,120"];
+	Node1 [label="veins::TraCIScenarioManager\lForker::killServer", height="0.39", width="2.11", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="85,60", rects="9,46,162,74"];
+	Node2 [label="veins::TraCIScenarioManager\lForker::finish", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager_forker.html#a1147312387230b2e19e7f8848e3062de", pos="299,106", rects="223,92,376,120"];
+	Node3 [label="veins::TraCIScenarioManager\lForker::initialize", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager_forker.html#a952e624950eb8aa1d856c850c574a4e9", pos="299,60", rects="223,46,376,74"];
+	Node4 [label="veins::TraCIScenarioManager\lForker::~TraCIScenarioManagerForker", height="0.39", width="2.78", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager_forker.html#a9f887f67898178f4f4d4d6655252a3e5", pos="299,14", rects="199,0,400,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,162,74 171,77 180,82 185,87 198,92 206,94 214,96 222,98"];
+	Node1 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,162,60 171,60 188,60 206,60 222,60"];
+	Node1 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,162,46 171,42 180,37 185,32 198,28"];
+}

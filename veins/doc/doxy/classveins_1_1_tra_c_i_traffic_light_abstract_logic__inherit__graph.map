@@ -1,0 +1,10 @@
+digraph "veins::TraCITrafficLightAbstractLogic" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,128,160"];
+	Node1 [label="veins::TraCITrafficLight\lAbstractLogic", height="0.39", width="1.78", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="64,86", rects="0,72,129,100"];
+	Node2 [label=cSimpleModule, height="0.22", width="1.19", color=grey75, fillcolor=white, style=filled, pos="64,144", rects="21,136,107,152"];
+	Node3 [label="veins::TraCITrafficLight\lSimpleLogic", height="0.39", width="1.78", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_traffic_light_simple_logic.html", pos="64,22", rects="0,8,129,36"];
+	Node2 -> Node1 [dir=back, color=midnightblue, style=solid, pos="s,64,136 64,127 64,118 64,108 64,100"];
+	Node1 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,64,72 64,62 64,53 64,44 64,36"];
+}

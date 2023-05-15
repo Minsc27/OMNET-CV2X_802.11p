@@ -1,0 +1,17 @@
+digraph "veins::ObstacleControl::getIntersections" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,480,129"];
+	Node1 [label="veins::ObstacleControl\l::getIntersections", height="0.39", width="1.61", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="66,46", rects="8,32,124,60"];
+	Node2 [label="veins::BBoxLookup::\lfindOverlapping", height="0.39", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_b_box_lookup.html#a4cf2a571f5a1a04ad0ea8b7588ebdd43", tooltip="Return all obstacles which have their bounding box touched by the transmission from sender to receive...", pos="224,72", rects="170,58,278,86"];
+	Node3 [label="anonymous_namespace\l\{BBoxLookup::cc\}::intersects", height="0.39", width="2.00", color=black, fillcolor=white, style=filled, URL="$namespaceanonymous__namespace_02_b_box_lookup_8cc_03.html#ad29edbecc2bba7cf9afb525f0aff0f25", tooltip="Return whether ray intersects with box. ", pos="398,115", rects="326,101,471,129"];
+	Node4 [label="anonymous_namespace\l\{BBoxLookup::cc\}::makeRay", height="0.39", width="2.06", color=black, fillcolor=white, style=filled, URL="$namespaceanonymous__namespace_02_b_box_lookup_8cc_03.html#a511746fffff7fb590b4d01d923189b03", tooltip="Return a Ray struct for fast intersection tests from sender to receiver. ", pos="398,69", rects="324,55,472,83"];
+	Node5 [label="anonymous_namespace\l\{ObstacleControl::cc\}\l::rebuildBBoxLookup", height="0.56", width="1.78", color=black, fillcolor=white, style=filled, URL="$namespaceanonymous__namespace_02_obstacle_control_8cc_03.html#a622c9a0b0c5d14fbd42f7d5bcba982cb", pos="224,20", rects="160,0,288,40"];
+	Node6 [label="veins::FindModule::\lfindGlobalModule", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_find_module.html#a5235f90b10b3a297c25baeaa8a4194cf", tooltip="Returns a pointer to the module with the type of this template. ", pos="398,20", rects="347,6,449,34"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,170,63 124,56 136,58 148,60 160,62"];
+	Node2 -> Node3 [color=midnightblue, style=solid, pos="e,325,101 278,83 282,84 285,85 288,86 302,90 306,94 316,98"];
+	Node2 -> Node4 [color=midnightblue, style=solid, pos="e,324,70 278,71 289,71 301,70 314,70"];
+	Node1 -> Node5 [color=midnightblue, style=solid, pos="e,160,30 124,36 133,35 141,33 150,32"];
+	Node5 -> Node6 [color=midnightblue, style=solid, pos="e,347,20 288,20 305,20 322,20 338,20"];
+}

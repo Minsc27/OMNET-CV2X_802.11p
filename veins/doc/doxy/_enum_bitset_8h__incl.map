@@ -1,0 +1,18 @@
+digraph "EnumBitset.h" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,267,136"];
+	Node1 [label="EnumBitset.h", height="0.22", width="1.06", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="83,120", rects="45,112,121,128"];
+	Node2 [label=bitset, height="0.22", width="0.47", color=grey75, fillcolor=white, style=filled, pos="17,68", rects="0,60,35,76"];
+	Node3 [label=type_traits, height="0.22", width="0.86", color=grey75, fillcolor=white, style=filled, pos="83,68", rects="52,60,114,76"];
+	Node4 [label="veins/veins.h", height="0.22", width="1.00", color=black, fillcolor=white, style=filled, URL="$veins_8h.html", pos="168,68", rects="132,60,204,76"];
+	Node5 [label=memory, height="0.22", width="0.72", color=grey75, fillcolor=white, style=filled, pos="105,16", rects="79,8,131,24"];
+	Node6 [label=utility, height="0.22", width="0.53", color=grey75, fillcolor=white, style=filled, pos="168,16", rects="149,8,188,24"];
+	Node7 [label="omnetpp.h", height="0.22", width="0.86", color=grey75, fillcolor=white, style=filled, pos="236,16", rects="205,8,267,24"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,27,76 73,112 62,104 47,91 34,82"];
+	Node1 -> Node3 [color=midnightblue, style=solid, pos="e,83,76 83,112 83,105 83,94 83,85"];
+	Node1 -> Node4 [color=midnightblue, style=solid, pos="e,155,76 96,112 110,103 131,91 147,81"];
+	Node4 -> Node5 [color=midnightblue, style=solid, pos="e,115,24 158,60 148,52 134,40 122,30"];
+	Node4 -> Node6 [color=midnightblue, style=solid, pos="e,168,24 168,60 168,53 168,42 168,33"];
+	Node4 -> Node7 [color=midnightblue, style=solid, pos="e,225,24 179,60 190,52 206,39 218,30"];
+}

@@ -1,0 +1,11 @@
+digraph "veins::TraCIScenarioManager::addModule" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,382,62"];
+	Node1 [label="veins::TraCIScenarioManager\l::addModule", height="0.39", width="2.11", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="85,34", rects="9,20,162,48"];
+	Node2 [label="veins::VehicleObstacleControl::add", height="0.22", width="2.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_vehicle_obstacle_control.html#a351c4c46ca9a2e994f6be6405273b2be", pos="286,54", rects="199,46,374,62"];
+	Node3 [label="veins::TraCIScenarioManager\l::preInitializeModule", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager.html#a13264243f55481b3adacd7d9b2d331b4", pos="286,14", rects="210,0,363,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,198,46 162,42 171,43 179,44 188,45"];
+	Node1 -> Node3 [color=midnightblue, style=solid, pos="e,209,22 162,26 174,25 187,24 199,23"];
+}

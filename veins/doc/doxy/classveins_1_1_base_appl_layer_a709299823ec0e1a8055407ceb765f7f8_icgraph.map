@@ -1,0 +1,13 @@
+digraph "veins::BaseApplLayer::initialize" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,460,74"];
+	Node1 [label="veins::BaseApplLayer\l::initialize", height="0.39", width="1.58", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="66,37", rects="9,23,124,51"];
+	Node2 [label="veins::DemoBaseApplLayer\l::initialize", height="0.39", width="2.00", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_demo_base_appl_layer.html#acca47f0d4a756e78ca29d2e4271af396", pos="233,37", rects="161,23,306,51"];
+	Node3 [label="veins::MyVeinsApp::\linitialize", height="0.39", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_my_veins_app.html#a73f5b68ba9bb4b66b2a3fecf875be114", pos="397,60", rects="343,46,452,74"];
+	Node4 [label="veins::TraCIDemo11p\l::initialize", height="0.39", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_demo11p.html#ac52eef213e4579f7d5f671385b506b78", pos="397,14", rects="342,0,452,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,124,37 134,37 143,37 151,37 160,37"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,306,47 314,48 324,49 333,50 342,52"];
+	Node2 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,306,27 315,26 324,24 333,24 342,22"];
+}

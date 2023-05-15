@@ -1,0 +1,16 @@
+digraph "veins::TraCICommandInterface::Poi" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,384,234"];
+	Node1 [label="veins::TraCICommandInterface::Poi", height="0.22", width="2.53", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="91,16", rects="0,8,182,24"];
+	Node2 [label="veins::TraCIConnection", height="0.22", width="1.69", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_connection.html", pos="97,158", rects="36,150,159,166"];
+	Node3 [label="veins::HasLogProxy", height="0.22", width="1.47", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_has_log_proxy.html", tooltip="Helper class for logging from classes not derived from cComponent. ", pos="158,218", rects="105,210,211,226"];
+	Node4 [label="veins::TraCICommandInterface", height="0.22", width="2.28", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_command_interface.html", pos="204,84", rects="122,76,286,92"];
+	Node5 [label="veins::TraCICommandInterface\l::VersionConfig", height="0.39", width="2.28", color=black, fillcolor=white, style=filled, URL="$structveins_1_1_tra_c_i_command_interface_1_1_version_config.html", pos="301,158", rects="219,144,383,172"];
+	Node2 -> Node1 [dir=back, color=darkorchid3, style=dashed, label=" connection", pos="s,88,150 83,144 70,132 54,113 47,92 38,65 65,38 80,24", lp="83,84"];
+	Node3 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,150,210 144,204 132,193 115,176 105,166"];
+	Node4 -> Node1 [dir=back, color=darkorchid3, style=dashed, label=" traci", pos="s,191,76 184,72 161,58 124,36 104,24", lp="176,50"];
+	Node3 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,161,210 164,201 174,172 194,114 201,92"];
+	Node5 -> Node4 [dir=back, color=darkorchid3, style=dashed, label=" versionConfig", pos="s,282,144 275,138 255,123 229,103 215,92", lp="302,118"];
+	Node2 -> Node4 [dir=back, color=darkorchid3, style=dashed, label=" connection", pos="s,97,150 98,142 100,131 103,118 111,110 118,103 138,96 158,92", lp="144,118"];
+}

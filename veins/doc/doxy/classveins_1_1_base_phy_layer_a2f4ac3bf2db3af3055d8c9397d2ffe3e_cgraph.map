@@ -1,0 +1,9 @@
+digraph "veins::BasePhyLayer::getAntennaFromName" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,332,28"];
+	Node1 [label="veins::BasePhyLayer\l::getAntennaFromName", height="0.39", width="1.78", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="72,14", rects="8,0,136,28"];
+	Node2 [label="veins::BasePhyLayer\l::initializeSampledAntenna1D", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_phy_layer.html#afe8f862b497716d20c4f380662a25471", tooltip="Creates and returns an instance of the SampledAntenna1D class as a shared pointer. ", pos="248,14", rects="172,0,324,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,172,14 136,14 145,14 153,14 162,14"];
+}

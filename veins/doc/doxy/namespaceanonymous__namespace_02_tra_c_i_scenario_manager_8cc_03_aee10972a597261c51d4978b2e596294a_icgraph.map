@@ -1,0 +1,17 @@
+digraph "anonymous_namespace{TraCIScenarioManager::cc}::getMapping" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,904,74"];
+	Node1 [label="anonymous_namespace\l\{TraCIScenarioManager\l::cc\}::getMapping", height="0.56", width="1.78", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="72,37", rects="8,17,136,57"];
+	Node2 [label="veins::TraCIScenarioManager\l::parseMappings", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager.html#a2078c66faf6fa4efd7cf245f4b4ca88e", tooltip="transforms a list of mappings of an omnetpp.ini parameter in a list ", pos="249,37", rects="173,23,326,51"];
+	Node3 [label="veins::TraCIScenarioManager\l::parseModuleTypes", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager.html#a45673008abaef567b3c5c0241ff4392f", tooltip="parses the vector of module types in ini file ", pos="439,37", rects="363,23,516,51"];
+	Node4 [label="veins::TraCIScenarioManager\l::initialize", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager.html#a6060adf2e942f6e7343ee26091193341", pos="629,37", rects="553,23,706,51"];
+	Node5 [label="veins::TraCIScenarioManager\lForker::initialize", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager_forker.html#a952e624950eb8aa1d856c850c574a4e9", pos="819,60", rects="743,46,896,74"];
+	Node6 [label="veins::TraCIScenarioManager\lLaunchd::initialize", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager_launchd.html#afb429edf2aaebebc1895151be0fadbca", pos="819,14", rects="743,0,896,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,136,37 146,37 155,37 163,37 172,37"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,326,37 336,37 345,37 353,37 362,37"];
+	Node3 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,516,37 526,37 535,37 543,37 552,37"];
+	Node4 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,706,46 715,47 724,49 733,49 742,51"];
+	Node4 -> Node6 [dir=back, color=midnightblue, style=solid, pos="s,706,28 715,27 724,25 733,25 742,23"];
+}

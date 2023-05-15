@@ -1,0 +1,9 @@
+digraph "veins::TraCITrafficLightInterface::getCurrentPhase" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,326,28"];
+	Node1 [label="veins::TraCITrafficLight\lInterface::getCurrentPhase", height="0.39", width="1.92", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="78,14", rects="9,0,148,28"];
+	Node2 [label="veins::TraCITrafficLight\lInterface::getCurrentState", height="0.39", width="1.86", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_traffic_light_interface.html#a5b8a9685532911df39cf2f5d67d0b2e8", pos="251,14", rects="184,0,318,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,148,14 158,14 167,14 175,14 184,14"];
+}

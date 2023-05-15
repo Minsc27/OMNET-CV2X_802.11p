@@ -1,0 +1,13 @@
+digraph "veins::BaseConnectionManager::registerNicExt" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,376,120"];
+	Node1 [label="veins::BaseConnectionManager\l::registerNicExt", height="0.39", width="2.22", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="89,60", rects="9,46,170,74"];
+	Node2 [label="veins::BaseConnectionManager\l::getCellEntries", height="0.39", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_connection_manager.html#ae776ac81a8f88a9afba710afaf8573b8", tooltip="Returns the NicEntries of the cell with specified coordinate. ", pos="287,106", rects="207,92,368,120"];
+	Node3 [label="veins::BaseConnectionManager\l::getCellForCoordinate", height="0.39", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_connection_manager.html#a7f0e7ff7533bb1f5e3c9bb2c2c0db261", tooltip="Calculates the corresponding cell of a coordinate. ", pos="287,60", rects="207,46,368,74"];
+	Node4 [label="veins::BaseConnectionManager\l::GridCoord::info", height="0.39", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_connection_manager_1_1_grid_coord.html#a8a3b9f1e38411db31b8aa45f11755b27", tooltip="Output string for this coordinate. ", pos="287,14", rects="207,0,368,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,206,92 170,74 183,78 188,83 197,88"];
+	Node1 -> Node3 [color=midnightblue, style=solid, pos="e,206,60 170,60 179,60 187,60 196,60"];
+	Node1 -> Node4 [color=midnightblue, style=solid, pos="e,206,28 170,46 183,41 188,36 196,32"];
+}

@@ -1,0 +1,10 @@
+digraph "veins::SimpleObstacleShadowing" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,168,136"];
+	Node1 [label="veins::SimpleObstacleShadowing", height="0.22", width="2.33", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="84,16", rects="0,8,168,24"];
+	Node2 [label="veins::AnalogueModel", height="0.22", width="1.64", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_analogue_model.html", tooltip="Interface for the analogue models of the physical layer. ", pos="84,68", rects="25,60,143,76"];
+	Node3 [label="veins::HasLogProxy", height="0.22", width="1.47", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_has_log_proxy.html", tooltip="Helper class for logging from classes not derived from cComponent. ", pos="84,120", rects="31,112,137,128"];
+	Node2 -> Node1 [dir=back, color=midnightblue, style=solid, pos="s,84,60 84,51 84,42 84,31 84,24"];
+	Node3 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,84,112 84,103 84,94 84,83 84,76"];
+}

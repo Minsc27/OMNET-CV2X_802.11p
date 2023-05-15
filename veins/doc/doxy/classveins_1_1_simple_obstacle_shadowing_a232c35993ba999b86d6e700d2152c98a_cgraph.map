@@ -1,0 +1,35 @@
+digraph "veins::SimpleObstacleShadowing::filterSignal" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,876,214"];
+	Node1 [label="veins::SimpleObstacleShadowing\l::filterSignal", height="0.39", width="2.33", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="92,62", rects="8,48,176,76"];
+	Node2 [label="veins::ObstacleControl\l::calculateAttenuation", height="0.39", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_obstacle_control.html#ae3bc0ffe81dd2ca3145636656f392204", tooltip="calculate additional attenuation by obstacles, return multiplicative factor ", pos="285,128", rects="227,114,343,142"];
+	Node3 [label="veins::Coord::distance", height="0.22", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_coord.html#a7fc7cefa5db60ae560d5b72ae0a25532", tooltip="Returns the distance to Coord &#39;a&#39;. ", pos="452,148", rects="397,140,507,156"];
+	Node4 [label="anonymous_namespace\l\{BaseConnectionManager\l::cc\}::dist", height="0.56", width="1.89", color=black, fillcolor=white, style=filled, URL="$namespaceanonymous__namespace_02_base_connection_manager_8cc_03.html#a03d2870486bee7d8198d066f67d00e04", tooltip="On a torus the end and the begin of the axes are connected so you get a circle. ", pos="615,194", rects="547,174,684,214"];
+	Node5 [label="veins::FWMath::modulo", height="0.22", width="1.72", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_f_w_math.html#aa66a76d454bf3d91d8ec390c4737a7a1", tooltip="Returns the remainder r on division of dividend a by divisor n, using floored division. ", pos="794,194", rects="732,186,856,202"];
+	Node6 [label="veins::Coord::length", height="0.22", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_coord.html#aa330b25b3ec33bc78389be6589b4daaf", tooltip="Returns the length of this Coords position vector. ", pos="615,148", rects="564,140,666,156"];
+	Node7 [label="veins::ObstacleControl\l::getIntersections", height="0.39", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_obstacle_control.html#a3e6455d7151b46ce3ca7ce780261fedb", tooltip="get hit obstacles (along with a list of points (in [0, 1]) along the line between sender and receiver...", pos="452,108", rects="394,94,510,122"];
+	Node8 [label="veins::BBoxLookup::\lfindOverlapping", height="0.39", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_b_box_lookup.html#a4cf2a571f5a1a04ad0ea8b7588ebdd43", tooltip="Return all obstacles which have their bounding box touched by the transmission from sender to receive...", pos="615,108", rects="561,94,669,122"];
+	Node9 [label="anonymous_namespace\l\{BBoxLookup::cc\}::intersects", height="0.39", width="2.00", color=black, fillcolor=white, style=filled, URL="$namespaceanonymous__namespace_02_b_box_lookup_8cc_03.html#ad29edbecc2bba7cf9afb525f0aff0f25", tooltip="Return whether ray intersects with box. ", pos="794,151", rects="722,137,867,165"];
+	Node10 [label="anonymous_namespace\l\{BBoxLookup::cc\}::makeRay", height="0.39", width="2.06", color=black, fillcolor=white, style=filled, URL="$namespaceanonymous__namespace_02_b_box_lookup_8cc_03.html#a511746fffff7fb590b4d01d923189b03", tooltip="Return a Ray struct for fast intersection tests from sender to receiver. ", pos="794,105", rects="720,91,868,119"];
+	Node11 [label="anonymous_namespace\l\{ObstacleControl::cc\}\l::rebuildBBoxLookup", height="0.56", width="1.78", color=black, fillcolor=white, style=filled, URL="$namespaceanonymous__namespace_02_obstacle_control_8cc_03.html#a622c9a0b0c5d14fbd42f7d5bcba982cb", pos="615,56", rects="551,36,679,76"];
+	Node12 [label="veins::FindModule::\lfindGlobalModule", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_find_module.html#a5235f90b10b3a297c25baeaa8a4194cf", tooltip="Returns a pointer to the module with the type of this template. ", pos="794,56", rects="743,42,845,70"];
+	Node13 [label="veins::AntennaPosition\l::getPositionAt", height="0.39", width="1.67", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_antenna_position.html#a57098d0c1c13859757b4aaf04cafe6eb", tooltip="Get the (linearly extrapolated) position at time t. ", pos="285,82", rects="225,68,345,96"];
+	Node14 [label="veins::Signal::getReceiverPoa", height="0.22", width="2.03", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#af77d907793446d9521f0424afd751a9c", tooltip="Get this signal&#39;s receiver POA. ", pos="285,42", rects="212,34,358,50"];
+	Node15 [label="veins::Signal::getSenderPoa", height="0.22", width="1.89", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#a733943dcfe581527719363408b4af19a", tooltip="Get this signal&#39;s sender POA. ", pos="285,8", rects="217,0,354,16"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,227,120 176,76 197,86 192,102 212,114 214,115 216,116 218,116"];
+	Node2 -> Node3 [color=midnightblue, style=solid, pos="e,397,141 343,135 358,137 373,138 387,140"];
+	Node3 -> Node4 [color=midnightblue, style=solid, pos="e,546,174 507,155 508,155 509,156 510,156 524,160 528,165 537,170"];
+	Node4 -> Node5 [color=midnightblue, style=solid, pos="e,732,194 684,194 697,194 709,194 722,194"];
+	Node3 -> Node6 [color=midnightblue, style=solid, pos="e,564,148 507,148 522,148 539,148 554,148"];
+	Node2 -> Node7 [color=midnightblue, style=solid, pos="e,394,115 343,121 357,119 371,118 384,116"];
+	Node7 -> Node8 [color=midnightblue, style=solid, pos="e,561,108 510,108 524,108 538,108 551,108"];
+	Node8 -> Node9 [color=midnightblue, style=solid, pos="e,721,137 669,118 674,119 679,120 684,122 698,126 702,130 712,134"];
+	Node8 -> Node10 [color=midnightblue, style=solid, pos="e,720,106 669,107 682,107 696,106 710,106"];
+	Node7 -> Node11 [color=midnightblue, style=solid, pos="e,551,74 510,94 525,88 529,83 541,78"];
+	Node11 -> Node12 [color=midnightblue, style=solid, pos="e,743,56 679,56 697,56 716,56 733,56"];
+	Node1 -> Node13 [color=midnightblue, style=solid, pos="e,225,76 176,71 189,73 202,74 215,75"];
+	Node1 -> Node14 [color=midnightblue, style=solid, pos="e,212,49 176,53 185,52 193,52 202,50"];
+	Node1 -> Node15 [color=midnightblue, style=solid, pos="e,216,14 176,48 194,39 193,27 206,19"];
+}

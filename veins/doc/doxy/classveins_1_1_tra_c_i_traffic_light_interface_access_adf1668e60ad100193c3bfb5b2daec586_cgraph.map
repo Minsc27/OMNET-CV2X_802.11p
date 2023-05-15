@@ -1,0 +1,9 @@
+digraph "veins::TraCITrafficLightInterfaceAccess::get" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,284,28"];
+	Node1 [label="veins::TraCITrafficLight\lInterfaceAccess::get", height="0.39", width="1.78", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="73,14", rects="9,0,138,28"];
+	Node2 [label="veins::FindModule::\lfindSubModule", height="0.39", width="1.39", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_find_module.html#a56591278058cab17db4d776cfde387a5", tooltip="Returns a pointer to a sub module of the passed module with the type of this template. ", pos="225,14", rects="175,0,276,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,174,14 138,14 147,14 155,14 164,14"];
+}

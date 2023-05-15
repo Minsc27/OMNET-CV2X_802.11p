@@ -1,0 +1,31 @@
+digraph veins {
+	graph [compound=true];
+	node [label="\N", fontsize=10, fontname=Helvetica];
+	edge [labelfontsize=10, labelfontname=Helvetica];
+	graph [bb="0,0,176,248"];
+	subgraph clusterdir_68267d1309a1af8e8297ef4c3efbcdba {
+		graph [bgcolor="#ddddee"];
+		graph [pencolor=black];
+		graph [label=src];
+		graph [fontname=Helvetica];
+		graph [fontsize=10];
+		graph [URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+		graph [lp="88,232"];
+		graph [bb="8,8,168,240"];
+		subgraph clusterdir_17ef6c0fecec40d654af52c879dcf6bd {
+			graph [bgcolor="#eeeeff"];
+			graph [label=""];
+			graph [URL="dir_17ef6c0fecec40d654af52c879dcf6bd.html"];
+			graph [lp=""];
+			graph [bb="16,16,160,216"];
+			dir_17ef6c0fecec40d654af52c879dcf6bd [label=veins, shape=plaintext, pos="125,190", width="0.75", height="0.50"];
+			dir_7ed75e2b1ee1c6cbf8e17dfb79841f91 [label=base, shape=box, color=red, fillcolor=white, style=filled, URL="dir_7ed75e2b1ee1c6cbf8e17dfb79841f91.html", pos="51,116", width="0.75", height="0.50"];
+			dir_9a350b5a4b1db77a4c811625b6e998c8 [label=modules, shape=box, color=red, fillcolor=white, style=filled, URL="dir_9a350b5a4b1db77a4c811625b6e998c8.html", pos="51,42", width="0.75", height="0.50"];
+			dir_df31b34584c613fe9b24780b21a3a7e0 [label=visualizer, shape=box, color=red, fillcolor=white, style=filled, URL="dir_df31b34584c613fe9b24780b21a3a7e0.html", pos="52,190", width="0.78", height="0.50"];
+			dir_9a350b5a4b1db77a4c811625b6e998c8 -> dir_7ed75e2b1ee1c6cbf8e17dfb79841f91 [headlabel=65, labeldistance="1.5", headhref="dir_000005_000002.html", pos="e,57,98 57,60 58,69 58,79 58,88", head_lp="52,84"];
+			dir_7ed75e2b1ee1c6cbf8e17dfb79841f91 -> dir_9a350b5a4b1db77a4c811625b6e998c8 [headlabel=4, labeldistance="1.5", headhref="dir_000002_000005.html", pos="e,45,60 45,98 44,89 44,79 44,70", head_lp="50,74"];
+			dir_df31b34584c613fe9b24780b21a3a7e0 -> dir_9a350b5a4b1db77a4c811625b6e998c8 [headlabel=6, labeldistance="1.5", headhref="dir_000021_000005.html", pos="e,66,60 67,172 74,161 83,148 87,134 91,118 91,113 87,98 84,87 78,76 72,67", head_lp="80,66"];
+			dir_df31b34584c613fe9b24780b21a3a7e0 -> dir_7ed75e2b1ee1c6cbf8e17dfb79841f91 [headlabel=2, labeldistance="1.5", headhref="dir_000021_000002.html", pos="e,51,134 52,172 51,163 51,153 51,144", head_lp="57,148"];
+		}
+	}
+}

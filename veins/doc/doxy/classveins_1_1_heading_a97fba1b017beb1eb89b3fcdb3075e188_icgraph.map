@@ -1,0 +1,37 @@
+digraph "veins::Heading::toCoord" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,938,322"];
+	Node1 [label="veins::Heading::toCoord", height="0.22", width="1.69", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="69,190", rects="8,182,130,198"];
+	Node2 [label="veins::TraCIMobility\l::calculateHostPosition", height="0.39", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_mobility.html#abdba18eddf44900f76ec783f9e2e3d9a", tooltip="Calculates where the OMNeT++ module position of this car should be, given its front bumper position...", pos="224,232", rects="166,218,282,246"];
+	Node3 [label="veins::TraCIMobility\l::initialize", height="0.39", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_mobility.html#a9945ece48d11a01a7973f991b467e848", pos="396,305", rects="342,291,451,319"];
+	Node4 [label="veins::TraCIMobility\l::preInitialize", height="0.39", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_mobility.html#a678634249e120d1e2614a628d20006f6", pos="396,253", rects="342,239,451,267"];
+	Node5 [label="veins::TraCIMobility\l::changePosition", height="0.39", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_mobility.html#a3137899bb330551c9823c40b4ed8b8fc", pos="396,194", rects="342,180,451,208"];
+	Node6 [label="veins::TraCIMobility\l::nextPosition", height="0.39", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_mobility.html#ae53642be0d88b9f146cf55a5d990f1a2", pos="570,185", rects="516,171,625,199"];
+	Node7 [label="veins::BasePhyLayer\l::filterSignal", height="0.39", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_phy_layer.html#adb6dcf56295ceb53b34e83eb409a40a2", tooltip="Filter the passed AirFrame&#39;s Signal by every registered AnalogueModel. ", pos="224,71", rects="169,57,279,85"];
+	Node8 [label="veins::BasePhyLayer\l::handleAirFrameStartReceive", height="0.39", width="2.17", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_phy_layer.html#a671f083680882230b754b7e9578e6274", tooltip="Handle incoming AirFrames with the state AirFrameState::start_receive. ", pos="396,70", rects="318,56,474,84"];
+	Node9 [label="veins::BasePhyLayer\l::handleAirFrame", height="0.39", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_phy_layer.html#a8d6f371fa6ea6ca89cb78764a05f31dd", tooltip="Handle messages received from the channel. ", pos="570,69", rects="515,55,625,83"];
+	Node10 [label="veins::BasePhyLayer\l::handleMessage", height="0.39", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_phy_layer.html#a54c20b44779b724638e62f941b656f9c", tooltip="Process received messages and pass to specific handlers. ", pos="875,102", rects="820,88,930,116"];
+	Node11 [label="veins::PhyLayer80211p\l::handleSelfMessage", height="0.39", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_phy_layer80211p.html#a020601bba0e334a622dc8e193c5946b0", tooltip="Handle self scheduled messages. ", pos="725,14", rects="667,0,784,28"];
+	Node12 [label="veins::BasePhyLayer\l::handleSelfMessage", height="0.39", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_phy_layer.html#a17088ad93f59e143ff6c7ba866a31982", tooltip="Handle self scheduled messages. ", pos="725,60", rects="670,46,780,74"];
+	Node13 [label="veins::BasePhyLayer\l::handleUpperMessage", height="0.39", width="1.64", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_phy_layer.html#a17b1d469775962d23835dd5f43a639ac", tooltip="Handle messages received from the upper layer and start transmitting them. ", pos="570,131", rects="511,117,630,145"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,130,198 138,201 149,206 152,212 166,218"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,283,246 290,252 302,264 299,279 318,291 325,295 333,298 341,300"];
+	Node2 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,282,239 291,240 308,242 326,244 341,246"];
+	Node2 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,282,218 291,215 301,212 305,210 318,208 326,206 333,205 341,203"];
+	Node5 -> Node6 [dir=back, color=midnightblue, style=solid, pos="s,451,191 460,191 478,190 498,189 515,188"];
+	Node1 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,130,191 140,191 201,192 286,193 341,193"];
+	Node1 -> Node7 [dir=back, color=midnightblue, style=solid, pos="s,130,182 137,176 161,148 134,114 166,85 167,84 168,83 169,83"];
+	Node7 -> Node8 [dir=back, color=midnightblue, style=solid, pos="s,279,71 289,71 298,71 308,71 318,70"];
+	Node8 -> Node9 [dir=back, color=midnightblue, style=solid, pos="s,474,70 483,70 494,70 505,69 515,69"];
+	Node9 -> Node10 [dir=back, color=midnightblue, style=solid, pos="s,625,78 633,79 644,80 656,81 666,83 718,89 777,94 820,98"];
+	Node9 -> Node11 [dir=back, color=midnightblue, style=solid, pos="s,625,57 634,53 649,46 649,36 666,28"];
+	Node9 -> Node12 [dir=back, color=midnightblue, style=solid, pos="s,625,66 635,65 647,65 658,64 670,63"];
+	Node12 -> Node10 [dir=back, color=midnightblue, style=solid, pos="s,780,73 789,76 802,81 806,83 820,88"];
+	Node1 -> Node13 [dir=back, color=midnightblue, style=solid, pos="s,88,182 96,180 107,177 115,177 130,174 147,170 150,167 166,165 288,145 431,136 510,133"];
+	Node13 -> Node10 [dir=back, color=midnightblue, style=solid, pos="s,630,128 639,127 681,124 735,121 784,116 796,115 808,113 820,111"];
+	Node1 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,108,198 116,202 121,204 126,207 130,210 155,229 141,253 166,271 218,306 291,311 341,310"];
+	Node1 -> Node6 [dir=back, color=midnightblue, style=solid, pos="s,130,182 139,181 220,173 357,162 474,171 488,172 502,174 515,176"];
+	Node1 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,112,198 120,201 124,203 127,205 130,207 153,222 143,243 166,255 196,269 283,264 341,259"];
+}

@@ -1,0 +1,9 @@
+digraph "veins::TraCITrafficLightInterface::setProgramDefinition" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,346,28"];
+	Node1 [label="veins::TraCITrafficLight\lInterface::setProgramDefinition", height="0.39", width="2.28", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="90,14", rects="8,0,172,28"];
+	Node2 [label="veins::TraCITrafficLight\lInterface::initialize", height="0.39", width="1.78", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_traffic_light_interface.html#a687295ba284dbc1b500e9d830286b591", pos="273,14", rects="209,0,338,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,172,14 181,14 190,14 200,14 208,14"];
+}

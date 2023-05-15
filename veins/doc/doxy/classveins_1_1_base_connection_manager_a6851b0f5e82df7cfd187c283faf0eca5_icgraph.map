@@ -1,0 +1,11 @@
+digraph "veins::BaseConnectionManager::registerNicExt" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,524,28"];
+	Node1 [label="veins::BaseConnectionManager\l::registerNicExt", height="0.39", width="2.22", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="89,14", rects="9,0,170,28"];
+	Node2 [label="veins::BaseConnectionManager\l::registerNic", height="0.39", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_connection_manager.html#a35d8c27aeacff47e0e62135ffe065078", tooltip="Registers a nic to have its connections managed by ConnectionManager. ", pos="287,14", rects="207,0,368,28"];
+	Node3 [label="veins::ChannelAccess\l::receiveSignal", height="0.39", width="1.56", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_channel_access.html#a152e2780da20c82d3751d521142a5f90", tooltip="Called by the signalling mechanism to inform of changes. ", pos="460,14", rects="404,0,516,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,170,14 180,14 189,14 197,14 206,14"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,368,14 378,14 387,14 395,14 404,14"];
+}

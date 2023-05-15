@@ -1,0 +1,9 @@
+digraph "anonymous_namespace{Coord::cc}::dist" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,314,28"];
+	Node1 [label="anonymous_namespace\l\{Coord::cc\}::dist", height="0.39", width="1.78", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="72,14", rects="8,0,136,28"];
+	Node2 [label="veins::Coord::sqrTorusDist", height="0.22", width="1.86", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_coord.html#aaf6119bf8bc9953d561729314de8ed5e", tooltip="Returns the squared distance on a torus of this to Coord &#39;b&#39; (omits calling square root)...", pos="239,14", rects="172,6,306,22"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,136,14 146,14 155,14 163,14 172,14"];
+}

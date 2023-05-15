@@ -1,0 +1,30 @@
+digraph "TraCIBuffer.cc" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,448,212"];
+	Node1 [label="TraCIBuffer.cc", height="0.22", width="1.17", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="306,196", rects="264,188,349,204"];
+	Node2 [label="veins/modules/mobility\l/traci/TraCIBuffer.h", height="0.39", width="1.72", color=black, fillcolor=white, style=filled, URL="$_tra_c_i_buffer_8h.html", pos="74,138", rects="12,124,137,152"];
+	Node3 [label=cstddef, height="0.22", width="0.61", color=grey75, fillcolor=white, style=filled, pos="22,74", rects="0,66,45,82"];
+	Node4 [label=string, height="0.22", width="0.50", color=grey75, fillcolor=white, style=filled, pos="80,74", rects="62,66,99,82"];
+	Node5 [label="veins/veins.h", height="0.22", width="1.00", color=black, fillcolor=white, style=filled, URL="$veins_8h.html", pos="163,74", rects="127,66,199,82"];
+	Node6 [label=memory, height="0.22", width="0.72", color=grey75, fillcolor=white, style=filled, pos="100,16", rects="74,8,126,24"];
+	Node7 [label=utility, height="0.22", width="0.53", color=grey75, fillcolor=white, style=filled, pos="163,16", rects="144,8,183,24"];
+	Node8 [label="omnetpp.h", height="0.22", width="0.86", color=grey75, fillcolor=white, style=filled, pos="231,16", rects="200,8,262,24"];
+	Node9 [label="veins/modules/mobility\l/traci/TraCIConstants.h", height="0.39", width="1.72", color=black, fillcolor=white, style=filled, URL="$_tra_c_i_constants_8h.html", pos="284,74", rects="222,60,347,88"];
+	Node10 [label="veins/modules/mobility\l/traci/TraCICoord.h", height="0.39", width="1.72", color=black, fillcolor=white, style=filled, URL="$_tra_c_i_coord_8h.html", pos="216,138", rects="154,124,279,152"];
+	Node11 [label=iomanip, height="0.22", width="0.69", color=grey75, fillcolor=white, style=filled, pos="359,138", rects="334,130,384,146"];
+	Node12 [label=sstream, height="0.22", width="0.64", color=grey75, fillcolor=white, style=filled, pos="425,138", rects="402,130,449,146"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,130,152 274,188 239,180 183,165 139,154"];
+	Node2 -> Node3 [color=midnightblue, style=solid, pos="e,29,82 62,124 54,113 42,100 34,89"];
+	Node2 -> Node4 [color=midnightblue, style=solid, pos="e,79,82 75,124 76,114 77,101 78,91"];
+	Node2 -> Node5 [color=midnightblue, style=solid, pos="e,152,82 94,124 109,113 130,98 145,87"];
+	Node5 -> Node6 [color=midnightblue, style=solid, pos="e,109,24 154,66 144,57 128,41 115,30"];
+	Node5 -> Node7 [color=midnightblue, style=solid, pos="e,163,24 163,66 163,58 163,44 163,33"];
+	Node5 -> Node8 [color=midnightblue, style=solid, pos="e,221,24 172,66 183,57 201,41 214,30"];
+	Node2 -> Node9 [color=midnightblue, style=solid, pos="e,238,88 120,124 152,114 195,101 229,91"];
+	Node1 -> Node9 [color=midnightblue, style=solid, pos="e,287,88 305,188 301,170 293,124 288,97"];
+	Node1 -> Node10 [color=midnightblue, style=solid, pos="e,238,152 293,188 281,180 262,168 246,157"];
+	Node10 -> Node5 [color=midnightblue, style=solid, pos="e,170,82 204,124 196,113 184,99 176,89"];
+	Node1 -> Node11 [color=midnightblue, style=solid, pos="e,351,146 313,188 321,179 335,164 345,153"];
+	Node1 -> Node12 [color=midnightblue, style=solid, pos="e,412,146 325,188 345,180 376,166 402,152 403,152 403,151 404,151"];
+}

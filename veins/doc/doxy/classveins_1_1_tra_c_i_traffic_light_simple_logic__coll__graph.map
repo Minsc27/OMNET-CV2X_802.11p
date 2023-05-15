@@ -1,0 +1,12 @@
+digraph "veins::TraCITrafficLightSimpleLogic" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,207,178"];
+	Node1 [label="veins::TraCITrafficLight\lSimpleLogic", height="0.39", width="1.78", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="87,22", rects="23,8,152,36"];
+	Node2 [label="veins::TraCITrafficLight\lAbstractLogic", height="0.39", width="1.78", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_traffic_light_abstract_logic.html", tooltip="Base class to simplify implementation of traffic light logics. ", pos="87,88", rects="23,74,152,102"];
+	Node3 [label=cSimpleModule, height="0.22", width="1.19", color=grey75, fillcolor=white, style=filled, pos="43,162", rects="0,154,86,170"];
+	Node4 [label=cMessage, height="0.22", width="0.78", color=grey75, fillcolor=white, style=filled, pos="132,162", rects="104,154,160,170"];
+	Node2 -> Node1 [dir=back, color=midnightblue, style=solid, pos="s,87,74 87,64 87,55 87,44 87,36"];
+	Node3 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,48,154 52,147 60,134 71,115 79,102"];
+	Node4 -> Node2 [dir=back, color=darkorchid3, style=dashed, label=" switchTimer", pos="s,127,154 123,147 115,134 103,115 95,102", lp="153,128"];
+}

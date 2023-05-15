@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,130,16"];
+	Node1 [label="veins::TimerManager", height="0.22", width="1.56", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_timer_manager.html", pos="65,8", rects="9,0,122,16"];
+}

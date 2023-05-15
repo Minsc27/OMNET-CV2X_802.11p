@@ -1,0 +1,9 @@
+digraph "veins::BaseConnectionManager::calcInterfDist" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,376,28"];
+	Node1 [label="veins::BaseConnectionManager\l::calcInterfDist", height="0.39", width="2.22", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="89,14", rects="9,0,170,28"];
+	Node2 [label="veins::BaseConnectionManager\l::initialize", height="0.39", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_connection_manager.html#a084bb7d054e50e3d276da4ce0b7bb5b0", tooltip="Reads init parameters and calculates a maximal interference distance. ", pos="287,14", rects="207,0,368,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,170,14 180,14 189,14 197,14 206,14"];
+}

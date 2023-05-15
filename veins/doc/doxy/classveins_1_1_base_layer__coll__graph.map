@@ -1,0 +1,21 @@
+digraph "veins::BaseLayer" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,291,276"];
+	Node1 [label="veins::BaseLayer", height="0.22", width="1.25", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="183,16", rects="138,8,228,24"];
+	Node2 [label="veins::BatteryAccess", height="0.22", width="1.47", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_battery_access.html", tooltip="Extends BaseModule by several methods which provide access to the battery module. ...", pos="110,84", rects="57,76,164,92"];
+	Node3 [label="veins::BaseModule", height="0.22", width="1.36", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_module.html", tooltip="Base class for all simple modules of a host. ", pos="87,206", rects="38,198,137,214"];
+	Node4 [label=cSimpleModule, height="0.22", width="1.19", color=grey75, fillcolor=white, style=filled, pos="43,260", rects="0,252,86,268"];
+	Node5 [label=cListener, height="0.22", width="0.75", color=grey75, fillcolor=white, style=filled, pos="131,260", rects="104,252,158,268"];
+	Node6 [label="veins::BaseBattery", height="0.22", width="1.36", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_battery.html", tooltip="Base class for any power source. ", pos="136,152", rects="87,144,185,160"];
+	Node7 [label="veins::PassedMessage", height="0.22", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_passed_message.html", pos="236,84", rects="181,76,292,92"];
+	Node8 [label=cObject, height="0.22", width="0.64", color=grey75, fillcolor=white, style=filled, pos="236,152", rects="213,144,260,160"];
+	Node2 -> Node1 [dir=back, color=midnightblue, style=solid, pos="s,119,76 125,70 140,56 162,35 174,24"];
+	Node3 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,84,198 82,191 78,178 75,160 78,144 83,124 96,103 104,92"];
+	Node4 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,50,252 56,245 64,234 74,222 80,214"];
+	Node5 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,124,252 118,245 110,234 100,222 94,214"];
+	Node6 -> Node2 [dir=back, color=darkorchid3, style=dashed, label=" battery", pos="s,133,144 130,136 125,122 117,103 113,92", lp="149,118"];
+	Node3 -> Node6 [dir=back, color=midnightblue, style=solid, pos="s,95,198 101,191 110,181 121,168 128,160"];
+	Node7 -> Node1 [dir=back, color=darkorchid3, style=dashed, label=" passedMsg", pos="s,230,76 225,69 214,55 198,35 189,24", lp="248,50"];
+	Node8 -> Node7 [dir=back, color=midnightblue, style=solid, pos="s,236,144 236,135 236,121 236,103 236,92"];
+}

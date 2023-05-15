@@ -1,0 +1,11 @@
+digraph "veins::operator&lt;&lt;" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,302,62"];
+	Node1 [label="veins::operator\<\<", height="0.22", width="1.28", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="55,34", rects="9,26,102,42"];
+	Node2 [label="veins::Signal::getReceptionEnd", height="0.22", width="2.14", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#a5c2bffe68602700de93aca6403b7e2c8", tooltip="Get the point in time at which the signal reception ends. ", pos="216,54", rects="139,46,294,62"];
+	Node3 [label="veins::Signal::getReception\lStart", height="0.39", width="1.86", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#ae5d8659cd386548bef59f09a535a1148", tooltip="Get the point in time at which the signal reception starts. ", pos="216,14", rects="149,0,284,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,138,46 102,41 111,42 119,43 128,45"];
+	Node1 -> Node3 [color=midnightblue, style=solid, pos="e,148,22 102,28 113,26 126,25 138,23"];
+}

@@ -1,0 +1,35 @@
+digraph "veins::TraCITrafficLightInterface::setCurrentPhaseByNr" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,906,278"];
+	Node1 [label="veins::TraCITrafficLight\lInterface::setCurrentPhaseByNr", height="0.39", width="2.31", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="91,172", rects="8,158,174,186"];
+	Node2 [label="veins::TraCITrafficLight\lInterface::getCurrentLogic", height="0.39", width="1.92", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_traffic_light_interface.html#a7a0309763a62c52ea70ac82348abb581", pos="302,264", rects="233,250,371,278"];
+	Node3 [label="veins::TraCITrafficLight\lProgram::getLogic", height="0.39", width="1.78", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_traffic_light_program.html#a9ebe65b2056c80ee2d27ce849e8bcc46", pos="495,264", rects="431,250,560,278"];
+	Node4 [label="veins::TraCICommandInterface\l::Trafficlight::getCurrentPhaseIndex", height="0.39", width="2.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_command_interface_1_1_trafficlight.html#a43dccbc924ddc53d630f1c38735a4bb3", pos="302,218", rects="211,204,394,232"];
+	Node5 [label="veins::TraCITrafficLight\lInterface::isInOnlineSignalState", height="0.39", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_traffic_light_interface.html#ae0a6ee92f30dd65f63e024aec6247239", pos="302,172", rects="222,158,383,186"];
+	Node6 [label="veins::TraCITrafficLight\lInterface::sendChangeMsg", height="0.39", width="1.92", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_traffic_light_interface.html#a654311f0959b73350d27c2838bec623c", pos="302,126", rects="233,112,371,140"];
+	Node7 [label="veins::TraCICommandInterface\l::Trafficlight::setPhaseIndex", height="0.39", width="2.28", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_command_interface_1_1_trafficlight.html#a8a5741253182df0e722ccea5d35da143", tooltip="set/switch to different phase within the program ", pos="302,80", rects="220,66,384,94"];
+	Node8 [label="veins::TraCIBuffer::eof", height="0.22", width="1.67", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_buffer.html#a557599847e1cd7733e715752b35c0248", pos="495,100", rects="435,92,556,108"];
+	Node9 [label="veins::TraCIConnection\l::query", height="0.39", width="1.69", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_connection.html#aaf49494fd564d7e88f1c539d9fd8aff8", tooltip="sends a single command via TraCI, checks status response, returns additional responses. ", pos="495,60", rects="434,46,557,74"];
+	Node10 [label="veins::makeTraCICommand", height="0.22", width="2.03", color=black, fillcolor=white, style=filled, URL="$namespaceveins.html#af83b40d9114af922837b09398bc72005", tooltip="returns byte-buffer containing a TraCI command with optional parameters ", pos="670,100", rects="597,92,744,108"];
+	Node11 [label="veins::TraCIBuffer::str", height="0.22", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_buffer.html#a82188788949eca6bd7c48b1476f67b95", pos="839,80", rects="781,72,898,88"];
+	Node12 [label="veins::TraCIConnection\l::receiveMessage", height="0.39", width="1.69", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_connection.html#abec53685d1816f11e2ab2797bdc467fb", tooltip="receives a message via TraCI (and strips the header) ", pos="670,14", rects="609,0,732,28"];
+	Node13 [label="veins::socket", height="0.22", width="0.94", color=black, fillcolor=white, style=filled, URL="$namespaceveins.html#a3e04988b53f0d0109602feb7895b4302", pos="839,40", rects="805,32,873,48"];
+	Node14 [label="veins::TraCIConnection\l::sendMessage", height="0.39", width="1.69", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_connection.html#ae9525e27e903007d2fb3382e790a748a", tooltip="sends a message via TraCI (after adding the header) ", pos="670,60", rects="609,46,732,74"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,233,260 174,186 201,204 184,231 210,250 214,253 219,255 224,257"];
+	Node2 -> Node3 [color=midnightblue, style=solid, pos="e,430,264 371,264 387,264 404,264 420,264"];
+	Node1 -> Node4 [color=midnightblue, style=solid, pos="e,210,204 174,186 188,190 192,195 201,200"];
+	Node1 -> Node5 [color=midnightblue, style=solid, pos="e,221,172 174,172 187,172 199,172 211,172"];
+	Node1 -> Node6 [color=midnightblue, style=solid, pos="e,233,134 174,158 192,152 193,145 210,140 214,139 219,138 224,136"];
+	Node1 -> Node7 [color=midnightblue, style=solid, pos="e,220,88 174,158 201,139 184,112 210,94 210,94 211,93 211,93"];
+	Node7 -> Node8 [color=midnightblue, style=solid, pos="e,434,94 384,89 398,91 411,92 424,93"];
+	Node7 -> Node9 [color=midnightblue, style=solid, pos="e,433,66 384,71 398,69 411,68 424,67"];
+	Node9 -> Node10 [color=midnightblue, style=solid, pos="e,596,92 557,73 558,73 559,74 560,74 573,78 578,83 587,88"];
+	Node10 -> Node11 [color=midnightblue, style=solid, pos="e,780,88 744,92 753,91 761,90 770,89"];
+	Node9 -> Node12 [color=midnightblue, style=solid, pos="e,608,24 557,47 558,47 559,46 560,46 577,40 580,33 596,28 597,28 598,28 599,27"];
+	Node12 -> Node13 [color=midnightblue, style=solid, pos="e,805,35 732,24 748,27 765,29 780,32 785,33 790,33 795,34"];
+	Node9 -> Node14 [color=midnightblue, style=solid, pos="e,608,60 557,60 571,60 585,60 598,60"];
+	Node14 -> Node13 [color=midnightblue, style=solid, pos="e,805,44 732,53 754,50 777,48 796,45"];
+	Node14 -> Node11 [color=midnightblue, style=solid, pos="e,780,73 732,67 745,69 758,70 770,72"];
+}

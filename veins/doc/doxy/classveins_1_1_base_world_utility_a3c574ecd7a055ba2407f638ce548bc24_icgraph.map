@@ -1,0 +1,29 @@
+digraph "veins::BaseWorldUtility::getRandomPosition" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,914,143"];
+	Node1 [label="veins::BaseWorldUtility\l::getRandomPosition", height="0.39", width="1.72", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="70,83", rects="8,69,132,97"];
+	Node2 [label="veins::BaseMobility\l::getRandomPosition", height="0.39", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mobility.html#ad1ddc43c422d35b51b87d98a038b055e", tooltip="Random position somewhere in the playground. ", pos="237,129", rects="183,115,292,143"];
+	Node3 [label="veins::BaseMobility\l::initialize", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mobility.html#ac865e9d430a27e6a3076c0d9293fef35", tooltip="Initializes mobility model parameters. ", pos="237,83", rects="186,69,289,97"];
+	Node4 [label="veins::LinearMobility\l::initialize", height="0.39", width="1.56", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_linear_mobility.html#ac94ebc62ac059949810368634398004b", tooltip="Initializes mobility model parameters. ", pos="399,129", rects="343,115,456,143"];
+	Node5 [label="veins::TraCIMobility\l::initialize", height="0.39", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_mobility.html#a9945ece48d11a01a7973f991b467e848", pos="399,83", rects="345,69,454,97"];
+	Node6 [label="veins::BaseMobility\l::placeRandomlyIfOutside", height="0.39", width="1.89", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mobility.html#a933475f97d6ab7bf834e4d07beda131b", tooltip="Utility function to place the node randomly if it goes outside the playground. ", pos="237,37", rects="169,23,306,51"];
+	Node7 [label="veins::BaseMobility\l::handleIfOutside", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mobility.html#aae36006995d117a723134cbe1fee5e90", tooltip="Main border handling function. ", pos="399,37", rects="348,23,451,51"];
+	Node8 [label="veins::LinearMobility\l::fixIfHostGetsOutside", height="0.39", width="1.64", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_linear_mobility.html#a506fdc3882892c0fc4427df73736010e", tooltip="Should be redefined in subclasses. ", pos="551,60", rects="492,46,610,74"];
+	Node9 [label="veins::LinearMobility\l::makeMove", height="0.39", width="1.56", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_linear_mobility.html#af310806b2b41572de1428e56474bba56", tooltip="Move the host. ", pos="703,60", rects="647,46,760,74"];
+	Node10 [label="veins::TraCIMobility\l::fixIfHostGetsOutside", height="0.39", width="1.64", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_mobility.html#a4fa20054882e4a7fb5b03a13576311c3", tooltip="called after each read to check for (and handle) invalid positions ", pos="551,14", rects="492,0,610,28"];
+	Node11 [label="veins::TraCIMobility\l::changePosition", height="0.39", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_mobility.html#a3137899bb330551c9823c40b4ed8b8fc", pos="703,14", rects="649,0,758,28"];
+	Node12 [label="veins::TraCIMobility\l::nextPosition", height="0.39", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_mobility.html#ae53642be0d88b9f146cf55a5d990f1a2", pos="851,14", rects="797,0,906,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,132,97 140,100 151,105 155,110 168,115 173,117 177,118 182,119"];
+	Node1 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,132,83 141,83 156,83 171,83 185,83"];
+	Node3 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,289,92 298,94 301,95 304,96 306,97 323,102 326,108 342,115"];
+	Node3 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,289,83 299,83 314,83 329,83 344,83"];
+	Node1 -> Node6 [dir=back, color=midnightblue, style=solid, pos="s,132,69 140,65 151,60 155,55 168,51"];
+	Node6 -> Node7 [dir=back, color=midnightblue, style=solid, pos="s,306,37 315,37 326,37 337,37 347,37"];
+	Node7 -> Node8 [dir=back, color=midnightblue, style=solid, pos="s,451,45 460,46 470,48 481,49 492,51"];
+	Node8 -> Node9 [dir=back, color=midnightblue, style=solid, pos="s,610,60 620,60 629,60 637,60 646,60"];
+	Node7 -> Node10 [dir=back, color=midnightblue, style=solid, pos="s,451,29 460,28 470,26 481,25 492,23"];
+	Node10 -> Node11 [dir=back, color=midnightblue, style=solid, pos="s,610,14 619,14 629,14 639,14 648,14"];
+	Node11 -> Node12 [dir=back, color=midnightblue, style=solid, pos="s,758,14 768,14 777,14 787,14 796,14"];
+}

@@ -1,0 +1,16 @@
+digraph "veins::POA" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,245,234"];
+	Node1 [label="veins::POA", height="0.22", width="0.86", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="118,16", rects="87,8,150,24"];
+	Node2 [label="veins::Coord", height="0.22", width="0.94", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_coord.html", tooltip="Class for storing 3D coordinates. ", pos="147,164", rects="113,156,181,172"];
+	Node3 [label=cObject, height="0.22", width="0.64", color=grey75, fillcolor=white, style=filled, pos="147,218", rects="124,210,171,226"];
+	Node4 [label="veins::AntennaPosition", height="0.22", width="1.67", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_antenna_position.html", tooltip="Stores the position of the host&#39;s antenna along with its speed, so that it can be linearly extrapolat...", pos="60,84", rects="0,76,120,92"];
+	Node5 [label=simtime_t, height="0.22", width="0.81", color=grey75, fillcolor=white, style=filled, pos="57,164", rects="28,156,87,172"];
+	Node2 -> Node1 [dir=back, color=darkorchid3, style=dashed, label=" orientation", pos="s,146,156 146,148 145,137 144,123 142,110 137,79 134,71 126,42 124,36 122,29 120,24", lp="172,84"];
+	Node3 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,147,210 147,200 147,191 147,179 147,172"];
+	Node2 -> Node2 [dir=back, color=darkorchid3, style=dashed, label=" ZERO", pos="s,181,158 192,159 196,160 199,162 199,164 199,168 191,170 181,170", lp="222,164"];
+	Node4 -> Node1 [dir=back, color=darkorchid3, style=dashed, label=" pos", pos="s,67,76 72,70 84,56 102,35 111,24", lp="107,50"];
+	Node2 -> Node4 [dir=back, color=darkorchid3, style=dashed, label=" p\nv", pos="s,138,156 132,150 114,133 84,105 69,92", lp="129,124"];
+	Node5 -> Node4 [dir=back, color=darkorchid3, style=dashed, label=" t", pos="s,57,156 57,147 58,130 59,106 60,92", lp="68,124"];
+}

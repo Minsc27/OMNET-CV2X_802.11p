@@ -1,0 +1,9 @@
+digraph "veins::VehicleObstacleControl::getVehicleAttenuationDZ" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,378,28"];
+	Node1 [label="veins::VehicleObstacleControl\l::getVehicleAttenuationDZ", height="0.39", width="2.14", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="85,14", rects="8,0,162,28"];
+	Node2 [label="veins::VehicleObstacleShadowing\l::filterSignal", height="0.39", width="2.36", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_vehicle_obstacle_shadowing.html#aa1a8069440240b74a7a8ea0c91b06116", tooltip="Filters a specified Signal by adding an attenuation over time to the Signal. ", pos="284,14", rects="199,0,370,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,162,14 172,14 181,14 189,14 198,14"];
+}

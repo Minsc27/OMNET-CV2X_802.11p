@@ -1,0 +1,8 @@
+digraph "veins::EnumBitset::set" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,128,34"];
+	Node1 [label="veins::EnumBitset::set", height="0.22", width="1.56", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="64,8", rects="8,0,120,16"];
+	Node1 -> Node1 [dir=back, color=midnightblue, style=solid, pos="s,97,16 103,19 113,26 100,34 64,34 23,34 12,24 31,16"];
+}

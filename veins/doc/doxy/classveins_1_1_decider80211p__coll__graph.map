@@ -1,0 +1,18 @@
+digraph "veins::Decider80211p" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,388,234"];
+	Node1 [label="veins::Decider80211p", height="0.22", width="1.44", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="266,16", rects="214,8,319,24"];
+	Node2 [label="veins::BaseDecider", height="0.22", width="1.36", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_decider.html", tooltip="Provides some base functionality for most common deciders. ", pos="153,90", rects="104,82,202,98"];
+	Node3 [label="veins::Decider", height="0.22", width="1.06", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider.html", tooltip="The basic Decider class. ", pos="153,150", rects="115,142,191,158"];
+	Node4 [label="veins::HasLogProxy", height="0.22", width="1.47", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_has_log_proxy.html", tooltip="Helper class for logging from classes not derived from cComponent. ", pos="53,218", rects="0,210,106,226"];
+	Node5 [label=simtime_t, height="0.22", width="0.81", color=grey75, fillcolor=white, style=filled, pos="153,218", rects="124,210,183,226"];
+	Node6 [label="veins::DeciderToPhyInterface", height="0.22", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider_to_phy_interface.html", tooltip="This class is the interface for a Decider to the BasePhyLayer. ", pos="276,218", rects="200,210,353,226"];
+	Node7 [label="veins::Decider80211pToPhy80211p\lInterface", height="0.39", width="2.33", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider80211p_to_phy80211p_interface.html", tooltip="Interface of PhyLayer80211p exposed to Decider80211p. ", pos="304,90", rects="220,76,388,104"];
+	Node2 -> Node1 [dir=back, color=midnightblue, style=solid, pos="s,166,82 173,77 197,62 234,37 254,24"];
+	Node3 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,153,142 153,133 153,121 153,107 153,98"];
+	Node4 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,65,210 72,205 92,192 124,170 141,158"];
+	Node5 -> Node3 [dir=back, color=darkorchid3, style=dashed, label=" notAgain", pos="s,153,210 153,201 153,187 153,169 153,158", lp="183,184"];
+	Node6 -> Node3 [dir=back, color=darkorchid3, style=dashed, label=" phy", pos="s,266,210 260,205 248,195 232,184 216,176 204,169 189,163 177,158", lp="261,184"];
+	Node7 -> Node1 [dir=back, color=darkorchid3, style=dashed, label=" phy11p", pos="s,297,76 293,68 285,53 276,35 270,24", lp="310,50"];
+}

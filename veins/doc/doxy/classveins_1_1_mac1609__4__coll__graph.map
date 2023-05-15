@@ -1,0 +1,36 @@
+digraph "veins::Mac1609_4" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,1304,355"];
+	Node1 [label="veins::Mac1609_4", height="0.22", width="1.28", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="1249,170", rects="1203,162,1296,178"];
+	Node2 [label="veins::BaseMacLayer", height="0.22", width="1.56", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mac_layer.html", tooltip="A very simple MAC module template which provides de- and encapsulation of messages using the standard...", pos="945,255", rects="889,247,1001,263"];
+	Node3 [label="veins::BaseLayer", height="0.22", width="1.25", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_layer.html", tooltip="A very simple layer template. ", pos="735,277", rects="690,269,780,285"];
+	Node4 [label="veins::BatteryAccess", height="0.22", width="1.47", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_battery_access.html", tooltip="Extends BaseModule by several methods which provide access to the battery module. ...", pos="508,300", rects="455,292,562,308"];
+	Node5 [label="veins::BaseModule", height="0.22", width="1.36", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_module.html", tooltip="Base class for all simple modules of a host. ", pos="182,326", rects="133,318,232,334"];
+	Node6 [label=cSimpleModule, height="0.22", width="1.19", color=grey75, fillcolor=white, style=filled, pos="51,345", rects="8,337,94,353"];
+	Node7 [label=cListener, height="0.22", width="0.75", color=grey75, fillcolor=white, style=filled, pos="51,307", rects="24,299,78,315"];
+	Node8 [label="veins::BaseBattery", height="0.22", width="1.36", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_battery.html", tooltip="Base class for any power source. ", pos="319,301", rects="270,293,368,309"];
+	Node9 [label="veins::PassedMessage", height="0.22", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_passed_message.html", pos="508,254", rects="453,246,564,262"];
+	Node10 [label=cObject, height="0.22", width="0.64", color=grey75, fillcolor=white, style=filled, pos="319,254", rects="296,246,343,262"];
+	Node11 [label="veins::MacToPhyInterface", height="0.22", width="1.89", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_mac_to_phy_interface.html", tooltip="Defines the methods provided by the phy to the mac layer. ", pos="735,233", rects="667,225,804,241"];
+	Node12 [label="veins::DemoBaseApplLayer\lToMac1609_4Interface", height="0.39", width="2.00", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_demo_base_appl_layer_to_mac1609__4_interface.html", tooltip="Interface between DemoBaseApplLayer Layer and Mac1609_4. ", pos="945,215", rects="873,201,1018,229"];
+	Node13 [label="veins::Mac80211pToPhy11p\lInterface", height="0.39", width="1.89", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_mac80211p_to_phy11p_interface.html", tooltip="Interface of PhyLayer80211p exposed to Mac1609_4. ", pos="945,169", rects="877,155,1013,183"];
+	Node14 [label=simtime_t, height="0.22", width="0.81", color=grey75, fillcolor=white, style=filled, pos="945,94", rects="916,86,975,102"];
+	Node15 [label=cMessage, height="0.22", width="0.78", color=grey75, fillcolor=white, style=filled, pos="945,18", rects="917,10,973,26"];
+	Node2 -> Node1 [dir=back, color=midnightblue, style=solid, pos="s,1001,258 1009,258 1061,256 1133,248 1184,214 1197,205 1191,193 1203,186 1208,183 1214,180 1219,178"];
+	Node3 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,780,272 789,271 820,268 858,264 889,261"];
+	Node4 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,562,295 571,294 609,290 656,286 690,282"];
+	Node5 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,232,332 241,333 293,336 370,337 434,320 443,317 444,313 452,310 454,309 456,309 458,308"];
+	Node6 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,94,339 103,338 112,336 123,335 132,333"];
+	Node7 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,78,311 86,312 101,314 117,316 132,319"];
+	Node8 -> Node4 [dir=back, color=darkorchid3, style=dashed, label=" battery", pos="s,368,301 376,301 401,301 430,300 454,300", lp="410,308"];
+	Node5 -> Node8 [dir=back, color=midnightblue, style=solid, pos="s,232,318 241,316 252,313 256,311 270,309"];
+	Node9 -> Node3 [dir=back, color=darkorchid3, style=dashed, label=" passedMsg", pos="s,564,257 573,258 597,260 624,261 648,265 657,265 658,266 666,268 674,269 682,270 690,271", lp="615,273"];
+	Node10 -> Node9 [dir=back, color=midnightblue, style=solid, pos="s,343,254 352,254 379,254 420,254 452,254"];
+	Node11 -> Node2 [dir=back, color=darkorchid3, style=dashed, label=" phy", pos="s,804,239 814,240 827,241 841,242 854,244 861,245 875,246 889,248", lp="838,252"];
+	Node12 -> Node1 [dir=back, color=midnightblue, style=solid, pos="s,1018,214 1027,213 1074,210 1133,204 1184,189 1193,186 1194,182 1202,180 1204,179 1206,179 1208,178"];
+	Node13 -> Node1 [dir=back, color=darkorchid3, style=dashed, label=" phy11p", pos="s,1013,169 1022,169 1080,170 1155,170 1202,170", lp="1110,177"];
+	Node14 -> Node1 [dir=back, color=darkorchid3, style=dashed, label=" statsTotalBusyTime\nlastBusy\nlastIdle", pos="s,975,97 983,98 995,99 1007,100 1018,102 1092,112 1124,82 1184,125 1199,136 1189,150 1202,160 1203,161 1204,161 1205,162", lp="1110,145"];
+	Node15 -> Node1 [dir=back, color=darkorchid3, style=dashed, label=" nextChannelSwitch\nstopIgnoreChannelStateMsg\nnextMacEvent", pos="s,973,19 982,19 1042,22 1156,30 1184,58 1192,66 1196,144 1202,152 1206,156 1211,160 1216,162", lp="1110,78"];
+}

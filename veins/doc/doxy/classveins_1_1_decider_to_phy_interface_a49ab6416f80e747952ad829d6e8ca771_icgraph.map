@@ -1,0 +1,22 @@
+digraph "veins::DeciderToPhyInterface::getChannelInfo" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,646,166"];
+	Node1 [label="veins::DeciderToPhyInterface\l::getChannelInfo", height="0.39", width="2.11", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="85,38", rects="9,24,162,52"];
+	Node2 [label="veins::BaseDecider\l::getChannelInfo", height="0.39", width="1.36", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_decider.html#a1eb9539d907f101c8d30798f6ca03337", tooltip="Collects the AirFrame on the channel during the passed interval. ", pos="247,38", rects="198,24,296,52"];
+	Node3 [label="veins::Decider80211p::cca", height="0.22", width="1.72", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider80211p.html#aeba984a7f23ef26ce8b22b0bfef88947", pos="394,60", rects="332,52,456,68"];
+	Node4 [label="veins::PhyLayer80211p\l::handleSelfMessage", height="0.39", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_phy_layer80211p.html#a020601bba0e334a622dc8e193c5946b0", tooltip="Handle self scheduled messages. ", pos="565,152", rects="507,138,624,166"];
+	Node5 [label="veins::Decider80211p\l::processNewSignal", height="0.39", width="1.44", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider80211p.html#a6604c73b2ee786a4eeca5abe6f072cab", tooltip="Processes a new Signal. ", pos="565,106", rects="513,92,618,120"];
+	Node6 [label="veins::Decider80211p\l::processSignalEnd", height="0.39", width="1.44", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider80211p.html#a389f17ab33d4fc22b499593fa0837faf", tooltip="Processes a received AirFrame. ", pos="565,14", rects="513,0,618,28"];
+	Node7 [label="veins::PhyLayer80211p\l::requestChannelStatusIfIdle", height="0.39", width="2.03", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_phy_layer80211p.html#a6851aaac3c59b66568847e75691ba3e5", tooltip="Explicit request to PHY for the channel status. ", pos="565,60", rects="492,46,638,74"];
+	Node8 [label="veins::Decider80211p\l::checkIfSignalOk", height="0.39", width="1.44", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider80211p.html#a01349c12df6c01678d1e25553b754819", tooltip="Checks a mapping against a specific threshold (element-wise). ", pos="394,17", rects="342,3,447,31"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,162,38 171,38 180,38 189,38 198,38"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,296,46 304,47 314,49 323,50 332,52"];
+	Node3 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,456,68 463,74 481,94 467,119 492,138 496,141 501,143 506,145"];
+	Node3 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,456,68 465,72 476,78 478,85 492,92 498,94 505,97 512,98"];
+	Node3 -> Node6 [dir=back, color=midnightblue, style=solid, pos="s,456,52 464,48 475,42 478,34 492,28 498,25 505,23 512,21"];
+	Node3 -> Node7 [dir=back, color=midnightblue, style=solid, pos="s,456,60 466,60 475,60 483,60 492,60"];
+	Node2 -> Node8 [dir=back, color=midnightblue, style=solid, pos="s,296,31 304,30 317,28 329,27 341,25"];
+	Node8 -> Node6 [dir=back, color=midnightblue, style=solid, pos="s,447,16 456,16 474,16 494,15 512,15"];
+}

@@ -1,0 +1,16 @@
+digraph "veins::NicEntryDebug::connectTo" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,596,74"];
+	Node1 [label="veins::NicEntryDebug\l::connectTo", height="0.39", width="1.61", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="67,37", rects="9,23,126,51"];
+	Node2 [label="veins::NicEntryDebug\l::requestInGate", height="0.39", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_nic_entry_debug.html#aa028678e801ba669ad47a6588b2ad90a", tooltip="Returns a free in gate of the nic. ", pos="221,60", rects="163,46,280,74"];
+	Node3 [label="veins::NicEntryDebug\l::collectFreeGates", height="0.39", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_nic_entry_debug.html#aac3b943e56b211541596a73f6437608a", tooltip="Iterates over all existing gates of this NicEntries nic and host and checks wether they are useable b...", pos="375,37", rects="317,23,434,51"];
+	Node4 [label="veins::NicEntryDebug\l::collectGates", height="0.39", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_nic_entry_debug.html#ae4c6e480d8b2f3fc4199a7a8314ab2df", tooltip="Collects all free gates with a certain pattern as names and puts them on a stack. ...", pos="529,37", rects="471,23,588,51"];
+	Node5 [label="veins::NicEntryDebug\l::requestOutGate", height="0.39", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_nic_entry_debug.html#ad601c375fa2fd737f88b3a475a06ff45", tooltip="Returns a free out gate of the nic. ", pos="221,14", rects="163,0,280,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,162,51 126,46 135,47 143,48 152,50"];
+	Node2 -> Node3 [color=midnightblue, style=solid, pos="e,316,46 280,51 289,50 297,49 306,47"];
+	Node3 -> Node4 [color=midnightblue, style=solid, pos="e,470,37 434,37 443,37 451,37 460,37"];
+	Node1 -> Node5 [color=midnightblue, style=solid, pos="e,162,23 126,28 135,27 143,26 152,24"];
+	Node5 -> Node3 [color=midnightblue, style=solid, pos="e,316,28 280,23 289,24 297,25 306,27"];
+}

@@ -1,0 +1,10 @@
+digraph "veins::DeciderToPhyInterface" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,152,136"];
+	Node1 [label="veins::DeciderToPhyInterface", height="0.22", width="2.11", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="76,120", rects="0,112,153,128"];
+	Node2 [label="veins::BasePhyLayer", height="0.22", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_phy_layer.html", tooltip="The BasePhyLayer represents the physical layer of a nic. ", pos="76,68", rects="21,60,131,76"];
+	Node3 [label="veins::PhyLayer80211p", height="0.22", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_phy_layer80211p.html", tooltip="Adaptation of the PhyLayer class for 802.11p. ", pos="76,16", rects="18,8,135,24"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,76,112 76,103 76,94 76,83 76,76"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,76,60 76,51 76,42 76,31 76,24"];
+}

@@ -1,0 +1,15 @@
+digraph "veins::Mac1609_4::channelBusySelf" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,660,68"];
+	Node1 [label="veins::Mac1609_4::channel\lBusySelf", height="0.39", width="1.86", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="76,34", rects="9,20,144,48"];
+	Node2 [label="veins::Mac1609_4::handle\lSelfMsg", height="0.39", width="1.78", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_mac1609__4.html#a50663c27a2a1782c618309345687e142", tooltip="Handle self messages such as timers. ", pos="250,54", rects="186,40,315,68"];
+	Node3 [label="veins::Mac1609_4::sendAck", height="0.22", width="1.92", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_mac1609__4.html#a5d98cfbe6173ce7094c464fcdd3a944d", pos="250,14", rects="181,6,320,22"];
+	Node4 [label="veins::Mac1609_4::handle\lUnicast", height="0.39", width="1.78", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_mac1609__4.html#ab30f200fd2432b7b98653e7892f6ebd9", pos="421,14", rects="357,0,486,28"];
+	Node5 [label="veins::Mac1609_4::handle\lLowerMsg", height="0.39", width="1.78", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_mac1609__4.html#aa33e88d786741d77a486617749ddf6d0", tooltip="Handle messages from lower layer. ", pos="587,14", rects="523,0,652,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,144,42 153,43 164,44 175,45 185,46"];
+	Node1 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,144,26 153,25 162,24 171,23 180,22"];
+	Node3 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,320,14 329,14 338,14 348,14 356,14"];
+	Node4 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,486,14 496,14 505,14 513,14 522,14"];
+}

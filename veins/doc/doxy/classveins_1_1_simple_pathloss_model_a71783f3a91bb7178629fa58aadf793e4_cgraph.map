@@ -1,0 +1,21 @@
+digraph "veins::SimplePathlossModel::filterSignal" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,340,244"];
+	Node1 [label="veins::SimplePathlossModel\l::filterSignal", height="0.39", width="1.97", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="79,122", rects="8,108,150,136"];
+	Node2 [label="veins::Spectrum::freqAt", height="0.22", width="1.69", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_spectrum.html#af6b615b2fa018730c48f98b1a855ca64", pos="259,236", rects="198,228,320,244"];
+	Node3 [label="veins::Signal::getNumValues", height="0.22", width="2.03", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#acdbd8efad115871fd4cb81128c9847c6", tooltip="Returns the number of power values stored in this signal. ", pos="259,202", rects="186,194,332,210"];
+	Node4 [label="veins::AntennaPosition\l::getPositionAt", height="0.39", width="1.67", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_antenna_position.html#a57098d0c1c13859757b4aaf04cafe6eb", tooltip="Get the (linearly extrapolated) position at time t. ", pos="259,162", rects="199,148,319,176"];
+	Node5 [label="veins::Signal::getReceiverPoa", height="0.22", width="2.03", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#af77d907793446d9521f0424afd751a9c", tooltip="Get this signal&#39;s receiver POA. ", pos="259,122", rects="186,114,332,130"];
+	Node6 [label="veins::Signal::getSenderPoa", height="0.22", width="1.89", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#a733943dcfe581527719363408b4af19a", tooltip="Get this signal&#39;s sender POA. ", pos="259,88", rects="191,80,328,96"];
+	Node7 [label="veins::Signal::getSpectrum", height="0.22", width="1.83", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#a28faf6285303ba6bec080132f959ca6f", tooltip="Get the Spectrum this Signal is defined on. ", pos="259,54", rects="193,46,326,62"];
+	Node8 [label="veins::BaseWorldUtility\l::speedOfLight", height="0.39", width="1.72", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_world_utility.html#a425e4c8fac6fb8309ae2efd494a19fe6", tooltip="Speed of light in meters per second. ", pos="259,14", rects="197,0,321,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,198,234 150,136 184,164 152,201 186,228 187,229 188,230 189,230"];
+	Node1 -> Node3 [color=midnightblue, style=solid, pos="e,186,194 150,136 172,151 164,172 179,188"];
+	Node1 -> Node4 [color=midnightblue, style=solid, pos="e,199,151 150,136 167,140 170,143 186,148 187,148 188,149 189,149"];
+	Node1 -> Node5 [color=midnightblue, style=solid, pos="e,186,122 150,122 159,122 167,122 176,122"];
+	Node1 -> Node6 [color=midnightblue, style=solid, pos="e,190,95 150,108 165,104 169,100 180,97"];
+	Node1 -> Node7 [color=midnightblue, style=solid, pos="e,192,59 150,108 172,95 165,76 183,64"];
+	Node1 -> Node8 [color=midnightblue, style=solid, pos="e,197,21 150,108 181,83 156,52 186,28 187,27 188,27 188,26"];
+}

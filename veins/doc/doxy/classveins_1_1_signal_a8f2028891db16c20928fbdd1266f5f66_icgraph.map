@@ -1,0 +1,9 @@
+digraph "veins::Signal::getNumAnalogueModelsApplied" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,332,28"];
+	Node1 [label="veins::Signal::getNumAnalogue\lModelsApplied", height="0.39", width="2.22", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="88,14", rects="8,0,168,28"];
+	Node2 [label="veins::Signal::operator=", height="0.22", width="1.64", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#ac678bd99ea970d0135330ccaa8458736", tooltip="Create a copy of another signal. ", pos="264,14", rects="205,6,324,22"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,168,14 177,14 186,14 196,14 204,14"];
+}

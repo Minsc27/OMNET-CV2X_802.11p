@@ -1,0 +1,32 @@
+digraph "veins::Signal::getReceptionEnd" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,876,204"];
+	Node1 [label="veins::Signal::getReceptionEnd", height="0.22", width="2.14", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="86,94", rects="9,86,164,102"];
+	Node2 [label="veins::SignalUtils\l::anonymous_namespace\l\{SignalUtils::cc\}::getMaxInterference", height="0.56", width="2.56", color=black, fillcolor=white, style=filled, URL="$namespaceveins_1_1_signal_utils_1_1anonymous__namespace_02_signal_utils_8cc_03.html#adec53cec45469bce01bd893290800df5", pos="292,182", rects="200,162,384,202"];
+	Node3 [label="veins::SignalUtils\l::getMinSINR", height="0.39", width="1.25", color=black, fillcolor=white, style=filled, URL="$namespaceveins_1_1_signal_utils.html#a65bf87cf643cccf540dc5f0802a71427", tooltip="return the minimal Signal to (Interference + Noise) Ratio at any data channel of signalFrame&#39;s signal...", pos="482,186", rects="437,172,528,200"];
+	Node4 [label="veins::Decider80211p\l::checkIfSignalOk", height="0.39", width="1.44", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider80211p.html#a01349c12df6c01678d1e25553b754819", tooltip="Checks a mapping against a specific threshold (element-wise). ", pos="653,190", rects="601,176,706,204"];
+	Node5 [label="veins::Decider80211p\l::processSignalEnd", height="0.39", width="1.44", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider80211p.html#a389f17ab33d4fc22b499593fa0837faf", tooltip="Processes a received AirFrame. ", pos="815,169", rects="763,155,868,183"];
+	Node6 [label="veins::SignalUtils\l::isChannelPowerBelowThreshold", height="0.39", width="2.39", color=black, fillcolor=white, style=filled, URL="$namespaceveins_1_1_signal_utils.html#a744df65831b369a6412cb305cf04f06f", tooltip="check if the summed power of interfererFrames&#39;s signals at freqIndex is below a given threshold...", pos="292,114", rects="206,100,379,128"];
+	Node7 [label="veins::Decider80211p::cca", height="0.22", width="1.72", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider80211p.html#aeba984a7f23ef26ce8b22b0bfef88947", pos="482,106", rects="420,98,544,114"];
+	Node8 [label="veins::PhyLayer80211p\l::handleSelfMessage", height="0.39", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_phy_layer80211p.html#a020601bba0e334a622dc8e193c5946b0", tooltip="Handle self scheduled messages. ", pos="653,106", rects="595,92,712,120"];
+	Node9 [label="veins::Decider80211p\l::processNewSignal", height="0.39", width="1.44", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider80211p.html#a6604c73b2ee786a4eeca5abe6f072cab", tooltip="Processes a new Signal. ", pos="653,60", rects="601,46,706,74"];
+	Node10 [label="veins::PhyLayer80211p\l::requestChannelStatusIfIdle", height="0.39", width="2.03", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_phy_layer80211p.html#a6851aaac3c59b66568847e75691ba3e5", tooltip="Explicit request to PHY for the channel status. ", pos="653,14", rects="580,0,726,28"];
+	Node11 [label="veins::operator\<\<", height="0.22", width="1.28", color=black, fillcolor=white, style=filled, URL="$namespaceveins.html#a7e340a38decf7a51e8d1e3c3f70a68e6", pos="292,74", rects="246,66,339,82"];
+	Node12 [label="veins::BaseDecider\l::processNewSignal", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_decider.html#a6a480f87157d0509c0c1fccf94ea9fef", tooltip="Processes a new Signal. ", pos="292,34", rects="241,20,343,48"];
+	Node13 [label="veins::BaseDecider\l::processSignal", height="0.39", width="1.36", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_decider.html#a8b488dcd86bfc2749763682ea3589800", tooltip="Processes an AirFrame given by the PhyLayer. ", pos="482,34", rects="433,20,531,48"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,164,102 171,108 188,124 178,146 200,162"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,384,184 393,184 408,184 423,185 436,185"];
+	Node3 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,528,187 537,187 557,187 580,188 600,189"];
+	Node4 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,706,183 715,182 730,180 747,178 762,176"];
+	Node1 -> Node6 [dir=back, color=midnightblue, style=solid, pos="s,164,102 173,103 183,103 195,104 205,106"];
+	Node6 -> Node7 [dir=back, color=midnightblue, style=solid, pos="s,379,110 388,109 399,109 410,109 420,108"];
+	Node7 -> Node8 [dir=back, color=midnightblue, style=solid, pos="s,544,106 554,106 567,106 581,106 594,106"];
+	Node7 -> Node9 [dir=back, color=midnightblue, style=solid, pos="s,544,98 553,94 564,88 566,81 580,74 586,72 593,69 600,68"];
+	Node7 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,535,114 544,116 561,121 564,125 580,129 642,145 714,156 762,163"];
+	Node7 -> Node10 [dir=back, color=midnightblue, style=solid, pos="s,544,98 551,92 569,72 555,47 580,28"];
+	Node1 -> Node11 [dir=back, color=midnightblue, style=solid, pos="s,164,86 174,85 183,85 188,84 200,82 215,81 231,79 245,78"];
+	Node1 -> Node12 [dir=back, color=midnightblue, style=solid, pos="s,164,86 171,81 184,71 183,57 200,48 212,42 227,38 241,36"];
+	Node12 -> Node13 [dir=back, color=midnightblue, style=solid, pos="s,343,34 353,34 378,34 408,34 433,34"];
+}

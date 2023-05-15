@@ -1,0 +1,13 @@
+digraph "veins::ChannelAccess::sendToChannel" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,576,28"];
+	Node1 [label="veins::ChannelAccess\l::sendToChannel", height="0.39", width="1.56", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="64,14", rects="8,0,120,28"];
+	Node2 [label="veins::BasePhyLayer\l::sendMessageDown", height="0.39", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_phy_layer.html#a1fe847ed3e50ccf3a3740234dfee42b1", tooltip="Send the passed AirFrame to the channel. ", pos="211,14", rects="156,0,266,28"];
+	Node3 [label="veins::BasePhyLayer\l::handleUpperMessage", height="0.39", width="1.64", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_phy_layer.html#a17b1d469775962d23835dd5f43a639ac", tooltip="Handle messages received from the upper layer and start transmitting them. ", pos="362,14", rects="303,0,422,28"];
+	Node4 [label="veins::BasePhyLayer\l::handleMessage", height="0.39", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_phy_layer.html#a54c20b44779b724638e62f941b656f9c", tooltip="Process received messages and pass to specific handlers. ", pos="513,14", rects="458,0,568,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,120,14 129,14 138,14 147,14 156,14"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,266,14 276,14 285,14 293,14 302,14"];
+	Node3 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,422,14 432,14 441,14 449,14 458,14"];
+}

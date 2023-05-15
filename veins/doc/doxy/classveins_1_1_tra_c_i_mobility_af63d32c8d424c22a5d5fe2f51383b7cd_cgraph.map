@@ -1,0 +1,13 @@
+digraph "veins::TraCIMobility::getHostSpeed" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,432,50"];
+	Node1 [label="veins::TraCIMobility\l::getHostSpeed", height="0.39", width="1.50", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="63,25", rects="9,11,118,39"];
+	Node2 [label="veins::BaseMobility\l::getCurrentSpeed", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mobility.html#af8f2b49daf85a99256bff58d1cb14cb6", tooltip="Returns the current speed at the current simulation time. ", pos="206,25", rects="155,11,258,39"];
+	Node3 [label="veins::Move::getDirection", height="0.22", width="1.78", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_move.html#a0fb3254da258f278489ed21f0d0559e3", tooltip="Returns the direction vector (which is unit less, because of normalization). ", pos="359,42", rects="295,34,424,50"];
+	Node4 [label="veins::Move::getSpeed", height="0.22", width="1.56", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_move.html#a240e3d0de014ccc391a46b05dcfb510c", tooltip="Returns the current speed. ", pos="359,8", rects="303,0,416,16"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,154,25 118,25 127,25 135,25 144,25"];
+	Node2 -> Node3 [color=midnightblue, style=solid, pos="e,294,35 258,31 267,32 275,33 284,34"];
+	Node2 -> Node4 [color=midnightblue, style=solid, pos="e,302,14 258,19 269,17 281,17 292,15"];
+}

@@ -1,0 +1,10 @@
+digraph "veins::TraCIVehicleInserter" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,158,84"];
+	Node1 [label="veins::TraCIVehicleInserter", height="0.22", width="1.94", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="87,16", rects="17,8,158,24"];
+	Node2 [label=cSimpleModule, height="0.22", width="1.19", color=grey75, fillcolor=white, style=filled, pos="43,68", rects="0,60,86,76"];
+	Node3 [label=cListener, height="0.22", width="0.75", color=grey75, fillcolor=white, style=filled, pos="131,68", rects="104,60,158,76"];
+	Node2 -> Node1 [dir=back, color=midnightblue, style=solid, pos="s,50,60 56,53 64,43 74,32 80,24"];
+	Node3 -> Node1 [dir=back, color=midnightblue, style=solid, pos="s,124,60 118,53 110,43 100,32 94,24"];
+}

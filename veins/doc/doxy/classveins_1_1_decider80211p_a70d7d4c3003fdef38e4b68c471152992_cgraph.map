@@ -1,0 +1,9 @@
+digraph "veins::Decider80211p::setChannelIdleStatus" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,320,28"];
+	Node1 [label="veins::Decider80211p\l::setChannelIdleStatus", height="0.39", width="1.58", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="65,14", rects="8,0,122,28"];
+	Node2 [label="veins::DeciderToPhyInterface\l::sendControlMsgToMac", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider_to_phy_interface.html#a72dbcdf0657bf5760d67e34645066d33", tooltip="Called by the Decider to send a control message to the MACLayer. ", pos="235,14", rects="159,0,312,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,158,14 122,14 131,14 139,14 148,14"];
+}

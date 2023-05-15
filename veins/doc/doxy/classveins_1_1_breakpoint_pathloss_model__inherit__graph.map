@@ -1,0 +1,10 @@
+digraph "veins::BreakpointPathlossModel" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,132,148"];
+	Node1 [label="veins::BreakpointPathloss\lModel", height="0.39", width="1.83", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="66,22", rects="0,8,133,36"];
+	Node2 [label="veins::AnalogueModel", height="0.22", width="1.64", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_analogue_model.html", tooltip="Interface for the analogue models of the physical layer. ", pos="66,80", rects="7,72,125,88"];
+	Node3 [label="veins::HasLogProxy", height="0.22", width="1.47", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_has_log_proxy.html", tooltip="Helper class for logging from classes not derived from cComponent. ", pos="66,132", rects="13,124,119,140"];
+	Node2 -> Node1 [dir=back, color=midnightblue, style=solid, pos="s,66,72 66,63 66,54 66,44 66,36"];
+	Node3 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,66,124 66,115 66,106 66,95 66,88"];
+}

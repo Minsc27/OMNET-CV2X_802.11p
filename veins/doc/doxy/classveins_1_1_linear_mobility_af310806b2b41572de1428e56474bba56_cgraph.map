@@ -1,0 +1,93 @@
+digraph "veins::LinearMobility::makeMove" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,1102,644"];
+	Node1 [label="veins::LinearMobility\l::makeMove", height="0.39", width="1.56", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="65,135", rects="9,121,122,149"];
+	Node2 [label="veins::LinearMobility\l::fixIfHostGetsOutside", height="0.39", width="1.64", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_linear_mobility.html#a506fdc3882892c0fc4427df73736010e", tooltip="Should be redefined in subclasses. ", pos="222,278", rects="163,264,281,292"];
+	Node3 [label="veins::BaseMobility\l::handleIfOutside", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mobility.html#aae36006995d117a723134cbe1fee5e90", tooltip="Main border handling function. ", pos="374,360", rects="323,346,426,374"];
+	Node4 [label="veins::BaseMobility\l::checkIfOutside", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mobility.html#ab69f42caa7932524bf470f0799b4aac7", tooltip="Checks whether the host is outside the playground and returns where. ", pos="531,231", rects="480,217,583,245"];
+	Node5 [label="veins::Move::getDirection", height="0.22", width="1.78", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_move.html#a0fb3254da258f278489ed21f0d0559e3", tooltip="Returns the direction vector (which is unit less, because of normalization). ", pos="705,251", rects="641,243,770,259"];
+	Node6 [label="veins::Move::getStartPos", height="0.22", width="1.72", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_move.html#a48346d2be14eeca41bdb67f896508a67", tooltip="Returns the start position. ", pos="705,445", rects="643,437,767,453"];
+	Node7 [label="veins::Coord::info", height="0.22", width="1.28", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_coord.html#a25b361254b68f3d13a9eb0a857d69a73", tooltip="Returns a string with the value of the coordinate. ", pos="705,57", rects="659,49,751,65"];
+	Node8 [label="veins::BaseMobility\l::playgroundSizeX", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mobility.html#ab06dd8e4488b41a0a030807b6bdb639d", tooltip="Returns the width of the playground. ", pos="872,302", rects="821,288,924,316"];
+	Node9 [label="veins::BaseWorldUtility\l::getPgs", height="0.39", width="1.72", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_world_utility.html#a08a8c00b81e5b70ab4cdfe611d4169b7", tooltip="Returns the playgroundSize. ", pos="1032,348", rects="970,334,1094,362"];
+	Node10 [label="veins::BaseMobility\l::playgroundSizeY", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mobility.html#a1e3b73db40c3fb6cdfc4120bef6f1d88", tooltip="Returns the height of the playground. ", pos="872,394", rects="821,380,924,408"];
+	Node11 [label="veins::BaseMobility\l::playgroundSizeZ", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mobility.html#ae6263a43c7959ae008a21874dda4e622", tooltip="Returns the height of the playground. ", pos="872,348", rects="821,334,924,362"];
+	Node12 [label="veins::BaseWorldUtility\l::use2D", height="0.39", width="1.72", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_world_utility.html#ad67073ffe5557077cd4b96fa2138c536", tooltip="Returns true if the world is 2-dimensional. ", pos="705,211", rects="643,197,767,225"];
+	Node13 [label="veins::Coord::distance", height="0.22", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_coord.html#a7fc7cefa5db60ae560d5b72ae0a25532", tooltip="Returns the distance to Coord &#39;a&#39;. ", pos="531,514", rects="476,506,586,522"];
+	Node14 [label="anonymous_namespace\l\{BaseConnectionManager\l::cc\}::dist", height="0.56", width="1.89", color=black, fillcolor=white, style=filled, URL="$namespaceanonymous__namespace_02_base_connection_manager_8cc_03.html#a03d2870486bee7d8198d066f67d00e04", tooltip="On a torus the end and the begin of the axes are connected so you get a circle. ", pos="705,537", rects="637,517,774,557"];
+	Node15 [label="veins::FWMath::modulo", height="0.22", width="1.72", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_f_w_math.html#aa66a76d454bf3d91d8ec390c4737a7a1", tooltip="Returns the remainder r on division of dividend a by divisor n, using floored division. ", pos="872,511", rects="810,503,934,519"];
+	Node16 [label="veins::Coord::length", height="0.22", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_coord.html#aa330b25b3ec33bc78389be6589b4daaf", tooltip="Returns the length of this Coords position vector. ", pos="705,629", rects="654,621,756,637"];
+	Node17 [label="veins::Move::getSpeed", height="0.22", width="1.56", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_move.html#a240e3d0de014ccc391a46b05dcfb510c", tooltip="Returns the current speed. ", pos="531,153", rects="475,145,588,161"];
+	Node18 [label="veins::BaseMobility\l::goToBorder", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mobility.html#a3bf65a049293dc4c7043554c04555bdc", tooltip="calculate the step to reach the border ", pos="531,300", rects="480,286,583,314"];
+	Node19 [label="veins::BaseMobility\l::placeRandomlyIfOutside", height="0.39", width="1.89", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mobility.html#a933475f97d6ab7bf834e4d07beda131b", tooltip="Utility function to place the node randomly if it goes outside the playground. ", pos="531,554", rects="463,540,600,568"];
+	Node20 [label="veins::BaseWorldUtility\l::getRandomPosition", height="0.39", width="1.72", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_world_utility.html#a3c574ecd7a055ba2407f638ce548bc24", tooltip="Random position somewhere in the playground. ", pos="705,589", rects="643,575,767,603"];
+	Node21 [label="veins::BaseWorldUtility\l::initializeIfNecessary", height="0.39", width="1.72", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_world_utility.html#aabcceb57843568c213b0772b08971827", tooltip="Initializes all members accessible by other modules. ", pos="872,589", rects="810,575,934,603"];
+	Node22 [label="veins::BaseMobility\l::reflectIfOutside", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mobility.html#ab9e4cd0caa3fc245ba934f5f5bd9fc49", tooltip="Utility function to reflect the node if it goes outside the playground. ", pos="531,360", rects="480,346,583,374"];
+	Node23 [label="veins::BaseMobility\l::reflectCoordinate", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mobility.html#a6c817348be2c3586777a85bb60e2b3f1", tooltip="helperfunction for reflectIfOutside() to reflect a Coordinate at a given border ", pos="705,367", rects="654,353,757,381"];
+	Node24 [label="veins::BaseMobility\l::wrapIfOutside", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mobility.html#a78f392149c0f8185e07dc9a51286bf85", tooltip="Utility function to wrap the node to the opposite edge (torus) if it goes outside the playground...", pos="705,485", rects="654,471,757,499"];
+	Node25 [label="veins::Move::info", height="0.22", width="1.25", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_move.html#a5e3e35e64d79753f3c28dab4a5660c49", tooltip="Returns information about the current state. ", pos="374,68", rects="329,60,419,76"];
+	Node26 [label="veins::Move::setDirection\lByTarget", height="0.39", width="1.78", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_move.html#a44d6e37f77b89e7891cb4c805e3c3959", tooltip="Sets the direction to the normalized vector pointing from the current start position to the passed ta...", pos="222,537", rects="158,523,286,551"];
+	Node27 [label="veins::math::almost\l_equal", height="0.39", width="1.36", color=black, fillcolor=white, style=filled, URL="$namespaceveins_1_1math.html#a8e7bde81401ddc00bf062333bf217491", tooltip="Compare two floats for approximate equality. ", pos="374,537", rects="325,523,424,551"];
+	Node28 [label="veins::Move::setSpeed", height="0.22", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_move.html#a51a6f1befe0836b69a794efe32af2e22", tooltip="Sets the current speed in meters per second. ", pos="222,42", rects="167,34,278,50"];
+	Node29 [label="veins::Move::setStart", height="0.22", width="1.44", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_move.html#ae7135773d10fdf52bec4e5c9a398a092", tooltip="Sets start position (components in meters) and start time. ", pos="222,8", rects="170,0,275,16"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,163,268 122,149 161,185 121,226 155,261"];
+	Node2 -> Node3 [color=midnightblue, style=solid, pos="e,322,346 281,289 283,290 284,291 286,292 307,307 301,325 315,340"];
+	Node3 -> Node4 [color=midnightblue, style=solid, pos="e,479,236 426,346 462,314 426,277 462,245 464,243 467,241 470,240"];
+	Node4 -> Node5 [color=midnightblue, style=solid, pos="e,640,244 583,237 598,239 614,240 630,243"];
+	Node4 -> Node6 [color=midnightblue, style=solid, pos="e,643,442 583,234 589,237 595,240 600,245 661,307 574,376 635,436"];
+	Node4 -> Node7 [color=midnightblue, style=solid, pos="e,659,55 583,228 589,225 595,222 600,217 650,169 585,112 636,65 640,62 645,59 650,58"];
+	Node4 -> Node8 [color=midnightblue, style=solid, pos="e,820,296 583,226 589,224 595,222 600,219 609,215 610,212 616,204 625,195 630,193 632,180 634,174 631,122 636,117 681,76 727,79 \
+774,117 835,166 756,233 810,288 811,289 811,289 812,290"];
+	Node8 -> Node9 [color=midnightblue, style=solid, pos="e,970,334 924,313 927,314 931,315 934,316 947,321 952,325 960,330"];
+	Node4 -> Node10 [color=midnightblue, style=solid, pos="e,820,384 583,224 589,223 595,222 600,220 614,217 618,215 628,205 631,204 631,203 632,200 635,196 632,192 636,188 686,153 727,14\
+9 774,188 840,243 751,316 810,377 811,378 811,378 812,379"];
+	Node10 -> Node9 [color=midnightblue, style=solid, pos="e,970,362 924,383 927,382 931,381 934,380 947,375 952,370 961,366"];
+	Node4 -> Node11 [color=midnightblue, style=solid, pos="e,820,340 583,225 589,224 595,222 600,220 618,214 625,209 632,191 636,184 631,161 636,155 682,115 727,117 774,155 837,206 755,27\
+4 810,332 811,333 812,334 813,334"];
+	Node11 -> Node9 [color=midnightblue, style=solid, pos="e,970,348 924,348 936,348 948,348 960,348"];
+	Node4 -> Node12 [color=midnightblue, style=solid, pos="e,643,218 583,225 599,223 616,221 633,219"];
+	Node3 -> Node13 [color=midnightblue, style=solid, pos="e,476,514 426,374 470,416 416,466 462,506 464,507 466,509 468,510"];
+	Node13 -> Node14 [color=midnightblue, style=solid, pos="e,636,527 586,520 591,521 596,521 600,522 609,523 617,524 626,526"];
+	Node14 -> Node15 [color=midnightblue, style=solid, pos="e,810,519 774,525 783,524 791,522 800,521"];
+	Node13 -> Node16 [color=midnightblue, style=solid, pos="e,654,629 586,514 591,516 596,519 600,522 637,551 600,591 636,621 639,623 641,625 644,626"];
+	Node3 -> Node17 [color=midnightblue, style=solid, pos="e,474,154 426,346 484,285 401,218 462,161 463,160 464,159 465,159"];
+	Node3 -> Node6 [color=midnightblue, style=solid, pos="e,643,437 424,374 426,375 428,375 430,376 436,377 627,433 632,435 632,435 633,435 633,435"];
+	Node3 -> Node18 [color=midnightblue, style=solid, pos="e,479,308 426,346 445,336 443,324 462,314 464,313 467,311 469,311"];
+	Node18 -> Node5 [color=midnightblue, style=solid, pos="e,640,257 583,292 589,291 595,289 600,286 617,279 618,269 631,261"];
+	Node18 -> Node6 [color=midnightblue, style=solid, pos="e,643,441 583,304 589,306 595,309 600,314 641,352 594,399 634,435"];
+	Node18 -> Node7 [color=midnightblue, style=solid, pos="e,659,54 583,297 589,295 595,291 600,286 669,215 565,134 636,65 640,61 645,59 650,57"];
+	Node18 -> Node8 [color=midnightblue, style=solid, pos="e,820,302 583,300 644,301 745,301 809,302"];
+	Node18 -> Node10 [color=midnightblue, style=solid, pos="e,820,401 583,309 589,311 595,313 600,316 621,327 627,336 632,358 634,365 631,385 636,390 662,412 749,408 810,402"];
+	Node18 -> Node11 [color=midnightblue, style=solid, pos="e,820,341 583,308 600,310 619,313 636,315 696,323 763,333 810,340"];
+	Node18 -> Node12 [color=midnightblue, style=solid, pos="e,643,221 583,295 589,293 595,290 600,286 625,269 612,245 634,227"];
+	Node3 -> Node7 [color=midnightblue, style=solid, pos="e,659,63 416,346 420,344 425,342 430,338 443,329 442,324 450,310 455,303 457,301 458,292 460,283 457,216 462,208 502,159 551,211\
+ 600,170 640,139 613,99 650,68"];
+	Node3 -> Node16 [color=midnightblue, style=solid, pos="e,654,625 416,374 420,376 423,378 426,382 483,449 402,512 462,577 487,603 581,617 645,624"];
+	Node3 -> Node19 [color=midnightblue, style=solid, pos="e,462,540 426,374 476,425 415,480 455,532"];
+	Node19 -> Node20 [color=midnightblue, style=solid, pos="e,643,577 600,568 611,570 622,573 633,575"];
+	Node20 -> Node21 [color=midnightblue, style=solid, pos="e,810,589 767,589 778,589 789,589 800,589"];
+	Node3 -> Node22 [color=midnightblue, style=solid, pos="e,479,360 426,360 440,360 455,360 469,360"];
+	Node22 -> Node23 [color=midnightblue, style=solid, pos="e,653,365 583,362 602,363 624,364 643,365"];
+	Node23 -> Node8 [color=midnightblue, style=solid, pos="e,820,311 757,360 763,358 769,356 774,353 795,343 790,328 810,316 810,316 811,316 811,315"];
+	Node23 -> Node10 [color=midnightblue, style=solid, pos="e,820,385 757,375 774,378 793,381 810,384"];
+	Node23 -> Node11 [color=midnightblue, style=solid, pos="e,820,354 757,361 774,359 793,357 810,355"];
+	Node3 -> Node24 [color=midnightblue, style=solid, pos="e,653,475 415,374 421,375 426,378 434,383 443,388 444,391 450,400 452,401 461,415 462,417 528,464 558,450 636,471 639,471 641,47\
+2 643,473"];
+	Node24 -> Node15 [color=midnightblue, style=solid, pos="e,810,503 757,494 771,496 786,499 800,501"];
+	Node24 -> Node8 [color=midnightblue, style=solid, pos="e,820,309 757,481 763,479 769,476 774,471 825,421 760,366 810,316 811,315 811,315 812,314"];
+	Node24 -> Node10 [color=midnightblue, style=solid, pos="e,820,402 757,480 763,478 769,475 774,471 801,452 785,427 810,408 810,408 811,407 811,407"];
+	Node24 -> Node11 [color=midnightblue, style=solid, pos="e,820,355 757,481 763,478 769,475 774,471 813,437 773,396 810,362 811,361 811,361 812,360"];
+	Node1 -> Node17 [color=midnightblue, style=solid, pos="e,474,151 122,137 208,141 372,147 463,151"];
+	Node1 -> Node6 [color=midnightblue, style=solid, pos="e,643,442 103,149 109,151 115,153 122,158 132,165 133,169 138,178 146,192 147,196 150,211 155,231 147,285 158,301 205,368 246,35\
+5 322,383 427,421 556,436 634,441"];
+	Node1 -> Node7 [color=midnightblue, style=solid, pos="e,670,65 122,131 219,123 427,105 600,78 621,75 642,71 661,67"];
+	Node1 -> Node25 [color=midnightblue, style=solid, pos="e,329,75 122,123 123,122 125,122 126,121 142,115 143,108 158,102 227,77 249,88 319,76"];
+	Node25 -> Node7 [color=midnightblue, style=solid, pos="e,659,58 419,66 479,64 585,60 650,58"];
+	Node1 -> Node26 [color=midnightblue, style=solid, pos="e,158,523 122,149 175,211 108,442 153,516"];
+	Node26 -> Node27 [color=midnightblue, style=solid, pos="e,324,537 286,537 296,537 305,537 314,537"];
+	Node26 -> Node16 [color=midnightblue, style=solid, pos="e,654,628 286,551 366,572 382,593 462,610 524,622 595,626 644,628"];
+	Node1 -> Node28 [color=midnightblue, style=solid, pos="e,166,46 122,121 150,99 130,72 157,51"];
+	Node1 -> Node29 [color=midnightblue, style=solid, pos="e,169,10 122,121 159,88 120,48 158,16 159,15 159,15 160,14"];
+}

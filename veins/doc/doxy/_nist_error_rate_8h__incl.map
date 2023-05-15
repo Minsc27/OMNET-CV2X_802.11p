@@ -1,0 +1,22 @@
+digraph "NistErrorRate.h" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,201,200"];
+	Node1 [label="NistErrorRate.h", height="0.22", width="1.22", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="102,184", rects="58,176,146,192"];
+	Node2 [label="stdint.h", height="0.22", width="0.61", color=grey75, fillcolor=white, style=filled, pos="22,68", rects="0,60,45,76"];
+	Node3 [label=cmath, height="0.22", width="0.56", color=grey75, fillcolor=white, style=filled, pos="181,68", rects="161,60,201,76"];
+	Node4 [label="veins/modules/utility\l/ConstsPhy.h", height="0.39", width="1.56", color=black, fillcolor=white, style=filled, URL="$_consts_phy_8h.html", pos="102,126", rects="46,112,159,140"];
+	Node5 [label="veins/veins.h", height="0.22", width="1.00", color=black, fillcolor=white, style=filled, URL="$veins_8h.html", pos="102,68", rects="66,60,138,76"];
+	Node6 [label=memory, height="0.22", width="0.72", color=grey75, fillcolor=white, style=filled, pos="39,16", rects="13,8,65,24"];
+	Node7 [label=utility, height="0.22", width="0.53", color=grey75, fillcolor=white, style=filled, pos="102,16", rects="83,8,122,24"];
+	Node8 [label="omnetpp.h", height="0.22", width="0.86", color=grey75, fillcolor=white, style=filled, pos="170,16", rects="139,8,201,24"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,22,76 83,176 68,169 48,156 37,140 26,122 23,98 22,83"];
+	Node1 -> Node3 [color=midnightblue, style=solid, pos="e,181,76 121,176 136,169 156,157 167,140 177,122 180,98 181,83"];
+	Node1 -> Node4 [color=midnightblue, style=solid, pos="e,102,140 102,176 102,170 102,159 102,150"];
+	Node4 -> Node3 [color=midnightblue, style=solid, pos="e,170,76 121,112 134,103 151,90 163,81"];
+	Node4 -> Node2 [color=midnightblue, style=solid, pos="e,33,76 83,112 70,103 53,90 40,81"];
+	Node4 -> Node5 [color=midnightblue, style=solid, pos="e,102,76 102,112 102,104 102,94 102,85"];
+	Node5 -> Node6 [color=midnightblue, style=solid, pos="e,49,24 92,60 82,52 68,40 56,30"];
+	Node5 -> Node7 [color=midnightblue, style=solid, pos="e,102,24 102,60 102,53 102,42 102,33"];
+	Node5 -> Node8 [color=midnightblue, style=solid, pos="e,159,24 113,60 124,52 140,39 152,30"];
+}

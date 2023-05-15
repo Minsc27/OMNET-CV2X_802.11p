@@ -1,0 +1,13 @@
+digraph "veins::Heading::fromCoord" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,498,74"];
+	Node1 [label="veins::Heading::fromCoord", height="0.22", width="1.92", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="77,37", rects="8,29,146,45"];
+	Node2 [label="veins::MobileHostObstacle\l::getShape", height="0.39", width="1.89", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_mobile_host_obstacle.html#a8df004155dfcd958252947c517d7d985", pos="250,60", rects="182,46,318,74"];
+	Node3 [label="veins::MobileHostObstacle\l::getIntersectionPoint", height="0.39", width="1.89", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_mobile_host_obstacle.html#a97a8fa2ba85ea3dd7a84c7e89ad6e74e", tooltip="return closest point (in meters) along (senderPos–receiverPos) where this obstacle overlaps...", pos="422,60", rects="354,46,490,74"];
+	Node4 [label="veins::ChannelAccess\l::receiveSignal", height="0.39", width="1.56", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_channel_access.html#a152e2780da20c82d3751d521142a5f90", tooltip="Called by the signalling mechanism to inform of changes. ", pos="250,14", rects="194,0,306,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,146,45 155,46 164,47 173,48 182,50"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,318,60 328,60 337,60 345,60 354,60"];
+	Node1 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,146,29 155,28 168,26 182,24 194,22"];
+}

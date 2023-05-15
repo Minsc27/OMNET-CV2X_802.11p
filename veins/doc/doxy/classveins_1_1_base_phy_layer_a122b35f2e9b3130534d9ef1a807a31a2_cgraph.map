@@ -1,0 +1,13 @@
+digraph "veins::BasePhyLayer::~BasePhyLayer" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,592,28"];
+	Node1 [label="veins::BasePhyLayer\l::~BasePhyLayer", height="0.39", width="1.53", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="63,14", rects="8,0,118,28"];
+	Node2 [label="veins::ChannelInfo\l::getAirFrames", height="0.39", width="1.39", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_channel_info.html#a76e9891245a5df7dd6bfb14e99e343e5", tooltip="Fills the passed AirFrameVector reference with the AirFrames which intersect with the given time inte...", pos="205,14", rects="155,0,256,28"];
+	Node3 [label="veins::ChannelInfo\l::getIntersections", height="0.39", width="1.39", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_channel_info.html#a683ab4280d9c20ad02bd1c080d71b6d1", tooltip="Returns every AirFrame of an AirFrameMatrix which intersect with a given interval. ", pos="343,14", rects="293,0,394,28"];
+	Node4 [label="veins::ChannelInfo\l::BaseIntersectionIterator::next", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_channel_info_1_1_base_intersection_iterator.html#ac8cb02d11bbba3ab83fe39a400aa320d", tooltip="Increases the iterator to the next intersecting AirFrame and returns a pointer to this AirFrame...", pos="507,14", rects="431,0,584,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,154,14 118,14 127,14 135,14 144,14"];
+	Node2 -> Node3 [color=midnightblue, style=solid, pos="e,292,14 256,14 265,14 273,14 282,14"];
+	Node3 -> Node4 [color=midnightblue, style=solid, pos="e,430,14 394,14 403,14 411,14 420,14"];
+}

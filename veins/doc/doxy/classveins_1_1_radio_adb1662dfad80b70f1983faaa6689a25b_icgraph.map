@@ -1,0 +1,13 @@
+digraph "veins::Radio::createNewRadio" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,614,28"];
+	Node1 [label="veins::Radio::createNewRadio", height="0.22", width="2.11", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="84,14", rects="8,6,160,22"];
+	Node2 [label="veins::BasePhyLayer\l::initializeRadio", height="0.39", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_phy_layer.html#ac4851d3dace57854b3aa03414486af65", tooltip="Create and return the radio class to use. ", pos="251,14", rects="196,0,306,28"];
+	Node3 [label="veins::BasePhyLayer\l::initialize", height="0.39", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_phy_layer.html#a63e95c45ba5f46514ed9027c53216491", tooltip="Initialize members and associated objects according to parameterization. ", pos="397,14", rects="342,0,452,28"];
+	Node4 [label="veins::PhyLayer80211p\l::initialize", height="0.39", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_phy_layer80211p.html#abdd1c62986d1fd220eb5e51d4458811a", pos="547,14", rects="489,0,606,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,160,14 170,14 179,14 187,14 196,14"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,306,14 316,14 325,14 333,14 342,14"];
+	Node3 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,452,14 462,14 471,14 479,14 488,14"];
+}

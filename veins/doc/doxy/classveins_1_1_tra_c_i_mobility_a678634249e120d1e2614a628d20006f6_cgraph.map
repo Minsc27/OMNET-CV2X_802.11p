@@ -1,0 +1,27 @@
+digraph "veins::TraCIMobility::preInitialize" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,484,260"];
+	Node1 [label="veins::TraCIMobility\l::preInitialize", height="0.39", width="1.50", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="63,128", rects="9,114,118,142"];
+	Node2 [label="veins::TraCIMobility\l::calculateHostPosition", height="0.39", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_mobility.html#abdba18eddf44900f76ec783f9e2e3d9a", tooltip="Calculates where the OMNeT++ module position of this car should be, given its front bumper position...", pos="227,246", rects="169,232,285,260"];
+	Node3 [label="veins::Heading::toCoord", height="0.22", width="1.69", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_heading.html#a97fba1b017beb1eb89b3fcdb3075e188", tooltip="Returns Coord of a unit vector (with x pointing east and y pointing south). ", pos="406,225", rects="345,217,467,233"];
+	Node4 [label="veins::Move::getStartPosition", height="0.22", width="2.03", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_move.html#afc737d46e35182cf112181b42bd700a5", pos="227,168", rects="154,160,300,176"];
+	Node5 [label="veins::Move::setDirection\lByVector", height="0.39", width="1.78", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_move.html#ae583b55d97cf1f59cbb000a584efb67d", tooltip="Sets the direction to the passed vector, which must be already normalized or the 0-vector. ", pos="227,128", rects="163,114,291,142"];
+	Node6 [label="veins::math::almost\l_equal", height="0.39", width="1.36", color=black, fillcolor=white, style=filled, URL="$namespaceveins_1_1math.html#a8e7bde81401ddc00bf062333bf217491", tooltip="Compare two floats for approximate equality. ", pos="406,148", rects="357,134,456,162"];
+	Node7 [label="veins::Coord::squareLength", height="0.22", width="1.92", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_coord.html#a539cd73e0ed1858839cd47b90485aca5", tooltip="Returns the square of the length of this Coords position vector. ", pos="406,108", rects="337,100,476,116"];
+	Node8 [label="veins::Move::setOrientation\lByVector", height="0.39", width="1.92", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_move.html#aef8fd825481c69e09785d096daa6f3fe", tooltip="Sets the orientation to the passed vector. ", pos="227,82", rects="158,68,296,96"];
+	Node9 [label="veins::Move::setSpeed", height="0.22", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_move.html#a51a6f1befe0836b69a794efe32af2e22", tooltip="Sets the current speed in meters per second. ", pos="227,42", rects="172,34,283,50"];
+	Node10 [label="veins::Move::setStart", height="0.22", width="1.44", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_move.html#ae7135773d10fdf52bec4e5c9a398a092", tooltip="Sets start position (components in meters) and start time. ", pos="227,8", rects="175,0,280,16"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,169,241 118,142 151,170 121,204 154,232 156,234 158,235 160,236"];
+	Node2 -> Node3 [color=midnightblue, style=solid, pos="e,345,232 285,239 302,237 319,235 335,233"];
+	Node1 -> Node4 [color=midnightblue, style=solid, pos="e,154,160 118,142 131,147 135,151 145,156"];
+	Node1 -> Node5 [color=midnightblue, style=solid, pos="e,163,128 118,128 129,128 141,128 153,128"];
+	Node5 -> Node6 [color=midnightblue, style=solid, pos="e,356,142 291,135 309,138 329,139 347,141"];
+	Node5 -> Node7 [color=midnightblue, style=solid, pos="e,336,116 291,121 303,119 314,118 326,117"];
+	Node1 -> Node8 [color=midnightblue, style=solid, pos="e,158,95 118,114 133,108 137,103 148,98"];
+	Node1 -> Node9 [color=midnightblue, style=solid, pos="e,171,43 118,114 144,94 127,67 154,50 156,49 159,47 161,46"];
+	Node1 -> Node10 [color=midnightblue, style=solid, pos="e,174,7 118,114 153,82 118,44 154,16 157,13 161,11 165,10"];
+	Node1 -> Node3 [color=midnightblue, style=solid, pos="e,345,220 104,142 110,144 117,146 126,152 131,154 131,156 134,160 138,163 139,164 142,169 148,175 147,180 154,185 184,203 272,21\
+4 336,219"];
+}

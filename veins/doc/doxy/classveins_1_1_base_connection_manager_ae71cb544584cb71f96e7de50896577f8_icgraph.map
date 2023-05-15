@@ -1,0 +1,15 @@
+digraph "veins::BaseConnectionManager::getGateList" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,774,28"];
+	Node1 [label="veins::BaseConnectionManager\l::getGateList", height="0.39", width="2.22", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="89,14", rects="9,0,170,28"];
+	Node2 [label="veins::ChannelAccess\l::sendToChannel", height="0.39", width="1.56", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_channel_access.html#ae370934ad7b1feacc1cb6bd6ad437198", tooltip="Sends a message to all nics connected to this one. ", pos="262,14", rects="206,0,318,28"];
+	Node3 [label="veins::BasePhyLayer\l::sendMessageDown", height="0.39", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_phy_layer.html#a1fe847ed3e50ccf3a3740234dfee42b1", tooltip="Send the passed AirFrame to the channel. ", pos="409,14", rects="354,0,464,28"];
+	Node4 [label="veins::BasePhyLayer\l::handleUpperMessage", height="0.39", width="1.64", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_phy_layer.html#a17b1d469775962d23835dd5f43a639ac", tooltip="Handle messages received from the upper layer and start transmitting them. ", pos="560,14", rects="501,0,620,28"];
+	Node5 [label="veins::BasePhyLayer\l::handleMessage", height="0.39", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_phy_layer.html#a54c20b44779b724638e62f941b656f9c", tooltip="Process received messages and pass to specific handlers. ", pos="711,14", rects="656,0,766,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,170,14 180,14 189,14 197,14 206,14"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,318,14 327,14 336,14 345,14 354,14"];
+	Node3 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,464,14 474,14 483,14 491,14 500,14"];
+	Node4 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,620,14 630,14 639,14 647,14 656,14"];
+}

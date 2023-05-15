@@ -1,0 +1,27 @@
+digraph "veins::TraCIVehicleInserter::insertVehicles" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,856,108"];
+	Node1 [label="veins::TraCIVehicleInserter\l::insertVehicles", height="0.39", width="1.94", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="79,57", rects="9,43,150,71"];
+	Node2 [label="veins::TraCICommandInterface\l::addVehicle", height="0.39", width="2.28", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_command_interface.html#a1c77ade5bdd9c23844e97a59825fae1b", tooltip="Adds a vehicle to the simulation. ", pos="268,80", rects="186,66,350,94"];
+	Node3 [label="veins::TraCIBuffer::eof", height="0.22", width="1.67", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_buffer.html#a557599847e1cd7733e715752b35c0248", pos="448,100", rects="388,92,509,108"];
+	Node4 [label="veins::TraCIConnection\l::query", height="0.39", width="1.69", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_connection.html#aaf49494fd564d7e88f1c539d9fd8aff8", tooltip="sends a single command via TraCI, checks status response, returns additional responses. ", pos="448,60", rects="387,46,510,74"];
+	Node5 [label="veins::makeTraCICommand", height="0.22", width="2.03", color=black, fillcolor=white, style=filled, URL="$namespaceveins.html#af83b40d9114af922837b09398bc72005", tooltip="returns byte-buffer containing a TraCI command with optional parameters ", pos="620,100", rects="547,92,694,108"];
+	Node6 [label="veins::TraCIBuffer::str", height="0.22", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_buffer.html#a82188788949eca6bd7c48b1476f67b95", pos="789,80", rects="731,72,848,88"];
+	Node7 [label="veins::TraCIConnection\l::receiveMessage", height="0.39", width="1.69", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_connection.html#abec53685d1816f11e2ab2797bdc467fb", tooltip="receives a message via TraCI (and strips the header) ", pos="620,14", rects="559,0,682,28"];
+	Node8 [label="veins::socket", height="0.22", width="0.94", color=black, fillcolor=white, style=filled, URL="$namespaceveins.html#a3e04988b53f0d0109602feb7895b4302", pos="789,40", rects="755,32,823,48"];
+	Node9 [label="veins::TraCIConnection\l::sendMessage", height="0.39", width="1.69", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_connection.html#ae9525e27e903007d2fb3382e790a748a", tooltip="sends a message via TraCI (after adding the header) ", pos="620,60", rects="559,46,682,74"];
+	Node10 [label="veins::TraCIScenarioManager\l::getCommandInterface", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager.html#a43c534fb3c4b7fb62e0ce5187302311c", pos="268,34", rects="192,20,345,48"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,186,70 150,66 159,67 167,68 176,69"];
+	Node2 -> Node3 [color=midnightblue, style=solid, pos="e,387,93 350,89 360,90 368,91 377,92"];
+	Node2 -> Node4 [color=midnightblue, style=solid, pos="e,386,67 350,71 359,70 368,69 377,68"];
+	Node4 -> Node5 [color=midnightblue, style=solid, pos="e,546,92 510,74 523,79 527,83 537,88"];
+	Node5 -> Node6 [color=midnightblue, style=solid, pos="e,730,88 694,92 703,91 711,90 720,89"];
+	Node4 -> Node7 [color=midnightblue, style=solid, pos="e,558,24 510,46 527,39 530,33 546,28 547,28 548,28 549,27"];
+	Node7 -> Node8 [color=midnightblue, style=solid, pos="e,755,35 682,24 698,27 715,29 730,32 735,33 740,33 745,34"];
+	Node4 -> Node9 [color=midnightblue, style=solid, pos="e,558,60 510,60 523,60 536,60 548,60"];
+	Node9 -> Node8 [color=midnightblue, style=solid, pos="e,755,44 682,53 704,50 727,48 746,45"];
+	Node9 -> Node6 [color=midnightblue, style=solid, pos="e,730,73 682,67 695,69 708,70 720,72"];
+	Node1 -> Node10 [color=midnightblue, style=solid, pos="e,191,43 150,48 160,46 171,46 181,44"];
+}

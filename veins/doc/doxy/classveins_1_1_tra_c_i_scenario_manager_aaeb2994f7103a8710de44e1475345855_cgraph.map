@@ -1,0 +1,15 @@
+digraph "veins::TraCIScenarioManager::deleteManagedModule" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,530,120"];
+	Node1 [label="veins::TraCIScenarioManager\l::deleteManagedModule", height="0.39", width="2.11", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="85,60", rects="9,46,162,74"];
+	Node2 [label="veins::VehicleObstacleControl\l::erase", height="0.39", width="2.14", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_vehicle_obstacle_control.html#a10824f43b0e015c6e68a9292113ea3ff", pos="275,106", rects="198,92,352,120"];
+	Node3 [label="veins::ChannelAccess\l::getConnectionManager", height="0.39", width="1.78", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_channel_access.html#a0dc69d65185a429fcd739d4eadedb504", tooltip="Returns a pointer to the ConnectionManager responsible for the passed NIC module. ...", pos="275,60", rects="211,46,339,74"];
+	Node4 [label="veins::findModuleByPath", height="0.22", width="1.86", color=black, fillcolor=white, style=filled, URL="$namespaceveins.html#a2f73fda5cc597671ec3697f8c33b5893", pos="455,60", rects="388,52,522,68"];
+	Node5 [label="veins::TraCIScenarioManager\l::getManagedModule", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager.html#a600d697200c9ed997ed6551cbc8e81d3", tooltip="returns a pointer to the managed module named moduleName, or 0 if no module can be found ...", pos="275,14", rects="199,0,352,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,198,92 162,74 175,78 180,83 189,88"];
+	Node1 -> Node3 [color=midnightblue, style=solid, pos="e,211,60 162,60 175,60 188,60 201,60"];
+	Node3 -> Node4 [color=midnightblue, style=solid, pos="e,388,60 339,60 352,60 365,60 378,60"];
+	Node1 -> Node5 [color=midnightblue, style=solid, pos="e,198,28 162,46 175,41 180,36 188,32"];
+}

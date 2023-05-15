@@ -1,0 +1,12 @@
+digraph "veins::BaseDecider" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,106,188"];
+	Node1 [label="veins::BaseDecider", height="0.22", width="1.36", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="53,68", rects="4,60,102,76"];
+	Node2 [label="veins::Decider", height="0.22", width="1.06", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider.html", tooltip="The basic Decider class. ", pos="53,120", rects="15,112,91,128"];
+	Node3 [label="veins::HasLogProxy", height="0.22", width="1.47", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_has_log_proxy.html", tooltip="Helper class for logging from classes not derived from cComponent. ", pos="53,172", rects="0,164,106,180"];
+	Node4 [label="veins::Decider80211p", height="0.22", width="1.44", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider80211p.html", tooltip="Based on Decider80211.h from Karl Wessel and modifications by Christopher Saloman. ", pos="53,16", rects="1,8,106,24"];
+	Node2 -> Node1 [dir=back, color=midnightblue, style=solid, pos="s,53,112 53,103 53,94 53,83 53,76"];
+	Node3 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,53,164 53,155 53,146 53,135 53,128"];
+	Node1 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,53,60 53,51 53,42 53,31 53,24"];
+}

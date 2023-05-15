@@ -1,0 +1,23 @@
+digraph "veins::AnnotationManagerAccess::getIfExists" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,536,212"];
+	Node1 [label="veins::AnnotationManager\lAccess::getIfExists", height="0.39", width="1.92", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="78,129", rects="9,115,148,143"];
+	Node2 [label="veins::ObstacleControl\l::initialize", height="0.39", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_obstacle_control.html#adffe1ace6d536aa9a27402006707962f", pos="261,198", rects="203,184,319,212"];
+	Node3 [label="veins::VehicleObstacleControl\l::initialize", height="0.39", width="2.14", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_vehicle_obstacle_control.html#a1083ae0d4c821658c2d6c6140c33f28f", pos="261,152", rects="184,138,338,166"];
+	Node4 [label="veins::DemoBaseApplLayer\l::initialize", height="0.39", width="2.00", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_demo_base_appl_layer.html#acca47f0d4a756e78ca29d2e4271af396", pos="261,106", rects="189,92,334,120"];
+	Node5 [label="veins::MyVeinsApp::\linitialize", height="0.39", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_my_veins_app.html#a73f5b68ba9bb4b66b2a3fecf875be114", pos="451,152", rects="397,138,506,166"];
+	Node6 [label="veins::TraCIDemo11p\l::initialize", height="0.39", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_demo11p.html#ac52eef213e4579f7d5f671385b506b78", pos="451,106", rects="396,92,506,120"];
+	Node7 [label="veins::TraCIScenarioManager\l::initialize", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager.html#a6060adf2e942f6e7343ee26091193341", pos="261,60", rects="185,46,338,74"];
+	Node8 [label="veins::TraCIScenarioManager\lForker::initialize", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager_forker.html#a952e624950eb8aa1d856c850c574a4e9", pos="451,60", rects="375,46,528,74"];
+	Node9 [label="veins::TraCIScenarioManager\lLaunchd::initialize", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager_launchd.html#afb429edf2aaebebc1895151be0fadbca", pos="451,14", rects="375,0,528,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,148,143 156,149 168,160 166,174 184,184 190,187 196,190 203,192"];
+	Node1 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,148,138 157,139 166,140 175,141 184,142"];
+	Node1 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,148,120 157,119 167,118 178,117 188,115"];
+	Node4 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,334,119 343,122 356,126 360,133 374,138 381,140 389,142 396,144"];
+	Node4 -> Node6 [dir=back, color=midnightblue, style=solid, pos="s,334,106 344,106 361,106 379,106 396,106"];
+	Node1 -> Node7 [dir=back, color=midnightblue, style=solid, pos="s,148,115 155,110 168,98 166,84 184,74"];
+	Node7 -> Node8 [dir=back, color=midnightblue, style=solid, pos="s,338,60 348,60 357,60 365,60 374,60"];
+	Node7 -> Node9 [dir=back, color=midnightblue, style=solid, pos="s,338,46 346,42 357,37 361,32 374,28"];
+}

@@ -1,0 +1,19 @@
+digraph "veins::AnnotationManager::erase" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,730,120"];
+	Node1 [label="veins::AnnotationManager\l::erase", height="0.39", width="1.92", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="78,60", rects="9,46,148,74"];
+	Node2 [label="veins::ObstacleControl\l::erase", height="0.39", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_obstacle_control.html#a3c5fb281ac00c947afe86d5e4bf99759", pos="254,106", rects="196,92,312,120"];
+	Node3 [label="veins::AnnotationManager\l::eraseAll", height="0.39", width="1.92", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_annotation_manager.html#af071307b3e3fad6ec12a193418a9f576", pos="254,60", rects="185,46,324,74"];
+	Node4 [label="veins::VehicleObstacleControl\l::getPotentialObstacles", height="0.39", width="2.14", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_vehicle_obstacle_control.html#ab98060c628b51496d26c95962a30517f", tooltip="get distance and height of potential obstacles ", pos="437,60", rects="360,46,514,74"];
+	Node5 [label="veins::VehicleObstacleShadowing\l::filterSignal", height="0.39", width="2.36", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_vehicle_obstacle_shadowing.html#aa1a8069440240b74a7a8ea0c91b06116", tooltip="Filters a specified Signal by adding an attenuation over time to the Signal. ", pos="636,60", rects="551,46,722,74"];
+	Node6 [label="veins::AnnotationManager\l::handleSelfMsg", height="0.39", width="1.92", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_annotation_manager.html#a15b1bc8dc418c545c8ff4e2b1f14833b", pos="254,14", rects="185,0,324,28"];
+	Node7 [label="veins::AnnotationManager\l::handleMessage", height="0.39", width="1.92", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_annotation_manager.html#a3e4a47c7b4bdeef090c4bb77c2813f3a", pos="437,14", rects="368,0,507,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,148,74 156,77 167,82 171,87 184,92 188,93 192,94 196,95"];
+	Node1 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,148,60 158,60 167,60 175,60 184,60"];
+	Node3 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,324,60 334,60 343,60 351,60 360,60"];
+	Node4 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,514,60 524,60 533,60 541,60 550,60"];
+	Node1 -> Node6 [dir=back, color=midnightblue, style=solid, pos="s,148,46 156,43 167,38 171,33 184,28"];
+	Node6 -> Node7 [dir=back, color=midnightblue, style=solid, pos="s,324,14 334,14 345,14 356,14 367,14"];
+}

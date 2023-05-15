@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,124,28"];
+	Node1 [label="veins::SignalPayload\l\< Payload \>", height="0.39", width="1.47", color=black, fillcolor=white, style=filled, URL="$structveins_1_1_signal_payload.html", pos="62,14", rects="9,0,116,28"];
+}

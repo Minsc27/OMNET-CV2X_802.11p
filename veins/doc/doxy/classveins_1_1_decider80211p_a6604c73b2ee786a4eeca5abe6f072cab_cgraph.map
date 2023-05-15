@@ -1,0 +1,32 @@
+digraph "veins::Decider80211p::processNewSignal" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,728,227"];
+	Node1 [label="veins::Decider80211p\l::processNewSignal", height="0.39", width="1.44", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="61,106", rects="9,92,114,120"];
+	Node2 [label="veins::Decider80211p::cca", height="0.22", width="1.72", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider80211p.html#aeba984a7f23ef26ce8b22b0bfef88947", pos="234,167", rects="172,159,296,175"];
+	Node3 [label="veins::BaseDecider\l::getChannelInfo", height="0.39", width="1.36", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_decider.html#a1eb9539d907f101c8d30798f6ca03337", tooltip="Collects the AirFrame on the channel during the passed interval. ", pos="441,213", rects="392,199,490,227"];
+	Node4 [label="veins::DeciderToPhyInterface\l::getChannelInfo", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider_to_phy_interface.html#a49ab6416f80e747952ad829d6e8ca771", tooltip="Fills the passed AirFrameVector with all AirFrames that intersect with the time interval [from...", pos="642,213", rects="566,199,719,227"];
+	Node5 [label="veins::DeciderToPhyInterface\l::getNoiseFloorValue", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider_to_phy_interface.html#af423a846c8d7b68d6882b30be41432a7", tooltip="Returns a constant which defines the noise floor in the passed time frame (in mW). ", pos="441,167", rects="365,153,518,181"];
+	Node6 [label="veins::SignalUtils\l::isChannelPowerBelowThreshold", height="0.39", width="2.39", color=black, fillcolor=white, style=filled, URL="$namespaceveins_1_1_signal_utils.html#a744df65831b369a6412cb305cf04f06f", tooltip="check if the summed power of interfererFrames&#39;s signals at freqIndex is below a given threshold...", pos="441,121", rects="355,107,528,135"];
+	Node7 [label="veins::Signal::getReception\lStart", height="0.39", width="1.86", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#ae5d8659cd386548bef59f09a535a1148", tooltip="Get the point in time at which the signal reception starts. ", pos="642,164", rects="575,150,710,178"];
+	Node8 [label="veins::Signal::getReceptionEnd", height="0.22", width="2.14", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#a5c2bffe68602700de93aca6403b7e2c8", tooltip="Get the point in time at which the signal reception ends. ", pos="642,124", rects="565,116,720,132"];
+	Node9 [label="veins::SignalUtils\l::anonymous_namespace\l\{SignalUtils::cc\}::powerLevel\lSumAtFrequencyIndex", height="0.72", width="2.00", color=black, fillcolor=white, style=filled, URL="$namespaceveins_1_1_signal_utils_1_1anonymous__namespace_02_signal_utils_8cc_03.html#a3bdc19ba2443b2e74ab424beea23f8c8", pos="642,72", rects="570,46,714,98"];
+	Node10 [label="veins::Signal::getAnalogue\lModelList", height="0.39", width="1.86", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#a2f4dfdadff0cd6a20ca21bad48e90940", tooltip="Get the AnalogueModels associated with this Signal. ", pos="642,14", rects="575,0,709,28"];
+	Node11 [label="veins::Decider80211pToPhy80211p\lInterface::getRadioState", height="0.39", width="2.33", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider80211p_to_phy80211p_interface.html#a3960233915713852fd8f7ffe07bfd44c", pos="234,127", rects="150,113,318,141"];
+	Node12 [label="veins::DeciderToPhyInterface\l::sendControlMsgToMac", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider_to_phy_interface.html#a72dbcdf0657bf5760d67e34645066d33", tooltip="Called by the Decider to send a control message to the MACLayer. ", pos="441,59", rects="365,45,518,73"];
+	Node13 [label="veins::Decider80211p\l::setChannelIdleStatus", height="0.39", width="1.58", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider80211p.html#a70d7d4c3003fdef38e4b68c471152992", tooltip="Changes the \"isIdle\"-status to the passed value. ", pos="234,43", rects="177,29,291,57"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,172,166 114,120 135,132 129,148 150,159 154,161 158,162 162,163"];
+	Node2 -> Node3 [color=midnightblue, style=solid, pos="e,392,209 296,169 304,171 311,172 318,175 337,181 337,191 354,199 363,203 372,205 382,207"];
+	Node3 -> Node4 [color=midnightblue, style=solid, pos="e,565,213 490,213 510,213 533,213 555,213"];
+	Node2 -> Node5 [color=midnightblue, style=solid, pos="e,364,167 296,167 314,167 335,167 354,167"];
+	Node2 -> Node6 [color=midnightblue, style=solid, pos="e,354,135 296,164 304,163 311,161 318,159 333,153 336,146 345,140"];
+	Node6 -> Node7 [color=midnightblue, style=solid, pos="e,574,153 528,135 545,139 548,145 564,150 564,150 564,150 564,150"];
+	Node6 -> Node8 [color=midnightblue, style=solid, pos="e,564,123 528,122 537,122 545,122 554,122"];
+	Node6 -> Node9 [color=midnightblue, style=solid, pos="e,570,95 528,107 539,105 550,102 560,98"];
+	Node6 -> Node10 [color=midnightblue, style=solid, pos="e,575,22 528,107 559,83 534,51 564,28 565,28 565,27 566,27"];
+	Node1 -> Node11 [color=midnightblue, style=solid, pos="e,150,117 114,112 122,114 132,114 141,116"];
+	Node1 -> Node12 [color=midnightblue, style=solid, pos="e,364,69 114,99 176,92 281,79 354,70"];
+	Node1 -> Node13 [color=midnightblue, style=solid, pos="e,177,47 114,92 134,81 131,67 150,57 156,54 161,52 168,50"];
+	Node13 -> Node12 [color=midnightblue, style=solid, pos="e,364,53 291,47 311,49 333,50 354,52"];
+}

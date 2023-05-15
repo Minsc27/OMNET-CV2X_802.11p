@@ -1,0 +1,13 @@
+digraph "veins::TraCIMobility::handleSelfMsg" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,484,74"];
+	Node1 [label="veins::TraCIMobility\l::handleSelfMsg", height="0.39", width="1.50", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="63,37", rects="9,23,118,51"];
+	Node2 [label="veins::TraCIMobility\l::getVehicleCommandInterface", height="0.39", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_mobility.html#a885085dc24c03c1f12ea488e6cddc24f", pos="236,60", rects="156,46,317,74"];
+	Node3 [label="veins::TraCICommandInterface\l::Vehicle::setSpeed", height="0.39", width="2.28", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_command_interface_1_1_vehicle.html#a1b192191c6d63935c3fecbb02c8e7adb", pos="236,14", rects="154,0,318,28"];
+	Node4 [label="veins::TraCIBuffer::eof", height="0.22", width="1.67", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_buffer.html#a557599847e1cd7733e715752b35c0248", pos="415,14", rects="355,6,476,22"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,155,49 118,44 127,45 136,46 145,48"];
+	Node1 -> Node3 [color=midnightblue, style=solid, pos="e,154,25 118,30 126,28 136,28 145,26"];
+	Node3 -> Node4 [color=midnightblue, style=solid, pos="e,354,14 318,14 327,14 336,14 344,14"];
+}

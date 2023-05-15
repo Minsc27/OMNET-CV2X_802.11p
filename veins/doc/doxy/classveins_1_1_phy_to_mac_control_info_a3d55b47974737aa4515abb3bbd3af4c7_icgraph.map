@@ -1,0 +1,9 @@
+digraph "veins::PhyToMacControlInfo::setControlInfo" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,314,28"];
+	Node1 [label="veins::PhyToMacControlInfo\l::setControlInfo", height="0.39", width="2.11", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="84,14", rects="8,0,160,28"];
+	Node2 [label="veins::BasePhyLayer\l::sendUp", height="0.39", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_phy_layer.html#aa8a1f512941e00bd093f1d709b858fd7", tooltip="Pass the given packet along with the result up to the mac. ", pos="251,14", rects="196,0,306,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,160,14 170,14 179,14 187,14 196,14"];
+}

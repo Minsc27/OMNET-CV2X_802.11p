@@ -1,0 +1,25 @@
+digraph "veins::BasePhyLayer::sendMessageDown" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,966,114"];
+	Node1 [label="veins::BasePhyLayer\l::sendMessageDown", height="0.39", width="1.53", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="63,77", rects="8,63,118,91"];
+	Node2 [label="veins::ChannelAccess\l::sendToChannel", height="0.39", width="1.56", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_channel_access.html#ae370934ad7b1feacc1cb6bd6ad437198", tooltip="Sends a message to all nics connected to this one. ", pos="210,77", rects="154,63,266,91"];
+	Node3 [label="veins::BaseConnectionManager\l::getGateList", height="0.39", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_connection_manager.html#ae71cb544584cb71f96e7de50896577f8", tooltip="Returns the ingates of all nics in range. ", pos="383,100", rects="303,86,464,114"];
+	Node4 [label="veins::ChannelAccess\l::calculatePropagationDelay", height="0.39", width="1.97", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_channel_access.html#a01c12c70034ec0583ee5f4e1ac0f683b", tooltip="Calculates the propagation delay to the passed receiving nic. ", pos="383,54", rects="312,40,455,68"];
+	Node5 [label="veins::AntennaPosition\l::getPositionAt", height="0.39", width="1.67", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_antenna_position.html#a57098d0c1c13859757b4aaf04cafe6eb", tooltip="Get the (linearly extrapolated) position at time t. ", pos="562,94", rects="502,80,622,108"];
+	Node6 [label="veins::Coord::distance", height="0.22", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_coord.html#a7fc7cefa5db60ae560d5b72ae0a25532", tooltip="Returns the distance to Coord &#39;a&#39;. ", pos="562,54", rects="507,46,617,62"];
+	Node7 [label="anonymous_namespace\l\{BaseConnectionManager\l::cc\}::dist", height="0.56", width="1.89", color=black, fillcolor=white, style=filled, URL="$namespaceanonymous__namespace_02_base_connection_manager_8cc_03.html#a03d2870486bee7d8198d066f67d00e04", tooltip="On a torus the end and the begin of the axes are connected so you get a circle. ", pos="729,77", rects="661,57,798,97"];
+	Node8 [label="veins::FWMath::modulo", height="0.22", width="1.72", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_f_w_math.html#aa66a76d454bf3d91d8ec390c4737a7a1", tooltip="Returns the remainder r on division of dividend a by divisor n, using floored division. ", pos="896,77", rects="834,69,958,85"];
+	Node9 [label="veins::Coord::length", height="0.22", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_coord.html#aa330b25b3ec33bc78389be6589b4daaf", tooltip="Returns the length of this Coords position vector. ", pos="729,31", rects="678,23,780,39"];
+	Node10 [label="veins::BaseWorldUtility\l::speedOfLight", height="0.39", width="1.72", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_world_utility.html#a425e4c8fac6fb8309ae2efd494a19fe6", tooltip="Speed of light in meters per second. ", pos="562,14", rects="500,0,624,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,154,77 118,77 127,77 135,77 144,77"];
+	Node2 -> Node3 [color=midnightblue, style=solid, pos="e,302,89 266,84 275,85 283,86 292,88"];
+	Node2 -> Node4 [color=midnightblue, style=solid, pos="e,311,64 266,70 278,68 289,67 301,65"];
+	Node4 -> Node5 [color=midnightblue, style=solid, pos="e,502,80 455,66 458,66 461,67 464,68 478,71 482,74 492,77"];
+	Node4 -> Node6 [color=midnightblue, style=solid, pos="e,507,54 455,54 469,54 483,54 497,54"];
+	Node6 -> Node7 [color=midnightblue, style=solid, pos="e,660,67 617,61 620,61 622,62 624,62 633,63 641,64 650,66"];
+	Node7 -> Node8 [color=midnightblue, style=solid, pos="e,834,77 798,77 807,77 815,77 824,77"];
+	Node6 -> Node9 [color=midnightblue, style=solid, pos="e,678,37 617,47 620,47 622,46 624,46 641,43 644,41 660,39 663,39 665,38 668,38"];
+	Node4 -> Node10 [color=midnightblue, style=solid, pos="e,500,28 455,42 458,41 461,41 464,40 477,37 482,34 491,31"];
+}

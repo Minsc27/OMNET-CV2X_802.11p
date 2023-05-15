@@ -1,0 +1,11 @@
+digraph "veins::Coord::sqrTorusDist" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,474,28"];
+	Node1 [label="veins::Coord::sqrTorusDist", height="0.22", width="1.86", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="75,14", rects="8,6,142,22"];
+	Node2 [label="anonymous_namespace\l\{Coord::cc\}::dist", height="0.39", width="1.78", color=black, fillcolor=white, style=filled, URL="$namespaceanonymous__namespace_02_coord_8cc_03.html#a8c0f9656a5c33ea4cd7240eb430fc1d6", tooltip="On a torus the end and the begin of the axes are connected so you get a circle. ", pos="242,14", rects="178,0,306,28"];
+	Node3 [label="veins::FWMath::modulo", height="0.22", width="1.72", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_f_w_math.html#aa66a76d454bf3d91d8ec390c4737a7a1", tooltip="Returns the remainder r on division of dividend a by divisor n, using floored division. ", pos="404,14", rects="342,6,466,22"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,178,14 142,14 151,14 159,14 168,14"];
+	Node2 -> Node3 [color=midnightblue, style=solid, pos="e,342,14 306,14 315,14 323,14 332,14"];
+}

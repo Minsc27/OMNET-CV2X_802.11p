@@ -1,0 +1,15 @@
+digraph "veins::TraCIScenarioManager::parseMappings" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,740,74"];
+	Node1 [label="veins::TraCIScenarioManager\l::parseMappings", height="0.39", width="2.11", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="85,37", rects="9,23,162,51"];
+	Node2 [label="veins::TraCIScenarioManager\l::parseModuleTypes", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager.html#a45673008abaef567b3c5c0241ff4392f", tooltip="parses the vector of module types in ini file ", pos="275,37", rects="199,23,352,51"];
+	Node3 [label="veins::TraCIScenarioManager\l::initialize", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager.html#a6060adf2e942f6e7343ee26091193341", pos="465,37", rects="389,23,542,51"];
+	Node4 [label="veins::TraCIScenarioManager\lForker::initialize", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager_forker.html#a952e624950eb8aa1d856c850c574a4e9", pos="655,60", rects="579,46,732,74"];
+	Node5 [label="veins::TraCIScenarioManager\lLaunchd::initialize", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager_launchd.html#afb429edf2aaebebc1895151be0fadbca", pos="655,14", rects="579,0,732,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,162,37 172,37 181,37 189,37 198,37"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,352,37 362,37 371,37 379,37 388,37"];
+	Node3 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,542,46 551,47 560,49 569,49 578,51"];
+	Node3 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,542,28 551,27 560,25 569,25 578,23"];
+}

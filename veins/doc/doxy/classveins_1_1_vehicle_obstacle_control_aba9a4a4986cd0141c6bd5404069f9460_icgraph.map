@@ -1,0 +1,11 @@
+digraph "veins::VehicleObstacleControl::getVehicleAttenuationSingle" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,568,28"];
+	Node1 [label="veins::VehicleObstacleControl\l::getVehicleAttenuationSingle", height="0.39", width="2.14", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="85,14", rects="8,0,162,28"];
+	Node2 [label="veins::VehicleObstacleControl\l::getVehicleAttenuationDZ", height="0.39", width="2.14", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_vehicle_obstacle_control.html#adf2407d9dcb0830d99775342e3304f15", tooltip="compute attenuation due to vehicles. ", pos="275,14", rects="198,0,352,28"];
+	Node3 [label="veins::VehicleObstacleShadowing\l::filterSignal", height="0.39", width="2.36", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_vehicle_obstacle_shadowing.html#aa1a8069440240b74a7a8ea0c91b06116", tooltip="Filters a specified Signal by adding an attenuation over time to the Signal. ", pos="474,14", rects="389,0,560,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,162,14 172,14 181,14 189,14 198,14"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,352,14 362,14 371,14 379,14 388,14"];
+}

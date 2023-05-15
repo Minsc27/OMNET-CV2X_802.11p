@@ -1,0 +1,15 @@
+digraph "veins::TraCIScenarioManager::subscribeToTrafficLightVariables" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,766,74"];
+	Node1 [label="veins::TraCIScenarioManager\l::subscribeToTrafficLightVariables", height="0.39", width="2.50", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="98,37", rects="8,23,188,51"];
+	Node2 [label="veins::TraCIScenarioManager\l::init_traci", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager.html#a5389f3fc889b1fe3fd126c33a7d9ae36", pos="301,37", rects="225,23,378,51"];
+	Node3 [label="veins::TraCIScenarioManager\l::handleSelfMsg", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager.html#a86a0b91aab8823c087c33b99f3a06b1f", pos="491,60", rects="415,46,568,74"];
+	Node4 [label="veins::TraCIScenarioManager\l::handleMessage", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager.html#ac66ce95372a25d1860ad24748363090d", pos="681,60", rects="605,46,758,74"];
+	Node5 [label="veins::TraCIScenarioManager\lLaunchd::init_traci", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager_launchd.html#a5547124fea3c83e5492a9cdb029948c9", pos="491,14", rects="415,0,568,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,188,37 197,37 206,37 216,37 224,37"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,378,46 387,47 396,49 405,49 414,51"];
+	Node3 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,568,60 578,60 587,60 595,60 604,60"];
+	Node2 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,378,28 387,27 396,25 405,25 414,23"];
+}

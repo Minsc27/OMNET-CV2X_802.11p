@@ -1,0 +1,8 @@
+digraph "veins::Decider80211pToPhy80211pInterface" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,168,96"];
+	Node1 [label="veins::Decider80211pToPhy80211p\lInterface", height="0.39", width="2.33", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="84,74", rects="0,60,168,88"];
+	Node2 [label="veins::PhyLayer80211p", height="0.22", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_phy_layer80211p.html", tooltip="Adaptation of the PhyLayer class for 802.11p. ", pos="84,16", rects="26,8,143,24"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,84,60 84,51 84,41 84,31 84,24"];
+}

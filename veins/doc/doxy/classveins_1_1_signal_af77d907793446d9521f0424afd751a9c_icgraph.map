@@ -1,0 +1,23 @@
+digraph "veins::Signal::getReceiverPoa" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,370,326"];
+	Node1 [label="veins::Signal::getReceiverPoa", height="0.22", width="2.03", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="81,163", rects="8,155,154,171"];
+	Node2 [label="veins::PERModel::filterSignal", height="0.22", width="2.08", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_p_e_r_model.html#adb563a9e10232d935d4489869ffb5ad3", tooltip="Has to be overriden by every implementation. ", pos="276,318", rects="201,310,351,326"];
+	Node3 [label="veins::TwoRayInterference\lModel::filterSignal", height="0.39", width="1.97", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_two_ray_interference_model.html#a4c322a29e4987d2021bee9234a0ad0b9", tooltip="Has to be overriden by every implementation. ", pos="276,278", rects="205,264,347,292"];
+	Node4 [label="veins::NakagamiFading\l::filterSignal", height="0.39", width="1.72", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_nakagami_fading.html#a630ff5ca1212baf8d9afac0d017229da", tooltip="Simple Nakagami-m fading (based on a constant factor across all time and frequencies). ", pos="276,232", rects="214,218,338,246"];
+	Node5 [label="veins::VehicleObstacleShadowing\l::filterSignal", height="0.39", width="2.36", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_vehicle_obstacle_shadowing.html#aa1a8069440240b74a7a8ea0c91b06116", tooltip="Filters a specified Signal by adding an attenuation over time to the Signal. ", pos="276,186", rects="191,172,362,200"];
+	Node6 [label="veins::SimpleObstacleShadowing\l::filterSignal", height="0.39", width="2.33", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_simple_obstacle_shadowing.html#a232c35993ba999b86d6e700d2152c98a", tooltip="Filters a specified Signal by adding an attenuation over time to the Signal. ", pos="276,140", rects="192,126,360,154"];
+	Node7 [label="veins::SimplePathlossModel\l::filterSignal", height="0.39", width="1.97", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_simple_pathloss_model.html#a71783f3a91bb7178629fa58aadf793e4", tooltip="Filters a specified AirFrame&#39;s Signal by adding an attenuation over time to the Signal. ", pos="276,94", rects="205,80,347,108"];
+	Node8 [label="veins::BreakpointPathloss\lModel::filterSignal", height="0.39", width="1.83", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_breakpoint_pathloss_model.html#aeb1eff2df94e21c6ed4f16adae50cf3f", tooltip="Filters a specified AirFrame&#39;s Signal by adding an attenuation over time to the Signal. ", pos="276,48", rects="210,34,343,62"];
+	Node9 [label="veins::Signal::operator=", height="0.22", width="1.64", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#ac678bd99ea970d0135330ccaa8458736", tooltip="Create a copy of another signal. ", pos="276,8", rects="217,0,336,16"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,154,171 161,178 197,218 145,270 190,310 193,313 197,315 201,317"];
+	Node1 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,154,171 161,178 185,204 159,238 190,264 194,267 199,270 205,272"];
+	Node1 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,154,171 162,176 175,188 171,206 190,218 197,222 205,225 214,227"];
+	Node1 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,154,171 163,172 172,173 181,174 190,175"];
+	Node1 -> Node6 [dir=back, color=midnightblue, style=solid, pos="s,154,155 163,154 172,152 182,152 192,150"];
+	Node1 -> Node7 [dir=back, color=midnightblue, style=solid, pos="s,154,155 162,149 175,137 171,119 190,108 195,105 200,103 205,101"];
+	Node1 -> Node8 [dir=back, color=midnightblue, style=solid, pos="s,154,155 161,149 185,122 158,87 190,62 196,57 202,54 209,51"];
+	Node1 -> Node9 [dir=back, color=midnightblue, style=solid, pos="s,154,155 161,148 197,107 145,55 190,16 197,10 207,6 216,5"];
+}

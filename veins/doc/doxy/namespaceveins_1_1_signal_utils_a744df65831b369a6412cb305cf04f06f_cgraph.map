@@ -1,0 +1,15 @@
+digraph "veins::SignalUtils::isChannelPowerBelowThreshold" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,382,178"];
+	Node1 [label="veins::SignalUtils\l::isChannelPowerBelowThreshold", height="0.39", width="2.39", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="95,104", rects="9,90,182,118"];
+	Node2 [label="veins::Signal::getAnalogue\lModelList", height="0.39", width="1.86", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#a2f4dfdadff0cd6a20ca21bad48e90940", tooltip="Get the AnalogueModels associated with this Signal. ", pos="296,164", rects="229,150,363,178"];
+	Node3 [label="veins::Signal::getReceptionEnd", height="0.22", width="2.14", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#a5c2bffe68602700de93aca6403b7e2c8", tooltip="Get the point in time at which the signal reception ends. ", pos="296,124", rects="219,116,374,132"];
+	Node4 [label="veins::Signal::getReception\lStart", height="0.39", width="1.86", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#ae5d8659cd386548bef59f09a535a1148", tooltip="Get the point in time at which the signal reception starts. ", pos="296,84", rects="229,70,364,98"];
+	Node5 [label="veins::SignalUtils\l::anonymous_namespace\l\{SignalUtils::cc\}::powerLevel\lSumAtFrequencyIndex", height="0.72", width="2.00", color=black, fillcolor=white, style=filled, URL="$namespaceveins_1_1_signal_utils_1_1anonymous__namespace_02_signal_utils_8cc_03.html#a3bdc19ba2443b2e74ab424beea23f8c8", pos="296,26", rects="224,0,368,52"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,229,154 182,118 202,127 199,140 218,150 218,150 219,151 219,151"];
+	Node1 -> Node3 [color=midnightblue, style=solid, pos="e,218,116 182,113 191,114 199,114 208,115"];
+	Node1 -> Node4 [color=midnightblue, style=solid, pos="e,228,91 182,95 195,94 207,93 219,92"];
+	Node1 -> Node5 [color=midnightblue, style=solid, pos="e,224,48 182,90 202,80 199,66 215,54"];
+}

@@ -1,0 +1,8 @@
+digraph "veins::Antenna" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,136,84"];
+	Node1 [label="veins::Antenna", height="0.22", width="1.11", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="68,68", rects="28,60,109,76"];
+	Node2 [label="veins::SampledAntenna1D", height="0.22", width="1.89", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_sampled_antenna1_d.html", tooltip="This class represents an antenna whose gain is calculated from given samples in the horizontal plane...", pos="68,16", rects="0,8,136,24"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,68,60 68,51 68,42 68,31 68,24"];
+}

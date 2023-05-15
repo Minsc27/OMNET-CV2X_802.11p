@@ -1,0 +1,8 @@
+digraph "veins::TraCIConnection" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,122,84"];
+	Node1 [label="veins::TraCIConnection", height="0.22", width="1.69", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="61,16", rects="0,8,123,24"];
+	Node2 [label="veins::HasLogProxy", height="0.22", width="1.47", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_has_log_proxy.html", tooltip="Helper class for logging from classes not derived from cComponent. ", pos="61,68", rects="8,60,114,76"];
+	Node2 -> Node1 [dir=back, color=midnightblue, style=solid, pos="s,61,60 61,51 61,42 61,31 61,24"];
+}

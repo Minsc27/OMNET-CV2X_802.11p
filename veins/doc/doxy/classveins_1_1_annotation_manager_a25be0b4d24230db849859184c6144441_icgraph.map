@@ -1,0 +1,11 @@
+digraph "veins::AnnotationManager::hideAll" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,332,74"];
+	Node1 [label="veins::AnnotationManager\l::hideAll", height="0.39", width="1.92", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="78,37", rects="9,23,148,51"];
+	Node2 [label="veins::AnnotationManager\l::finish", height="0.39", width="1.92", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_annotation_manager.html#a7cd6933413793d71e8494c4561f635e0", pos="254,60", rects="185,46,324,74"];
+	Node3 [label="veins::AnnotationManager\l::handleParameterChange", height="0.39", width="1.92", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_annotation_manager.html#aa368e9f91a7b1ae9f0ed505ec2153044", pos="254,14", rects="185,0,324,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,148,46 157,47 166,49 175,49 184,51"];
+	Node1 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,148,28 157,27 166,25 175,25 184,23"];
+}

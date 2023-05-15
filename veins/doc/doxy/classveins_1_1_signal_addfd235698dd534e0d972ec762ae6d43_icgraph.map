@@ -1,0 +1,9 @@
+digraph "veins::Signal::setDataEnd" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,298,28"];
+	Node1 [label="veins::Signal::setDataEnd", height="0.22", width="1.78", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="72,14", rects="8,6,136,22"];
+	Node2 [label="veins::PhyLayer80211p\l::attachSignal", height="0.39", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_phy_layer80211p.html#a1d1b85c74e35e6b7dd8a906a290e559c", tooltip="Attach a signal to the given AirFrame. ", pos="231,14", rects="173,0,290,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,136,14 145,14 154,14 164,14 172,14"];
+}

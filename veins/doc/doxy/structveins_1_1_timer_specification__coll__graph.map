@@ -1,0 +1,8 @@
+digraph "veins::TimerSpecification" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,132,112"];
+	Node1 [label="veins::TimerSpecification", height="0.22", width="1.81", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="65,16", rects="0,8,131,24"];
+	Node2 [label=simtime_t, height="0.22", width="0.81", color=grey75, fillcolor=white, style=filled, pos="65,96", rects="36,88,95,104"];
+	Node2 -> Node1 [dir=back, color=darkorchid3, style=dashed, label=" end_time_\nstart_", pos="s,65,88 65,79 65,62 65,38 65,24", lp="99,56"];
+}

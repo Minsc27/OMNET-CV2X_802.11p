@@ -1,0 +1,19 @@
+digraph "veins::DeciderToPhyInterface::sendControlMsgToMac" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,502,166"];
+	Node1 [label="veins::DeciderToPhyInterface\l::sendControlMsgToMac", height="0.39", width="2.11", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="85,110", rects="9,96,162,124"];
+	Node2 [label="veins::Decider80211p\l::processNewSignal", height="0.39", width="1.44", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider80211p.html#a6604c73b2ee786a4eeca5abe6f072cab", tooltip="Processes a new Signal. ", pos="421,152", rects="369,138,474,166"];
+	Node3 [label="veins::Decider80211p\l::processSignalEnd", height="0.39", width="1.44", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider80211p.html#a389f17ab33d4fc22b499593fa0837faf", tooltip="Processes a received AirFrame. ", pos="421,106", rects="369,92,474,120"];
+	Node4 [label="veins::Decider80211p\l::setChannelIdleStatus", height="0.39", width="1.58", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider80211p.html#a70d7d4c3003fdef38e4b68c471152992", tooltip="Changes the \"isIdle\"-status to the passed value. ", pos="255,68", rects="198,54,312,82"];
+	Node5 [label="veins::PhyLayer80211p\l::handleSelfMessage", height="0.39", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_phy_layer80211p.html#a020601bba0e334a622dc8e193c5946b0", tooltip="Handle self scheduled messages. ", pos="421,60", rects="363,46,480,74"];
+	Node6 [label="veins::PhyLayer80211p\l::requestChannelStatusIfIdle", height="0.39", width="2.03", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_phy_layer80211p.html#a6851aaac3c59b66568847e75691ba3e5", tooltip="Explicit request to PHY for the channel status. ", pos="421,14", rects="348,0,494,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,162,121 170,122 226,130 300,139 366,147 367,147 368,147 368,147"];
+	Node1 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,162,109 170,109 233,108 315,107 368,107"];
+	Node1 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,162,96 171,93 181,89 185,86 198,82"];
+	Node4 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,312,65 321,65 334,64 349,64 362,63"];
+	Node4 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,312,82 319,88 334,104 327,123 348,138 354,142 361,145 368,147"];
+	Node4 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,312,82 321,84 331,87 335,89 348,92 355,93 361,95 368,96"];
+	Node4 -> Node6 [dir=back, color=midnightblue, style=solid, pos="s,312,54 320,49 331,42 333,35 348,28"];
+}

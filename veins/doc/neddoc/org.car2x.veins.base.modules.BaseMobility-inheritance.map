@@ -1,0 +1,4 @@
+<area shape="rect" href="org.car2x.veins.base.modules.BaseMobility.html" title="Simple Module BaseMobility" alt="BaseMobility" coords="65,88,151,112">
+<area shape="rect" href="org.car2x.veins.modules.mobility.LinearMobility.html" title="Simple Module LinearMobility" alt="LinearMobility" coords="7,160,97,184">
+<area shape="rect" href="org.car2x.veins.modules.mobility.traci.TraCIMobility.html" title="Simple Module TraCIMobility" alt="TraCIMobility" coords="121,160,207,184">
+<area shape="rect" href="org.car2x.veins.base.modules.IMobility.html" title="Module Interface IMobility" alt="IMobility" coords="72,16,144,40">

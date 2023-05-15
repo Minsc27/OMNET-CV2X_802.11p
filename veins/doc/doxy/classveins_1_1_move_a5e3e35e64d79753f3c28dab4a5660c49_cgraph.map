@@ -1,0 +1,9 @@
+digraph "veins::Move::info" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,234,16"];
+	Node1 [label="veins::Move::info", height="0.22", width="1.25", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="53,8", rects="8,0,98,16"];
+	Node2 [label="veins::Coord::info", height="0.22", width="1.28", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_coord.html#a25b361254b68f3d13a9eb0a857d69a73", tooltip="Returns a string with the value of the coordinate. ", pos="180,8", rects="134,0,226,16"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,134,8 98,8 107,8 115,8 124,8"];
+}

@@ -1,0 +1,15 @@
+digraph "veins::BreakpointPathlossModel" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,268,166"];
+	Node1 [label="veins::BreakpointPathloss\lModel", height="0.39", width="1.83", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="122,22", rects="56,8,189,36"];
+	Node2 [label="veins::AnalogueModel", height="0.22", width="1.64", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_analogue_model.html", tooltip="Interface for the analogue models of the physical layer. ", pos="59,96", rects="0,88,118,104"];
+	Node3 [label="veins::HasLogProxy", height="0.22", width="1.47", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_has_log_proxy.html", tooltip="Helper class for logging from classes not derived from cComponent. ", pos="59,150", rects="6,142,112,158"];
+	Node4 [label="veins::Coord", height="0.22", width="0.94", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_coord.html", tooltip="Class for storing 3D coordinates. ", pos="170,96", rects="136,88,204,104"];
+	Node5 [label=cObject, height="0.22", width="0.64", color=grey75, fillcolor=white, style=filled, pos="170,150", rects="147,142,194,158"];
+	Node2 -> Node1 [dir=back, color=midnightblue, style=solid, pos="s,66,88 71,82 82,69 99,50 110,36"];
+	Node3 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,59,142 59,132 59,123 59,111 59,104"];
+	Node4 -> Node1 [dir=back, color=darkorchid3, style=dashed, label=" playgroundSize", pos="s,165,88 161,81 152,68 139,49 131,36", lp="197,62"];
+	Node5 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,170,142 170,132 170,123 170,111 170,104"];
+	Node4 -> Node4 [dir=back, color=darkorchid3, style=dashed, label=" ZERO", pos="s,204,90 215,91 219,92 222,94 222,96 222,100 214,102 204,102", lp="245,96"];
+}

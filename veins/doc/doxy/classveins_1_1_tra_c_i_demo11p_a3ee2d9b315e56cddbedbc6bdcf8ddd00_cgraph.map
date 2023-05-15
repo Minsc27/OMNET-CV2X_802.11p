@@ -1,0 +1,22 @@
+digraph "veins::TraCIDemo11p::handleSelfMsg" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,832,116"];
+	Node1 [label="veins::TraCIDemo11p\l::handleSelfMsg", height="0.39", width="1.53", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="63,56", rects="8,42,118,70"];
+	Node2 [label="veins::DemoBaseApplLayer\l::handleSelfMsg", height="0.39", width="2.00", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_demo_base_appl_layer.html#aec3c66232b9ca518c76021c8f2f1dc40", tooltip="handle self messages ", pos="227,98", rects="155,84,300,112"];
+	Node3 [label="veins::DemoBaseApplLayer\l::populateWSM", height="0.39", width="2.00", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_demo_base_appl_layer.html#aecfff5ce1d91dcdb319272042375e6b2", tooltip="sets all the necessary fields in the WSM, BSM, or WSA. ", pos="409,102", rects="337,88,482,116"];
+	Node4 [label="veins::DemoBaseApplLayer\l::sendDown", height="0.39", width="2.00", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_demo_base_appl_layer.html#ac473178d13013063c13943d343a672f4", tooltip="overloaded for error handling and stats recording purposes ", pos="409,56", rects="337,42,482,70"];
+	Node5 [label="veins::DemoBaseApplLayer\l::checkAndTrackPacket", height="0.39", width="2.00", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_demo_base_appl_layer.html#a92eee52f9f934fa6118dbad5422f4269", tooltip="helper function for error handling and stats recording purposes ", pos="591,76", rects="519,62,664,90"];
+	Node6 [label="veins::BaseLayer::sendDown", height="0.22", width="2.03", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_layer.html#a1873d6e3fc6d92cf8482b39f1c5ac6c8", tooltip="Sends a message to the lower layer. ", pos="591,36", rects="518,28,664,44"];
+	Node7 [label="veins::BaseLayer::record\lPacket", height="0.39", width="1.72", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_layer.html#a33f4f320f4b6c4ec48651847338ff47f", pos="762,36", rects="700,22,824,50"];
+	Node8 [label="veins::DemoBaseApplLayer\l::stopService", height="0.39", width="2.00", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_demo_base_appl_layer.html#ae87d3a13dfd916a8abcc7b269ce0fbbe", tooltip="stopping the service and advertising for it ", pos="227,14", rects="155,0,300,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,154,84 118,70 131,74 136,77 145,81"];
+	Node2 -> Node3 [color=midnightblue, style=solid, pos="e,336,101 300,100 309,100 317,100 326,100"];
+	Node2 -> Node4 [color=midnightblue, style=solid, pos="e,336,70 300,84 313,80 318,76 326,73"];
+	Node4 -> Node5 [color=midnightblue, style=solid, pos="e,518,68 482,64 491,65 499,66 508,67"];
+	Node4 -> Node6 [color=midnightblue, style=solid, pos="e,518,44 482,48 491,47 499,46 508,45"];
+	Node6 -> Node7 [color=midnightblue, style=solid, pos="e,700,36 664,36 673,36 681,36 690,36"];
+	Node1 -> Node4 [color=midnightblue, style=solid, pos="e,336,56 118,56 174,56 261,56 325,56"];
+	Node1 -> Node8 [color=midnightblue, style=solid, pos="e,154,28 118,42 131,37 136,34 145,31"];
+}

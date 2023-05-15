@@ -1,0 +1,11 @@
+digraph "veins::TraCITrafficLightInterface::getManager" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,474,28"];
+	Node1 [label="veins::TraCITrafficLight\lInterface::getManager", height="0.39", width="1.78", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="73,14", rects="9,0,138,28"];
+	Node2 [label="veins::TraCIScenarioManager\lAccess::get", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager_access.html#a327aea423a1acd13027a591fbae8b4c5", pos="251,14", rects="175,0,328,28"];
+	Node3 [label="veins::FindModule::\lfindGlobalModule", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_find_module.html#a5235f90b10b3a297c25baeaa8a4194cf", tooltip="Returns a pointer to the module with the type of this template. ", pos="415,14", rects="364,0,466,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,174,14 138,14 147,14 155,14 164,14"];
+	Node2 -> Node3 [color=midnightblue, style=solid, pos="e,364,14 328,14 337,14 345,14 354,14"];
+}

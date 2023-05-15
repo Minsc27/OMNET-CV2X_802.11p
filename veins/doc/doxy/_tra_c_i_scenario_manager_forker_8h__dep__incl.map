@@ -1,0 +1,8 @@
+digraph "TraCIScenarioManagerForker.h" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,168,84"];
+	Node1 [label="TraCIScenarioManagerForker.h", height="0.22", width="2.31", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="84,68", rects="1,60,167,76"];
+	Node2 [label="TraCIScenarioManagerForker.cc", height="0.22", width="2.33", color=black, fillcolor=white, style=filled, URL="$_tra_c_i_scenario_manager_forker_8cc.html", pos="84,16", rects="0,8,169,24"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,84,60 84,51 84,42 84,31 84,24"];
+}

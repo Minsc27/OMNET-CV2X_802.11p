@@ -1,0 +1,9 @@
+digraph "veins::NicEntryDebug::requestOutGate" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,288,28"];
+	Node1 [label="veins::NicEntryDebug\l::requestOutGate", height="0.39", width="1.61", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="67,14", rects="9,0,126,28"];
+	Node2 [label="veins::NicEntryDebug\l::connectTo", height="0.39", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_nic_entry_debug.html#aaf32efb647f62b055f65198bba49c535", tooltip="Connect two nics. ", pos="221,14", rects="163,0,280,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,126,14 136,14 145,14 153,14 162,14"];
+}

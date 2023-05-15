@@ -1,0 +1,9 @@
+digraph "anonymous_namespace{MobileHostObstacle::cc}::isPointInObstacle" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,316,40"];
+	Node1 [label="anonymous_namespace\l\{MobileHostObstacle\l::cc\}::isPointInObstacle", height="0.56", width="1.78", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="72,20", rects="8,0,136,40"];
+	Node2 [label="veins::MobileHostObstacle\l::getIntersectionPoint", height="0.39", width="1.89", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_mobile_host_obstacle.html#a97a8fa2ba85ea3dd7a84c7e89ad6e74e", tooltip="return closest point (in meters) along (senderPos–receiverPos) where this obstacle overlaps...", pos="240,20", rects="172,6,308,34"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,136,20 146,20 155,20 163,20 172,20"];
+}

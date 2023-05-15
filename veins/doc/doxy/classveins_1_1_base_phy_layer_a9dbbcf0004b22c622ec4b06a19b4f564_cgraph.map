@@ -1,0 +1,38 @@
+digraph "veins::BasePhyLayer::handleAirFrameReceiving" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,1278,222"];
+	Node1 [label="veins::BasePhyLayer\l::handleAirFrameReceiving", height="0.39", width="1.97", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="80,151", rects="9,137,152,165"];
+	Node2 [label="veins::Signal::getDuration", height="0.22", width="1.81", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#ae57e07bf7e6cd6baa0f6db79815cd5cb", tooltip="Get the duration. ", pos="265,214", rects="200,206,330,222"];
+	Node3 [label="veins::Signal::getReception\lStart", height="0.39", width="1.86", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#ae5d8659cd386548bef59f09a535a1148", tooltip="Get the point in time at which the signal reception starts. ", pos="265,174", rects="198,160,333,188"];
+	Node4 [label="veins::BasePhyLayer\l::handleAirFrameEndReceive", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_phy_layer.html#a4f8fde562c0004b498fc3294c3f54c2f", tooltip="Handle incoming AirFrames with the state AirFrameState::end_receive. ", pos="265,128", rects="189,114,342,142"];
+	Node5 [label="veins::ChannelInfo\l::isChannelEmpty", height="0.39", width="1.39", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_channel_info.html#a609996751d76a3ebb0db27660402fa0d", tooltip="Returns true if there are currently no active or inactive AirFrames on the channel. ", pos="575,152", rects="525,138,626,166"];
+	Node6 [label="veins::ChannelInfo\l::removeAirFrame", height="0.39", width="1.39", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_channel_info.html#af9ee0be843528ee913df218f73d4d713", tooltip="Tells the ChannelInfo that an AirFrame is over. ", pos="429,106", rects="379,92,480,120"];
+	Node7 [label="veins::ChannelInfo\l::deleteAirFrame", height="0.39", width="1.39", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_channel_info.html#aec072c13541b9a22bbdcc8e9103fe9e5", tooltip="Deletes an AirFrame from an AirFrameMatrix. ", pos="575,106", rects="525,92,626,120"];
+	Node8 [label="veins::ChannelInfo\l::addToInactives", height="0.39", width="1.39", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_channel_info.html#a002d7a0fff6734bdb6d8ddebf799f7f5", tooltip="Moves a previously active AirFrame to the inactive AirFrames. ", pos="575,60", rects="525,46,626,74"];
+	Node9 [label="veins::ChannelInfo\l::checkAndCleanInterval", height="0.39", width="1.81", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_channel_info.html#a1ffb197c5bf86824cd04313da5e9e4ed", tooltip="Checks if any information inside the passed interval can be discarded. ", pos="735,82", rects="670,68,800,96"];
+	Node10 [label="veins::ChannelInfo\l::BaseIntersectionIterator::next", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_channel_info_1_1_base_intersection_iterator.html#ac8cb02d11bbba3ab83fe39a400aa320d", tooltip="Increases the iterator to the next intersecting AirFrame and returns a pointer to this AirFrame...", pos="1193,97", rects="1117,83,1270,111"];
+	Node11 [label="veins::ChannelInfo\l::canDiscardInterval", height="0.39", width="1.44", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_channel_info.html#ab4da0befdce7f2b27ae4a61d66ec2167", tooltip="Returns true if all information inside the passed interval can be deleted. ", pos="889,33", rects="837,19,942,47"];
+	Node12 [label="veins::ChannelInfo\l::isIntersecting", height="0.39", width="1.39", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_channel_info.html#a2a4e738d7d51c1dc53ba7404b68103ec", tooltip="Returns true if there is at least one AirFrame in the passed AirFrameMatrix which intersect with the ...", pos="1029,62", rects="979,48,1080,76"];
+	Node13 [label="veins::ChannelInfo\l::IntersectionIterator\l::eraseAirFrame", height="0.56", width="1.44", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_channel_info_1_1_intersection_iterator.html#a375fa550d8ff120ec17ace70de51389f", tooltip="Erases the AirFrame the iterator currently points to from the AirFrameMatrix. ", pos="889,85", rects="837,65,942,105"];
+	Node14 [label="veins::ChannelInfo\l::findEarliestInfoPoint", height="0.39", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_channel_info.html#a627fbeddfec6f3ec1da17a91b97f1051", tooltip="Returns the start time of the odlest AirFrame on the channel. ", pos="575,14", rects="517,0,634,28"];
+	Node15 [label="veins::BasePhyLayer\l::sendSelfMessage", height="0.39", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_phy_layer.html#aa59aef501cadd36c94d4f82efe9b64be", tooltip="Schedule self message to passed point in time. ", pos="265,82", rects="210,68,320,96"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,200,211 152,165 174,177 167,194 188,206 189,206 190,207 191,207"];
+	Node1 -> Node3 [color=midnightblue, style=solid, pos="e,197,165 152,160 164,162 176,163 187,164"];
+	Node1 -> Node4 [color=midnightblue, style=solid, pos="e,188,138 152,142 161,141 169,140 178,139"];
+	Node4 -> Node5 [color=midnightblue, style=solid, pos="e,524,148 342,134 395,138 465,143 514,147"];
+	Node4 -> Node6 [color=midnightblue, style=solid, pos="e,378,113 342,118 351,117 360,115 369,114"];
+	Node6 -> Node7 [color=midnightblue, style=solid, pos="e,524,106 480,106 491,106 503,106 514,106"];
+	Node6 -> Node8 [color=midnightblue, style=solid, pos="e,524,71 480,92 496,85 500,80 514,75"];
+	Node8 -> Node9 [color=midnightblue, style=solid, pos="e,670,73 626,67 637,69 649,70 661,72"];
+	Node9 -> Node10 [color=midnightblue, style=solid, pos="e,1116,106 800,96 817,101 819,109 836,114 886,126 1018,116 1107,107"];
+	Node9 -> Node11 [color=midnightblue, style=solid, pos="e,836,47 800,68 814,63 818,57 827,52"];
+	Node11 -> Node12 [color=midnightblue, style=solid, pos="e,978,51 942,44 951,45 959,47 968,49"];
+	Node12 -> Node10 [color=midnightblue, style=solid, pos="e,1116,83 1080,74 1089,76 1098,78 1106,81"];
+	Node9 -> Node13 [color=midnightblue, style=solid, pos="e,836,84 800,83 809,83 818,84 826,84"];
+	Node8 -> Node11 [color=midnightblue, style=solid, pos="e,836,38 626,56 681,51 767,44 825,39"];
+	Node6 -> Node5 [color=midnightblue, style=solid, pos="e,524,141 480,120 496,126 500,131 514,137"];
+	Node6 -> Node14 [color=midnightblue, style=solid, pos="e,516,28 480,92 503,73 493,52 509,34"];
+	Node1 -> Node15 [color=midnightblue, style=solid, pos="e,210,87 152,137 174,124 167,107 188,96 192,94 196,92 200,90"];
+}

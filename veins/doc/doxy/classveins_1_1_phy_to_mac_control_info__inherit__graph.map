@@ -1,0 +1,8 @@
+digraph "veins::PhyToMacControlInfo" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,152,84"];
+	Node1 [label="veins::PhyToMacControlInfo", height="0.22", width="2.11", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="76,16", rects="0,8,152,24"];
+	Node2 [label=cObject, height="0.22", width="0.64", color=grey75, fillcolor=white, style=filled, pos="76,68", rects="53,60,100,76"];
+	Node2 -> Node1 [dir=back, color=midnightblue, style=solid, pos="s,76,60 76,51 76,42 76,31 76,24"];
+}

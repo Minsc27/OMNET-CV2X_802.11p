@@ -1,0 +1,17 @@
+digraph "veins::Spectrum::freqAt" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,726,120"];
+	Node1 [label="veins::Spectrum::freqAt", height="0.22", width="1.69", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="69,60", rects="8,52,130,68"];
+	Node2 [label="veins::TwoRayInterference\lModel::filterSignal", height="0.39", width="1.97", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_two_ray_interference_model.html#a4c322a29e4987d2021bee9234a0ad0b9", tooltip="Has to be overriden by every implementation. ", pos="243,106", rects="172,92,314,120"];
+	Node3 [label="veins::SimplePathlossModel\l::filterSignal", height="0.39", width="1.97", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_simple_pathloss_model.html#a71783f3a91bb7178629fa58aadf793e4", tooltip="Filters a specified AirFrame&#39;s Signal by adding an attenuation over time to the Signal. ", pos="243,60", rects="172,46,314,74"];
+	Node4 [label="veins::VehicleObstacleControl\l::getVehicleAttenuationSingle", height="0.39", width="2.14", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_vehicle_obstacle_control.html#aba9a4a4986cd0141c6bd5404069f9460", tooltip="compute attenuation due to (single) vehicle. ", pos="243,14", rects="166,0,320,28"];
+	Node5 [label="veins::VehicleObstacleControl\l::getVehicleAttenuationDZ", height="0.39", width="2.14", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_vehicle_obstacle_control.html#adf2407d9dcb0830d99775342e3304f15", tooltip="compute attenuation due to vehicles. ", pos="433,14", rects="356,0,510,28"];
+	Node6 [label="veins::VehicleObstacleShadowing\l::filterSignal", height="0.39", width="2.36", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_vehicle_obstacle_shadowing.html#aa1a8069440240b74a7a8ea0c91b06116", tooltip="Filters a specified Signal by adding an attenuation over time to the Signal. ", pos="632,14", rects="547,0,718,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,130,68 139,72 150,78 152,85 166,92 168,93 170,93 172,94"];
+	Node1 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,130,60 140,60 150,60 161,60 172,60"];
+	Node1 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,130,52 138,48 149,42 152,34 166,28"];
+	Node4 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,320,14 330,14 339,14 347,14 356,14"];
+	Node5 -> Node6 [dir=back, color=midnightblue, style=solid, pos="s,510,14 520,14 529,14 537,14 546,14"];
+}

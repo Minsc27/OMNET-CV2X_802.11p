@@ -1,0 +1,9 @@
+digraph "veins::Mac1609_4::timeLeftInSlot" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,322,28"];
+	Node1 [label="veins::Mac1609_4::timeLeft\lInSlot", height="0.39", width="1.92", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="78,14", rects="9,0,148,28"];
+	Node2 [label="veins::Mac1609_4::handle\lSelfMsg", height="0.39", width="1.78", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_mac1609__4.html#a50663c27a2a1782c618309345687e142", tooltip="Handle self messages such as timers. ", pos="249,14", rects="185,0,314,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,148,14 157,14 166,14 176,14 184,14"];
+}

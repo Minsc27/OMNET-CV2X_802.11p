@@ -1,0 +1,9 @@
+digraph "veins::BaseMacLayer::getMACAddress" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,300,28"];
+	Node1 [label="veins::BaseMacLayer\l::getMACAddress", height="0.39", width="1.56", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="64,14", rects="8,0,120,28"];
+	Node2 [label="veins::LAddress::L2NULL", height="0.22", width="1.89", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_l_address.html#aa4c72481eb930988da1272c5867ff401", tooltip="NULL address for L2 addresses. ", pos="224,14", rects="156,6,292,22"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,156,14 120,14 129,14 137,14 146,14"];
+}

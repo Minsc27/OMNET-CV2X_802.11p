@@ -1,0 +1,11 @@
+digraph "veins::BasePhyLayer::initializeAntenna" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,426,28"];
+	Node1 [label="veins::BasePhyLayer\l::initializeAntenna", height="0.39", width="1.53", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="63,14", rects="8,0,118,28"];
+	Node2 [label="veins::BasePhyLayer\l::initialize", height="0.39", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_phy_layer.html#a63e95c45ba5f46514ed9027c53216491", tooltip="Initialize members and associated objects according to parameterization. ", pos="209,14", rects="154,0,264,28"];
+	Node3 [label="veins::PhyLayer80211p\l::initialize", height="0.39", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_phy_layer80211p.html#abdd1c62986d1fd220eb5e51d4458811a", pos="359,14", rects="301,0,418,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,118,14 128,14 137,14 145,14 154,14"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,264,14 274,14 283,14 291,14 300,14"];
+}

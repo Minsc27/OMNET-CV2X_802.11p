@@ -1,0 +1,29 @@
+digraph phy {
+	graph [compound=true];
+	node [label="\N", fontsize=10, fontname=Helvetica];
+	edge [labelfontsize=10, labelfontname=Helvetica];
+	graph [bb="0,0,232,298"];
+	subgraph clusterdir_9a350b5a4b1db77a4c811625b6e998c8 {
+		graph [bgcolor="#ddddee"];
+		graph [pencolor=black];
+		graph [label=modules];
+		graph [fontname=Helvetica];
+		graph [fontsize=10];
+		graph [URL="dir_9a350b5a4b1db77a4c811625b6e998c8.html"];
+		graph [lp="75,282"];
+		graph [bb="40,222,110,290"];
+		dir_2619e191fa96a2c671a2d717fbea9cb0 [label=phy, shape=box, style=filled, fillcolor="#eeeeff", pencolor=black, URL="dir_2619e191fa96a2c671a2d717fbea9cb0.html", pos="75,248", width="0.75", height="0.50"];
+	}
+	dir_e7bc2e7c92047e041aeadd961c478a6c [label=analogueModel, shape=box, URL="dir_e7bc2e7c92047e041aeadd961c478a6c.html", pos="118,174", width="1.17", height="0.50"];
+	dir_f8fe37ffe6c293ec4b27aa009c9df898 [label=utility, shape=box, URL="dir_f8fe37ffe6c293ec4b27aa009c9df898.html", pos="118,26", width="0.75", height="0.50"];
+	dir_7ed75e2b1ee1c6cbf8e17dfb79841f91 [label=base, shape=box, style=filled, fillcolor=white, URL="dir_7ed75e2b1ee1c6cbf8e17dfb79841f91.html", color=red, pos="118,100", width="0.75", height="0.50"];
+	dir_9f3ff37551a7d9962b9f24e1c1b46cd2 [label=mac, shape=box, style=filled, fillcolor=white, URL="dir_9f3ff37551a7d9962b9f24e1c1b46cd2.html", color=red, pos="205,174", width="0.75", height="0.50"];
+	dir_e7bc2e7c92047e041aeadd961c478a6c -> dir_7ed75e2b1ee1c6cbf8e17dfb79841f91 [headlabel=14, labeldistance="1.5", headhref="dir_000011_000002.html", pos="e,118,118 118,156 118,147 118,137 118,128", head_lp="124,132"];
+	dir_7ed75e2b1ee1c6cbf8e17dfb79841f91 -> dir_f8fe37ffe6c293ec4b27aa009c9df898 [headlabel=3, labeldistance="1.5", headhref="dir_000002_000010.html", pos="e,118,44 118,82 118,73 118,63 118,54", head_lp="124,58"];
+	dir_9f3ff37551a7d9962b9f24e1c1b46cd2 -> dir_f8fe37ffe6c293ec4b27aa009c9df898 [headlabel=7, labeldistance="1.5", headhref="dir_000015_000010.html", pos="e,130,44 195,156 185,137 169,107 154,82 148,72 141,61 135,52", head_lp="143,52"];
+	dir_9f3ff37551a7d9962b9f24e1c1b46cd2 -> dir_7ed75e2b1ee1c6cbf8e17dfb79841f91 [headlabel=6, labeldistance="1.5", headhref="dir_000015_000002.html", pos="e,139,118 183,156 172,146 159,135 146,124", head_lp="153,122"];
+	dir_2619e191fa96a2c671a2d717fbea9cb0 -> dir_e7bc2e7c92047e041aeadd961c478a6c [headlabel=8, labeldistance="1.5", headhref="dir_000012_000011.html", pos="e,107,192 86,230 91,221 97,210 102,201", head_lp="106,207"];
+	dir_2619e191fa96a2c671a2d717fbea9cb0 -> dir_f8fe37ffe6c293ec4b27aa009c9df898 [headlabel=5, labeldistance="1.5", headhref="dir_000012_000010.html", pos="e,105,44 63,230 63,225 63,219 62,212 58,187 56,180 59,156 65,121 68,113 82,82 87,72 93,61 100,52", head_lp="103,59"];
+	dir_2619e191fa96a2c671a2d717fbea9cb0 -> dir_7ed75e2b1ee1c6cbf8e17dfb79841f91 [headlabel=11, labeldistance="1.5", headhref="dir_000012_000002.html", pos="e,95,118 69,230 64,211 58,180 67,156 72,144 80,133 88,125", head_lp="90,132"];
+	dir_2619e191fa96a2c671a2d717fbea9cb0 -> dir_9f3ff37551a7d9962b9f24e1c1b46cd2 [headlabel=2, labeldistance="1.5", headhref="dir_000012_000015.html", pos="e,181,192 102,239 129,227 155,210 174,197", head_lp="174,205"];
+}

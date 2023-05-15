@@ -1,0 +1,13 @@
+digraph "veins::Signal::getMax" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,420,74"];
+	Node1 [label="veins::Signal::getMax", height="0.22", width="1.50", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="63,37", rects="9,29,118,45"];
+	Node2 [label="veins::NakagamiFading\l::filterSignal", height="0.39", width="1.72", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_nakagami_fading.html#a630ff5ca1212baf8d9afac0d017229da", tooltip="Simple Nakagami-m fading (based on a constant factor across all time and frequencies). ", pos="216,60", rects="154,46,278,74"];
+	Node3 [label="veins::BaseDecider\l::processNewSignal", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_decider.html#a6a480f87157d0509c0c1fccf94ea9fef", tooltip="Processes a new Signal. ", pos="216,14", rects="165,0,267,28"];
+	Node4 [label="veins::BaseDecider\l::processSignal", height="0.39", width="1.36", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_decider.html#a8b488dcd86bfc2749763682ea3589800", tooltip="Processes an AirFrame given by the PhyLayer. ", pos="363,14", rects="314,0,412,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,118,45 127,46 136,48 145,48 154,50"];
+	Node1 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,118,29 127,28 139,26 153,24 165,22"];
+	Node3 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,267,14 277,14 289,14 302,14 314,14"];
+}

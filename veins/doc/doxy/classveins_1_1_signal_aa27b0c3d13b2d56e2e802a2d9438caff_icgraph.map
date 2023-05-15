@@ -1,0 +1,9 @@
+digraph "veins::Signal::getCenterFrequencyIndex" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,290,28"];
+	Node1 [label="veins::Signal::getCenter\lFrequencyIndex", height="0.39", width="1.64", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="67,14", rects="8,0,126,28"];
+	Node2 [label="veins::Signal::operator=", height="0.22", width="1.64", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#ac678bd99ea970d0135330ccaa8458736", tooltip="Create a copy of another signal. ", pos="222,14", rects="163,6,282,22"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,126,14 136,14 145,14 153,14 162,14"];
+}

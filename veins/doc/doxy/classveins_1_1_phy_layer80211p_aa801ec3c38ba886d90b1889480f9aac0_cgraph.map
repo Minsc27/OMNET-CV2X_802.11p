@@ -1,0 +1,15 @@
+digraph "veins::PhyLayer80211p::initializeVehicleObstacleShadowing" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,508,120"];
+	Node1 [label="veins::PhyLayer80211p\l::initializeVehicleObstacle\lShadowing", height="0.56", width="1.83", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="74,60", rects="8,40,140,80"];
+	Node2 [label="veins::VehicleObstacleControl\lAccess::getIfExists", height="0.39", width="2.14", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_vehicle_obstacle_control_access.html#a2a1d5694c1098854d78e763bfc6e5cdc", pos="253,106", rects="176,92,330,120"];
+	Node3 [label="veins::findModuleByPath", height="0.22", width="1.86", color=black, fillcolor=white, style=filled, URL="$namespaceveins.html#a2f73fda5cc597671ec3697f8c33b5893", pos="433,106", rects="366,98,500,114"];
+	Node4 [label="veins::BaseWorldUtility\l::getPgs", height="0.39", width="1.72", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_world_utility.html#a08a8c00b81e5b70ab4cdfe611d4169b7", tooltip="Returns the playgroundSize. ", pos="253,60", rects="191,46,315,74"];
+	Node5 [label="veins::BaseWorldUtility\l::useTorus", height="0.39", width="1.72", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_world_utility.html#ac0e47ec8501896bb97172a70c31d7e06", tooltip="Returns true if our playground represents a torus (borders are connected) ", pos="253,14", rects="191,0,315,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,176,92 140,80 153,84 158,86 166,89"];
+	Node2 -> Node3 [color=midnightblue, style=solid, pos="e,366,106 330,106 339,106 347,106 356,106"];
+	Node1 -> Node4 [color=midnightblue, style=solid, pos="e,191,60 140,60 154,60 167,60 181,60"];
+	Node1 -> Node5 [color=midnightblue, style=solid, pos="e,191,24 140,40 157,34 160,32 176,28 178,28 180,27 181,27"];
+}

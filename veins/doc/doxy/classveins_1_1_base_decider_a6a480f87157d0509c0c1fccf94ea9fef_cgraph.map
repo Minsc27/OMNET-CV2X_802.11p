@@ -1,0 +1,15 @@
+digraph "veins::BaseDecider::processNewSignal" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,498,96"];
+	Node1 [label="veins::BaseDecider\l::processNewSignal", height="0.39", width="1.42", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="59,54", rects="8,40,110,68"];
+	Node2 [label="veins::Signal::getMax", height="0.22", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#abebe5178153c93685c9213770127e364", tooltip="Return the maximum power level of any frequency. ", pos="224,88", rects="170,80,279,96"];
+	Node3 [label="veins::Signal::getMaxInRange", height="0.22", width="2.08", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#aa1b08d369a6416df8954591047ebdbc1", pos="414,88", rects="339,80,490,96"];
+	Node4 [label="veins::Signal::getReceptionEnd", height="0.22", width="2.14", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#a5c2bffe68602700de93aca6403b7e2c8", tooltip="Get the point in time at which the signal reception ends. ", pos="224,54", rects="147,46,302,62"];
+	Node5 [label="veins::BaseDecider\l::setChannelIdleStatus", height="0.39", width="1.58", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_decider.html#ae535b44e34061014fe282c36c27b0193", tooltip="Changes the \"isIdle\"-status to the passed value. ", pos="224,14", rects="167,0,281,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,169,84 110,68 127,72 130,76 146,80 151,81 155,82 159,83"];
+	Node2 -> Node3 [color=midnightblue, style=solid, pos="e,338,88 279,88 294,88 311,88 328,88"];
+	Node1 -> Node4 [color=midnightblue, style=solid, pos="e,146,54 110,54 119,54 127,54 136,54"];
+	Node1 -> Node5 [color=midnightblue, style=solid, pos="e,167,23 110,40 127,35 130,32 146,28 150,27 154,26 157,25"];
+}

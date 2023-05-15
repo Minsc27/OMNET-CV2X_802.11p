@@ -1,0 +1,11 @@
+digraph "veins::TraCIVehicleInserter::receiveSignal" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,348,74"];
+	Node1 [label="veins::TraCIVehicleInserter\l::receiveSignal", height="0.39", width="1.94", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="79,37", rects="9,23,150,51"];
+	Node2 [label="veins::FindModule::\lfindSubModule", height="0.39", width="1.39", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_find_module.html#a56591278058cab17db4d776cfde387a5", tooltip="Returns a pointer to a sub module of the passed module with the type of this template. ", pos="263,60", rects="213,46,314,74"];
+	Node3 [label="veins::TraCIScenarioManager\l::isConnected", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager.html#af75c851ce8b8b0b41002eb804c5e0dc5", pos="263,14", rects="187,0,340,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,212,54 150,46 168,48 186,50 203,53"];
+	Node1 -> Node3 [color=midnightblue, style=solid, pos="e,186,24 150,28 159,27 167,26 176,25"];
+}

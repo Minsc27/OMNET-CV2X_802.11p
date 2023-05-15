@@ -1,0 +1,12 @@
+digraph "veins::NicEntry" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,248,136"];
+	Node1 [label="veins::NicEntry", height="0.22", width="1.17", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="124,68", rects="82,60,166,76"];
+	Node2 [label="veins::HasLogProxy", height="0.22", width="1.47", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_has_log_proxy.html", tooltip="Helper class for logging from classes not derived from cComponent. ", pos="124,120", rects="71,112,177,128"];
+	Node3 [label="veins::NicEntryDebug", height="0.22", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_nic_entry_debug.html", tooltip="NicEntry is used by ConnectionManager to store the necessary information for each nic...", pos="58,16", rects="0,8,117,24"];
+	Node4 [label="veins::NicEntryDirect", height="0.22", width="1.58", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_nic_entry_direct.html", tooltip="NicEntry is used by ConnectionManager to store the necessary information for each nic...", pos="191,16", rects="134,8,248,24"];
+	Node2 -> Node1 [dir=back, color=midnightblue, style=solid, pos="s,124,112 124,103 124,94 124,83 124,76"];
+	Node1 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,114,60 107,54 94,45 79,32 68,24"];
+	Node1 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,134,60 141,54 154,45 170,32 180,24"];
+}

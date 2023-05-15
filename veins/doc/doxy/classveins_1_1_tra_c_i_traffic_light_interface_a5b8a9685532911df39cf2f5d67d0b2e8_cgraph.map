@@ -1,0 +1,15 @@
+digraph "veins::TraCITrafficLightInterface::getCurrentState" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,688,74"];
+	Node1 [label="veins::TraCITrafficLight\lInterface::getCurrentState", height="0.39", width="1.86", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="75,37", rects="8,23,142,51"];
+	Node2 [label="veins::TraCITrafficLight\lInterface::getCurrentPhase", height="0.39", width="1.92", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_traffic_light_interface.html#a092ada57e4d8d2b5b93331eae73a024c", pos="259,60", rects="190,46,329,74"];
+	Node3 [label="veins::TraCITrafficLight\lInterface::getCurrentLogic", height="0.39", width="1.92", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_traffic_light_interface.html#a7a0309763a62c52ea70ac82348abb581", pos="445,60", rects="376,46,514,74"];
+	Node4 [label="veins::TraCITrafficLight\lProgram::getLogic", height="0.39", width="1.78", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_traffic_light_program.html#a9ebe65b2056c80ee2d27ce849e8bcc46", pos="615,60", rects="551,46,680,74"];
+	Node5 [label="veins::TraCITrafficLight\lInterface::isInOnlineSignalState", height="0.39", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_traffic_light_interface.html#ae0a6ee92f30dd65f63e024aec6247239", pos="259,14", rects="179,0,340,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,189,51 142,45 154,47 167,48 179,50"];
+	Node2 -> Node3 [color=midnightblue, style=solid, pos="e,376,60 329,60 341,60 353,60 366,60"];
+	Node3 -> Node4 [color=midnightblue, style=solid, pos="e,550,60 514,60 523,60 532,60 540,60"];
+	Node1 -> Node5 [color=midnightblue, style=solid, pos="e,178,24 142,29 151,28 159,27 168,25"];
+}

@@ -1,0 +1,24 @@
+digraph "veins::BasePhyLayer" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,540,292"];
+	Node1 [label="veins::BasePhyLayer", height="0.22", width="1.53", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="310,68", rects="255,60,365,76"];
+	Node2 [label="veins::ChannelAccess", height="0.22", width="1.56", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_channel_access.html", tooltip="Basic class for all physical layers, please don&#39;t touch!! ", pos="160,120", rects="104,112,216,128"];
+	Node3 [label="veins::BatteryAccess", height="0.22", width="1.47", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_battery_access.html", tooltip="Extends BaseModule by several methods which provide access to the battery module. ...", pos="87,172", rects="34,164,141,180"];
+	Node4 [label="veins::BaseModule", height="0.22", width="1.36", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_module.html", tooltip="Base class for all simple modules of a host. ", pos="87,224", rects="38,216,137,232"];
+	Node5 [label=cSimpleModule, height="0.22", width="1.19", color=grey75, fillcolor=white, style=filled, pos="43,276", rects="0,268,86,284"];
+	Node6 [label=cListener, height="0.22", width="0.75", color=grey75, fillcolor=white, style=filled, pos="131,276", rects="104,268,158,284"];
+	Node7 [label=ChannelMobilityAccessType, height="0.22", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_access_module_wrap.html", tooltip="Finds and returns the pointer to a module of type T. ", pos="234,172", rects="158,164,310,180"];
+	Node8 [label="veins::DeciderToPhyInterface", height="0.22", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider_to_phy_interface.html", tooltip="This class is the interface for a Decider to the BasePhyLayer. ", pos="310,120", rects="234,112,387,128"];
+	Node9 [label="veins::MacToPhyInterface", height="0.22", width="1.89", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_mac_to_phy_interface.html", tooltip="Defines the methods provided by the phy to the mac layer. ", pos="472,120", rects="404,112,541,128"];
+	Node10 [label="veins::PhyLayer80211p", height="0.22", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_phy_layer80211p.html", tooltip="Adaptation of the PhyLayer class for 802.11p. ", pos="310,16", rects="252,8,369,24"];
+	Node2 -> Node1 [dir=back, color=midnightblue, style=solid, pos="s,183,112 192,109 220,99 261,85 287,76"];
+	Node3 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,98,164 105,159 119,149 137,136 148,128"];
+	Node4 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,87,216 87,207 87,198 87,187 87,180"];
+	Node5 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,50,268 56,261 64,251 74,240 80,232"];
+	Node6 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,124,268 118,261 110,251 100,240 94,232"];
+	Node7 -> Node2 [dir=back, color=darkgreen, style=solid, pos="s,222,164 215,159 202,149 184,136 172,128"];
+	Node8 -> Node1 [dir=back, color=midnightblue, style=solid, pos="s,310,112 310,103 310,94 310,83 310,76"];
+	Node9 -> Node1 [dir=back, color=midnightblue, style=solid, pos="s,447,112 438,109 408,99 363,85 335,76"];
+	Node1 -> Node10 [dir=back, color=midnightblue, style=solid, pos="s,310,60 310,51 310,42 310,31 310,24"];
+}

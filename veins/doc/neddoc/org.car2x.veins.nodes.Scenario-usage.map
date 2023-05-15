@@ -1,0 +1,8 @@
+<area shape="rect" href="org.car2x.veins.nodes.Scenario.html" title="Network Scenario" alt="Scenario" coords="436,16,508,40">
+<area shape="rect" href="org.car2x.veins.base.modules.BaseWorldUtility.html" title="Simple Module BaseWorldUtility" alt="BaseWorldUtility" coords="7,88,113,112">
+<area shape="rect" href="org.car2x.veins.modules.world.annotations.AnnotationManager.html" title="Simple Module AnnotationManager" alt="AnnotationManager" coords="137,88,263,112">
+<area shape="rect" href="org.car2x.veins.base.connectionManager.ConnectionManager.html" title="Simple Module ConnectionManager" alt="ConnectionManager" coords="287,88,412,112">
+<area shape="rect" href="org.car2x.veins.nodes.Car.html" title="Compound Module Car" alt="Car" coords="436,88,508,112">
+<area shape="rect" href="org.car2x.veins.modules.mobility.traci.TraCIScenarioManagerLaunchd.html" title="Simple Module TraCIScenarioManagerLaunchd" alt="TraCIScenarioManagerLaunchd" coords="532,88,724,112">
+<area shape="rect" href="org.car2x.veins.modules.obstacle.ObstacleControl.html" title="Simple Module ObstacleControl" alt="ObstacleControl" coords="748,88,852,112">
+<area shape="rect" href="org.car2x.veins.visualizer.roads.RoadsCanvasVisualizer.html" title="Simple Module RoadsCanvasVisualizer" alt="RoadsCanvasVisualizer" coords="876,88,1023,112">

@@ -1,0 +1,9 @@
+digraph "veins::SampledAntenna1D::getGain" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,328,28"];
+	Node1 [label="veins::SampledAntenna1D\l::getGain", height="0.39", width="1.89", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="76,14", rects="8,0,144,28"];
+	Node2 [label="veins::FWMath::dBm2mW", height="0.22", width="1.92", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_f_w_math.html#acbd7030a6d374a5aada9ce01ab326dd4", tooltip="Converts a dBm value into milliwatts. ", pos="250,14", rects="181,6,320,22"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,180,14 144,14 153,14 161,14 170,14"];
+}

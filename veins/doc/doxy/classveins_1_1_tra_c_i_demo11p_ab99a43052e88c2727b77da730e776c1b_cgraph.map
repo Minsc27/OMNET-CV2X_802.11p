@@ -1,0 +1,20 @@
+digraph "veins::TraCIDemo11p::onWSA" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,718,122"];
+	Node1 [label="veins::TraCIDemo11p\l::onWSA", height="0.39", width="1.53", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="63,60", rects="8,46,118,74"];
+	Node2 [label="veins::DemoBaseApplLayer\lToMac1609_4Interface::\lchangeServiceChannel", height="0.56", width="2.00", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_demo_base_appl_layer_to_mac1609__4_interface.html#a73bf2fa8eced9dc5a97ec5566f29f6f6", pos="432,102", rects="360,82,505,122"];
+	Node3 [label="veins::DemoBaseApplLayer\l::startService", height="0.39", width="2.00", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_demo_base_appl_layer.html#a950278bac8ae9a57bbf8d052f3d72740", tooltip="This will start the periodic advertising of the new service on the CCH. ", pos="227,60", rects="155,46,300,74"];
+	Node4 [label="veins::DemoBaseApplLayer\l::computeAsynchronousSendingTime", height="0.39", width="2.67", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_demo_base_appl_layer.html#a59d83e257a9f18f9af061d2e3bbe0440", tooltip="compute a point in time that is guaranteed to be in the correct channel interval plus a random offset...", pos="432,50", rects="336,36,528,64"];
+	Node5 [label="veins::DemoBaseApplLayer\lToMac1609_4Interface::\lgetSwitchingInterval", height="0.56", width="2.00", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_demo_base_appl_layer_to_mac1609__4_interface.html#aac07f54c6e7d52a40b16b560638f2ce8", pos="637,79", rects="565,59,710,99"];
+	Node6 [label="veins::DemoBaseApplLayer\lToMac1609_4Interface::\lisCurrentChannelCCH", height="0.56", width="2.00", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_demo_base_appl_layer_to_mac1609__4_interface.html#a43aee47e5687617af50e5919c26542a9", pos="637,21", rects="565,1,710,41"];
+	Node7 [label="veins::DemoBaseApplLayer\l::stopService", height="0.39", width="2.00", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_demo_base_appl_layer.html#ae87d3a13dfd916a8abcc7b269ce0fbbe", tooltip="stopping the service and advertising for it ", pos="227,14", rects="155,0,300,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,359,100 118,74 137,78 153,83 154,83 219,93 295,98 350,100"];
+	Node1 -> Node3 [color=midnightblue, style=solid, pos="e,154,60 118,60 127,60 135,60 144,60"];
+	Node3 -> Node2 [color=midnightblue, style=solid, pos="e,359,87 300,74 317,77 320,78 336,82 341,83 345,84 349,85"];
+	Node3 -> Node4 [color=midnightblue, style=solid, pos="e,336,55 300,56 309,56 317,55 326,55"];
+	Node4 -> Node5 [color=midnightblue, style=solid, pos="e,564,69 528,64 537,65 546,66 555,68"];
+	Node4 -> Node6 [color=midnightblue, style=solid, pos="e,564,31 528,36 537,35 546,34 555,32"];
+	Node1 -> Node7 [color=midnightblue, style=solid, pos="e,154,28 118,46 131,41 136,36 144,32"];
+}

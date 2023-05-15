@@ -1,0 +1,13 @@
+digraph "veins::FWMath::dBm2mW" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,482,74"];
+	Node1 [label="veins::FWMath::dBm2mW", height="0.22", width="1.92", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="78,37", rects="9,29,148,45"];
+	Node2 [label="veins::SampledAntenna1D\l::getGain", height="0.39", width="1.89", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_sampled_antenna1_d.html#a3bc51368d1d6c6402c46a3cf6e7fc554", tooltip="Calculates this antenna&#39;s gain based on the direction the signal is coming from/sent in...", pos="252,60", rects="184,46,320,74"];
+	Node3 [label="veins::BasePhyLayer\l::initialize", height="0.39", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_phy_layer.html#a63e95c45ba5f46514ed9027c53216491", tooltip="Initialize members and associated objects according to parameterization. ", pos="252,14", rects="197,0,307,28"];
+	Node4 [label="veins::PhyLayer80211p\l::initialize", height="0.39", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_phy_layer80211p.html#abdd1c62986d1fd220eb5e51d4458811a", pos="415,14", rects="357,0,474,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,148,45 157,46 166,47 175,48 184,49"];
+	Node1 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,148,29 157,28 170,26 184,24 197,22"];
+	Node3 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,307,14 317,14 330,14 343,14 356,14"];
+}

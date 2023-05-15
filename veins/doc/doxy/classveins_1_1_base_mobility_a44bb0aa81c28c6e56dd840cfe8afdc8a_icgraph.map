@@ -1,0 +1,11 @@
+digraph "veins::BaseMobility::makeMove" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,400,28"];
+	Node1 [label="veins::BaseMobility\l::makeMove", height="0.39", width="1.42", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="60,14", rects="9,0,112,28"];
+	Node2 [label="veins::BaseMobility\l::handleSelfMsg", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mobility.html#a70b2b357a4cef14850cd4edd440a13a7", tooltip="Called upon arrival of a self messages. ", pos="200,14", rects="149,0,252,28"];
+	Node3 [label="veins::BaseMobility\l::handleMessage", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mobility.html#a64b618ee6a35eaebfcfba7d9266be4c8", tooltip="This modules should only receive self-messages. ", pos="340,14", rects="289,0,392,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,112,14 122,14 131,14 139,14 148,14"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,252,14 262,14 271,14 279,14 288,14"];
+}

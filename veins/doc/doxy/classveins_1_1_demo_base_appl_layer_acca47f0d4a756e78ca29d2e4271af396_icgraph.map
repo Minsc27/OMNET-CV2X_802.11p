@@ -1,0 +1,11 @@
+digraph "veins::DemoBaseApplLayer::initialize" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,308,74"];
+	Node1 [label="veins::DemoBaseApplLayer\l::initialize", height="0.39", width="2.00", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="81,37", rects="9,23,154,51"];
+	Node2 [label="veins::MyVeinsApp::\linitialize", height="0.39", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_my_veins_app.html#a73f5b68ba9bb4b66b2a3fecf875be114", pos="245,60", rects="191,46,300,74"];
+	Node3 [label="veins::TraCIDemo11p\l::initialize", height="0.39", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_demo11p.html#ac52eef213e4579f7d5f671385b506b78", pos="245,14", rects="190,0,300,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,154,47 162,48 172,49 181,50 190,52"];
+	Node1 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,154,27 163,26 172,24 181,24 190,22"];
+}

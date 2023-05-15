@@ -1,0 +1,9 @@
+digraph "veins::TraCICommandInterface::GuiView::takeScreenshot" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,360,28"];
+	Node1 [label="veins::TraCICommandInterface\l::GuiView::takeScreenshot", height="0.39", width="2.28", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="90,14", rects="8,0,172,28"];
+	Node2 [label="veins::TraCIScreenRecorder\l::handleMessage", height="0.39", width="2.00", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_screen_recorder.html#a1f31f2e84760580383d6d5dcae19fa47", pos="280,14", rects="208,0,352,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,172,14 182,14 191,14 199,14 208,14"];
+}

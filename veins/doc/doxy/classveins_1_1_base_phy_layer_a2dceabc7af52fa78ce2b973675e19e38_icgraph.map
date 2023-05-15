@@ -1,0 +1,15 @@
+digraph "veins::BasePhyLayer::getAnalogueModelFromName" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,684,74"];
+	Node1 [label="veins::BasePhyLayer\l::getAnalogueModelFromName", height="0.39", width="2.28", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="91,37", rects="9,23,174,51"];
+	Node2 [label="veins::PhyLayer80211p\l::getAnalogueModelFromName", height="0.39", width="2.28", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_phy_layer80211p.html#ae9a4ddccf5652f8376aee93c2be56730", tooltip="Creates and returns an instance of the AnalogueModel with the specified name. ", pos="293,60", rects="211,46,376,74"];
+	Node3 [label="veins::BasePhyLayer\l::initializeAnalogueModels", height="0.39", width="1.89", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_phy_layer.html#a8ea7353793eed2f1a7b0cd1caacd72e9", tooltip="Initialize the AnalogueModels with the data from the passed XML-config data. ", pos="293,14", rects="225,0,362,28"];
+	Node4 [label="veins::BasePhyLayer\l::initialize", height="0.39", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_phy_layer.html#a63e95c45ba5f46514ed9027c53216491", tooltip="Initialize members and associated objects according to parameterization. ", pos="467,14", rects="412,0,522,28"];
+	Node5 [label="veins::PhyLayer80211p\l::initialize", height="0.39", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_phy_layer80211p.html#abdd1c62986d1fd220eb5e51d4458811a", pos="617,14", rects="559,0,676,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,174,46 183,47 192,48 201,49 210,50"];
+	Node1 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,174,28 182,27 196,25 211,24 224,22"];
+	Node3 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,362,14 372,14 385,14 399,14 412,14"];
+	Node4 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,522,14 532,14 541,14 549,14 558,14"];
+}

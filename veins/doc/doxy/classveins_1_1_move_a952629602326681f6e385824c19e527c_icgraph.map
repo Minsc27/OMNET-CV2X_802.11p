@@ -1,0 +1,15 @@
+digraph "veins::Move::getPositionAt" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,636,74"];
+	Node1 [label="veins::Move::getPositionAt", height="0.22", width="1.89", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="76,37", rects="8,29,144,45"];
+	Node2 [label="veins::BaseMobility\l::getPositionAt", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mobility.html#aa34127bb460764f5516cf9a284cbb8e9", tooltip="Returns the current position at the given simulation time. ", pos="232,37", rects="181,23,284,51"];
+	Node3 [label="veins::MobileHostObstacle\l::getShape", height="0.39", width="1.89", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_mobile_host_obstacle.html#a8df004155dfcd958252947c517d7d985", pos="388,60", rects="320,46,456,74"];
+	Node4 [label="veins::MobileHostObstacle\l::getIntersectionPoint", height="0.39", width="1.89", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_mobile_host_obstacle.html#a97a8fa2ba85ea3dd7a84c7e89ad6e74e", tooltip="return closest point (in meters) along (senderPos–receiverPos) where this obstacle overlaps...", pos="560,60", rects="492,46,628,74"];
+	Node5 [label="veins::MobileHostObstacle\l::maybeInBounds", height="0.39", width="1.89", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_mobile_host_obstacle.html#a643935072d0f41cf30ec017ec438699f", pos="388,14", rects="320,0,456,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,144,37 153,37 162,37 172,37 180,37"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,284,45 292,46 301,48 311,48 320,50"];
+	Node3 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,456,60 466,60 475,60 483,60 492,60"];
+	Node2 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,284,29 292,28 301,26 311,26 320,24"];
+}

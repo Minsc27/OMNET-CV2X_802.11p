@@ -1,0 +1,13 @@
+digraph "veins::BasePhyLayer::myProtocolId" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,574,28"];
+	Node1 [label="veins::BasePhyLayer\l::myProtocolId", height="0.39", width="1.53", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="63,14", rects="8,0,118,28"];
+	Node2 [label="veins::BasePhyLayer\l::encapsMsg", height="0.39", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_phy_layer.html#afcce43624a95c13ee83ac8d6f3086aaf", tooltip="Encapsulate messages from the upper layer into an AirFrame and set all necessary attributes. ", pos="209,14", rects="154,0,264,28"];
+	Node3 [label="veins::BasePhyLayer\l::handleUpperMessage", height="0.39", width="1.64", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_phy_layer.html#a17b1d469775962d23835dd5f43a639ac", tooltip="Handle messages received from the upper layer and start transmitting them. ", pos="360,14", rects="301,0,420,28"];
+	Node4 [label="veins::BasePhyLayer\l::handleMessage", height="0.39", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_phy_layer.html#a54c20b44779b724638e62f941b656f9c", tooltip="Process received messages and pass to specific handlers. ", pos="511,14", rects="456,0,566,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,118,14 127,14 136,14 145,14 154,14"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,264,14 274,14 283,14 291,14 300,14"];
+	Node3 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,420,14 430,14 439,14 447,14 456,14"];
+}

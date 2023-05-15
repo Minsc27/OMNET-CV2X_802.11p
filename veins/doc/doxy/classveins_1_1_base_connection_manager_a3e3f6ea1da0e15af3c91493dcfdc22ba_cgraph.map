@@ -1,0 +1,22 @@
+digraph "veins::BaseConnectionManager::unregisterNic" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,574,254"];
+	Node1 [label="veins::BaseConnectionManager\l::unregisterNic", height="0.39", width="2.22", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="89,129", rects="9,115,170,143"];
+	Node2 [label="veins::BaseConnectionManager\l::CoordSet::add", height="0.39", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_connection_manager_1_1_coord_set.html#a94f30f431f9664e2fdb17aac5a845992", tooltip="Adds a GridCoord to the set. ", pos="485,240", rects="405,226,566,254"];
+	Node3 [label="veins::BaseConnectionManager\l::fillUnionWithNeighbors", height="0.39", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_connection_manager.html#a9b524c0f46ec4bb2ade902ac0855cac5", tooltip="Adds every direct Neighbor of a GridCoord to a union of coords. ", pos="287,198", rects="207,184,368,212"];
+	Node4 [label="veins::BaseConnectionManager\l::wrapIfTorus", height="0.39", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_connection_manager.html#a77e53c22a7c607482398632b85396a6c", tooltip="If the value is outside of its bounds (zero and max) this function returns -1 if useTorus is false an...", pos="485,194", rects="405,180,566,208"];
+	Node5 [label="veins::BaseConnectionManager\l::getCellEntries", height="0.39", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_connection_manager.html#ae776ac81a8f88a9afba710afaf8573b8", tooltip="Returns the NicEntries of the cell with specified coordinate. ", pos="287,152", rects="207,138,368,166"];
+	Node6 [label="veins::BaseConnectionManager\l::getCellForCoordinate", height="0.39", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_connection_manager.html#a7f0e7ff7533bb1f5e3c9bb2c2c0db261", tooltip="Calculates the corresponding cell of a coordinate. ", pos="287,106", rects="207,92,368,120"];
+	Node7 [label="veins::BaseConnectionManager\l::GridCoord::info", height="0.39", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_connection_manager_1_1_grid_coord.html#a8a3b9f1e38411db31b8aa45f11755b27", tooltip="Output string for this coordinate. ", pos="287,60", rects="207,46,368,74"];
+	Node8 [label="veins::BaseConnectionManager\l::CoordSet::next", height="0.39", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_connection_manager_1_1_coord_set.html#a703f38eb2b72f1381d2a3b69f26fdbd6", tooltip="Returns the next GridCoord in the set. ", pos="287,14", rects="207,0,368,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,404,243 158,143 162,145 166,147 170,151 198,172 177,201 206,221 236,241 325,244 394,243"];
+	Node1 -> Node3 [color=midnightblue, style=solid, pos="e,206,184 170,143 189,152 186,167 198,178"];
+	Node3 -> Node2 [color=midnightblue, style=solid, pos="e,404,226 368,212 381,215 386,219 394,222"];
+	Node3 -> Node4 [color=midnightblue, style=solid, pos="e,404,195 368,196 377,196 385,196 394,196"];
+	Node1 -> Node5 [color=midnightblue, style=solid, pos="e,206,143 170,138 179,139 187,140 196,142"];
+	Node1 -> Node6 [color=midnightblue, style=solid, pos="e,206,115 170,120 179,119 187,118 196,116"];
+	Node1 -> Node7 [color=midnightblue, style=solid, pos="e,206,74 170,115 189,105 186,90 198,79"];
+	Node1 -> Node8 [color=midnightblue, style=solid, pos="e,206,28 170,115 200,90 178,60 199,35"];
+}

@@ -1,0 +1,42 @@
+digraph "veins::Signal::getSpectrum" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,910,496"];
+	Node1 [label="veins::Signal::getSpectrum", height="0.22", width="1.83", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="75,224", rects="9,216,142,232"];
+	Node2 [label="veins::TwoRayInterference\lModel::filterSignal", height="0.39", width="1.97", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_two_ray_interference_model.html#a4c322a29e4987d2021bee9234a0ad0b9", tooltip="Has to be overriden by every implementation. ", pos="270,482", rects="199,468,341,496"];
+	Node3 [label="veins::VehicleObstacleShadowing\l::filterSignal", height="0.39", width="2.36", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_vehicle_obstacle_shadowing.html#aa1a8069440240b74a7a8ea0c91b06116", tooltip="Filters a specified Signal by adding an attenuation over time to the Signal. ", pos="674,312", rects="589,298,760,326"];
+	Node4 [label="veins::SimplePathlossModel\l::filterSignal", height="0.39", width="1.97", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_simple_pathloss_model.html#a71783f3a91bb7178629fa58aadf793e4", tooltip="Filters a specified AirFrame&#39;s Signal by adding an attenuation over time to the Signal. ", pos="270,390", rects="199,376,341,404"];
+	Node5 [label="veins::SignalUtils\l::anonymous_namespace\l\{SignalUtils::cc\}::getMaxInterference", height="0.56", width="2.56", color=black, fillcolor=white, style=filled, URL="$namespaceveins_1_1_signal_utils_1_1anonymous__namespace_02_signal_utils_8cc_03.html#adec53cec45469bce01bd893290800df5", pos="270,224", rects="178,204,362,244"];
+	Node6 [label="veins::SignalUtils\l::getMinSINR", height="0.39", width="1.25", color=black, fillcolor=white, style=filled, URL="$namespaceveins_1_1_signal_utils.html#a65bf87cf643cccf540dc5f0802a71427", tooltip="return the minimal Signal to (Interference + Noise) Ratio at any data channel of signalFrame&#39;s signal...", pos="475,245", rects="430,231,521,259"];
+	Node7 [label="veins::Decider80211p\l::checkIfSignalOk", height="0.39", width="1.44", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider80211p.html#a01349c12df6c01678d1e25553b754819", tooltip="Checks a mapping against a specific threshold (element-wise). ", pos="674,245", rects="622,231,727,259"];
+	Node8 [label="veins::Decider80211p\l::processSignalEnd", height="0.39", width="1.44", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider80211p.html#a389f17ab33d4fc22b499593fa0837faf", tooltip="Processes a received AirFrame. ", pos="849,245", rects="797,231,902,259"];
+	Node9 [label="veins::VehicleObstacleControl\l::getVehicleAttenuationDZ", height="0.39", width="2.14", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_vehicle_obstacle_control.html#adf2407d9dcb0830d99775342e3304f15", tooltip="compute attenuation due to vehicles. ", pos="475,352", rects="398,338,552,366"];
+	Node10 [label="veins::VehicleObstacleControl\l::getVehicleAttenuationSingle", height="0.39", width="2.14", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_vehicle_obstacle_control.html#aba9a4a4986cd0141c6bd5404069f9460", tooltip="compute attenuation due to (single) vehicle. ", pos="270,436", rects="193,422,347,450"];
+	Node11 [label="veins::Signal::operator*=", height="0.22", width="1.72", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#a5aefae5041d4818b454f2dd438c9ede6", tooltip="Multiply the power levels by another signal&#39;s power levels. ", pos="270,178", rects="208,170,332,186"];
+	Node12 [label="veins::Signal::operator+=", height="0.22", width="1.75", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#a32d59d8693b93ce78a52affa2b08d7b8", tooltip="Increment the power levels by another signal&#39;s power levels. ", pos="270,144", rects="207,136,333,152"];
+	Node13 [label="veins::Signal::operator-=", height="0.22", width="1.69", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#ab1c20df0e42eba2a401d862e623bb2fb", tooltip="Decrement the power levels by another signal&#39;s power levels. ", pos="270,110", rects="209,102,331,118"];
+	Node14 [label="veins::operator/", height="0.22", width="1.14", color=black, fillcolor=white, style=filled, URL="$namespaceveins.html#ae7f554dbeb2ee9119727b3f27d680c65", tooltip="Divide a a constant by a signal&#39;s power levels. ", pos="270,76", rects="229,68,312,84"];
+	Node15 [label="veins::Signal::operator/=", height="0.22", width="1.69", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#adc7e81655a7305b89bf78ab742e549a2", tooltip="Divide the power levels by another signal&#39;s power levels. ", pos="270,42", rects="209,34,332,50"];
+	Node16 [label="veins::Signal::operator=", height="0.22", width="1.64", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#ac678bd99ea970d0135330ccaa8458736", tooltip="Create a copy of another signal. ", pos="270,8", rects="211,0,330,16"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,142,232 149,239 212,310 105,394 178,468 184,474 191,478 199,481"];
+	Node1 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,114,232 122,234 131,236 138,239 142,240 146,241 147,242 150,245 154,247 155,248 158,251 159,251 178,270 178,271 311,333 486,33\
+1 588,322"];
+	Node1 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,142,232 149,239 186,281 133,333 178,376 184,381 191,385 199,388"];
+	Node1 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,142,224 152,224 160,224 169,224 178,224"];
+	Node5 -> Node6 [dir=back, color=midnightblue, style=solid, pos="s,362,233 371,234 392,236 412,238 429,240"];
+	Node6 -> Node7 [dir=back, color=midnightblue, style=solid, pos="s,521,245 530,245 559,245 593,245 621,245"];
+	Node7 -> Node8 [dir=back, color=midnightblue, style=solid, pos="s,727,245 737,245 756,245 777,245 796,245"];
+	Node1 -> Node6 [dir=back, color=midnightblue, style=solid, pos="s,127,232 136,234 141,236 146,237 150,239 164,243 165,249 178,253 265,273 370,262 429,253"];
+	Node1 -> Node9 [dir=back, color=midnightblue, style=solid, pos="s,111,232 119,234 131,237 141,239 142,240 151,242 153,244 158,251 167,260 171,263 174,276 177,286 171,316 178,324 208,354 320,35\
+7 398,355"];
+	Node9 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,552,338 560,335 571,332 575,329 588,326"];
+	Node1 -> Node10 [dir=back, color=midnightblue, style=solid, pos="s,142,232 149,239 198,296 119,364 178,422 182,426 187,429 193,432"];
+	Node10 -> Node9 [dir=back, color=midnightblue, style=solid, pos="s,347,429 355,426 358,425 360,423 362,422 387,405 374,382 398,366"];
+	Node1 -> Node11 [dir=back, color=midnightblue, style=solid, pos="s,142,216 150,211 162,203 162,192 178,186 187,182 198,180 208,178"];
+	Node1 -> Node12 [dir=back, color=midnightblue, style=solid, pos="s,142,216 149,210 167,191 154,167 178,152 187,146 197,143 207,141"];
+	Node1 -> Node13 [dir=back, color=midnightblue, style=solid, pos="s,142,216 149,209 174,181 145,144 178,118 187,111 198,108 209,106"];
+	Node1 -> Node14 [dir=back, color=midnightblue, style=solid, pos="s,142,216 149,210 183,170 134,120 178,84 192,72 211,69 228,70"];
+	Node1 -> Node15 [dir=back, color=midnightblue, style=solid, pos="s,142,216 149,209 192,159 124,97 178,50 186,43 197,39 208,37"];
+	Node1 -> Node16 [dir=back, color=midnightblue, style=solid, pos="s,142,216 148,209 202,149 114,74 178,16 187,8 198,4 210,3"];
+}

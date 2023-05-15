@@ -1,0 +1,9 @@
+digraph "veins::PhyLayer80211p::getFrameDuration" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,262,28"];
+	Node1 [label="veins::PhyLayer80211p\l::getFrameDuration", height="0.39", width="1.61", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="67,14", rects="9,0,126,28"];
+	Node2 [label="veins::getNDBPS", height="0.22", width="1.28", color=black, fillcolor=white, style=filled, URL="$namespaceveins.html#acec18387f16de0bbed065607cb14f06a", tooltip="returns the number of databits per ofdm symbol ", pos="208,14", rects="162,6,254,22"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,162,14 126,14 135,14 143,14 152,14"];
+}

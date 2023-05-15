@@ -1,0 +1,17 @@
+digraph "veins::TraCICommandInterface::GuiView" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,415,246"];
+	Node1 [label="veins::TraCICommandInterface\l::GuiView", height="0.39", width="2.28", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="82,22", rects="0,8,164,36"];
+	Node2 [label="veins::HasLogProxy", height="0.22", width="1.47", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_has_log_proxy.html", tooltip="Helper class for logging from classes not derived from cComponent. ", pos="127,230", rects="74,222,180,238"];
+	Node3 [label="veins::TraCIConnection", height="0.22", width="1.69", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_connection.html", pos="127,170", rects="66,162,189,178"];
+	Node4 [label="veins::TraCICommandInterface", height="0.22", width="2.28", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_command_interface.html", pos="248,96", rects="166,88,330,104"];
+	Node5 [label="veins::TraCICommandInterface\l::VersionConfig", height="0.39", width="2.28", color=black, fillcolor=white, style=filled, URL="$structveins_1_1_tra_c_i_command_interface_1_1_version_config.html", pos="332,170", rects="250,156,414,184"];
+	Node2 -> Node1 [dir=back, color=midnightblue, style=solid, pos="s,105,222 97,218 82,211 65,199 57,184 31,134 59,66 74,36"];
+	Node3 -> Node1 [dir=back, color=darkorchid3, style=dashed, label=" connection", pos="s,121,162 117,156 109,143 98,123 91,104 84,81 83,53 82,36", lp="127,96"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,127,222 127,213 127,201 127,187 127,178"];
+	Node4 -> Node1 [dir=back, color=darkorchid3, style=dashed, label=" traci", pos="s,230,88 222,84 192,72 145,50 113,36", lp="210,62"];
+	Node2 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,143,222 151,218 165,210 183,198 197,184 221,159 238,121 245,104"];
+	Node5 -> Node4 [dir=back, color=darkorchid3, style=dashed, label=" versionConfig", pos="s,316,156 310,150 292,135 269,116 257,104", lp="338,130"];
+	Node3 -> Node4 [dir=back, color=darkorchid3, style=dashed, label=" connection", pos="s,127,162 128,154 129,143 133,130 142,122 150,114 172,108 194,104", lp="175,130"];
+}

@@ -1,0 +1,15 @@
+digraph "veins::BatteryAccess::registerWithBattery" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,402,120"];
+	Node1 [label="veins::BatteryAccess\l::registerWithBattery", height="0.39", width="1.53", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="63,60", rects="8,46,118,74"];
+	Node2 [label="veins::BaseModule::\lfindHost", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_module.html#a1d2d2af49918dfb9ae036b1d086b123a", tooltip="Function to get a pointer to the host module. ", pos="205,106", rects="154,92,256,120"];
+	Node3 [label="veins::FindModule::\lfindHost", height="0.39", width="1.39", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_find_module.html#a01accd625bef9763ba8baabc5e9d5eeb", tooltip="Returns a pointer to the host module of the passed module. ", pos="343,106", rects="293,92,394,120"];
+	Node4 [label="veins::FindModule::\lfindSubModule", height="0.39", width="1.39", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_find_module.html#a56591278058cab17db4d776cfde387a5", tooltip="Returns a pointer to a sub module of the passed module with the type of this template. ", pos="205,60", rects="155,46,256,74"];
+	Node5 [label="veins::BaseBattery\l::registerDevice", height="0.39", width="1.36", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_battery.html#a56c7c1f4c6348fd0dfab9a4219797d5c", tooltip="Registers a power draining device with this battery. ", pos="205,14", rects="156,0,254,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,154,92 118,74 131,79 136,83 145,88"];
+	Node2 -> Node3 [color=midnightblue, style=solid, pos="e,292,106 256,106 265,106 273,106 282,106"];
+	Node1 -> Node4 [color=midnightblue, style=solid, pos="e,154,60 118,60 127,60 135,60 144,60"];
+	Node1 -> Node5 [color=midnightblue, style=solid, pos="e,156,27 118,46 132,40 137,36 147,31"];
+}

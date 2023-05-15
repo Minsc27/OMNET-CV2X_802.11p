@@ -1,0 +1,17 @@
+digraph "veins::SignalUtils::isChannelPowerBelowThreshold" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,532,166"];
+	Node1 [label="veins::SignalUtils\l::isChannelPowerBelowThreshold", height="0.39", width="2.39", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="95,83", rects="9,69,182,97"];
+	Node2 [label="veins::Decider80211p::cca", height="0.22", width="1.72", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider80211p.html#aeba984a7f23ef26ce8b22b0bfef88947", pos="280,83", rects="218,75,342,91"];
+	Node3 [label="veins::PhyLayer80211p\l::handleSelfMessage", height="0.39", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_phy_layer80211p.html#a020601bba0e334a622dc8e193c5946b0", tooltip="Handle self scheduled messages. ", pos="451,152", rects="393,138,510,166"];
+	Node4 [label="veins::Decider80211p\l::processNewSignal", height="0.39", width="1.44", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider80211p.html#a6604c73b2ee786a4eeca5abe6f072cab", tooltip="Processes a new Signal. ", pos="451,106", rects="399,92,504,120"];
+	Node5 [label="veins::Decider80211p\l::processSignalEnd", height="0.39", width="1.44", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider80211p.html#a389f17ab33d4fc22b499593fa0837faf", tooltip="Processes a received AirFrame. ", pos="451,60", rects="399,46,504,74"];
+	Node6 [label="veins::PhyLayer80211p\l::requestChannelStatusIfIdle", height="0.39", width="2.03", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_phy_layer80211p.html#a6851aaac3c59b66568847e75691ba3e5", tooltip="Explicit request to PHY for the channel status. ", pos="451,14", rects="378,0,524,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,182,83 192,83 201,83 209,83 218,83"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,342,91 350,97 363,109 359,126 378,138 383,141 387,143 392,145"];
+	Node2 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,342,91 351,92 367,94 384,96 398,98"];
+	Node2 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,342,75 351,74 367,71 384,70 398,67"];
+	Node2 -> Node6 [dir=back, color=midnightblue, style=solid, pos="s,342,75 349,70 363,56 359,39 377,28"];
+}

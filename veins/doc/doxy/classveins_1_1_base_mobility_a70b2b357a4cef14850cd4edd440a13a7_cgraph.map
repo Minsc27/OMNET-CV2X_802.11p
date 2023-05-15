@@ -1,0 +1,31 @@
+digraph "veins::BaseMobility::handleSelfMsg" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,590,234"];
+	Node1 [label="veins::BaseMobility\l::handleSelfMsg", height="0.39", width="1.42", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="60,172", rects="9,158,112,186"];
+	Node2 [label="veins::Move::getSpeed", height="0.22", width="1.56", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_move.html#a240e3d0de014ccc391a46b05dcfb510c", tooltip="Returns the current speed. ", pos="205,212", rects="149,204,262,220"];
+	Node3 [label="veins::BaseMobility\l::makeMove", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mobility.html#a44bb0aa81c28c6e56dd840cfe8afdc8a", tooltip="Moves the host. ", pos="205,172", rects="154,158,257,186"];
+	Node4 [label="veins::BaseMobility\l::updatePosition", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mobility.html#a291eed23c07d4693a5fa4164aa80934e", tooltip="Update the position information for this node. ", pos="205,126", rects="154,112,257,140"];
+	Node5 [label="veins::Move::info", height="0.22", width="1.25", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_move.html#a5e3e35e64d79753f3c28dab4a5660c49", tooltip="Returns information about the current state. ", pos="360,226", rects="315,218,405,234"];
+	Node6 [label="veins::Coord::info", height="0.22", width="1.28", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_coord.html#a25b361254b68f3d13a9eb0a857d69a73", tooltip="Returns a string with the value of the coordinate. ", pos="520,226", rects="474,218,566,234"];
+	Node7 [label="veins::BaseModule::\lfindHost", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_module.html#a1d2d2af49918dfb9ae036b1d086b123a", tooltip="Function to get a pointer to the host module. ", pos="360,186", rects="309,172,411,200"];
+	Node8 [label="veins::FindModule::\lfindHost", height="0.39", width="1.39", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_find_module.html#a01accd625bef9763ba8baabc5e9d5eeb", tooltip="Returns a pointer to the host module of the passed module. ", pos="520,186", rects="470,172,571,200"];
+	Node9 [label="veins::Move::getStartPos", height="0.22", width="1.72", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_move.html#a48346d2be14eeca41bdb67f896508a67", tooltip="Returns the start position. ", pos="360,146", rects="298,138,422,154"];
+	Node10 [label="veins::BaseWorldUtility\l::use2D", height="0.39", width="1.72", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_world_utility.html#ad67073ffe5557077cd4b96fa2138c536", tooltip="Returns true if the world is 2-dimensional. ", pos="360,106", rects="298,92,422,120"];
+	Node11 [label="veins::BaseMobility\l::playgroundSizeZ", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mobility.html#ae6263a43c7959ae008a21874dda4e622", tooltip="Returns the height of the playground. ", pos="360,60", rects="309,46,412,74"];
+	Node12 [label="veins::BaseWorldUtility\l::getPgs", height="0.39", width="1.72", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_world_utility.html#a08a8c00b81e5b70ab4cdfe611d4169b7", tooltip="Returns the playgroundSize. ", pos="520,60", rects="458,46,582,74"];
+	Node13 [label="veins::BaseMobility\l::iconSizeToTag", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mobility.html#a4385f329f6d9df7294297c98028083e2", tooltip="Maps the passed size in pixels to an appropriate icon size tag (is). ", pos="360,14", rects="309,0,412,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,148,204 112,186 125,191 129,195 139,200"];
+	Node1 -> Node3 [color=midnightblue, style=solid, pos="e,153,172 112,172 122,172 133,172 143,172"];
+	Node1 -> Node4 [color=midnightblue, style=solid, pos="e,153,138 112,158 127,152 131,147 143,142"];
+	Node4 -> Node5 [color=midnightblue, style=solid, pos="e,315,225 257,136 258,137 260,139 262,140 292,164 268,195 298,218 300,220 303,221 306,222"];
+	Node5 -> Node6 [color=midnightblue, style=solid, pos="e,474,226 405,226 424,226 445,226 464,226"];
+	Node4 -> Node7 [color=midnightblue, style=solid, pos="e,309,176 257,137 259,138 260,139 262,140 281,149 279,162 298,172 298,172 299,173 299,173"];
+	Node7 -> Node8 [color=midnightblue, style=solid, pos="e,469,186 411,186 427,186 444,186 459,186"];
+	Node4 -> Node9 [color=midnightblue, style=solid, pos="e,299,138 257,133 267,134 279,135 290,137"];
+	Node4 -> Node10 [color=midnightblue, style=solid, pos="e,298,114 257,119 267,118 278,117 289,115"];
+	Node4 -> Node11 [color=midnightblue, style=solid, pos="e,308,69 257,115 258,114 260,113 262,112 283,100 278,85 298,74 298,74 299,74 299,73"];
+	Node11 -> Node12 [color=midnightblue, style=solid, pos="e,458,60 412,60 424,60 436,60 448,60"];
+	Node4 -> Node13 [color=midnightblue, style=solid, pos="e,308,21 257,116 259,115 260,113 262,112 293,85 267,53 298,28 299,27 299,27 300,26"];
+}

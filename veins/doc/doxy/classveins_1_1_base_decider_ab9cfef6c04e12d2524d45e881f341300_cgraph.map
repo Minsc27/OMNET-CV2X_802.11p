@@ -1,0 +1,11 @@
+digraph "veins::BaseDecider::processSignalEnd" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,304,74"];
+	Node1 [label="veins::BaseDecider\l::processSignalEnd", height="0.39", width="1.36", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="57,37", rects="8,23,106,51"];
+	Node2 [label="veins::DeciderToPhyInterface\l::sendUp", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider_to_phy_interface.html#a8795c130caca902f79ba399fa9905f24", tooltip="Called to send an AirFrame with DeciderResult to the MACLayer. ", pos="219,60", rects="143,46,296,74"];
+	Node3 [label="veins::BaseDecider\l::setChannelIdleStatus", height="0.39", width="1.58", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_decider.html#ae535b44e34061014fe282c36c27b0193", tooltip="Changes the \"isIdle\"-status to the passed value. ", pos="219,14", rects="162,0,276,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,142,49 106,44 115,45 123,46 132,48"];
+	Node1 -> Node3 [color=midnightblue, style=solid, pos="e,162,22 106,30 121,28 137,26 152,24"];
+}

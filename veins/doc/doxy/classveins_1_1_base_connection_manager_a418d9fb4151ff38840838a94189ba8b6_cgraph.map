@@ -1,0 +1,13 @@
+digraph "veins::BaseConnectionManager::isInRange" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,686,40"];
+	Node1 [label="veins::BaseConnectionManager\l::isInRange", height="0.39", width="2.22", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="89,20", rects="9,6,170,34"];
+	Node2 [label="anonymous_namespace\l\{BaseConnectionManager\l::cc\}::sqrTorusDist", height="0.56", width="1.89", color=black, fillcolor=white, style=filled, URL="$namespaceanonymous__namespace_02_base_connection_manager_8cc_03.html#a4c7285eb31fa2914adffc7da4255b6d2", pos="275,20", rects="207,0,344,40"];
+	Node3 [label="anonymous_namespace\l\{BaseConnectionManager\l::cc\}::dist", height="0.56", width="1.89", color=black, fillcolor=white, style=filled, URL="$namespaceanonymous__namespace_02_base_connection_manager_8cc_03.html#a03d2870486bee7d8198d066f67d00e04", tooltip="On a torus the end and the begin of the axes are connected so you get a circle. ", pos="449,20", rects="381,0,518,40"];
+	Node4 [label="veins::FWMath::modulo", height="0.22", width="1.72", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_f_w_math.html#aa66a76d454bf3d91d8ec390c4737a7a1", tooltip="Returns the remainder r on division of dividend a by divisor n, using floored division. ", pos="616,20", rects="554,12,678,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,206,20 170,20 179,20 188,20 196,20"];
+	Node2 -> Node3 [color=midnightblue, style=solid, pos="e,380,20 344,20 353,20 361,20 370,20"];
+	Node3 -> Node4 [color=midnightblue, style=solid, pos="e,554,20 518,20 527,20 535,20 544,20"];
+}

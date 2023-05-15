@@ -1,0 +1,11 @@
+digraph "veins::TraCITrafficLightAbstractLogic::handlePossibleSwitch" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,554,40"];
+	Node1 [label="veins::TraCITrafficLight\lAbstractLogic::handlePossible\lSwitch", height="0.56", width="2.11", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="85,20", rects="9,0,162,40"];
+	Node2 [label="veins::TraCITrafficLight\lAbstractLogic::handleSelfMsg", height="0.39", width="2.17", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_traffic_light_abstract_logic.html#a6dce36ca63205546a946683f27a99efa", pos="276,20", rects="198,6,354,34"];
+	Node3 [label="veins::TraCITrafficLight\lAbstractLogic::handleMessage", height="0.39", width="2.17", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_traffic_light_abstract_logic.html#a58b0dbca3fdb2e5fc85f4118a4690944", pos="468,20", rects="390,6,546,34"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,162,20 172,20 181,20 189,20 198,20"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,354,20 364,20 373,20 381,20 390,20"];
+}

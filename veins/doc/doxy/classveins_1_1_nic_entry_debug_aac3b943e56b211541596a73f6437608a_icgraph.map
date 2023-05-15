@@ -1,0 +1,14 @@
+digraph "veins::NicEntryDebug::collectFreeGates" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,442,74"];
+	Node1 [label="veins::NicEntryDebug\l::collectFreeGates", height="0.39", width="1.61", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="67,37", rects="9,23,126,51"];
+	Node2 [label="veins::NicEntryDebug\l::requestInGate", height="0.39", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_nic_entry_debug.html#aa028678e801ba669ad47a6588b2ad90a", tooltip="Returns a free in gate of the nic. ", pos="221,60", rects="163,46,280,74"];
+	Node3 [label="veins::NicEntryDebug\l::connectTo", height="0.39", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_nic_entry_debug.html#aaf32efb647f62b055f65198bba49c535", tooltip="Connect two nics. ", pos="375,37", rects="317,23,434,51"];
+	Node4 [label="veins::NicEntryDebug\l::requestOutGate", height="0.39", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_nic_entry_debug.html#ad601c375fa2fd737f88b3a475a06ff45", tooltip="Returns a free out gate of the nic. ", pos="221,14", rects="163,0,280,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,126,46 135,47 144,49 153,49 162,51"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,280,51 289,50 298,48 307,48 316,46"];
+	Node1 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,126,28 135,27 144,25 153,25 162,23"];
+	Node4 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,280,23 289,24 298,26 307,26 316,28"];
+}

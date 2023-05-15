@@ -1,0 +1,8 @@
+digraph "veins::Radio" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,89,100"];
+	Node1 [label="veins::Radio", height="0.22", width="0.92", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="33,16", rects="0,8,67,24"];
+	Node2 [label=simtime_t, height="0.22", width="0.81", color=grey75, fillcolor=white, style=filled, pos="33,84", rects="4,76,63,92"];
+	Node2 -> Node1 [dir=back, color=darkorchid3, style=dashed, label=" swTimes", pos="s,33,76 33,67 33,53 33,35 33,24", lp="61,50"];
+}

@@ -1,0 +1,23 @@
+digraph "veins::DemoBaseApplLayerToMac1609_4Interface::getSwitchingInterval" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,728,166"];
+	Node1 [label="veins::DemoBaseApplLayer\lToMac1609_4Interface::\lgetSwitchingInterval", height="0.56", width="2.00", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="81,83", rects="9,63,154,103"];
+	Node2 [label="veins::DemoBaseApplLayer\l::computeAsynchronousSendingTime", height="0.39", width="2.67", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_demo_base_appl_layer.html#a59d83e257a9f18f9af061d2e3bbe0440", tooltip="compute a point in time that is guaranteed to be in the correct channel interval plus a random offset...", pos="286,105", rects="190,91,382,119"];
+	Node3 [label="veins::TraCIDemo11p\l::handlePositionUpdate", height="0.39", width="1.67", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_demo11p.html#aae2d2ce4ddead5bf4fdacf8fe00ba7e8", tooltip="this function is called every time the vehicle receives a position update signal ", pos="660,152", rects="600,138,720,166"];
+	Node4 [label="veins::DemoBaseApplLayer\l::initialize", height="0.39", width="2.00", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_demo_base_appl_layer.html#acca47f0d4a756e78ca29d2e4271af396", pos="491,60", rects="419,46,564,74"];
+	Node5 [label="veins::MyVeinsApp::\linitialize", height="0.39", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_my_veins_app.html#a73f5b68ba9bb4b66b2a3fecf875be114", pos="660,60", rects="606,46,715,74"];
+	Node6 [label="veins::TraCIDemo11p\l::initialize", height="0.39", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_demo11p.html#ac52eef213e4579f7d5f671385b506b78", pos="660,14", rects="605,0,715,28"];
+	Node7 [label="veins::DemoBaseApplLayer\l::startService", height="0.39", width="2.00", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_demo_base_appl_layer.html#a950278bac8ae9a57bbf8d052f3d72740", tooltip="This will start the periodic advertising of the new service on the CCH. ", pos="491,106", rects="419,92,564,120"];
+	Node8 [label="veins::TraCIDemo11p\l::onWSA", height="0.39", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_demo11p.html#ab99a43052e88c2727b77da730e776c1b", tooltip="this function is called upon receiving a DemoServiceAdvertisement ", pos="660,106", rects="605,92,715,120"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,154,91 164,92 173,93 181,94 190,95"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,382,119 390,121 401,123 405,126 418,129 480,140 551,146 600,149"];
+	Node2 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,382,91 391,87 401,83 405,78 418,74"];
+	Node4 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,564,60 573,60 584,60 595,60 605,60"];
+	Node4 -> Node6 [dir=back, color=midnightblue, style=solid, pos="s,564,46 572,43 583,39 587,34 600,28 602,27 603,27 605,26"];
+	Node2 -> Node7 [dir=back, color=midnightblue, style=solid, pos="s,382,105 391,105 400,105 410,105 418,106"];
+	Node7 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,564,120 572,123 583,127 587,132 600,138"];
+	Node7 -> Node8 [dir=back, color=midnightblue, style=solid, pos="s,564,106 573,106 584,106 595,106 605,106"];
+	Node1 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,154,79 163,79 238,74 347,68 418,64"];
+}

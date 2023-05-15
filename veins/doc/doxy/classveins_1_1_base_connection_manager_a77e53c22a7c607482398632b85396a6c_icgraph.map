@@ -1,0 +1,22 @@
+digraph "veins::BaseConnectionManager::wrapIfTorus" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,1118,97"];
+	Node1 [label="veins::BaseConnectionManager\l::wrapIfTorus", height="0.39", width="2.22", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="89,37", rects="9,23,170,51"];
+	Node2 [label="veins::BaseConnectionManager\l::fillUnionWithNeighbors", height="0.39", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_connection_manager.html#a9b524c0f46ec4bb2ade902ac0855cac5", tooltip="Adds every direct Neighbor of a GridCoord to a union of coords. ", pos="287,37", rects="207,23,368,51"];
+	Node3 [label="veins::BaseConnectionManager\l::checkGrid", height="0.39", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_connection_manager.html#a063c137e5a6d73ff846321b511d48a32", tooltip="Check connections of a nic in the grid. ", pos="485,60", rects="405,46,566,74"];
+	Node4 [label="veins::BaseConnectionManager\l::updateConnections", height="0.39", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_connection_manager.html#af87d8c9c33b54eb6bf8a5f43e6e36a96", tooltip="Updates the connections of the nic with \"nicID\". ", pos="683,60", rects="603,46,764,74"];
+	Node5 [label="veins::BaseConnectionManager\l::registerNic", height="0.39", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_connection_manager.html#a35d8c27aeacff47e0e62135ffe065078", tooltip="Registers a nic to have its connections managed by ConnectionManager. ", pos="881,83", rects="801,69,962,97"];
+	Node6 [label="veins::ChannelAccess\l::receiveSignal", height="0.39", width="1.56", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_channel_access.html#a152e2780da20c82d3751d521142a5f90", tooltip="Called by the signalling mechanism to inform of changes. ", pos="1054,60", rects="998,46,1110,74"];
+	Node7 [label="veins::BaseConnectionManager\l::updateNicPos", height="0.39", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_connection_manager.html#af264b3c891bde0a49dd003c584c997ac", tooltip="Updates the position information of a registered nic. ", pos="881,37", rects="801,23,962,51"];
+	Node8 [label="veins::BaseConnectionManager\l::unregisterNic", height="0.39", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_connection_manager.html#a3e3f6ea1da0e15af3c91493dcfdc22ba", tooltip="Unregisters a NIC such that its connections aren&#39;t managed by the CM anymore. ", pos="485,14", rects="405,0,566,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,170,37 180,37 189,37 197,37 206,37"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,368,46 377,47 386,49 395,49 404,51"];
+	Node3 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,566,60 576,60 585,60 593,60 602,60"];
+	Node4 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,764,69 773,70 782,72 791,72 800,74"];
+	Node5 -> Node6 [dir=back, color=midnightblue, style=solid, pos="s,962,72 971,71 980,69 989,69 998,67"];
+	Node4 -> Node7 [dir=back, color=midnightblue, style=solid, pos="s,764,51 773,50 782,48 791,48 800,46"];
+	Node7 -> Node6 [dir=back, color=midnightblue, style=solid, pos="s,962,48 971,49 980,51 989,51 998,53"];
+	Node2 -> Node8 [dir=back, color=midnightblue, style=solid, pos="s,368,28 377,27 386,25 395,25 404,23"];
+}

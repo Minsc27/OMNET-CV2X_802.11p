@@ -1,0 +1,14 @@
+digraph "veins::TraCICommandInterface" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,608,124"];
+	Node1 [label="veins::TraCICommandInterface", height="0.22", width="2.28", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="518,70", rects="436,62,600,78"];
+	Node2 [label="veins::HasLogProxy", height="0.22", width="1.47", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_has_log_proxy.html", tooltip="Helper class for logging from classes not derived from cComponent. ", pos="61,96", rects="8,88,114,104"];
+	Node3 [label="veins::TraCICommandInterface\l::VersionConfig", height="0.39", width="2.28", color=black, fillcolor=white, style=filled, URL="$structveins_1_1_tra_c_i_command_interface_1_1_version_config.html", pos="234,18", rects="152,4,316,32"];
+	Node4 [label="veins::TraCIConnection", height="0.22", width="1.69", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_connection.html", pos="234,71", rects="173,63,296,79"];
+	Node2 -> Node1 [dir=back, color=midnightblue, style=solid, pos="s,114,103 123,104 195,111 317,117 418,90 427,87 428,82 436,80 438,79 440,79 442,78"];
+	Node3 -> Node1 [dir=back, color=darkorchid3, style=dashed, label=" versionConfig", pos="s,316,32 325,33 364,39 378,36 418,50 427,54 428,57 436,60 438,61 440,61 443,62", lp="376,58"];
+	Node4 -> Node1 [dir=back, color=darkorchid3, style=dashed, label=" connection", pos="s,296,71 304,71 344,71 394,70 436,70", lp="376,78"];
+	Node2 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,114,88 123,86 134,83 138,81 152,79 159,78 166,77 172,76"];
+}

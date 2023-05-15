@@ -1,0 +1,33 @@
+digraph "veins::Move::getDirection" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,882,208"];
+	Node1 [label="veins::Move::getDirection", height="0.22", width="1.78", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="73,123", rects="9,115,138,131"];
+	Node2 [label="veins::BaseMobility\l::checkIfOutside", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mobility.html#ab69f42caa7932524bf470f0799b4aac7", tooltip="Checks whether the host is outside the playground and returns where. ", pos="226,190", rects="175,176,278,204"];
+	Node3 [label="veins::BaseMobility\l::handleIfOutside", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mobility.html#aae36006995d117a723134cbe1fee5e90", tooltip="Main border handling function. ", pos="369,169", rects="318,155,421,183"];
+	Node4 [label="veins::LinearMobility\l::fixIfHostGetsOutside", height="0.39", width="1.64", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_linear_mobility.html#a506fdc3882892c0fc4427df73736010e", tooltip="Should be redefined in subclasses. ", pos="519,194", rects="460,180,578,208"];
+	Node5 [label="veins::LinearMobility\l::makeMove", height="0.39", width="1.56", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_linear_mobility.html#af310806b2b41572de1428e56474bba56", tooltip="Move the host. ", pos="671,194", rects="615,180,728,208"];
+	Node6 [label="veins::TraCIMobility\l::fixIfHostGetsOutside", height="0.39", width="1.64", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_mobility.html#a4fa20054882e4a7fb5b03a13576311c3", tooltip="called after each read to check for (and handle) invalid positions ", pos="519,148", rects="460,134,578,162"];
+	Node7 [label="veins::TraCIMobility\l::changePosition", height="0.39", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_mobility.html#a3137899bb330551c9823c40b4ed8b8fc", pos="671,147", rects="617,133,726,161"];
+	Node8 [label="veins::TraCIMobility\l::nextPosition", height="0.39", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_mobility.html#ae53642be0d88b9f146cf55a5d990f1a2", pos="819,125", rects="765,111,874,139"];
+	Node9 [label="veins::BaseMobility\l::getCurrentDirection", height="0.39", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mobility.html#ae2bcc5d11e21f0e1888ba1b2f2c6567b", pos="519,102", rects="464,88,575,116"];
+	Node10 [label="veins::BaseMobility\l::getCurrentSpeed", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mobility.html#af8f2b49daf85a99256bff58d1cb14cb6", tooltip="Returns the current speed at the current simulation time. ", pos="226,60", rects="175,46,278,74"];
+	Node11 [label="veins::TraCIMobility\l::getCurrentSpeed", height="0.39", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_mobility.html#ac4c46b7cb67062ccde2e43b3e03c04c8", tooltip="Calling this method on pointers of type TraCIMobility is deprecated in favor of calling either getHos...", pos="369,60", rects="315,46,424,74"];
+	Node12 [label="veins::TraCIMobility\l::getHostSpeed", height="0.39", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_mobility.html#af63d32c8d424c22a5d5fe2f51383b7cd", tooltip="Returns the speed of the host (likely 0 if setHostSpeed==false) ", pos="369,14", rects="315,0,424,28"];
+	Node13 [label="veins::BaseMobility\l::goToBorder", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mobility.html#a3bf65a049293dc4c7043554c04555bdc", tooltip="calculate the step to reach the border ", pos="226,144", rects="175,130,278,158"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,138,131 145,136 159,147 156,163 174,176"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,278,182 286,181 297,179 307,178 317,176"];
+	Node3 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,421,178 430,179 440,181 450,182 460,184"];
+	Node4 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,578,194 588,194 597,194 605,194 614,194"];
+	Node3 -> Node6 [dir=back, color=midnightblue, style=solid, pos="s,421,162 430,161 440,159 450,158 460,157"];
+	Node6 -> Node7 [dir=back, color=midnightblue, style=solid, pos="s,578,148 586,148 596,148 607,147 616,147"];
+	Node7 -> Node8 [dir=back, color=midnightblue, style=solid, pos="s,726,139 735,138 744,136 755,135 764,133"];
+	Node1 -> Node9 [dir=back, color=midnightblue, style=solid, pos="s,138,120 146,120 236,116 384,108 463,105"];
+	Node9 -> Node8 [dir=back, color=midnightblue, style=solid, pos="s,575,106 585,107 639,111 714,117 764,121"];
+	Node1 -> Node10 [dir=back, color=midnightblue, style=solid, pos="s,138,115 146,110 159,98 157,84 174,74"];
+	Node10 -> Node11 [dir=back, color=midnightblue, style=solid, pos="s,278,60 288,60 297,60 305,60 314,60"];
+	Node10 -> Node12 [dir=back, color=midnightblue, style=solid, pos="s,278,46 287,43 297,38 301,34 314,28"];
+	Node1 -> Node13 [dir=back, color=midnightblue, style=solid, pos="s,138,131 147,132 156,133 165,134 174,136"];
+	Node13 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,278,153 287,154 297,156 308,158 317,160"];
+}

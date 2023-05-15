@@ -1,0 +1,47 @@
+digraph "NakagamiFading.h" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,574,368"];
+	Node1 [label="NakagamiFading.h", height="0.22", width="1.44", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="438,352", rects="386,344,490,360"];
+	Node2 [label="veins/base/phyLayer\l/AnalogueModel.h", height="0.39", width="1.56", color=black, fillcolor=white, style=filled, URL="$_analogue_model_8h.html", pos="326,294", rects="270,280,382,308"];
+	Node3 [label=memory, height="0.22", width="0.72", color=grey75, fillcolor=white, style=filled, pos="478,16", rects="452,8,504,24"];
+	Node4 [label=vector, height="0.22", width="0.56", color=grey75, fillcolor=white, style=filled, pos="374,230", rects="354,222,394,238"];
+	Node5 [label="veins/veins.h", height="0.22", width="1.00", color=black, fillcolor=white, style=filled, URL="$veins_8h.html", pos="302,68", rects="266,60,338,76"];
+	Node6 [label=utility, height="0.22", width="0.53", color=grey75, fillcolor=white, style=filled, pos="336,16", rects="317,8,356,24"];
+	Node7 [label="omnetpp.h", height="0.22", width="0.86", color=grey75, fillcolor=white, style=filled, pos="268,16", rects="237,8,299,24"];
+	Node8 [label="veins/base/utils/Antenna\lPosition.h", height="0.39", width="1.81", color=black, fillcolor=white, style=filled, URL="$_antenna_position_8h.html", pos="233,230", rects="168,216,299,244"];
+	Node9 [label="veins/base/utils/Coord.h", height="0.22", width="1.75", color=black, fillcolor=white, style=filled, URL="$_coord_8h.html", pos="319,172", rects="256,164,382,180"];
+	Node10 [label="veins/base/utils/FWMath.h", height="0.22", width="1.94", color=black, fillcolor=white, style=filled, URL="$_f_w_math_8h.html", pos="455,120", rects="385,112,526,128"];
+	Node11 [label=cmath, height="0.22", width="0.56", color=grey75, fillcolor=white, style=filled, pos="376,68", rects="356,60,396,76"];
+	Node12 [label=limits, height="0.22", width="0.50", color=grey75, fillcolor=white, style=filled, pos="432,68", rects="414,60,450,76"];
+	Node13 [label=type_traits, height="0.22", width="0.86", color=grey75, fillcolor=white, style=filled, pos="499,68", rects="468,60,530,76"];
+	Node14 [label="veins/modules/utility\l/HasLogProxy.h", height="0.39", width="1.56", color=black, fillcolor=white, style=filled, URL="$_has_log_proxy_8h.html", pos="94,230", rects="38,216,151,244"];
+	Node15 [label=string, height="0.22", width="0.50", color=grey75, fillcolor=white, style=filled, pos="94,172", rects="76,164,113,180"];
+	Node16 [label="veins/base/modules\l/BaseWorldUtility.h", height="0.39", width="1.50", color=black, fillcolor=white, style=filled, URL="$_base_world_utility_8h.html", pos="466,230", rects="412,216,520,244"];
+	Node17 [label="veins/base/messages\l/AirFrame_m.h", height="0.39", width="1.50", color=grey75, fillcolor=white, style=filled, pos="520,294", rects="466,280,574,308"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,353,308 422,344 407,336 382,323 362,312"];
+	Node2 -> Node3 [color=midnightblue, style=solid, pos="e,495,24 382,280 446,262 478,288 529,244 555,221 558,206 558,172 558,172 558,172 558,120 558,92 555,82 539,60 529,47 515,36 503,\
+28"];
+	Node2 -> Node4 [color=midnightblue, style=solid, pos="e,368,238 337,280 345,269 355,256 363,245"];
+	Node2 -> Node5 [color=midnightblue, style=solid, pos="e,266,76 270,281 269,281 269,280 268,280 256,273 38,254 29,244 3,213 64,165 67,164 125,119 207,91 258,78"];
+	Node5 -> Node3 [color=midnightblue, style=solid, pos="e,452,24 329,60 357,52 403,38 443,26"];
+	Node5 -> Node6 [color=midnightblue, style=solid, pos="e,331,24 307,60 312,52 320,41 326,32"];
+	Node5 -> Node7 [color=midnightblue, style=solid, pos="e,273,24 297,60 292,52 284,41 278,32"];
+	Node2 -> Node8 [color=midnightblue, style=solid, pos="e,254,244 305,280 292,271 276,259 262,249"];
+	Node8 -> Node5 [color=midnightblue, style=solid, pos="e,296,76 235,216 236,202 240,181 247,164 259,133 280,99 292,81"];
+	Node8 -> Node9 [color=midnightblue, style=solid, pos="e,307,180 254,216 268,207 286,194 300,185"];
+	Node9 -> Node5 [color=midnightblue, style=solid, pos="e,303,76 318,164 315,146 309,106 304,83"];
+	Node9 -> Node10 [color=midnightblue, style=solid, pos="e,434,128 340,164 363,155 400,141 426,131"];
+	Node10 -> Node11 [color=midnightblue, style=solid, pos="e,388,76 443,112 430,104 410,91 395,81"];
+	Node10 -> Node12 [color=midnightblue, style=solid, pos="e,436,76 451,112 448,105 443,94 440,85"];
+	Node10 -> Node13 [color=midnightblue, style=solid, pos="e,492,76 462,112 468,104 478,93 486,83"];
+	Node10 -> Node5 [color=midnightblue, style=solid, pos="e,326,76 431,112 406,103 364,89 335,79"];
+	Node2 -> Node9 [color=midnightblue, style=solid, pos="e,319,180 325,280 323,257 321,211 320,187"];
+	Node2 -> Node14 [color=midnightblue, style=solid, pos="e,145,244 275,280 240,270 192,257 155,247"];
+	Node14 -> Node15 [color=midnightblue, style=solid, pos="e,94,180 94,216 94,208 94,198 94,189"];
+	Node14 -> Node5 [color=midnightblue, style=solid, pos="e,291,76 112,216 151,185 245,112 284,82"];
+	Node1 -> Node16 [color=midnightblue, style=solid, pos="e,463,244 440,344 445,326 455,280 461,253"];
+	Node16 -> Node5 [color=midnightblue, style=solid, pos="e,310,76 452,216 422,186 350,115 318,83"];
+	Node16 -> Node9 [color=midnightblue, style=solid, pos="e,339,180 430,216 405,206 371,192 347,183"];
+	Node1 -> Node17 [color=midnightblue, style=solid, pos="e,500,308 449,344 460,336 478,323 493,313"];
+}

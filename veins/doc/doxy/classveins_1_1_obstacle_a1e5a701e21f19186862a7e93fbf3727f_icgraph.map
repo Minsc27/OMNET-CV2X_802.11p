@@ -1,0 +1,19 @@
+digraph "veins::Obstacle::getShape" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,660,125"];
+	Node1 [label="veins::Obstacle::getShape", height="0.22", width="1.75", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="71,48", rects="8,40,134,56"];
+	Node2 [label="veins::ObstacleControl::add", height="0.22", width="1.89", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_obstacle_control.html#a206a6e9155d1b201841d0718e65ed30f", pos="249,88", rects="181,80,318,96"];
+	Node3 [label="veins::ObstacleControl\l::addFromXml", height="0.39", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_obstacle_control.html#a1e5fceb8e8d9616622cc12551231c9d3", pos="432,111", rects="374,97,490,125"];
+	Node4 [label="veins::ObstacleControl\l::initialize", height="0.39", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_obstacle_control.html#adffe1ace6d536aa9a27402006707962f", pos="594,111", rects="536,97,652,125"];
+	Node5 [label="veins::ObstacleControl\l::addFromTypeAndShape", height="0.39", width="1.86", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_obstacle_control.html#a5854911238d0af091d44f155bb768437", pos="432,65", rects="365,51,500,79"];
+	Node6 [label="veins::Obstacle::contains\lPoint", height="0.39", width="1.69", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_obstacle.html#a488f731b1986d35a419318bdce3a8168", pos="249,48", rects="188,34,310,62"];
+	Node7 [label="veins::Obstacle::getIntersections", height="0.22", width="2.19", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_obstacle.html#afc450752c8f11bf096880afd5b96e30d", tooltip="get a list of points (in [0, 1]) along the line between sender and receiver where the beam intersects...", pos="249,8", rects="170,0,328,16"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,134,56 143,60 153,66 155,74 170,80 173,81 177,82 180,83"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,318,95 328,96 328,96 328,96 328,96 343,98 359,100 374,102"];
+	Node3 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,490,111 500,111 512,111 524,111 536,111"];
+	Node2 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,318,81 327,80 327,80 328,80 328,80 340,78 352,77 364,75"];
+	Node1 -> Node6 [dir=back, color=midnightblue, style=solid, pos="s,134,48 144,48 158,48 173,48 188,48"];
+	Node1 -> Node7 [dir=back, color=midnightblue, style=solid, pos="s,134,40 142,36 153,30 155,22 170,16"];
+}

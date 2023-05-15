@@ -1,0 +1,9 @@
+digraph "veins::BaseMobility::getCurrentOrientation" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,314,28"];
+	Node1 [label="veins::BaseMobility\l::getCurrentOrientation", height="0.39", width="1.69", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="69,14", rects="8,0,130,28"];
+	Node2 [label="veins::Move::getOrientation", height="0.22", width="1.94", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_move.html#a8424b8764b468e872e76f9ca5b6cc488", tooltip="Returns the orientation vector, i.e. ", pos="236,14", rects="166,6,306,22"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,166,14 130,14 139,14 147,14 156,14"];
+}

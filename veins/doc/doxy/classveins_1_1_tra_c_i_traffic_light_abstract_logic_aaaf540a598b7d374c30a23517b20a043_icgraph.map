@@ -1,0 +1,9 @@
+digraph "veins::TraCITrafficLightAbstractLogic::handleApplMsg" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,370,28"];
+	Node1 [label="veins::TraCITrafficLight\lAbstractLogic::handleApplMsg", height="0.39", width="2.25", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="89,14", rects="8,0,170,28"];
+	Node2 [label="veins::TraCITrafficLight\lAbstractLogic::handleMessage", height="0.39", width="2.17", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_traffic_light_abstract_logic.html#a58b0dbca3fdb2e5fc85f4118a4690944", pos="284,14", rects="206,0,362,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,170,14 180,14 189,14 197,14 206,14"];
+}

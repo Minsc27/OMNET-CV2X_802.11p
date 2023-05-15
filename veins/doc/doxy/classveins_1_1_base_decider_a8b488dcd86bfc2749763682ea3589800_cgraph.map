@@ -1,0 +1,28 @@
+digraph "veins::BaseDecider::processSignal" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,660,212"];
+	Node1 [label="veins::BaseDecider\l::processSignal", height="0.39", width="1.36", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="57,106", rects="8,92,106,120"];
+	Node2 [label="veins::BaseDecider\l::getSignalState", height="0.39", width="1.36", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_decider.html#aa41d7cb370ba4069108ede77732b3bc8", tooltip="Returns the SignalState for the passed AirFrame. ", pos="207,198", rects="158,184,256,212"];
+	Node3 [label="veins::BaseDecider\l::processNewSignal", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_decider.html#a6a480f87157d0509c0c1fccf94ea9fef", tooltip="Processes a new Signal. ", pos="207,152", rects="156,138,258,166"];
+	Node4 [label="veins::Signal::getMax", height="0.22", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#abebe5178153c93685c9213770127e364", tooltip="Return the maximum power level of any frequency. ", pos="386,186", rects="332,178,441,194"];
+	Node5 [label="veins::Signal::getMaxInRange", height="0.22", width="2.08", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#aa1b08d369a6416df8954591047ebdbc1", pos="576,186", rects="501,178,652,194"];
+	Node6 [label="veins::Signal::getReceptionEnd", height="0.22", width="2.14", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#a5c2bffe68602700de93aca6403b7e2c8", tooltip="Get the point in time at which the signal reception ends. ", pos="386,152", rects="309,144,464,160"];
+	Node7 [label="veins::BaseDecider\l::setChannelIdleStatus", height="0.39", width="1.58", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_decider.html#ae535b44e34061014fe282c36c27b0193", tooltip="Changes the \"isIdle\"-status to the passed value. ", pos="386,112", rects="329,98,443,126"];
+	Node8 [label="veins::BaseDecider\l::processSignalEnd", height="0.39", width="1.36", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_decider.html#ab9cfef6c04e12d2524d45e881f341300", tooltip="Processes the end of a received Signal. ", pos="207,106", rects="158,92,256,120"];
+	Node9 [label="veins::DeciderToPhyInterface\l::sendUp", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider_to_phy_interface.html#a8795c130caca902f79ba399fa9905f24", tooltip="Called to send an AirFrame with DeciderResult to the MACLayer. ", pos="386,66", rects="310,52,463,80"];
+	Node10 [label="veins::BaseDecider\l::processSignalHeader", height="0.39", width="1.56", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_decider.html#a586529178d95663f70072fe46d166efa", tooltip="Processes the end of the header of a received Signal. ", pos="207,60", rects="151,46,264,74"];
+	Node11 [label="veins::BaseDecider\l::processUnknownSignal", height="0.39", width="1.78", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_decider.html#ac054bb9bbda73689caf6c7cd7e55c8de", tooltip="Processes any Signal for which no state could be found. ", pos="207,14", rects="143,0,272,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,158,192 106,120 132,141 116,165 142,184 144,185 147,187 150,188"];
+	Node1 -> Node3 [color=midnightblue, style=solid, pos="e,156,142 106,120 123,127 126,133 142,138 143,139 145,139 146,140"];
+	Node3 -> Node4 [color=midnightblue, style=solid, pos="e,331,182 258,163 263,164 268,165 272,166 289,171 292,175 308,178 313,179 317,180 321,181"];
+	Node4 -> Node5 [color=midnightblue, style=solid, pos="e,500,186 441,186 456,186 473,186 490,186"];
+	Node3 -> Node6 [color=midnightblue, style=solid, pos="e,308,152 258,152 271,152 284,152 298,152"];
+	Node3 -> Node7 [color=midnightblue, style=solid, pos="e,329,122 258,142 263,141 268,139 272,138 289,134 292,131 308,126 312,125 315,124 319,124"];
+	Node1 -> Node8 [color=midnightblue, style=solid, pos="e,158,106 106,106 120,106 134,106 148,106"];
+	Node8 -> Node9 [color=midnightblue, style=solid, pos="e,309,80 256,96 262,95 267,93 272,92 285,89 290,86 299,83"];
+	Node8 -> Node7 [color=midnightblue, style=solid, pos="e,329,110 256,108 276,108 298,109 319,110"];
+	Node1 -> Node10 [color=midnightblue, style=solid, pos="e,150,71 106,92 122,86 126,80 140,75"];
+	Node1 -> Node11 [color=midnightblue, style=solid, pos="e,142,28 106,92 129,74 119,53 135,34"];
+}

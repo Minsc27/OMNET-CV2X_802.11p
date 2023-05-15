@@ -1,0 +1,9 @@
+digraph "veins::ObstacleControlAccess::getIfExists" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,336,28"];
+	Node1 [label="veins::ObstacleControlAccess\l::getIfExists", height="0.39", width="2.06", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="83,14", rects="9,0,158,28"];
+	Node2 [label="veins::findModuleByPath", height="0.22", width="1.86", color=black, fillcolor=white, style=filled, URL="$namespaceveins.html#a2f73fda5cc597671ec3697f8c33b5893", pos="261,14", rects="194,6,328,22"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,194,14 158,14 167,14 175,14 184,14"];
+}

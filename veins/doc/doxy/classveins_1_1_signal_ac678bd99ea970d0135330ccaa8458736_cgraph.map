@@ -1,0 +1,31 @@
+digraph "veins::Signal::operator=" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,332,462"];
+	Node1 [label="veins::Signal::operator=", height="0.22", width="1.64", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="68,219", rects="9,211,128,227"];
+	Node2 [label="veins::Signal::getAnalogue\lModelList", height="0.39", width="1.86", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#a2f4dfdadff0cd6a20ca21bad48e90940", tooltip="Get the AnalogueModels associated with this Signal. ", pos="244,448", rects="177,434,311,462"];
+	Node3 [label="veins::Signal::getCenter\lFrequencyIndex", height="0.39", width="1.64", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#aa27b0c3d13b2d56e2e802a2d9438caff", tooltip="Get the center frequency&#39;s index. ", pos="244,402", rects="185,388,303,416"];
+	Node4 [label="veins::Signal::getDataOffset", height="0.22", width="1.94", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#a1c1fcf428a75664b0b25fec9fbf2189f", tooltip="Get the offset of the data frequency range in the absolute frequency range. ", pos="244,362", rects="174,354,315,370"];
+	Node5 [label="veins::Signal::getDuration", height="0.22", width="1.81", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#ae57e07bf7e6cd6baa0f6db79815cd5cb", tooltip="Get the duration. ", pos="244,328", rects="179,320,309,336"];
+	Node6 [label="veins::Signal::getNumAnalogue\lModelsApplied", height="0.39", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#a8f2028891db16c20928fbdd1266f5f66", tooltip="Get the number of AnalogueModels that have already been applied to the Signal. ", pos="244,288", rects="164,274,324,302"];
+	Node7 [label="veins::Signal::getNumData\lValues", height="0.39", width="1.89", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#acef6c64b4d3be27c2da6f62816b74a13", tooltip="The number of values in the data frequency subrange. ", pos="244,242", rects="176,228,312,256"];
+	Node8 [label="veins::Signal::getPropagation\lDelay", height="0.39", width="2.00", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#a19172f164afbc2bc04028ad5ef5c4520", tooltip="Get the propagation delay. ", pos="244,196", rects="172,182,317,210"];
+	Node9 [label="veins::Signal::getReceiverPoa", height="0.22", width="2.03", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#af77d907793446d9521f0424afd751a9c", tooltip="Get this signal&#39;s receiver POA. ", pos="244,156", rects="171,148,317,164"];
+	Node10 [label="veins::Signal::getSenderPoa", height="0.22", width="1.89", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#a733943dcfe581527719363408b4af19a", tooltip="Get this signal&#39;s sender POA. ", pos="244,122", rects="176,114,313,130"];
+	Node11 [label="veins::Signal::getSending\lStart", height="0.39", width="1.72", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#ae7756606a92ceca2f2046c518f224337", tooltip="Timing. ", pos="244,82", rects="182,68,307,96"];
+	Node12 [label="veins::Signal::getSpectrum", height="0.22", width="1.83", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#a28faf6285303ba6bec080132f959ca6f", tooltip="Get the Spectrum this Signal is defined on. ", pos="244,42", rects="178,34,311,50"];
+	Node13 [label="veins::Signal::hasTiming", height="0.22", width="1.69", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#a642e43adf61338b3df366880cd9b15e2", tooltip="Predicate which indicates presence of timing information. ", pos="244,8", rects="183,0,306,16"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,177,443 128,227 196,291 99,367 164,434 165,435 167,437 169,438"];
+	Node1 -> Node3 [color=midnightblue, style=solid, pos="e,185,399 128,227 183,276 111,337 164,388 168,391 171,394 176,396"];
+	Node1 -> Node4 [color=midnightblue, style=solid, pos="e,173,360 128,227 173,265 120,316 164,354 164,354 164,354 165,354"];
+	Node1 -> Node5 [color=midnightblue, style=solid, pos="e,179,328 128,227 163,254 129,293 164,320 166,321 168,322 170,324"];
+	Node1 -> Node6 [color=midnightblue, style=solid, pos="e,163,274 128,227 148,238 144,255 156,268"];
+	Node1 -> Node7 [color=midnightblue, style=solid, pos="e,176,233 128,227 140,229 154,230 167,232"];
+	Node1 -> Node8 [color=midnightblue, style=solid, pos="e,171,206 128,211 139,209 150,208 161,207"];
+	Node1 -> Node9 [color=midnightblue, style=solid, pos="e,171,161 128,211 150,198 143,178 161,166"];
+	Node1 -> Node10 [color=midnightblue, style=solid, pos="e,175,124 128,211 160,187 133,153 164,130 165,129 166,129 166,128"];
+	Node1 -> Node11 [color=midnightblue, style=solid, pos="e,181,86 128,211 169,176 124,131 164,96 166,94 169,92 172,90"];
+	Node1 -> Node12 [color=midnightblue, style=solid, pos="e,177,42 128,211 183,161 110,98 164,50 165,49 167,47 169,46"];
+	Node1 -> Node13 [color=midnightblue, style=solid, pos="e,182,6 128,211 192,150 100,75 164,16 167,13 170,11 173,10"];
+}

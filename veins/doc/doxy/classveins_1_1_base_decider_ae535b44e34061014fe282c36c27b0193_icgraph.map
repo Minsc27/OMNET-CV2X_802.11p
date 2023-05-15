@@ -1,0 +1,14 @@
+digraph "veins::BaseDecider::setChannelIdleStatus" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,402,74"];
+	Node1 [label="veins::BaseDecider\l::setChannelIdleStatus", height="0.39", width="1.58", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="65,37", rects="8,23,122,51"];
+	Node2 [label="veins::BaseDecider\l::processNewSignal", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_decider.html#a6a480f87157d0509c0c1fccf94ea9fef", tooltip="Processes a new Signal. ", pos="209,60", rects="158,46,260,74"];
+	Node3 [label="veins::BaseDecider\l::processSignal", height="0.39", width="1.36", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_decider.html#a8b488dcd86bfc2749763682ea3589800", tooltip="Processes an AirFrame given by the PhyLayer. ", pos="345,37", rects="296,23,394,51"];
+	Node4 [label="veins::BaseDecider\l::processSignalEnd", height="0.39", width="1.36", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_decider.html#ab9cfef6c04e12d2524d45e881f341300", tooltip="Processes the end of a received Signal. ", pos="209,14", rects="160,0,258,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,122,46 131,47 140,49 149,50 158,52"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,260,51 269,50 278,48 287,47 296,45"];
+	Node1 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,122,28 131,27 140,25 151,24 160,22"];
+	Node4 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,258,22 267,24 276,25 287,27 296,29"];
+}

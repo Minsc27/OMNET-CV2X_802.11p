@@ -1,0 +1,11 @@
+digraph "veins::BasePhyLayer::initializeRadio" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,314,62"];
+	Node1 [label="veins::BasePhyLayer\l::initializeRadio", height="0.39", width="1.53", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="63,34", rects="8,20,118,48"];
+	Node2 [label="veins::Radio::createNewRadio", height="0.22", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_radio.html#adb1662dfad80b70f1983faaa6689a25b", tooltip="Creates a new instance of this class. ", pos="230,54", rects="154,46,306,62"];
+	Node3 [label="veins::BasePhyLayer\l::readPar", height="0.39", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_phy_layer.html#a379b5527a61ac5dfe378691faca6c2d9", tooltip="Read and return the parameter with the passed name. ", pos="230,14", rects="175,0,285,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,154,46 118,41 127,42 135,44 144,45"];
+	Node1 -> Node3 [color=midnightblue, style=solid, pos="e,175,21 118,27 133,25 150,24 165,22"];
+}

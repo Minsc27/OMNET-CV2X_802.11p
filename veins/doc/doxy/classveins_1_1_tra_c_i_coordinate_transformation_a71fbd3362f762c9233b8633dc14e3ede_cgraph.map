@@ -1,0 +1,9 @@
+digraph "veins::TraCICoordinateTransformation::omnet2traciHeading" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,370,28"];
+	Node1 [label="veins::TraCICoordinateTransformation\l::omnet2traciHeading", height="0.39", width="2.75", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="108,14", rects="9,0,208,28"];
+	Node2 [label="veins::Heading::getRad", height="0.22", width="1.64", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_heading.html#ac97b4d1bbd2c6a6e4734efcf4aa4125f", tooltip="Returns the angle (in rad, with 0 degrees being east and 90 degrees being north). ...", pos="303,14", rects="244,6,362,22"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,244,14 208,14 217,14 225,14 234,14"];
+}

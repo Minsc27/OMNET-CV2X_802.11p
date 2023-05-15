@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,80,16"];
+	Node1 [label="veins::POA", height="0.22", width="0.86", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_p_o_a.html", tooltip="Container class used to attach data to Airframe s which are needed by the receiver for antenna gain c...", pos="40,8", rects="9,0,72,16"];
+}

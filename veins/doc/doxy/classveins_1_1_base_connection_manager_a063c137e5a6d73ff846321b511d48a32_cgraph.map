@@ -1,0 +1,30 @@
+digraph "veins::BaseConnectionManager::checkGrid" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,1082,260"];
+	Node1 [label="veins::BaseConnectionManager\l::checkGrid", height="0.39", width="2.22", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="89,135", rects="9,121,170,149"];
+	Node2 [label="veins::BaseConnectionManager\l::CoordSet::add", height="0.39", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_connection_manager_1_1_coord_set.html#a94f30f431f9664e2fdb17aac5a845992", tooltip="Adds a GridCoord to the set. ", pos="485,246", rects="405,232,566,260"];
+	Node3 [label="veins::BaseConnectionManager\l::fillUnionWithNeighbors", height="0.39", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_connection_manager.html#a9b524c0f46ec4bb2ade902ac0855cac5", tooltip="Adds every direct Neighbor of a GridCoord to a union of coords. ", pos="287,204", rects="207,190,368,218"];
+	Node4 [label="veins::BaseConnectionManager\l::wrapIfTorus", height="0.39", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_connection_manager.html#a77e53c22a7c607482398632b85396a6c", tooltip="If the value is outside of its bounds (zero and max) this function returns -1 if useTorus is false an...", pos="485,200", rects="405,186,566,214"];
+	Node5 [label="veins::BaseConnectionManager\l::getCellEntries", height="0.39", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_connection_manager.html#ae776ac81a8f88a9afba710afaf8573b8", tooltip="Returns the NicEntries of the cell with specified coordinate. ", pos="287,158", rects="207,144,368,172"];
+	Node6 [label="veins::BaseConnectionManager\l::GridCoord::info", height="0.39", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_connection_manager_1_1_grid_coord.html#a8a3b9f1e38411db31b8aa45f11755b27", tooltip="Output string for this coordinate. ", pos="287,112", rects="207,98,368,126"];
+	Node7 [label="veins::BaseConnectionManager\l::CoordSet::next", height="0.39", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_connection_manager_1_1_coord_set.html#a703f38eb2b72f1381d2a3b69f26fdbd6", tooltip="Returns the next GridCoord in the set. ", pos="287,66", rects="207,52,368,80"];
+	Node8 [label="veins::BaseConnectionManager\l::updateNicConnections", height="0.39", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_connection_manager.html#af36a4fd1f31773f63187cc9717441a98", tooltip="Manages the connections of a registered nic. ", pos="287,20", rects="207,6,368,34"];
+	Node9 [label="veins::BaseConnectionManager\l::isInRange", height="0.39", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_connection_manager.html#a418d9fb4151ff38840838a94189ba8b6", tooltip="Check if the two nic&#39;s are in range. ", pos="485,20", rects="405,6,566,34"];
+	Node10 [label="anonymous_namespace\l\{BaseConnectionManager\l::cc\}::sqrTorusDist", height="0.56", width="1.89", color=black, fillcolor=white, style=filled, URL="$namespaceanonymous__namespace_02_base_connection_manager_8cc_03.html#a4c7285eb31fa2914adffc7da4255b6d2", pos="671,20", rects="603,0,740,40"];
+	Node11 [label="anonymous_namespace\l\{BaseConnectionManager\l::cc\}::dist", height="0.56", width="1.89", color=black, fillcolor=white, style=filled, URL="$namespaceanonymous__namespace_02_base_connection_manager_8cc_03.html#a03d2870486bee7d8198d066f67d00e04", tooltip="On a torus the end and the begin of the axes are connected so you get a circle. ", pos="845,20", rects="777,0,914,40"];
+	Node12 [label="veins::FWMath::modulo", height="0.22", width="1.72", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_f_w_math.html#aa66a76d454bf3d91d8ec390c4737a7a1", tooltip="Returns the remainder r on division of dividend a by divisor n, using floored division. ", pos="1012,20", rects="950,12,1074,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,404,249 158,149 162,151 166,153 170,157 198,178 177,207 206,227 236,247 325,250 394,249"];
+	Node1 -> Node3 [color=midnightblue, style=solid, pos="e,206,190 170,149 189,158 186,173 198,184"];
+	Node3 -> Node4 [color=midnightblue, style=solid, pos="e,404,201 368,202 377,202 385,202 394,202"];
+	Node3 -> Node2 [color=midnightblue, style=solid, pos="e,404,232 368,218 381,221 386,225 394,228"];
+	Node1 -> Node5 [color=midnightblue, style=solid, pos="e,206,149 170,144 179,145 187,146 196,148"];
+	Node1 -> Node6 [color=midnightblue, style=solid, pos="e,206,121 170,126 179,125 187,124 196,122"];
+	Node1 -> Node7 [color=midnightblue, style=solid, pos="e,206,80 170,121 189,111 186,96 198,85"];
+	Node1 -> Node8 [color=midnightblue, style=solid, pos="e,206,34 170,121 200,96 179,66 199,41"];
+	Node8 -> Node9 [color=midnightblue, style=solid, pos="e,404,20 368,20 377,20 385,20 394,20"];
+	Node9 -> Node10 [color=midnightblue, style=solid, pos="e,602,20 566,20 575,20 584,20 592,20"];
+	Node10 -> Node11 [color=midnightblue, style=solid, pos="e,776,20 740,20 749,20 757,20 766,20"];
+	Node11 -> Node12 [color=midnightblue, style=solid, pos="e,950,20 914,20 923,20 931,20 940,20"];
+}

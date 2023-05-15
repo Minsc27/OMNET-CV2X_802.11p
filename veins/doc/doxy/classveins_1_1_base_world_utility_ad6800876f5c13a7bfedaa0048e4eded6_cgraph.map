@@ -1,0 +1,9 @@
+digraph "veins::BaseWorldUtility::initialize" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,300,28"];
+	Node1 [label="veins::BaseWorldUtility\l::initialize", height="0.39", width="1.72", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="70,14", rects="8,0,132,28"];
+	Node2 [label="veins::BaseWorldUtility\l::initializeIfNecessary", height="0.39", width="1.72", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_world_utility.html#aabcceb57843568c213b0772b08971827", tooltip="Initializes all members accessible by other modules. ", pos="230,14", rects="168,0,292,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,168,14 132,14 141,14 149,14 158,14"];
+}

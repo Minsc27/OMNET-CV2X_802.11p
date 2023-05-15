@@ -1,0 +1,13 @@
+digraph "veins::AntennaPosition" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,208,166"];
+	Node1 [label="veins::AntennaPosition", height="0.22", width="1.67", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="142,16", rects="82,8,202,24"];
+	Node2 [label="veins::Coord", height="0.22", width="0.94", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_coord.html", tooltip="Class for storing 3D coordinates. ", pos="34,96", rects="0,88,68,104"];
+	Node3 [label=cObject, height="0.22", width="0.64", color=grey75, fillcolor=white, style=filled, pos="34,150", rects="11,142,58,158"];
+	Node4 [label=simtime_t, height="0.22", width="0.81", color=grey75, fillcolor=white, style=filled, pos="179,96", rects="150,88,209,104"];
+	Node2 -> Node1 [dir=back, color=darkorchid3, style=dashed, label=" p\nv", pos="s,45,88 52,83 75,66 113,38 131,24", lp="116,56"];
+	Node3 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,34,142 34,132 34,123 34,111 34,104"];
+	Node2 -> Node2 [dir=back, color=darkorchid3, style=dashed, label=" ZERO", pos="s,68,90 78,91 83,92 86,93 86,96 86,100 78,102 68,102", lp="109,96"];
+	Node4 -> Node1 [dir=back, color=darkorchid3, style=dashed, label=" t", pos="s,175,88 172,80 164,63 152,38 146,24", lp="174,56"];
+}

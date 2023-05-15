@@ -1,0 +1,18 @@
+digraph "veins::ChannelAccess::initialize" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,600,112"];
+	Node1 [label="veins::ChannelAccess\l::initialize", height="0.39", width="1.56", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="64,60", rects="8,46,120,74"];
+	Node2 [label="veins::BaseModule::\lfindHost", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_module.html#a1d2d2af49918dfb9ae036b1d086b123a", tooltip="Function to get a pointer to the host module. ", pos="387,81", rects="336,67,438,95"];
+	Node3 [label="veins::FindModule::\lfindHost", height="0.39", width="1.39", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_find_module.html#a01accd625bef9763ba8baabc5e9d5eeb", tooltip="Returns a pointer to the host module of the passed module. ", pos="541,81", rects="491,67,592,95"];
+	Node4 [label="veins::ChannelAccess\l::getConnectionManager", height="0.39", width="1.78", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_channel_access.html#a0dc69d65185a429fcd739d4eadedb504", tooltip="Returns a pointer to the ConnectionManager responsible for the passed NIC module. ...", pos="220,14", rects="156,0,284,28"];
+	Node5 [label="veins::findModuleByPath", height="0.22", width="1.86", color=black, fillcolor=white, style=filled, URL="$namespaceveins.html#a2f73fda5cc597671ec3697f8c33b5893", pos="387,14", rects="320,6,454,22"];
+	Node6 [label="veins::BaseModule::\linitialize", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_module.html#a66e943d61eb3d43e5a999ccbaf010fd9", tooltip="Basic initialization for all modules. ", pos="220,60", rects="169,46,271,74"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,336,85 120,74 139,78 156,83 156,83 213,89 279,88 325,86"];
+	Node2 -> Node3 [color=midnightblue, style=solid, pos="e,490,81 438,81 452,81 467,81 480,81"];
+	Node1 -> Node4 [color=midnightblue, style=solid, pos="e,156,28 120,46 133,41 138,37 147,32"];
+	Node4 -> Node5 [color=midnightblue, style=solid, pos="e,320,14 284,14 293,14 301,14 310,14"];
+	Node1 -> Node6 [color=midnightblue, style=solid, pos="e,169,60 120,60 133,60 146,60 159,60"];
+	Node6 -> Node2 [color=midnightblue, style=solid, pos="e,336,75 271,66 289,69 308,71 326,74"];
+}

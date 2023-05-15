@@ -1,0 +1,14 @@
+digraph "veins::ChannelInfo::BaseIntersectionIterator&lt; C, ItMatrix, ItList &gt;" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,299,136"];
+	Node1 [label="veins::ChannelInfo\l::BaseIntersectionIterator\l\< C, ItMatrix, ItList \>", height="0.56", width="1.78", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="132,28", rects="68,8,196,48"];
+	Node2 [label=ItList, height="0.22", width="0.47", color=grey75, fillcolor=white, style=filled, pos="18,120", rects="1,112,36,128"];
+	Node3 [label=simtime_t, height="0.22", width="0.81", color=grey75, fillcolor=white, style=filled, pos="95,120", rects="66,112,125,128"];
+	Node4 [label=ItMatrix, height="0.22", width="0.69", color=grey75, fillcolor=white, style=filled, pos="170,120", rects="145,112,196,128"];
+	Node5 [label=C, height="0.22", width="0.39", color=grey75, fillcolor=white, style=filled, pos="244,120", rects="230,112,259,128"];
+	Node2 -> Node1 [dir=back, color=darkorchid3, style=dashed, label=" startIt", pos="s,22,112 25,105 31,93 41,77 53,66 62,58 68,52 75,48", lp="74,80"];
+	Node3 -> Node1 [dir=back, color=darkorchid3, style=dashed, label=" from\nto", pos="s,96,112 98,104 100,93 103,78 109,66 111,60 114,54 118,48", lp="129,80"];
+	Node4 -> Node1 [dir=back, color=darkorchid3, style=dashed, label=" endIt", pos="s,168,112 165,104 162,93 157,79 152,66 149,60 146,54 143,48", lp="180,80"];
+	Node5 -> Node1 [dir=back, color=darkorchid3, style=dashed, label=" intervals", pos="s,239,112 235,105 227,93 215,77 203,66 194,58 187,52 180,48", lp="255,80"];
+}

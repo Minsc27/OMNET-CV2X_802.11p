@@ -1,0 +1,13 @@
+digraph "veins::TimerSpecification::interval" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,316,120"];
+	Node1 [label="veins::TimerSpecification\l::interval", height="0.39", width="1.81", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="74,60", rects="9,46,140,74"];
+	Node2 [label="veins::TimerSpecification\l::oneshotAt", height="0.39", width="1.81", color=black, fillcolor=white, style=filled, URL="$structveins_1_1_timer_specification.html#ac0b5f3e0f52575833abc0a879940df86", tooltip="Set the timer to execute once at a given time. ", pos="242,106", rects="177,92,308,120"];
+	Node3 [label="veins::TimerSpecification\l::oneshotIn", height="0.39", width="1.81", color=black, fillcolor=white, style=filled, URL="$structveins_1_1_timer_specification.html#af679b95d5ec42458ad29a9eaa5427fad", tooltip="Set the timer to execute once in a given time. ", pos="242,60", rects="177,46,308,74"];
+	Node4 [label="veins::TimerSpecification\l::TimerSpecification", height="0.39", width="1.81", color=black, fillcolor=white, style=filled, URL="$structveins_1_1_timer_specification.html#a61fee676a9a7799fa2a760b3b4d120ae", tooltip="Create a new TimerSpecification. ", pos="242,14", rects="177,0,308,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,140,74 148,77 159,82 163,87 176,92"];
+	Node1 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,140,60 150,60 159,60 167,60 176,60"];
+	Node1 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,140,46 148,42 159,37 163,32 176,28"];
+}

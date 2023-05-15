@@ -1,0 +1,12 @@
+digraph "veins::Mac1609_4::EDCA" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,287,100"];
+	Node1 [label="veins::Mac1609_4::EDCA", height="0.22", width="1.81", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="153,16", rects="88,8,218,24"];
+	Node2 [label="veins::HasLogProxy", height="0.22", width="1.47", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_has_log_proxy.html", tooltip="Helper class for logging from classes not derived from cComponent. ", pos="53,84", rects="0,76,106,92"];
+	Node3 [label=simtime_t, height="0.22", width="0.81", color=grey75, fillcolor=white, style=filled, pos="153,84", rects="124,76,183,92"];
+	Node4 [label=cSimpleModule, height="0.22", width="1.19", color=grey75, fillcolor=white, style=filled, pos="243,84", rects="200,76,286,92"];
+	Node2 -> Node1 [dir=back, color=firebrick4, style=solid, pos="s,65,76 72,71 92,58 124,36 141,24"];
+	Node3 -> Node1 [dir=back, color=darkorchid3, style=dashed, label=" lastStart", pos="s,153,76 153,67 153,53 153,35 153,24", lp="179,50"];
+	Node4 -> Node1 [dir=back, color=darkorchid3, style=dashed, label=" owner", pos="s,238,76 233,69 227,60 218,49 209,42 199,34 187,28 176,24", lp="247,50"];
+}

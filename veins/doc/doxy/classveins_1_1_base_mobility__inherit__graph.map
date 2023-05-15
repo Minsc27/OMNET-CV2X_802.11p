@@ -1,0 +1,18 @@
+digraph "veins::BaseMobility" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,238,240"];
+	Node1 [label="veins::BaseMobility", height="0.22", width="1.42", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="120,68", rects="69,60,172,76"];
+	Node2 [label="veins::BatteryAccess", height="0.22", width="1.47", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_battery_access.html", tooltip="Extends BaseModule by several methods which provide access to the battery module. ...", pos="120,120", rects="67,112,174,128"];
+	Node3 [label="veins::BaseModule", height="0.22", width="1.36", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_module.html", tooltip="Base class for all simple modules of a host. ", pos="120,172", rects="71,164,170,180"];
+	Node4 [label=cSimpleModule, height="0.22", width="1.19", color=grey75, fillcolor=white, style=filled, pos="76,224", rects="33,216,119,232"];
+	Node5 [label=cListener, height="0.22", width="0.75", color=grey75, fillcolor=white, style=filled, pos="164,224", rects="137,216,191,232"];
+	Node6 [label="veins::LinearMobility", height="0.22", width="1.56", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_linear_mobility.html", tooltip="Linear movement model. ", pos="56,16", rects="0,8,113,24"];
+	Node7 [label="veins::TraCIMobility", height="0.22", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_mobility.html", tooltip="Used in modules created by the TraCIScenarioManager. ", pos="184,16", rects="130,8,239,24"];
+	Node2 -> Node1 [dir=back, color=midnightblue, style=solid, pos="s,120,112 120,103 120,94 120,83 120,76"];
+	Node3 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,120,164 120,155 120,146 120,135 120,128"];
+	Node4 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,83,216 89,209 97,199 107,188 113,180"];
+	Node5 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,157,216 151,209 143,199 133,188 127,180"];
+	Node1 -> Node6 [dir=back, color=midnightblue, style=solid, pos="s,110,60 103,54 91,45 76,32 66,24"];
+	Node1 -> Node7 [dir=back, color=midnightblue, style=solid, pos="s,130,60 137,54 149,45 164,32 174,24"];
+}

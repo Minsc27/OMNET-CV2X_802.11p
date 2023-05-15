@@ -1,0 +1,23 @@
+digraph "TraCIRegionOfInterest.h" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,335,200"];
+	Node1 [label="TraCIRegionOfInterest.h", height="0.22", width="1.83", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="110,184", rects="44,176,176,192"];
+	Node2 [label=list, height="0.22", width="0.39", color=grey75, fillcolor=white, style=filled, pos="14,126", rects="0,118,29,134"];
+	Node3 [label=set, height="0.22", width="0.39", color=grey75, fillcolor=white, style=filled, pos="60,126", rects="46,118,75,134"];
+	Node4 [label=string, height="0.22", width="0.50", color=grey75, fillcolor=white, style=filled, pos="110,126", rects="92,118,129,134"];
+	Node5 [label=utility, height="0.22", width="0.53", color=grey75, fillcolor=white, style=filled, pos="163,16", rects="144,8,183,24"];
+	Node6 [label="veins/modules/mobility\l/traci/TraCICoord.h", height="0.39", width="1.72", color=black, fillcolor=white, style=filled, URL="$_tra_c_i_coord_8h.html", pos="246,126", rects="184,112,309,140"];
+	Node7 [label="veins/veins.h", height="0.22", width="1.00", color=black, fillcolor=white, style=filled, URL="$veins_8h.html", pos="233,68", rects="197,60,269,76"];
+	Node8 [label=memory, height="0.22", width="0.72", color=grey75, fillcolor=white, style=filled, pos="229,16", rects="203,8,255,24"];
+	Node9 [label="omnetpp.h", height="0.22", width="0.86", color=grey75, fillcolor=white, style=filled, pos="304,16", rects="273,8,335,24"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,22,134 93,176 76,168 50,155 30,141"];
+	Node1 -> Node3 [color=midnightblue, style=solid, pos="e,67,134 103,176 95,167 83,152 73,141"];
+	Node1 -> Node4 [color=midnightblue, style=solid, pos="e,110,134 110,176 110,168 110,154 110,143"];
+	Node1 -> Node5 [color=midnightblue, style=solid, pos="e,162,24 116,176 122,167 131,153 137,140 151,102 159,55 161,31"];
+	Node1 -> Node6 [color=midnightblue, style=solid, pos="e,213,140 129,176 149,168 179,154 204,144"];
+	Node6 -> Node7 [color=midnightblue, style=solid, pos="e,235,76 243,112 241,104 239,93 237,85"];
+	Node7 -> Node8 [color=midnightblue, style=solid, pos="e,230,24 232,60 231,53 231,42 230,33"];
+	Node7 -> Node5 [color=midnightblue, style=solid, pos="e,174,24 222,60 211,52 194,39 181,29"];
+	Node7 -> Node9 [color=midnightblue, style=solid, pos="e,293,24 244,60 255,52 272,39 286,29"];
+}

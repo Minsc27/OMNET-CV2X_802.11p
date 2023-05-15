@@ -1,0 +1,11 @@
+digraph "veins::NistErrorRate::getFec16QamBer" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,268,74"];
+	Node1 [label="veins::NistErrorRate\l::getFec16QamBer", height="0.39", width="1.50", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="62,37", rects="8,23,116,51"];
+	Node2 [label="veins::NistErrorRate\l::calculatePe", height="0.39", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_nist_error_rate.html#aa2df206d0e5cc31a3c3587438c7d5b74", tooltip="Return the coded BER for the given p and b. ", pos="206,60", rects="152,46,260,74"];
+	Node3 [label="veins::NistErrorRate\l::get16QamBer", height="0.39", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_nist_error_rate.html#a1808f09736f8a581305d5ff4a58e2555", tooltip="Return BER of QAM16 at the given SNR. ", pos="206,14", rects="152,0,260,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,152,51 116,46 125,47 133,49 142,50"];
+	Node1 -> Node3 [color=midnightblue, style=solid, pos="e,152,23 116,28 125,27 133,25 142,24"];
+}

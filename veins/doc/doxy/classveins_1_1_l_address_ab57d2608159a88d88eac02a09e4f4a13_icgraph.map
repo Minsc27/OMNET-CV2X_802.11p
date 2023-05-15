@@ -1,0 +1,9 @@
+digraph "veins::LAddress::isL2Broadcast" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,322,28"];
+	Node1 [label="veins::LAddress::isL2Broadcast", height="0.22", width="2.17", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="87,14", rects="9,6,166,22"];
+	Node2 [label="veins::BaseMacLayer\l::handleLowerMsg", height="0.39", width="1.56", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mac_layer.html#a65b38b9b47cec29bd5be9613271585c3", tooltip="If message arrives from lower layer, check whether it is for us. ", pos="258,14", rects="202,0,314,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,166,14 176,14 185,14 193,14 202,14"];
+}

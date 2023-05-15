@@ -1,0 +1,16 @@
+digraph "veins::Signal::getDataStart" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,780,78"];
+	Node1 [label="veins::Signal::getDataStart", height="0.22", width="1.83", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="74,34", rects="8,26,140,42"];
+	Node2 [label="veins::SignalUtils\l::anonymous_namespace\l\{SignalUtils::cc\}::getMaxInterference", height="0.56", width="2.56", color=black, fillcolor=white, style=filled, URL="$namespaceveins_1_1_signal_utils_1_1anonymous__namespace_02_signal_utils_8cc_03.html#adec53cec45469bce01bd893290800df5", pos="268,58", rects="176,38,360,78"];
+	Node3 [label="veins::SignalUtils\l::getMinSINR", height="0.39", width="1.25", color=black, fillcolor=white, style=filled, URL="$namespaceveins_1_1_signal_utils.html#a65bf87cf643cccf540dc5f0802a71427", tooltip="return the minimal Signal to (Interference + Noise) Ratio at any data channel of signalFrame&#39;s signal...", pos="442,34", rects="397,20,488,48"];
+	Node4 [label="veins::Decider80211p\l::checkIfSignalOk", height="0.39", width="1.44", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider80211p.html#a01349c12df6c01678d1e25553b754819", tooltip="Checks a mapping against a specific threshold (element-wise). ", pos="577,34", rects="525,20,630,48"];
+	Node5 [label="veins::Decider80211p\l::processSignalEnd", height="0.39", width="1.44", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider80211p.html#a389f17ab33d4fc22b499593fa0837faf", tooltip="Processes a received AirFrame. ", pos="719,34", rects="667,20,772,48"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,140,42 149,43 158,44 167,45 176,46"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,360,45 369,44 378,43 387,42 396,40"];
+	Node3 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,488,34 498,34 507,34 515,34 524,34"];
+	Node4 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,630,34 639,34 648,34 658,34 666,34"];
+	Node1 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,140,30 149,30 158,30 167,29 176,29 258,26 279,26 360,29 372,29 385,30 396,31"];
+}

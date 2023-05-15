@@ -1,0 +1,8 @@
+digraph "veins::NetwToMacControlInfo" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,160,84"];
+	Node1 [label="veins::NetwToMacControlInfo", height="0.22", width="2.22", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="80,16", rects="0,8,160,24"];
+	Node2 [label=cObject, height="0.22", width="0.64", color=grey75, fillcolor=white, style=filled, pos="80,68", rects="57,60,104,76"];
+	Node2 -> Node1 [dir=back, color=midnightblue, style=solid, pos="s,80,60 80,51 80,42 80,31 80,24"];
+}

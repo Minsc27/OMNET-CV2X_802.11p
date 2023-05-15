@@ -1,0 +1,20 @@
+digraph "TraCITrafficLightProgram.h" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,297,136"];
+	Node1 [label="TraCITrafficLightProgram.h", height="0.22", width="2.11", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="101,120", rects="25,112,178,128"];
+	Node2 [label=string, height="0.22", width="0.50", color=grey75, fillcolor=white, style=filled, pos="18,68", rects="0,60,37,76"];
+	Node3 [label=vector, height="0.22", width="0.56", color=grey75, fillcolor=white, style=filled, pos="74,68", rects="54,60,94,76"];
+	Node4 [label=map, height="0.22", width="0.44", color=grey75, fillcolor=white, style=filled, pos="128,68", rects="112,60,144,76"];
+	Node5 [label="veins/veins.h", height="0.22", width="1.00", color=black, fillcolor=white, style=filled, URL="$veins_8h.html", pos="198,68", rects="162,60,234,76"];
+	Node6 [label=memory, height="0.22", width="0.72", color=grey75, fillcolor=white, style=filled, pos="135,16", rects="109,8,161,24"];
+	Node7 [label=utility, height="0.22", width="0.53", color=grey75, fillcolor=white, style=filled, pos="198,16", rects="179,8,218,24"];
+	Node8 [label="omnetpp.h", height="0.22", width="0.86", color=grey75, fillcolor=white, style=filled, pos="266,16", rects="235,8,297,24"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,31,76 88,112 75,103 54,91 39,81"];
+	Node1 -> Node3 [color=midnightblue, style=solid, pos="e,78,76 97,112 93,104 87,93 82,84"];
+	Node1 -> Node4 [color=midnightblue, style=solid, pos="e,124,76 105,112 109,104 115,93 120,84"];
+	Node1 -> Node5 [color=midnightblue, style=solid, pos="e,183,76 116,112 132,103 157,90 175,80"];
+	Node5 -> Node6 [color=midnightblue, style=solid, pos="e,145,24 188,60 178,52 164,40 152,30"];
+	Node5 -> Node7 [color=midnightblue, style=solid, pos="e,198,24 198,60 198,53 198,42 198,33"];
+	Node5 -> Node8 [color=midnightblue, style=solid, pos="e,255,24 209,60 220,52 236,39 248,30"];
+}

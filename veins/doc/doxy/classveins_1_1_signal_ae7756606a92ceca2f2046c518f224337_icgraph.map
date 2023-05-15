@@ -1,0 +1,24 @@
+digraph "veins::Signal::getSendingStart" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,842,120"];
+	Node1 [label="veins::Signal::getSending\lStart", height="0.39", width="1.72", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="71,60", rects="9,46,134,74"];
+	Node2 [label="veins::VehicleObstacleControl\l::getPotentialObstacles", height="0.39", width="2.14", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_vehicle_obstacle_control.html#ab98060c628b51496d26c95962a30517f", tooltip="get distance and height of potential obstacles ", pos="248,106", rects="171,92,325,120"];
+	Node3 [label="veins::VehicleObstacleShadowing\l::filterSignal", height="0.39", width="2.36", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_vehicle_obstacle_shadowing.html#aa1a8069440240b74a7a8ea0c91b06116", tooltip="Filters a specified Signal by adding an attenuation over time to the Signal. ", pos="448,106", rects="363,92,534,120"];
+	Node4 [label="veins::BasePhyLayer\l::handleAirFrameStartReceive", height="0.39", width="2.17", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_phy_layer.html#a671f083680882230b754b7e9578e6274", tooltip="Handle incoming AirFrames with the state AirFrameState::start_receive. ", pos="248,60", rects="170,46,326,74"];
+	Node5 [label="veins::BasePhyLayer\l::handleAirFrame", height="0.39", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_phy_layer.html#a8d6f371fa6ea6ca89cb78764a05f31dd", tooltip="Handle messages received from the channel. ", pos="448,60", rects="393,46,503,74"];
+	Node6 [label="veins::BasePhyLayer\l::handleMessage", height="0.39", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_phy_layer.html#a54c20b44779b724638e62f941b656f9c", tooltip="Process received messages and pass to specific handlers. ", pos="779,58", rects="724,44,834,72"];
+	Node7 [label="veins::PhyLayer80211p\l::handleSelfMessage", height="0.39", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_phy_layer80211p.html#a020601bba0e334a622dc8e193c5946b0", tooltip="Handle self scheduled messages. ", pos="629,60", rects="571,46,688,74"];
+	Node8 [label="veins::BasePhyLayer\l::handleSelfMessage", height="0.39", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_phy_layer.html#a17088ad93f59e143ff6c7ba866a31982", tooltip="Handle self scheduled messages. ", pos="629,14", rects="574,0,684,28"];
+	Node9 [label="veins::Signal::operator=", height="0.22", width="1.64", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#ac678bd99ea970d0135330ccaa8458736", tooltip="Create a copy of another signal. ", pos="248,20", rects="189,12,308,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,134,74 142,77 153,82 157,87 170,92 170,92 171,92 171,92"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,325,106 335,106 344,106 353,106 362,106"];
+	Node1 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,134,60 144,60 153,60 161,60 170,60"];
+	Node4 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,326,60 336,60 355,60 375,60 393,60"];
+	Node5 -> Node6 [dir=back, color=midnightblue, style=solid, pos="s,503,68 512,70 519,71 527,73 534,74 551,77 554,80 570,83 623,89 637,90 688,83 705,80 708,76 724,72"];
+	Node5 -> Node7 [dir=back, color=midnightblue, style=solid, pos="s,503,60 513,60 532,60 552,60 570,60"];
+	Node5 -> Node8 [dir=back, color=midnightblue, style=solid, pos="s,503,53 511,51 519,50 527,48 534,46 552,40 554,34 570,28 571,28 572,27 574,27"];
+	Node8 -> Node6 [dir=back, color=midnightblue, style=solid, pos="s,684,27 693,30 706,34 710,39 724,44"];
+	Node1 -> Node9 [dir=back, color=midnightblue, style=solid, pos="s,134,46 143,42 152,37 156,31 170,28 176,26 182,25 188,24"];
+}

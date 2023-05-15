@@ -1,0 +1,11 @@
+digraph "veins::AnnotationManager::eraseAll" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,554,28"];
+	Node1 [label="veins::AnnotationManager\l::eraseAll", height="0.39", width="1.92", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="78,14", rects="9,0,148,28"];
+	Node2 [label="veins::VehicleObstacleControl\l::getPotentialObstacles", height="0.39", width="2.14", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_vehicle_obstacle_control.html#ab98060c628b51496d26c95962a30517f", tooltip="get distance and height of potential obstacles ", pos="261,14", rects="184,0,338,28"];
+	Node3 [label="veins::VehicleObstacleShadowing\l::filterSignal", height="0.39", width="2.36", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_vehicle_obstacle_shadowing.html#aa1a8069440240b74a7a8ea0c91b06116", tooltip="Filters a specified Signal by adding an attenuation over time to the Signal. ", pos="460,14", rects="375,0,546,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,148,14 158,14 167,14 175,14 184,14"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,338,14 348,14 357,14 365,14 374,14"];
+}

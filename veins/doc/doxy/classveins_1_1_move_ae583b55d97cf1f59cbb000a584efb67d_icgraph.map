@@ -1,0 +1,24 @@
+digraph "veins::Move::setDirectionByVector" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,440,204"];
+	Node1 [label="veins::Move::setDirection\lByVector", height="0.39", width="1.78", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="72,102", rects="8,88,136,116"];
+	Node2 [label="veins::TraCIMobility\l::changePosition", height="0.39", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_mobility.html#a3137899bb330551c9823c40b4ed8b8fc", pos="227,190", rects="173,176,282,204"];
+	Node3 [label="veins::TraCIMobility\l::nextPosition", height="0.39", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_mobility.html#ae53642be0d88b9f146cf55a5d990f1a2", pos="375,190", rects="321,176,430,204"];
+	Node4 [label="veins::BaseMobility\l::handleBorderMsg", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mobility.html#a1cd10753592e8eeb018d8f774ce862c6", tooltip="Called upon arrival of a border messages. ", pos="227,144", rects="176,130,279,158"];
+	Node5 [label="veins::BaseMobility\l::handleMessage", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mobility.html#a64b618ee6a35eaebfcfba7d9266be4c8", tooltip="This modules should only receive self-messages. ", pos="375,144", rects="324,130,427,158"];
+	Node6 [label="veins::TraCIMobility\l::initialize", height="0.39", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_mobility.html#a9945ece48d11a01a7973f991b467e848", pos="375,98", rects="321,84,430,112"];
+	Node7 [label="veins::BaseMobility\l::initialize", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mobility.html#ac865e9d430a27e6a3076c0d9293fef35", tooltip="Initializes mobility model parameters. ", pos="227,60", rects="176,46,279,74"];
+	Node8 [label="veins::LinearMobility\l::initialize", height="0.39", width="1.56", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_linear_mobility.html#ac94ebc62ac059949810368634398004b", tooltip="Initializes mobility model parameters. ", pos="375,52", rects="319,38,432,66"];
+	Node9 [label="veins::TraCIMobility\l::preInitialize", height="0.39", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_mobility.html#a678634249e120d1e2614a628d20006f6", pos="227,14", rects="173,0,282,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,136,116 143,122 159,139 151,159 172,176"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,282,190 292,190 301,190 311,190 320,190"];
+	Node1 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,136,116 145,118 155,122 159,125 172,130 173,130 174,131 175,131"];
+	Node4 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,279,144 289,144 300,144 312,144 323,144"];
+	Node1 -> Node6 [dir=back, color=midnightblue, style=solid, pos="s,136,101 145,101 199,100 272,99 320,99"];
+	Node1 -> Node7 [dir=back, color=midnightblue, style=solid, pos="s,136,88 145,85 155,81 159,78 172,74 173,74 174,73 175,73"];
+	Node7 -> Node8 [dir=back, color=midnightblue, style=solid, pos="s,279,57 288,56 298,56 308,56 318,55"];
+	Node7 -> Node6 [dir=back, color=midnightblue, style=solid, pos="s,279,73 288,75 300,78 304,80 318,84 319,84 320,84 320,85"];
+	Node1 -> Node9 [dir=back, color=midnightblue, style=solid, pos="s,136,88 143,82 160,65 150,45 172,28"];
+}

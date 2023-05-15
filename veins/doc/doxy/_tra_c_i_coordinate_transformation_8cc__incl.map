@@ -1,0 +1,36 @@
+digraph "TraCICoordinateTransformation.cc" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,383,368"];
+	Node1 [label="TraCICoordinateTransformation.cc", height="0.22", width="2.53", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="275,352", rects="184,344,367,360"];
+	Node2 [label="veins/modules/mobility\l/traci/TraCICoordinateTransformation.h", height="0.39", width="2.89", color=black, fillcolor=white, style=filled, URL="$_tra_c_i_coordinate_transformation_8h.html", pos="275,294", rects="171,280,379,308"];
+	Node3 [label="veins/modules/mobility\l/traci/TraCICoord.h", height="0.39", width="1.72", color=black, fillcolor=white, style=filled, URL="$_tra_c_i_coord_8h.html", pos="321,178", rects="259,164,384,192"];
+	Node4 [label="veins/veins.h", height="0.22", width="1.00", color=black, fillcolor=white, style=filled, URL="$veins_8h.html", pos="228,68", rects="192,60,264,76"];
+	Node5 [label=memory, height="0.22", width="0.72", color=grey75, fillcolor=white, style=filled, pos="165,16", rects="139,8,191,24"];
+	Node6 [label=utility, height="0.22", width="0.53", color=grey75, fillcolor=white, style=filled, pos="228,16", rects="209,8,248,24"];
+	Node7 [label="omnetpp.h", height="0.22", width="0.86", color=grey75, fillcolor=white, style=filled, pos="296,16", rects="265,8,327,24"];
+	Node8 [label="veins/base/utils/Coord.h", height="0.22", width="1.75", color=black, fillcolor=white, style=filled, URL="$_coord_8h.html", pos="134,178", rects="71,170,197,186"];
+	Node9 [label="veins/base/utils/FWMath.h", height="0.22", width="1.94", color=black, fillcolor=white, style=filled, URL="$_f_w_math_8h.html", pos="92,120", rects="22,112,163,128"];
+	Node10 [label=cmath, height="0.22", width="0.56", color=grey75, fillcolor=white, style=filled, pos="20,68", rects="0,60,40,76"];
+	Node11 [label=limits, height="0.22", width="0.50", color=grey75, fillcolor=white, style=filled, pos="76,68", rects="58,60,94,76"];
+	Node12 [label=type_traits, height="0.22", width="0.86", color=grey75, fillcolor=white, style=filled, pos="143,68", rects="112,60,174,76"];
+	Node13 [label="veins/base/utils/Heading.h", height="0.22", width="1.89", color=black, fillcolor=white, style=filled, URL="$_heading_8h.html", pos="227,236", rects="159,228,296,244"];
+	Node14 [label=list, height="0.22", width="0.39", color=grey75, fillcolor=white, style=filled, pos="365,236", rects="351,228,380,244"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,275,308 275,344 275,338 275,327 275,318"];
+	Node2 -> Node3 [color=midnightblue, style=solid, pos="e,318,192 284,280 291,270 299,256 304,244 310,229 314,213 317,200"];
+	Node3 -> Node4 [color=midnightblue, style=solid, pos="e,235,76 309,164 291,142 258,104 240,82"];
+	Node4 -> Node5 [color=midnightblue, style=solid, pos="e,175,24 218,60 208,52 194,40 182,30"];
+	Node4 -> Node6 [color=midnightblue, style=solid, pos="e,228,24 228,60 228,53 228,42 228,33"];
+	Node4 -> Node7 [color=midnightblue, style=solid, pos="e,285,24 239,60 250,52 266,39 278,30"];
+	Node2 -> Node8 [color=midnightblue, style=solid, pos="e,134,186 204,280 185,275 169,266 150,244 138,230 135,208 134,194"];
+	Node8 -> Node4 [color=midnightblue, style=solid, pos="e,221,76 141,170 157,151 195,106 215,83"];
+	Node8 -> Node9 [color=midnightblue, style=solid, pos="e,98,128 128,170 122,161 111,146 103,135"];
+	Node9 -> Node10 [color=midnightblue, style=solid, pos="e,31,76 81,112 69,104 52,91 38,81"];
+	Node9 -> Node11 [color=midnightblue, style=solid, pos="e,79,76 89,112 87,105 84,94 81,85"];
+	Node9 -> Node12 [color=midnightblue, style=solid, pos="e,135,76 100,112 107,104 119,92 128,83"];
+	Node9 -> Node4 [color=midnightblue, style=solid, pos="e,207,76 113,112 135,103 173,89 199,79"];
+	Node2 -> Node13 [color=midnightblue, style=solid, pos="e,234,244 263,280 256,271 246,260 239,251"];
+	Node13 -> Node4 [color=midnightblue, style=solid, pos="e,228,76 227,228 227,202 228,121 228,85"];
+	Node13 -> Node8 [color=midnightblue, style=solid, pos="e,147,186 214,228 199,218 173,202 154,191"];
+	Node2 -> Node14 [color=midnightblue, style=solid, pos="e,352,244 297,280 311,271 331,258 345,249"];
+}

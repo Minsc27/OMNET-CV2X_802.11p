@@ -1,0 +1,15 @@
+digraph "veins::Mac80211pToPhy11pInterface::getFrameDuration" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,672,68"];
+	Node1 [label="veins::Mac80211pToPhy11p\lInterface::getFrameDuration", height="0.39", width="2.06", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="82,34", rects="8,20,156,48"];
+	Node2 [label="veins::Mac1609_4::handle\lSelfMsg", height="0.39", width="1.78", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_mac1609__4.html#a50663c27a2a1782c618309345687e142", tooltip="Handle self messages such as timers. ", pos="262,54", rects="198,40,327,68"];
+	Node3 [label="veins::Mac1609_4::sendAck", height="0.22", width="1.92", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_mac1609__4.html#a5d98cfbe6173ce7094c464fcdd3a944d", pos="262,14", rects="193,6,332,22"];
+	Node4 [label="veins::Mac1609_4::handle\lUnicast", height="0.39", width="1.78", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_mac1609__4.html#ab30f200fd2432b7b98653e7892f6ebd9", pos="433,14", rects="369,0,498,28"];
+	Node5 [label="veins::Mac1609_4::handle\lLowerMsg", height="0.39", width="1.78", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_mac1609__4.html#aa33e88d786741d77a486617749ddf6d0", tooltip="Handle messages from lower layer. ", pos="599,14", rects="535,0,664,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,156,42 164,43 175,44 187,45 197,47"];
+	Node1 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,156,26 165,25 174,24 183,23 192,22"];
+	Node3 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,332,14 341,14 350,14 360,14 368,14"];
+	Node4 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,498,14 508,14 517,14 525,14 534,14"];
+}

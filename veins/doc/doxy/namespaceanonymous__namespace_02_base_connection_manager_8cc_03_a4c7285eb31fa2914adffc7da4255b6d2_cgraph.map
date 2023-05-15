@@ -1,0 +1,11 @@
+digraph "anonymous_namespace{BaseConnectionManager::cc}::sqrTorusDist" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,488,40"];
+	Node1 [label="anonymous_namespace\l\{BaseConnectionManager\l::cc\}::sqrTorusDist", height="0.56", width="1.89", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="77,20", rects="9,0,146,40"];
+	Node2 [label="anonymous_namespace\l\{BaseConnectionManager\l::cc\}::dist", height="0.56", width="1.89", color=black, fillcolor=white, style=filled, URL="$namespaceanonymous__namespace_02_base_connection_manager_8cc_03.html#a03d2870486bee7d8198d066f67d00e04", tooltip="On a torus the end and the begin of the axes are connected so you get a circle. ", pos="251,20", rects="183,0,320,40"];
+	Node3 [label="veins::FWMath::modulo", height="0.22", width="1.72", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_f_w_math.html#aa66a76d454bf3d91d8ec390c4737a7a1", tooltip="Returns the remainder r on division of dividend a by divisor n, using floored division. ", pos="418,20", rects="356,12,480,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,182,20 146,20 155,20 163,20 172,20"];
+	Node2 -> Node3 [color=midnightblue, style=solid, pos="e,356,20 320,20 329,20 337,20 346,20"];
+}

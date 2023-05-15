@@ -1,0 +1,17 @@
+digraph "veins::TraCITrafficLightInterface::setExternalId" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,882,74"];
+	Node1 [label="veins::TraCITrafficLight\lInterface::setExternalId", height="0.39", width="1.78", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="73,37", rects="9,23,138,51"];
+	Node2 [label="veins::TraCITrafficLight\lInterface::preInitialize", height="0.39", width="1.78", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_traffic_light_interface.html#a1982aa38012302c8e0175d11ff0feec5", tooltip="Set parameters for connection to TraCI. ", pos="239,37", rects="175,23,304,51"];
+	Node3 [label="veins::TraCIScenarioManager\l::init_traci", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager.html#a5389f3fc889b1fe3fd126c33a7d9ae36", pos="417,37", rects="341,23,494,51"];
+	Node4 [label="veins::TraCIScenarioManager\l::handleSelfMsg", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager.html#a86a0b91aab8823c087c33b99f3a06b1f", pos="607,60", rects="531,46,684,74"];
+	Node5 [label="veins::TraCIScenarioManager\l::handleMessage", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager.html#ac66ce95372a25d1860ad24748363090d", pos="797,60", rects="721,46,874,74"];
+	Node6 [label="veins::TraCIScenarioManager\lLaunchd::init_traci", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager_launchd.html#a5547124fea3c83e5492a9cdb029948c9", pos="607,14", rects="531,0,684,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,138,37 148,37 157,37 165,37 174,37"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,304,37 314,37 323,37 331,37 340,37"];
+	Node3 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,494,46 503,47 512,49 521,49 530,51"];
+	Node4 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,684,60 694,60 703,60 711,60 720,60"];
+	Node3 -> Node6 [dir=back, color=midnightblue, style=solid, pos="s,494,28 503,27 512,25 521,25 530,23"];
+}

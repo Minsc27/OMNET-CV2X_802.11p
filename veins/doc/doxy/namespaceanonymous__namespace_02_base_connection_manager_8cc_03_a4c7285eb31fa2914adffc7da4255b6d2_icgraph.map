@@ -1,0 +1,24 @@
+digraph "anonymous_namespace{BaseConnectionManager::cc}::sqrTorusDist" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,1292,85"];
+	Node1 [label="anonymous_namespace\l\{BaseConnectionManager\l::cc\}::sqrTorusDist", height="0.56", width="1.89", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="77,28", rects="9,8,146,48"];
+	Node2 [label="veins::BaseConnectionManager\l::isInRange", height="0.39", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_connection_manager.html#a418d9fb4151ff38840838a94189ba8b6", tooltip="Check if the two nic&#39;s are in range. ", pos="263,48", rects="183,34,344,62"];
+	Node3 [label="veins::BaseConnectionManager\l::updateNicConnections", height="0.39", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_connection_manager.html#af36a4fd1f31773f63187cc9717441a98", tooltip="Manages the connections of a registered nic. ", pos="461,48", rects="381,34,542,62"];
+	Node4 [label="veins::BaseConnectionManager\l::checkGrid", height="0.39", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_connection_manager.html#a063c137e5a6d73ff846321b511d48a32", tooltip="Check connections of a nic in the grid. ", pos="659,48", rects="579,34,740,62"];
+	Node5 [label="veins::BaseConnectionManager\l::updateConnections", height="0.39", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_connection_manager.html#af87d8c9c33b54eb6bf8a5f43e6e36a96", tooltip="Updates the connections of the nic with \"nicID\". ", pos="857,48", rects="777,34,938,62"];
+	Node6 [label="veins::BaseConnectionManager\l::registerNic", height="0.39", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_connection_manager.html#a35d8c27aeacff47e0e62135ffe065078", tooltip="Registers a nic to have its connections managed by ConnectionManager. ", pos="1055,71", rects="975,57,1136,85"];
+	Node7 [label="veins::ChannelAccess\l::receiveSignal", height="0.39", width="1.56", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_channel_access.html#a152e2780da20c82d3751d521142a5f90", tooltip="Called by the signalling mechanism to inform of changes. ", pos="1228,48", rects="1172,34,1284,62"];
+	Node8 [label="veins::BaseConnectionManager\l::updateNicPos", height="0.39", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_connection_manager.html#af264b3c891bde0a49dd003c584c997ac", tooltip="Updates the position information of a registered nic. ", pos="1055,25", rects="975,11,1136,39"];
+	Node9 [label="veins::Coord::sqrdist", height="0.22", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_coord.html#a978def8373c30430c6e7a04e0977a1a5", tooltip="Returns distance^2 to Coord &#39;a&#39; (omits calling square root). ", pos="263,8", rects="212,0,315,16"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,146,35 155,36 164,37 173,38 182,39"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,344,48 354,48 363,48 371,48 380,48"];
+	Node3 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,542,48 552,48 561,48 569,48 578,48"];
+	Node4 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,740,48 750,48 759,48 767,48 776,48"];
+	Node5 -> Node6 [dir=back, color=midnightblue, style=solid, pos="s,938,57 947,58 956,60 965,60 974,62"];
+	Node6 -> Node7 [dir=back, color=midnightblue, style=solid, pos="s,1136,60 1145,59 1154,57 1163,57 1172,55"];
+	Node5 -> Node8 [dir=back, color=midnightblue, style=solid, pos="s,938,39 947,38 956,36 965,36 974,34"];
+	Node8 -> Node7 [dir=back, color=midnightblue, style=solid, pos="s,1136,36 1145,37 1154,39 1163,39 1172,41"];
+	Node1 -> Node9 [dir=back, color=midnightblue, style=solid, pos="s,146,20 155,19 164,18 173,17 182,16 191,15 201,14 211,13"];
+}

@@ -1,0 +1,8 @@
+digraph "veins::Coord" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,68,84"];
+	Node1 [label="veins::Coord", height="0.22", width="0.94", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="34,16", rects="0,8,68,24"];
+	Node2 [label=cObject, height="0.22", width="0.64", color=grey75, fillcolor=white, style=filled, pos="34,68", rects="11,60,58,76"];
+	Node2 -> Node1 [dir=back, color=midnightblue, style=solid, pos="s,34,60 34,51 34,42 34,31 34,24"];
+}

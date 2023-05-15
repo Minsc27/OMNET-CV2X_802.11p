@@ -1,0 +1,15 @@
+digraph "veins::BaseConnectionManager" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,414,178"];
+	Node1 [label="veins::BaseConnectionManager", height="0.22", width="2.22", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="138,16", rects="58,8,219,24"];
+	Node2 [label=cSimpleModule, height="0.22", width="1.19", color=grey75, fillcolor=white, style=filled, pos="43,102", rects="0,94,86,110"];
+	Node3 [label="veins::Coord", height="0.22", width="0.94", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_coord.html", tooltip="Class for storing 3D coordinates. ", pos="138,102", rects="104,94,172,110"];
+	Node4 [label=cObject, height="0.22", width="0.64", color=grey75, fillcolor=white, style=filled, pos="138,162", rects="115,154,162,170"];
+	Node5 [label="veins::BaseConnectionManager\l::GridCoord", height="0.39", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_connection_manager_1_1_grid_coord.html", tooltip="Represents a position inside a grid. ", pos="334,102", rects="254,88,415,116"];
+	Node2 -> Node1 [dir=back, color=midnightblue, style=solid, pos="s,52,94 58,88 78,70 113,38 129,24"];
+	Node3 -> Node1 [dir=back, color=darkorchid3, style=dashed, label=" playgroundSize\nfindDistance", pos="s,138,94 138,86 138,67 138,38 138,24", lp="182,56"];
+	Node4 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,138,154 138,145 138,133 138,119 138,110"];
+	Node3 -> Node3 [dir=back, color=darkorchid3, style=dashed, label=" ZERO", pos="s,172,96 182,97 187,98 190,99 190,102 190,106 182,108 172,108", lp="213,102"];
+	Node5 -> Node1 [dir=back, color=darkorchid3, style=dashed, label=" gridDim", pos="s,313,88 306,83 286,70 258,53 231,42 213,34 193,28 176,24", lp="314,56"];
+}

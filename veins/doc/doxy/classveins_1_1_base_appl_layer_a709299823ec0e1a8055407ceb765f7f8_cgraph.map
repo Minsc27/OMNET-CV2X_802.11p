@@ -1,0 +1,15 @@
+digraph "veins::BaseApplLayer::initialize" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,716,28"];
+	Node1 [label="veins::BaseApplLayer\l::initialize", height="0.39", width="1.58", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="66,14", rects="9,0,124,28"];
+	Node2 [label="veins::BaseLayer::initialize", height="0.22", width="1.86", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_layer.html#a5619505dba58f2669af33f9e23f6f1ad", tooltip="Initialization of the module and some variables. ", pos="227,14", rects="160,6,294,22"];
+	Node3 [label="veins::BaseModule::\linitialize", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_module.html#a66e943d61eb3d43e5a999ccbaf010fd9", tooltip="Basic initialization for all modules. ", pos="381,14", rects="330,0,432,28"];
+	Node4 [label="veins::BaseModule::\lfindHost", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_module.html#a1d2d2af49918dfb9ae036b1d086b123a", tooltip="Function to get a pointer to the host module. ", pos="519,14", rects="468,0,570,28"];
+	Node5 [label="veins::FindModule::\lfindHost", height="0.39", width="1.39", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_find_module.html#a01accd625bef9763ba8baabc5e9d5eeb", tooltip="Returns a pointer to the host module of the passed module. ", pos="657,14", rects="607,0,708,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,160,14 124,14 133,14 141,14 150,14"];
+	Node2 -> Node3 [color=midnightblue, style=solid, pos="e,330,14 294,14 303,14 311,14 320,14"];
+	Node3 -> Node4 [color=midnightblue, style=solid, pos="e,468,14 432,14 441,14 449,14 458,14"];
+	Node4 -> Node5 [color=midnightblue, style=solid, pos="e,606,14 570,14 579,14 587,14 596,14"];
+}

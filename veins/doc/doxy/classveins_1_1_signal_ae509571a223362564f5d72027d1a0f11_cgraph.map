@@ -1,0 +1,9 @@
+digraph "veins::Signal::atFrequency" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,314,16"];
+	Node1 [label="veins::Signal::atFrequency", height="0.22", width="1.83", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="74,8", rects="8,0,140,16"];
+	Node2 [label="veins::Spectrum::indexOf", height="0.22", width="1.78", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_spectrum.html#afd604ae214c58a5c54c697e9a9055637", pos="241,8", rects="177,0,306,16"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,176,8 140,8 149,8 158,8 166,8"];
+}

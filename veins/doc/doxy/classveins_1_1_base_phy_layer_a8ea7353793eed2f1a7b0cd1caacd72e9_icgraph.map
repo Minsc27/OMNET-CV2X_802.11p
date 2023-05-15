@@ -1,0 +1,11 @@
+digraph "veins::BasePhyLayer::initializeAnalogueModels" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,454,28"];
+	Node1 [label="veins::BasePhyLayer\l::initializeAnalogueModels", height="0.39", width="1.89", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="77,14", rects="9,0,146,28"];
+	Node2 [label="veins::BasePhyLayer\l::initialize", height="0.39", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_phy_layer.html#a63e95c45ba5f46514ed9027c53216491", tooltip="Initialize members and associated objects according to parameterization. ", pos="237,14", rects="182,0,292,28"];
+	Node3 [label="veins::PhyLayer80211p\l::initialize", height="0.39", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_phy_layer80211p.html#abdd1c62986d1fd220eb5e51d4458811a", pos="387,14", rects="329,0,446,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,146,14 156,14 165,14 173,14 182,14"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,292,14 302,14 311,14 319,14 328,14"];
+}

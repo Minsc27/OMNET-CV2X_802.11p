@@ -1,0 +1,21 @@
+digraph "veins::BaseMobility::reflectCoordinate" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,850,74"];
+	Node1 [label="veins::BaseMobility\l::reflectCoordinate", height="0.39", width="1.42", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="60,37", rects="9,23,112,51"];
+	Node2 [label="veins::BaseMobility\l::reflectIfOutside", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mobility.html#ab9e4cd0caa3fc245ba934f5f5bd9fc49", tooltip="Utility function to reflect the node if it goes outside the playground. ", pos="200,37", rects="149,23,252,51"];
+	Node3 [label="veins::BaseMobility\l::handleIfOutside", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mobility.html#aae36006995d117a723134cbe1fee5e90", tooltip="Main border handling function. ", pos="340,37", rects="289,23,392,51"];
+	Node4 [label="veins::LinearMobility\l::fixIfHostGetsOutside", height="0.39", width="1.64", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_linear_mobility.html#a506fdc3882892c0fc4427df73736010e", tooltip="Should be redefined in subclasses. ", pos="487,60", rects="428,46,546,74"];
+	Node5 [label="veins::LinearMobility\l::makeMove", height="0.39", width="1.56", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_linear_mobility.html#af310806b2b41572de1428e56474bba56", tooltip="Move the host. ", pos="639,60", rects="583,46,696,74"];
+	Node6 [label="veins::TraCIMobility\l::fixIfHostGetsOutside", height="0.39", width="1.64", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_mobility.html#a4fa20054882e4a7fb5b03a13576311c3", tooltip="called after each read to check for (and handle) invalid positions ", pos="487,14", rects="428,0,546,28"];
+	Node7 [label="veins::TraCIMobility\l::changePosition", height="0.39", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_mobility.html#a3137899bb330551c9823c40b4ed8b8fc", pos="639,14", rects="585,0,694,28"];
+	Node8 [label="veins::TraCIMobility\l::nextPosition", height="0.39", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_mobility.html#ae53642be0d88b9f146cf55a5d990f1a2", pos="787,14", rects="733,0,842,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,112,37 122,37 131,37 139,37 148,37"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,252,37 262,37 271,37 279,37 288,37"];
+	Node3 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,392,45 401,46 410,48 419,49 428,51"];
+	Node4 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,546,60 556,60 565,60 573,60 582,60"];
+	Node3 -> Node6 [dir=back, color=midnightblue, style=solid, pos="s,392,29 401,28 410,26 419,25 428,23"];
+	Node6 -> Node7 [dir=back, color=midnightblue, style=solid, pos="s,546,14 555,14 565,14 575,14 584,14"];
+	Node7 -> Node8 [dir=back, color=midnightblue, style=solid, pos="s,694,14 704,14 713,14 723,14 732,14"];
+}

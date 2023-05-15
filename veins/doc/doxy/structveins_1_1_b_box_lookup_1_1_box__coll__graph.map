@@ -1,0 +1,8 @@
+digraph "veins::BBoxLookup::Box" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,128,124"];
+	Node1 [label="veins::BBoxLookup::Box", height="0.22", width="1.78", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="64,16", rects="0,8,128,24"];
+	Node2 [label="veins::BBoxLookup::\lPoint", height="0.39", width="1.50", color=black, fillcolor=white, style=filled, URL="$structveins_1_1_b_box_lookup_1_1_point.html", pos="64,102", rects="10,88,118,116"];
+	Node2 -> Node1 [dir=back, color=darkorchid3, style=dashed, label=" p1\np2", pos="s,64,88 64,78 64,60 64,37 64,24", lp="76,56"];
+}

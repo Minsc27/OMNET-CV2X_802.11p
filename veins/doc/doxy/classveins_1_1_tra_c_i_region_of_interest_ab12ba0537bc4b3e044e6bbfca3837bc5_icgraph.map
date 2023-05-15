@@ -1,0 +1,15 @@
+digraph "veins::TraCIRegionOfInterest::getRectangles" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,740,74"];
+	Node1 [label="veins::TraCIRegionOfInterest\l::getRectangles", height="0.39", width="2.11", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="85,37", rects="9,23,162,51"];
+	Node2 [label="veins::TraCIScenarioManager\l::init_traci", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager.html#a5389f3fc889b1fe3fd126c33a7d9ae36", pos="275,37", rects="199,23,352,51"];
+	Node3 [label="veins::TraCIScenarioManager\l::handleSelfMsg", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager.html#a86a0b91aab8823c087c33b99f3a06b1f", pos="465,60", rects="389,46,542,74"];
+	Node4 [label="veins::TraCIScenarioManager\l::handleMessage", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager.html#ac66ce95372a25d1860ad24748363090d", pos="655,60", rects="579,46,732,74"];
+	Node5 [label="veins::TraCIScenarioManager\lLaunchd::init_traci", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager_launchd.html#a5547124fea3c83e5492a9cdb029948c9", pos="465,14", rects="389,0,542,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,162,37 172,37 181,37 189,37 198,37"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,352,46 361,47 370,49 379,49 388,51"];
+	Node3 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,542,60 552,60 561,60 569,60 578,60"];
+	Node2 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,352,28 361,27 370,25 379,25 388,23"];
+}

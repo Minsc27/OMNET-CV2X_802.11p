@@ -1,0 +1,11 @@
+digraph "anonymous_namespace{TraCIScenarioManagerForker::cc}::replace" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,558,40"];
+	Node1 [label="anonymous_namespace\l\{TraCIScenarioManagerForker\l::cc\}::replace", height="0.56", width="2.22", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="89,20", rects="9,0,170,40"];
+	Node2 [label="veins::TraCIScenarioManager\lForker::startServer", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager_forker.html#a40b91fb5a4d7f828f456ac9d48c9ef6b", pos="283,20", rects="207,6,360,34"];
+	Node3 [label="veins::TraCIScenarioManager\lForker::initialize", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager_forker.html#a952e624950eb8aa1d856c850c574a4e9", pos="473,20", rects="397,6,550,34"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,170,20 180,20 189,20 197,20 206,20"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,360,20 370,20 379,20 387,20 396,20"];
+}

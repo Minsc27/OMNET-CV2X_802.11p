@@ -1,0 +1,8 @@
+digraph "veins::BaseWorldUtility" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,124,84"];
+	Node1 [label="veins::BaseWorldUtility", height="0.22", width="1.72", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="62,16", rects="0,8,124,24"];
+	Node2 [label=cSimpleModule, height="0.22", width="1.19", color=grey75, fillcolor=white, style=filled, pos="62,68", rects="19,60,105,76"];
+	Node2 -> Node1 [dir=back, color=midnightblue, style=solid, pos="s,62,60 62,51 62,42 62,31 62,24"];
+}

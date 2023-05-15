@@ -1,0 +1,15 @@
+digraph "veins::Decider80211p::cca" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,322,166"];
+	Node1 [label="veins::Decider80211p::cca", height="0.22", width="1.72", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="70,83", rects="8,75,132,91"];
+	Node2 [label="veins::PhyLayer80211p\l::handleSelfMessage", height="0.39", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_phy_layer80211p.html#a020601bba0e334a622dc8e193c5946b0", tooltip="Handle self scheduled messages. ", pos="241,152", rects="183,138,300,166"];
+	Node3 [label="veins::Decider80211p\l::processNewSignal", height="0.39", width="1.44", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider80211p.html#a6604c73b2ee786a4eeca5abe6f072cab", tooltip="Processes a new Signal. ", pos="241,106", rects="189,92,294,120"];
+	Node4 [label="veins::Decider80211p\l::processSignalEnd", height="0.39", width="1.44", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider80211p.html#a389f17ab33d4fc22b499593fa0837faf", tooltip="Processes a received AirFrame. ", pos="241,60", rects="189,46,294,74"];
+	Node5 [label="veins::PhyLayer80211p\l::requestChannelStatusIfIdle", height="0.39", width="2.03", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_phy_layer80211p.html#a6851aaac3c59b66568847e75691ba3e5", tooltip="Explicit request to PHY for the channel status. ", pos="241,14", rects="168,0,314,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,132,91 140,97 153,109 149,126 168,138 173,141 177,143 182,145"];
+	Node1 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,132,91 141,92 157,94 174,96 188,98"];
+	Node1 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,132,75 141,74 157,71 174,70 188,67"];
+	Node1 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,132,75 139,70 153,56 149,39 167,28"];
+}

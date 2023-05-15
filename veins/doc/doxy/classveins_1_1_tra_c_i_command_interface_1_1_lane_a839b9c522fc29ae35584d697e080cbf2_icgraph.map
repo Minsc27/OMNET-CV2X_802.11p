@@ -1,0 +1,11 @@
+digraph "veins::TraCICommandInterface::Lane::getShape" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,370,74"];
+	Node1 [label="veins::TraCICommandInterface\l::Lane::getShape", height="0.39", width="2.28", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="90,37", rects="8,23,172,51"];
+	Node2 [label="veins::RoadsCanvasVisualizer\l::initialize", height="0.39", width="2.14", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_roads_canvas_visualizer.html#a416e502f28fc2631898896add440e3d6", pos="285,60", rects="208,46,362,74"];
+	Node3 [label="veins::RoadsOsgVisualizer\l::initialize", height="0.39", width="1.89", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_roads_osg_visualizer.html#aac016bbcbe160966ba32ce8093d17a24", pos="285,14", rects="217,0,354,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,172,47 181,48 190,49 199,50 208,51"];
+	Node1 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,172,27 180,26 192,25 205,24 216,22"];
+}

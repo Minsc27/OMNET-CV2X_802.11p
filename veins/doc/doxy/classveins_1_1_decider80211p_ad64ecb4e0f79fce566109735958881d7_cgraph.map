@@ -1,0 +1,9 @@
+digraph "veins::Decider80211p::finish" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,312,28"];
+	Node1 [label="veins::Decider80211p\l::finish", height="0.39", width="1.44", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="61,14", rects="9,0,114,28"];
+	Node2 [label="veins::DeciderToPhyInterface\l::recordScalar", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider_to_phy_interface.html#a9cd93faa42e49a141275b8aa28303171", tooltip="Utility method to enable a Decider, which isn&#39;t an OMNeT-module, to use the OMNeT-method &#39;recordScala...", pos="227,14", rects="151,0,304,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,150,14 114,14 123,14 131,14 140,14"];
+}

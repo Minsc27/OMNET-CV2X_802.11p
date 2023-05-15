@@ -1,0 +1,17 @@
+digraph "veins::Signal::getMaxInRange" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,630,79"];
+	Node1 [label="veins::Signal::getMaxInRange", height="0.22", width="2.08", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="84,54", rects="9,46,160,62"];
+	Node2 [label="veins::Signal::getDataMax", height="0.22", width="1.83", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#ae7c86ba69aea954f57cc0f217db5721d", tooltip="Maximum power level in milliwatt in the data frequency range. ", pos="262,71", rects="196,63,328,79"];
+	Node3 [label="veins::Signal::getMax", height="0.22", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#abebe5178153c93685c9213770127e364", tooltip="Return the maximum power level of any frequency. ", pos="262,37", rects="208,29,317,45"];
+	Node4 [label="veins::NakagamiFading\l::filterSignal", height="0.39", width="1.72", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_nakagami_fading.html#a630ff5ca1212baf8d9afac0d017229da", tooltip="Simple Nakagami-m fading (based on a constant factor across all time and frequencies). ", pos="426,60", rects="364,46,488,74"];
+	Node5 [label="veins::BaseDecider\l::processNewSignal", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_decider.html#a6a480f87157d0509c0c1fccf94ea9fef", tooltip="Processes a new Signal. ", pos="426,14", rects="375,0,477,28"];
+	Node6 [label="veins::BaseDecider\l::processSignal", height="0.39", width="1.36", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_decider.html#a8b488dcd86bfc2749763682ea3589800", tooltip="Processes an AirFrame given by the PhyLayer. ", pos="573,14", rects="524,0,622,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,160,61 170,62 179,63 187,64 196,65"];
+	Node1 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,160,47 168,46 181,45 195,44 207,42"];
+	Node3 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,317,43 326,45 326,45 327,45 328,45 340,46 352,48 364,50"];
+	Node3 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,317,30 326,29 327,29 327,29 328,29 343,27 360,24 375,22"];
+	Node5 -> Node6 [dir=back, color=midnightblue, style=solid, pos="s,477,14 487,14 499,14 512,14 524,14"];
+}

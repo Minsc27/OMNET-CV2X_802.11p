@@ -1,0 +1,13 @@
+digraph "veins::BreakpointPathlossModel::filterSignal" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,332,96"];
+	Node1 [label="veins::BreakpointPathloss\lModel::filterSignal", height="0.39", width="1.83", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="75,42", rects="9,28,142,56"];
+	Node2 [label="veins::AntennaPosition\l::getPositionAt", height="0.39", width="1.67", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_antenna_position.html#a57098d0c1c13859757b4aaf04cafe6eb", tooltip="Get the (linearly extrapolated) position at time t. ", pos="251,82", rects="191,68,311,96"];
+	Node3 [label="veins::Signal::getReceiverPoa", height="0.22", width="2.03", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#af77d907793446d9521f0424afd751a9c", tooltip="Get this signal&#39;s receiver POA. ", pos="251,42", rects="178,34,324,50"];
+	Node4 [label="veins::Signal::getSenderPoa", height="0.22", width="1.89", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#a733943dcfe581527719363408b4af19a", tooltip="Get this signal&#39;s sender POA. ", pos="251,8", rects="183,0,320,16"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,191,71 142,56 159,60 162,63 178,68 179,68 180,69 181,69"];
+	Node1 -> Node3 [color=midnightblue, style=solid, pos="e,178,42 142,42 151,42 159,42 168,42"];
+	Node1 -> Node4 [color=midnightblue, style=solid, pos="e,182,15 142,28 157,24 161,20 172,17"];
+}

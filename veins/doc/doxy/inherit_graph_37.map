@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,84,16"];
+	Node1 [label="veins::Radio", height="0.22", width="0.92", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_radio.html", tooltip="The class that represents the Radio as a state machine. ", pos="42,8", rects="9,0,76,16"];
+}

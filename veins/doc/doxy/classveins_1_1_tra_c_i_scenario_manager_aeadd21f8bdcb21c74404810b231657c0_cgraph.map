@@ -1,0 +1,17 @@
+digraph "veins::TraCIScenarioManager::preNetworkFinish" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,720,120"];
+	Node1 [label="veins::TraCIScenarioManager\l::preNetworkFinish", height="0.39", width="2.11", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="85,60", rects="9,46,162,74"];
+	Node2 [label="veins::TraCIScenarioManager\l::deleteManagedModule", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager.html#aaeb2994f7103a8710de44e1475345855", pos="275,60", rects="199,46,352,74"];
+	Node3 [label="veins::VehicleObstacleControl\l::erase", height="0.39", width="2.14", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_vehicle_obstacle_control.html#a10824f43b0e015c6e68a9292113ea3ff", pos="465,106", rects="388,92,542,120"];
+	Node4 [label="veins::ChannelAccess\l::getConnectionManager", height="0.39", width="1.78", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_channel_access.html#a0dc69d65185a429fcd739d4eadedb504", tooltip="Returns a pointer to the ConnectionManager responsible for the passed NIC module. ...", pos="465,60", rects="401,46,529,74"];
+	Node5 [label="veins::findModuleByPath", height="0.22", width="1.86", color=black, fillcolor=white, style=filled, URL="$namespaceveins.html#a2f73fda5cc597671ec3697f8c33b5893", pos="645,60", rects="578,52,712,68"];
+	Node6 [label="veins::TraCIScenarioManager\l::getManagedModule", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager.html#a600d697200c9ed997ed6551cbc8e81d3", tooltip="returns a pointer to the managed module named moduleName, or 0 if no module can be found ...", pos="465,14", rects="389,0,542,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,198,60 162,60 171,60 179,60 188,60"];
+	Node2 -> Node3 [color=midnightblue, style=solid, pos="e,388,92 352,74 365,78 370,83 379,88"];
+	Node2 -> Node4 [color=midnightblue, style=solid, pos="e,401,60 352,60 365,60 378,60 391,60"];
+	Node4 -> Node5 [color=midnightblue, style=solid, pos="e,578,60 529,60 542,60 555,60 568,60"];
+	Node2 -> Node6 [color=midnightblue, style=solid, pos="e,388,28 352,46 365,41 370,36 378,32"];
+}

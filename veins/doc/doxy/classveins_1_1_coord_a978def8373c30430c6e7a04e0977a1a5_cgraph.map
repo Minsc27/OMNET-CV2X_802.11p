@@ -1,0 +1,16 @@
+digraph "veins::Coord::sqrdist" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,630,112"];
+	Node1 [label="veins::Coord::sqrdist", height="0.22", width="1.42", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="60,54", rects="9,46,112,62"];
+	Node2 [label="anonymous_namespace\l\{BaseConnectionManager\l::cc\}::dist", height="0.56", width="1.89", color=black, fillcolor=white, style=filled, URL="$namespaceanonymous__namespace_02_base_connection_manager_8cc_03.html#a03d2870486bee7d8198d066f67d00e04", tooltip="On a torus the end and the begin of the axes are connected so you get a circle. ", pos="393,78", rects="325,58,462,98"];
+	Node3 [label="veins::FWMath::modulo", height="0.22", width="1.72", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_f_w_math.html#aa66a76d454bf3d91d8ec390c4737a7a1", tooltip="Returns the remainder r on division of dividend a by divisor n, using floored division. ", pos="560,78", rects="498,70,622,86"];
+	Node4 [label="anonymous_namespace\l\{BaseConnectionManager\l::cc\}::sqrTorusDist", height="0.56", width="1.89", color=black, fillcolor=white, style=filled, URL="$namespaceanonymous__namespace_02_base_connection_manager_8cc_03.html#a4c7285eb31fa2914adffc7da4255b6d2", pos="218,54", rects="150,34,287,74"];
+	Node5 [label="veins::Coord::squareLength", height="0.22", width="1.92", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_coord.html#a539cd73e0ed1858839cd47b90485aca5", tooltip="Returns the square of the length of this Coords position vector. ", pos="218,8", rects="149,0,288,16"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,324,89 109,62 110,62 111,63 112,63 130,69 131,78 148,83 202,97 266,95 314,90"];
+	Node2 -> Node3 [color=midnightblue, style=solid, pos="e,498,78 462,78 471,78 479,78 488,78"];
+	Node1 -> Node4 [color=midnightblue, style=solid, pos="e,149,54 112,54 121,54 130,54 139,54"];
+	Node4 -> Node2 [color=midnightblue, style=solid, pos="e,324,68 287,63 296,64 305,66 314,67"];
+	Node1 -> Node5 [color=midnightblue, style=solid, pos="e,148,16 112,46 128,39 129,29 139,21"];
+}

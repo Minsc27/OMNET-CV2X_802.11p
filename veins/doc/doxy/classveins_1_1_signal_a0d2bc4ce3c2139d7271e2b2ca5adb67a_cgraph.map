@@ -1,0 +1,9 @@
+digraph "veins::Signal::getDataMin" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,332,16"];
+	Node1 [label="veins::Signal::getDataMin", height="0.22", width="1.81", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="73,8", rects="8,0,138,16"];
+	Node2 [label="veins::Signal::getMinInRange", height="0.22", width="2.06", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#a8a007cc24cda0a9b61950158b12af165", pos="249,8", rects="175,0,324,16"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,174,8 138,8 147,8 155,8 164,8"];
+}

@@ -1,0 +1,11 @@
+digraph "veins::Move::setDirectionByVector" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,320,62"];
+	Node1 [label="veins::Move::setDirection\lByVector", height="0.39", width="1.78", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="72,28", rects="8,14,136,42"];
+	Node2 [label="veins::math::almost\l_equal", height="0.39", width="1.36", color=black, fillcolor=white, style=filled, URL="$namespaceveins_1_1math.html#a8e7bde81401ddc00bf062333bf217491", tooltip="Compare two floats for approximate equality. ", pos="242,48", rects="193,34,292,62"];
+	Node3 [label="veins::Coord::squareLength", height="0.22", width="1.92", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_coord.html#a539cd73e0ed1858839cd47b90485aca5", tooltip="Returns the square of the length of this Coords position vector. ", pos="242,8", rects="173,0,312,16"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,192,42 136,36 152,38 168,39 183,41"];
+	Node1 -> Node3 [color=midnightblue, style=solid, pos="e,172,16 136,20 145,19 153,18 162,17"];
+}

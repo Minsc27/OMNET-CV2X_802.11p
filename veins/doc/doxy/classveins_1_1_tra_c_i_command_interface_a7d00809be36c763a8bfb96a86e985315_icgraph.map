@@ -1,0 +1,29 @@
+digraph "veins::TraCICommandInterface::poi" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,1124,212"];
+	Node1 [label="veins::TraCICommandInterface::poi", height="0.22", width="2.53", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="99,94", rects="8,86,190,102"];
+	Node2 [label="veins::AnnotationManager\l::hide", height="0.39", width="1.92", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_annotation_manager.html#ae7cd5fba58d72f4351963b9a6c95e669", pos="296,94", rects="227,80,366,108"];
+	Node3 [label="veins::AnnotationManager\l::erase", height="0.39", width="1.92", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_annotation_manager.html#a990948888917eff8840f899714d4e754", pos="472,129", rects="403,115,542,143"];
+	Node4 [label="veins::ObstacleControl\l::erase", height="0.39", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_obstacle_control.html#a3c5fb281ac00c947afe86d5e4bf99759", pos="648,198", rects="590,184,706,212"];
+	Node5 [label="veins::AnnotationManager\l::eraseAll", height="0.39", width="1.92", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_annotation_manager.html#af071307b3e3fad6ec12a193418a9f576", pos="648,152", rects="579,138,718,166"];
+	Node6 [label="veins::VehicleObstacleControl\l::getPotentialObstacles", height="0.39", width="2.14", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_vehicle_obstacle_control.html#ab98060c628b51496d26c95962a30517f", tooltip="get distance and height of potential obstacles ", pos="831,152", rects="754,138,908,166"];
+	Node7 [label="veins::VehicleObstacleShadowing\l::filterSignal", height="0.39", width="2.36", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_vehicle_obstacle_shadowing.html#aa1a8069440240b74a7a8ea0c91b06116", tooltip="Filters a specified Signal by adding an attenuation over time to the Signal. ", pos="1030,152", rects="945,138,1116,166"];
+	Node8 [label="veins::AnnotationManager\l::handleSelfMsg", height="0.39", width="1.92", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_annotation_manager.html#a15b1bc8dc418c545c8ff4e2b1f14833b", pos="648,106", rects="579,92,718,120"];
+	Node9 [label="veins::AnnotationManager\l::handleMessage", height="0.39", width="1.92", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_annotation_manager.html#a3e4a47c7b4bdeef090c4bb77c2813f3a", pos="831,106", rects="762,92,901,120"];
+	Node10 [label="veins::AnnotationManager\l::hideAll", height="0.39", width="1.92", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_annotation_manager.html#a25be0b4d24230db849859184c6144441", pos="472,60", rects="403,46,542,74"];
+	Node11 [label="veins::AnnotationManager\l::finish", height="0.39", width="1.92", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_annotation_manager.html#a7cd6933413793d71e8494c4561f635e0", pos="648,60", rects="579,46,718,74"];
+	Node12 [label="veins::AnnotationManager\l::handleParameterChange", height="0.39", width="1.92", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_annotation_manager.html#aa368e9f91a7b1ae9f0ed505ec2153044", pos="648,14", rects="579,0,718,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,190,94 199,94 208,94 218,94 226,94"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,366,108 375,110 384,111 393,113 402,115"];
+	Node3 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,542,143 549,148 562,159 561,173 578,184 582,186 586,188 590,189"];
+	Node3 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,542,138 551,139 560,141 569,141 578,143"];
+	Node5 -> Node6 [dir=back, color=midnightblue, style=solid, pos="s,718,152 728,152 737,152 745,152 754,152"];
+	Node6 -> Node7 [dir=back, color=midnightblue, style=solid, pos="s,908,152 918,152 927,152 935,152 944,152"];
+	Node3 -> Node8 [dir=back, color=midnightblue, style=solid, pos="s,542,120 551,119 560,117 569,117 578,115"];
+	Node8 -> Node9 [dir=back, color=midnightblue, style=solid, pos="s,718,106 728,106 739,106 750,106 761,106"];
+	Node2 -> Node10 [dir=back, color=midnightblue, style=solid, pos="s,366,81 375,79 384,78 393,76 402,74"];
+	Node10 -> Node11 [dir=back, color=midnightblue, style=solid, pos="s,542,60 552,60 561,60 569,60 578,60"];
+	Node10 -> Node12 [dir=back, color=midnightblue, style=solid, pos="s,542,46 550,43 561,38 565,33 578,28"];
+}

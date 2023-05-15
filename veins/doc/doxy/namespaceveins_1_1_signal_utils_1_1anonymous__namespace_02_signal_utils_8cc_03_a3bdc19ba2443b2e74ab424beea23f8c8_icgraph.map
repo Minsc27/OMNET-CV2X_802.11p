@@ -1,0 +1,19 @@
+digraph "veins::SignalUtils::anonymous_namespace{SignalUtils::cc}::powerLevelSumAtFrequencyIndex" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,712,166"];
+	Node1 [label="veins::SignalUtils\l::anonymous_namespace\l\{SignalUtils::cc\}::powerLevel\lSumAtFrequencyIndex", height="0.72", width="2.00", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="80,83", rects="8,57,152,109"];
+	Node2 [label="veins::SignalUtils\l::isChannelPowerBelowThreshold", height="0.39", width="2.39", color=black, fillcolor=white, style=filled, URL="$namespaceveins_1_1_signal_utils.html#a744df65831b369a6412cb305cf04f06f", tooltip="check if the summed power of interfererFrames&#39;s signals at freqIndex is below a given threshold...", pos="275,83", rects="189,69,362,97"];
+	Node3 [label="veins::Decider80211p::cca", height="0.22", width="1.72", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider80211p.html#aeba984a7f23ef26ce8b22b0bfef88947", pos="460,83", rects="398,75,522,91"];
+	Node4 [label="veins::PhyLayer80211p\l::handleSelfMessage", height="0.39", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_phy_layer80211p.html#a020601bba0e334a622dc8e193c5946b0", tooltip="Handle self scheduled messages. ", pos="631,152", rects="573,138,690,166"];
+	Node5 [label="veins::Decider80211p\l::processNewSignal", height="0.39", width="1.44", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider80211p.html#a6604c73b2ee786a4eeca5abe6f072cab", tooltip="Processes a new Signal. ", pos="631,106", rects="579,92,684,120"];
+	Node6 [label="veins::Decider80211p\l::processSignalEnd", height="0.39", width="1.44", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider80211p.html#a389f17ab33d4fc22b499593fa0837faf", tooltip="Processes a received AirFrame. ", pos="631,60", rects="579,46,684,74"];
+	Node7 [label="veins::PhyLayer80211p\l::requestChannelStatusIfIdle", height="0.39", width="2.03", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_phy_layer80211p.html#a6851aaac3c59b66568847e75691ba3e5", tooltip="Explicit request to PHY for the channel status. ", pos="631,14", rects="558,0,704,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,152,83 162,83 171,83 179,83 188,83"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,362,83 372,83 381,83 389,83 398,83"];
+	Node3 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,522,91 530,97 543,109 539,126 558,138 563,141 567,143 572,145"];
+	Node3 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,522,91 531,92 547,94 564,96 578,98"];
+	Node3 -> Node6 [dir=back, color=midnightblue, style=solid, pos="s,522,75 531,74 547,71 564,70 578,67"];
+	Node3 -> Node7 [dir=back, color=midnightblue, style=solid, pos="s,522,75 529,70 543,56 539,39 557,28"];
+}

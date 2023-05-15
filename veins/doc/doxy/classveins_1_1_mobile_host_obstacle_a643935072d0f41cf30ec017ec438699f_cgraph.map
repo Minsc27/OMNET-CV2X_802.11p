@@ -1,0 +1,21 @@
+digraph "veins::MobileHostObstacle::maybeInBounds" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,632,212"];
+	Node1 [label="veins::MobileHostObstacle\l::maybeInBounds", height="0.39", width="1.89", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="76,106", rects="8,92,144,120"];
+	Node2 [label="veins::MobileHostObstacle\l::getHostPositionOffset", height="0.39", width="1.89", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_mobile_host_obstacle.html#a4490b7990017ef6db049664c61fc4715", pos="248,198", rects="180,184,316,212"];
+	Node3 [label="veins::MobileHostObstacle\l::getLength", height="0.39", width="1.89", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_mobile_host_obstacle.html#a601b23d9849682a3eea03a3e5bc4c704", pos="248,152", rects="180,138,316,166"];
+	Node4 [label="veins::MobileHostObstacle\l::getMobility", height="0.39", width="1.89", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_mobile_host_obstacle.html#a0887cf8f1e5f0fe2d0846b3e0c58a3cb", pos="248,106", rects="180,92,316,120"];
+	Node5 [label="veins::BaseMobility\l::getPositionAt", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mobility.html#aa34127bb460764f5516cf9a284cbb8e9", tooltip="Returns the current position at the given simulation time. ", pos="248,60", rects="197,46,300,74"];
+	Node6 [label="veins::Move::getPositionAt", height="0.22", width="1.89", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_move.html#a952629602326681f6e385824c19e527c", tooltip="Returns the position of the Move (Host) at the specified point in time. ", pos="420,60", rects="352,52,488,68"];
+	Node7 [label="veins::math::almost\l_equal", height="0.39", width="1.36", color=black, fillcolor=white, style=filled, URL="$namespaceveins_1_1math.html#a8e7bde81401ddc00bf062333bf217491", tooltip="Compare two floats for approximate equality. ", pos="574,60", rects="525,46,624,74"];
+	Node8 [label="veins::MobileHostObstacle\l::getWidth", height="0.39", width="1.89", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_mobile_host_obstacle.html#a4fa9092226ba241ce5e79b3e25f41b50", pos="248,14", rects="180,0,316,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,180,184 144,120 168,137 157,159 173,178"];
+	Node1 -> Node3 [color=midnightblue, style=solid, pos="e,180,138 144,120 157,124 162,129 171,134"];
+	Node1 -> Node4 [color=midnightblue, style=solid, pos="e,180,106 144,106 153,106 161,106 170,106"];
+	Node1 -> Node5 [color=midnightblue, style=solid, pos="e,196,69 144,92 161,86 164,79 180,74 182,73 184,72 186,72"];
+	Node5 -> Node6 [color=midnightblue, style=solid, pos="e,352,60 300,60 313,60 328,60 342,60"];
+	Node6 -> Node7 [color=midnightblue, style=solid, pos="e,524,60 488,60 497,60 506,60 514,60"];
+	Node1 -> Node8 [color=midnightblue, style=solid, pos="e,180,28 144,92 168,74 157,52 173,34"];
+}

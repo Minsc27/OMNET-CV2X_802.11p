@@ -1,0 +1,11 @@
+digraph "veins::NicEntryDebug::requestOutGate" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,442,28"];
+	Node1 [label="veins::NicEntryDebug\l::requestOutGate", height="0.39", width="1.61", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="67,14", rects="9,0,126,28"];
+	Node2 [label="veins::NicEntryDebug\l::collectFreeGates", height="0.39", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_nic_entry_debug.html#aac3b943e56b211541596a73f6437608a", tooltip="Iterates over all existing gates of this NicEntries nic and host and checks wether they are useable b...", pos="221,14", rects="163,0,280,28"];
+	Node3 [label="veins::NicEntryDebug\l::collectGates", height="0.39", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_nic_entry_debug.html#ae4c6e480d8b2f3fc4199a7a8314ab2df", tooltip="Collects all free gates with a certain pattern as names and puts them on a stack. ...", pos="375,14", rects="317,0,434,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,162,14 126,14 135,14 143,14 152,14"];
+	Node2 -> Node3 [color=midnightblue, style=solid, pos="e,316,14 280,14 289,14 297,14 306,14"];
+}

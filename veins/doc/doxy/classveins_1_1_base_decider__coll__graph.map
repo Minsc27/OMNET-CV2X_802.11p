@@ -1,0 +1,14 @@
+digraph "veins::BaseDecider" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,352,154"];
+	Node1 [label="veins::BaseDecider", height="0.22", width="1.36", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="153,16", rects="104,8,202,24"];
+	Node2 [label="veins::Decider", height="0.22", width="1.06", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider.html", tooltip="The basic Decider class. ", pos="153,70", rects="115,62,191,78"];
+	Node3 [label="veins::HasLogProxy", height="0.22", width="1.47", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_has_log_proxy.html", tooltip="Helper class for logging from classes not derived from cComponent. ", pos="53,138", rects="0,130,106,146"];
+	Node4 [label=simtime_t, height="0.22", width="0.81", color=grey75, fillcolor=white, style=filled, pos="153,138", rects="124,130,183,146"];
+	Node5 [label="veins::DeciderToPhyInterface", height="0.22", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider_to_phy_interface.html", tooltip="This class is the interface for a Decider to the BasePhyLayer. ", pos="276,138", rects="200,130,353,146"];
+	Node2 -> Node1 [dir=back, color=midnightblue, style=solid, pos="s,153,62 153,52 153,43 153,31 153,24"];
+	Node3 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,65,130 72,125 92,112 124,90 141,78"];
+	Node4 -> Node2 [dir=back, color=darkorchid3, style=dashed, label=" notAgain", pos="s,153,130 153,121 153,107 153,89 153,78", lp="183,104"];
+	Node5 -> Node2 [dir=back, color=darkorchid3, style=dashed, label=" phy", pos="s,266,130 259,125 247,115 231,104 216,96 203,89 188,83 176,78", lp="258,104"];
+}

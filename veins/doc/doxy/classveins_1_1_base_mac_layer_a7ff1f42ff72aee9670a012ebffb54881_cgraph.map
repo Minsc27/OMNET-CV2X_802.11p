@@ -1,0 +1,9 @@
+digraph "veins::BaseMacLayer::setUpControlInfo" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,324,28"];
+	Node1 [label="veins::BaseMacLayer\l::setUpControlInfo", height="0.39", width="1.56", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="64,14", rects="8,0,120,28"];
+	Node2 [label="veins::MacToNetwControlInfo\l::setControlInfo", height="0.39", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_mac_to_netw_control_info.html#abb219489bbd1d6807c88cc3ea57f6741", tooltip="Attaches a \"control info\" structure (object) to the message pMsg. ", pos="236,14", rects="156,0,316,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,156,14 120,14 128,14 137,14 146,14"];
+}

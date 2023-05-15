@@ -1,0 +1,24 @@
+digraph "TimerManager.cc" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,317,200"];
+	Node1 [label="TimerManager.cc", height="0.22", width="1.33", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="171,184", rects="123,176,219,192"];
+	Node2 [label="veins/modules/utility\l/TimerManager.h", height="0.39", width="1.56", color=black, fillcolor=white, style=filled, URL="$_timer_manager_8h.html", pos="120,126", rects="64,112,177,140"];
+	Node3 [label=functional, height="0.22", width="0.83", color=grey75, fillcolor=white, style=filled, pos="30,68", rects="0,60,61,76"];
+	Node4 [label=map, height="0.22", width="0.44", color=grey75, fillcolor=white, style=filled, pos="94,68", rects="78,60,110,76"];
+	Node5 [label=string, height="0.22", width="0.50", color=grey75, fillcolor=white, style=filled, pos="146,68", rects="128,60,165,76"];
+	Node6 [label="veins/veins.h", height="0.22", width="1.00", color=black, fillcolor=white, style=filled, URL="$veins_8h.html", pos="218,68", rects="182,60,254,76"];
+	Node7 [label=memory, height="0.22", width="0.72", color=grey75, fillcolor=white, style=filled, pos="155,16", rects="129,8,181,24"];
+	Node8 [label=utility, height="0.22", width="0.53", color=grey75, fillcolor=white, style=filled, pos="218,16", rects="199,8,238,24"];
+	Node9 [label="omnetpp.h", height="0.22", width="0.86", color=grey75, fillcolor=white, style=filled, pos="286,16", rects="255,8,317,24"];
+	Node10 [label=algorithm, height="0.22", width="0.81", color=grey75, fillcolor=white, style=filled, pos="223,126", rects="194,118,252,134"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,133,140 164,176 158,169 148,157 139,147"];
+	Node2 -> Node3 [color=midnightblue, style=solid, pos="e,43,76 98,112 84,103 64,90 50,81"];
+	Node2 -> Node4 [color=midnightblue, style=solid, pos="e,98,76 114,112 110,104 105,93 102,84"];
+	Node2 -> Node5 [color=midnightblue, style=solid, pos="e,142,76 126,112 130,104 135,93 138,84"];
+	Node2 -> Node6 [color=midnightblue, style=solid, pos="e,205,76 144,112 160,103 182,89 198,80"];
+	Node6 -> Node7 [color=midnightblue, style=solid, pos="e,165,24 208,60 198,52 184,40 172,30"];
+	Node6 -> Node8 [color=midnightblue, style=solid, pos="e,218,24 218,60 218,53 218,42 218,33"];
+	Node6 -> Node9 [color=midnightblue, style=solid, pos="e,275,24 229,60 240,52 256,39 268,30"];
+	Node1 -> Node10 [color=midnightblue, style=solid, pos="e,216,134 178,176 186,167 200,152 210,141"];
+}

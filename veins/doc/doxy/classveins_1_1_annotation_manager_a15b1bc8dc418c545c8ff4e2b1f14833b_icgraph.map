@@ -1,0 +1,9 @@
+digraph "veins::AnnotationManager::handleSelfMsg" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,332,28"];
+	Node1 [label="veins::AnnotationManager\l::handleSelfMsg", height="0.39", width="1.92", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="78,14", rects="9,0,148,28"];
+	Node2 [label="veins::AnnotationManager\l::handleMessage", height="0.39", width="1.92", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_annotation_manager.html#a3e4a47c7b4bdeef090c4bb77c2813f3a", pos="254,14", rects="185,0,324,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,148,14 158,14 167,14 175,14 184,14"];
+}

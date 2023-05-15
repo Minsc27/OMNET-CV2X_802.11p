@@ -1,0 +1,23 @@
+digraph "veins::AnalogueModel" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,484,244"];
+	Node1 [label="veins::AnalogueModel", height="0.22", width="1.64", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="209,122", rects="150,114,268,130"];
+	Node2 [label="veins::HasLogProxy", height="0.22", width="1.47", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_has_log_proxy.html", tooltip="Helper class for logging from classes not derived from cComponent. ", pos="61,122", rects="8,114,114,130"];
+	Node3 [label="veins::BreakpointPathloss\lModel", height="0.39", width="1.83", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_breakpoint_pathloss_model.html", tooltip="Basic implementation of a BreakpointPathlossModel. ", pos="390,230", rects="324,216,457,244"];
+	Node4 [label="veins::NakagamiFading", height="0.22", width="1.72", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_nakagami_fading.html", tooltip="A simple model to account for fast fading using the Nakagami Distribution. ", pos="390,190", rects="328,182,452,198"];
+	Node5 [label="veins::PERModel", height="0.22", width="1.28", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_p_e_r_model.html", tooltip="This class applies a parameterized packet error rate to incoming packets. ", pos="390,156", rects="344,148,437,164"];
+	Node6 [label="veins::SimpleObstacleShadowing", height="0.22", width="2.33", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_simple_obstacle_shadowing.html", tooltip="Basic implementation of a SimpleObstacleShadowing. ", pos="390,122", rects="306,114,474,130"];
+	Node7 [label="veins::SimplePathlossModel", height="0.22", width="1.97", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_simple_pathloss_model.html", tooltip="Basic implementation of a SimplePathlossModel. ", pos="390,88", rects="319,80,461,96"];
+	Node8 [label="veins::TwoRayInterference\lModel", height="0.39", width="1.97", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_two_ray_interference_model.html", tooltip="Extended version of Two-Ray Ground path loss model. ", pos="390,48", rects="319,34,461,62"];
+	Node9 [label="veins::VehicleObstacleShadowing", height="0.22", width="2.36", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_vehicle_obstacle_shadowing.html", tooltip="Basic implementation of a VehicleObstacleShadowing that uses SimplePathlossConstMapping (that is subc...", pos="390,8", rects="305,0,476,16"];
+	Node2 -> Node1 [dir=back, color=midnightblue, style=solid, pos="s,114,122 124,122 133,122 141,122 150,122"];
+	Node1 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,268,130 275,137 296,161 275,192 304,216 310,220 316,224 323,226"];
+	Node1 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,268,130 275,135 290,149 283,169 304,182 311,186 319,189 328,190"];
+	Node1 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,268,130 276,133 287,138 290,144 304,148 317,151 331,153 343,155"];
+	Node1 -> Node6 [dir=back, color=midnightblue, style=solid, pos="s,268,122 278,122 287,122 296,122 306,122"];
+	Node1 -> Node7 [dir=back, color=midnightblue, style=solid, pos="s,268,114 276,111 287,106 290,100 304,96 309,95 314,94 319,93"];
+	Node1 -> Node8 [dir=back, color=midnightblue, style=solid, pos="s,268,114 275,108 290,95 284,76 304,62 309,59 314,57 319,55"];
+	Node1 -> Node9 [dir=back, color=midnightblue, style=solid, pos="s,268,114 275,107 300,79 271,43 304,16"];
+}

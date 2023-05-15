@@ -1,0 +1,20 @@
+digraph "veins::Mac1609_4" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,305,304"];
+	Node1 [label="veins::Mac1609_4", height="0.22", width="1.28", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="160,16", rects="114,8,207,24"];
+	Node2 [label="veins::BaseMacLayer", height="0.22", width="1.56", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mac_layer.html", tooltip="A very simple MAC module template which provides de- and encapsulation of messages using the standard...", pos="87,74", rects="31,66,143,82"];
+	Node3 [label="veins::BaseLayer", height="0.22", width="1.25", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_layer.html", tooltip="A very simple layer template. ", pos="87,132", rects="42,124,132,140"];
+	Node4 [label="veins::BatteryAccess", height="0.22", width="1.47", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_battery_access.html", tooltip="Extends BaseModule by several methods which provide access to the battery module. ...", pos="87,184", rects="34,176,141,192"];
+	Node5 [label="veins::BaseModule", height="0.22", width="1.36", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_module.html", tooltip="Base class for all simple modules of a host. ", pos="87,236", rects="38,228,137,244"];
+	Node6 [label=cSimpleModule, height="0.22", width="1.19", color=grey75, fillcolor=white, style=filled, pos="43,288", rects="0,280,86,296"];
+	Node7 [label=cListener, height="0.22", width="0.75", color=grey75, fillcolor=white, style=filled, pos="131,288", rects="104,280,158,296"];
+	Node8 [label="veins::DemoBaseApplLayer\lToMac1609_4Interface", height="0.39", width="2.00", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_demo_base_appl_layer_to_mac1609__4_interface.html", tooltip="Interface between DemoBaseApplLayer Layer and Mac1609_4. ", pos="233,74", rects="161,60,306,88"];
+	Node2 -> Node1 [dir=back, color=midnightblue, style=solid, pos="s,97,66 104,61 118,49 137,33 149,24"];
+	Node3 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,87,124 87,115 87,104 87,90 87,82"];
+	Node4 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,87,176 87,167 87,158 87,147 87,140"];
+	Node5 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,87,228 87,219 87,210 87,199 87,192"];
+	Node6 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,50,280 56,273 64,263 74,252 80,244"];
+	Node7 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,124,280 118,273 110,263 100,252 94,244"];
+	Node8 -> Node1 [dir=back, color=midnightblue, style=solid, pos="s,215,60 208,55 195,44 180,32 170,24"];
+}

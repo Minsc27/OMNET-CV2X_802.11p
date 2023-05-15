@@ -1,0 +1,9 @@
+digraph "veins::operator&lt;&lt;" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,264,16"];
+	Node1 [label="veins::operator\<\<", height="0.22", width="1.28", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="55,8", rects="9,0,102,16"];
+	Node2 [label="veins::Heading::getRad", height="0.22", width="1.64", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_heading.html#ac97b4d1bbd2c6a6e4734efcf4aa4125f", tooltip="Returns the angle (in rad, with 0 degrees being east and 90 degrees being north). ...", pos="197,8", rects="138,0,256,16"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,138,8 102,8 110,8 119,8 128,8"];
+}

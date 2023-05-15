@@ -1,0 +1,27 @@
+digraph "veins::TraCICommandInterface::initNetworkBoundaries" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,718,154"];
+	Node1 [label="veins::TraCICommandInterface\l::initNetworkBoundaries", height="0.39", width="2.28", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="90,83", rects="8,69,172,97"];
+	Node2 [label="veins::TraCIBuffer::eof", height="0.22", width="1.67", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_buffer.html#a557599847e1cd7733e715752b35c0248", pos="290,146", rects="230,138,351,154"];
+	Node3 [label="veins::TraCICommandInterface\l::getNetBoundaryType", height="0.39", width="2.28", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_command_interface.html#ac7ccaff7cb03448ca9a32fb2be0a7734", pos="290,106", rects="208,92,372,120"];
+	Node4 [label="veins::TraCIConnection\l::query", height="0.39", width="1.69", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_connection.html#aaf49494fd564d7e88f1c539d9fd8aff8", tooltip="sends a single command via TraCI, checks status response, returns additional responses. ", pos="290,60", rects="229,46,352,74"];
+	Node5 [label="veins::TraCIConnection\l::sendMessage", height="0.39", width="1.69", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_connection.html#ae9525e27e903007d2fb3382e790a748a", tooltip="sends a message via TraCI (after adding the header) ", pos="482,60", rects="421,46,544,74"];
+	Node6 [label="veins::socket", height="0.22", width="0.94", color=black, fillcolor=white, style=filled, URL="$namespaceveins.html#a3e04988b53f0d0109602feb7895b4302", pos="651,78", rects="617,70,685,86"];
+	Node7 [label="veins::TraCIBuffer::str", height="0.22", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_buffer.html#a82188788949eca6bd7c48b1476f67b95", pos="651,41", rects="593,33,710,49"];
+	Node8 [label="veins::makeTraCICommand", height="0.22", width="2.03", color=black, fillcolor=white, style=filled, URL="$namespaceveins.html#af83b40d9114af922837b09398bc72005", tooltip="returns byte-buffer containing a TraCI command with optional parameters ", pos="482,20", rects="409,12,556,28"];
+	Node9 [label="veins::TraCIConnection\l::receiveMessage", height="0.39", width="1.69", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_connection.html#abec53685d1816f11e2ab2797bdc467fb", tooltip="receives a message via TraCI (and strips the header) ", pos="482,106", rects="421,92,544,120"];
+	Node10 [label="veins::TraCIConnection\l::setNetbounds", height="0.39", width="1.69", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_connection.html#a71e44478c142d5fa9b3e51f898ceef1f", pos="290,14", rects="229,0,352,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,229,145 173,97 194,108 187,126 208,138 212,140 216,141 220,142"];
+	Node1 -> Node3 [color=midnightblue, style=solid, pos="e,208,96 172,92 181,93 189,94 198,95"];
+	Node1 -> Node4 [color=midnightblue, style=solid, pos="e,228,67 172,74 188,72 204,70 219,68"];
+	Node4 -> Node5 [color=midnightblue, style=solid, pos="e,420,60 352,60 371,60 391,60 410,60"];
+	Node5 -> Node6 [color=midnightblue, style=solid, pos="e,617,75 544,67 566,70 589,71 608,74"];
+	Node5 -> Node7 [color=midnightblue, style=solid, pos="e,592,48 544,53 557,51 570,50 582,49"];
+	Node4 -> Node8 [color=midnightblue, style=solid, pos="e,408,28 352,51 359,50 366,48 372,46 386,41 390,36 398,32"];
+	Node8 -> Node7 [color=midnightblue, style=solid, pos="e,592,33 556,28 569,29 574,30 582,31"];
+	Node4 -> Node9 [color=midnightblue, style=solid, pos="e,420,95 352,68 359,70 366,72 372,74 390,79 392,86 408,92 409,92 410,92 410,93"];
+	Node9 -> Node6 [color=midnightblue, style=solid, pos="e,617,82 544,94 559,91 576,88 592,86 597,85 602,84 607,83"];
+	Node1 -> Node10 [color=midnightblue, style=solid, pos="e,228,20 173,69 194,57 187,39 208,28 211,26 215,25 218,23"];
+}

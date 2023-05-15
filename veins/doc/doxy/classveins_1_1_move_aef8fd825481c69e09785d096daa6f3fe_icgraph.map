@@ -1,0 +1,20 @@
+digraph "veins::Move::setOrientationByVector" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,450,161"];
+	Node1 [label="veins::Move::setOrientation\lByVector", height="0.39", width="1.92", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="77,81", rects="8,67,146,95"];
+	Node2 [label="veins::TraCIMobility\l::changePosition", height="0.39", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_mobility.html#a3137899bb330551c9823c40b4ed8b8fc", pos="237,145", rects="183,131,292,159"];
+	Node3 [label="veins::TraCIMobility\l::nextPosition", height="0.39", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_mobility.html#ae53642be0d88b9f146cf55a5d990f1a2", pos="385,147", rects="331,133,440,161"];
+	Node4 [label="veins::TraCIMobility\l::initialize", height="0.39", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_mobility.html#a9945ece48d11a01a7973f991b467e848", pos="385,101", rects="331,87,440,115"];
+	Node5 [label="veins::BaseMobility\l::initialize", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mobility.html#ac865e9d430a27e6a3076c0d9293fef35", tooltip="Initializes mobility model parameters. ", pos="237,60", rects="186,46,289,74"];
+	Node6 [label="veins::LinearMobility\l::initialize", height="0.39", width="1.56", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_linear_mobility.html#ac94ebc62ac059949810368634398004b", tooltip="Initializes mobility model parameters. ", pos="385,55", rects="329,41,442,69"];
+	Node7 [label="veins::TraCIMobility\l::preInitialize", height="0.39", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_mobility.html#a678634249e120d1e2614a628d20006f6", pos="237,14", rects="183,0,292,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,146,95 154,100 166,109 166,121 182,131"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,292,146 302,146 311,146 321,146 330,146"];
+	Node1 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,146,85 155,86 210,90 282,94 330,97"];
+	Node1 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,146,72 154,71 165,69 175,68 185,67"];
+	Node5 -> Node6 [dir=back, color=midnightblue, style=solid, pos="s,289,58 298,58 308,58 318,57 328,57"];
+	Node5 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,289,73 298,75 310,79 314,83 328,87 329,87 330,87 330,88"];
+	Node1 -> Node7 [dir=back, color=midnightblue, style=solid, pos="s,146,67 154,62 166,51 165,39 182,28"];
+}

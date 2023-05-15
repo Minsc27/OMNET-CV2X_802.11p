@@ -1,0 +1,11 @@
+digraph "veins::BasePhyLayer::initializeAnalogueModels" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,356,74"];
+	Node1 [label="veins::BasePhyLayer\l::initializeAnalogueModels", height="0.39", width="1.89", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="77,37", rects="9,23,146,51"];
+	Node2 [label="veins::BasePhyLayer\l::getAnalogueModelFromName", height="0.39", width="2.28", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_phy_layer.html#a2dceabc7af52fa78ce2b973675e19e38", tooltip="Create and return an instance of the AnalogueModel with the specified name. ", pos="265,60", rects="183,46,348,74"];
+	Node3 [label="veins::BasePhyLayer\l::getParametersFromXML", height="0.39", width="1.89", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_phy_layer.html#aa89a9272b99ab3005347301c2effc254", tooltip="Read the parameters of a XML element and stores them in the passed ParameterMap reference. ", pos="265,14", rects="197,0,334,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,182,50 146,45 155,46 163,47 172,49"];
+	Node1 -> Node3 [color=midnightblue, style=solid, pos="e,196,22 146,29 159,27 173,26 186,24"];
+}

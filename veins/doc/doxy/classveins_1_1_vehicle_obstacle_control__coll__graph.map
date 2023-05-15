@@ -1,0 +1,13 @@
+digraph "veins::VehicleObstacleControl" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,399,166"];
+	Node1 [label="veins::VehicleObstacleControl", height="0.22", width="2.14", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="107,16", rects="30,8,184,24"];
+	Node2 [label=cSimpleModule, height="0.22", width="1.19", color=grey75, fillcolor=white, style=filled, pos="43,150", rects="0,142,86,158"];
+	Node3 [label="veins::AnnotationManager", height="0.22", width="1.92", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_annotation_manager.html", tooltip="manages annotations on the OMNeT++ canvas. ", pos="107,90", rects="38,82,177,98"];
+	Node4 [label="veins::AnnotationManager\l::Group", height="0.39", width="1.92", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_annotation_manager_1_1_group.html", pos="263,90", rects="194,76,333,104"];
+	Node2 -> Node1 [dir=back, color=midnightblue, style=solid, pos="s,38,142 35,135 28,120 20,95 29,76 42,51 70,33 88,24"];
+	Node3 -> Node1 [dir=back, color=darkorchid3, style=dashed, label=" annotations", pos="s,107,82 107,73 107,58 107,36 107,24", lp="142,50"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,52,142 58,136 71,125 88,108 98,98"];
+	Node4 -> Node1 [dir=back, color=darkorchid3, style=dashed, label=" vehicleAnnotationGroup", pos="s,242,76 235,71 219,62 199,51 181,42 166,35 148,29 134,24", lp="281,50"];
+}

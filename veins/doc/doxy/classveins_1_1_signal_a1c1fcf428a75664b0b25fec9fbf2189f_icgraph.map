@@ -1,0 +1,9 @@
+digraph "veins::Signal::getDataOffset" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,314,16"];
+	Node1 [label="veins::Signal::getDataOffset", height="0.22", width="1.94", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="79,8", rects="9,0,150,16"];
+	Node2 [label="veins::Signal::operator=", height="0.22", width="1.64", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#ac678bd99ea970d0135330ccaa8458736", tooltip="Create a copy of another signal. ", pos="246,8", rects="187,0,306,16"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,150,8 159,8 168,8 178,8 186,8"];
+}

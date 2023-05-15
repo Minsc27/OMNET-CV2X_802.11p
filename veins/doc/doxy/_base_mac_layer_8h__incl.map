@@ -1,0 +1,40 @@
+digraph "BaseMacLayer.h" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,516,444"];
+	Node1 [label="BaseMacLayer.h", height="0.22", width="1.28", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="128,428", rects="82,420,174,436"];
+	Node2 [label="veins/veins.h", height="0.22", width="1.00", color=black, fillcolor=white, style=filled, URL="$veins_8h.html", pos="205,68", rects="169,60,241,76"];
+	Node3 [label=memory, height="0.22", width="0.72", color=grey75, fillcolor=white, style=filled, pos="142,16", rects="116,8,168,24"];
+	Node4 [label=utility, height="0.22", width="0.53", color=grey75, fillcolor=white, style=filled, pos="205,16", rects="186,8,225,24"];
+	Node5 [label="omnetpp.h", height="0.22", width="0.86", color=grey75, fillcolor=white, style=filled, pos="273,16", rects="242,8,304,24"];
+	Node6 [label="veins/base/modules\l/BaseLayer.h", height="0.39", width="1.44", color=black, fillcolor=white, style=filled, URL="$_base_layer_8h.html", pos="128,370", rects="76,356,181,384"];
+	Node7 [label="veins/base/modules\l/BatteryAccess.h", height="0.39", width="1.44", color=black, fillcolor=white, style=filled, URL="$_battery_access_8h.html", pos="128,306", rects="76,292,181,320"];
+	Node8 [label="veins/base/modules\l/BaseModule.h", height="0.39", width="1.44", color=black, fillcolor=white, style=filled, URL="$_base_module_8h.html", pos="175,178", rects="123,164,228,192"];
+	Node9 [label=sstream, height="0.22", width="0.64", color=grey75, fillcolor=white, style=filled, pos="175,120", rects="152,112,199,128"];
+	Node10 [label="veins/base/utils/HostState.h", height="0.22", width="1.97", color=black, fillcolor=white, style=filled, URL="$_host_state_8h.html", pos="287,120", rects="216,112,358,128"];
+	Node11 [label="veins/base/modules\l/BaseBattery.h", height="0.39", width="1.44", color=black, fillcolor=white, style=filled, URL="$_base_battery_8h.html", pos="206,242", rects="154,228,259,256"];
+	Node12 [label="veins/base/utils/PassedMessage.h", height="0.22", width="2.33", color=black, fillcolor=white, style=filled, URL="$_passed_message_8h.html", pos="360,242", rects="276,234,445,250"];
+	Node13 [label="veins/base/utils/SimpleAddress.h", height="0.22", width="2.33", color=black, fillcolor=white, style=filled, URL="$_simple_address_8h.html", pos="432,306", rects="348,298,517,314"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,169,76 111,420 78,404 10,363 10,306 10,306 10,306 10,178 10,103 75,100 147,80 152,78 156,77 160,77"];
+	Node2 -> Node3 [color=midnightblue, style=solid, pos="e,152,24 195,60 185,52 171,40 159,30"];
+	Node2 -> Node4 [color=midnightblue, style=solid, pos="e,205,24 205,60 205,53 205,42 205,33"];
+	Node2 -> Node5 [color=midnightblue, style=solid, pos="e,262,24 216,60 227,52 243,39 255,30"];
+	Node1 -> Node6 [color=midnightblue, style=solid, pos="e,128,384 128,420 128,414 128,403 128,394"];
+	Node6 -> Node2 [color=midnightblue, style=solid, pos="e,169,76 105,356 92,347 76,335 67,320 49,289 48,277 48,242 48,242 48,242 48,178 49,122 115,93 161,78"];
+	Node6 -> Node7 [color=midnightblue, style=solid, pos="e,128,320 128,356 128,348 128,339 128,330"];
+	Node7 -> Node2 [color=midnightblue, style=solid, pos="e,179,76 124,292 118,266 106,210 114,164 118,139 119,132 134,112 143,98 148,98 161,88 165,84 166,82 170,80"];
+	Node7 -> Node8 [color=midnightblue, style=solid, pos="e,164,192 129,292 131,276 136,249 145,228 149,218 154,208 159,200"];
+	Node8 -> Node9 [color=midnightblue, style=solid, pos="e,175,128 175,164 175,156 175,146 175,137"];
+	Node8 -> Node2 [color=midnightblue, style=solid, pos="e,184,76 160,164 148,150 134,129 143,112 150,98 164,87 176,80"];
+	Node8 -> Node10 [color=midnightblue, style=solid, pos="e,271,128 202,164 221,154 246,141 264,132"];
+	Node10 -> Node2 [color=midnightblue, style=solid, pos="e,218,76 274,112 261,104 241,91 225,81"];
+	Node7 -> Node11 [color=midnightblue, style=solid, pos="e,189,256 145,292 156,283 170,272 182,262"];
+	Node11 -> Node2 [color=midnightblue, style=solid, pos="e,239,76 249,228 305,206 335,191 367,128 370,121 371,117 367,112 363,106 295,89 248,78"];
+	Node11 -> Node8 [color=midnightblue, style=solid, pos="e,182,192 199,228 195,220 190,210 186,201"];
+	Node11 -> Node10 [color=midnightblue, style=solid, pos="e,282,128 216,228 231,205 261,159 277,135"];
+	Node6 -> Node12 [color=midnightblue, style=solid, pos="e,345,250 154,356 199,331 293,278 337,255"];
+	Node12 -> Node2 [color=midnightblue, style=solid, pos="e,241,76 365,234 377,212 407,150 380,112 345,62 307,83 251,77"];
+	Node1 -> Node13 [color=midnightblue, style=solid, pos="e,412,314 148,420 200,399 342,342 403,317"];
+	Node13 -> Node2 [color=midnightblue, style=solid, pos="e,241,76 437,298 442,288 450,271 453,256 455,243 455,240 453,228 440,172 433,156 397,112 381,93 375,86 352,80 330,74 277,78 249,\
+77"];
+}

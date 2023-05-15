@@ -1,0 +1,11 @@
+digraph "veins::BaseMobility::fixIfHostGetsOutside" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,414,28"];
+	Node1 [label="veins::BaseMobility\l::fixIfHostGetsOutside", height="0.39", width="1.64", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="67,14", rects="8,0,126,28"];
+	Node2 [label="veins::BaseMobility\l::handleBorderMsg", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mobility.html#a1cd10753592e8eeb018d8f774ce862c6", tooltip="Called upon arrival of a border messages. ", pos="214,14", rects="163,0,266,28"];
+	Node3 [label="veins::BaseMobility\l::handleMessage", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mobility.html#a64b618ee6a35eaebfcfba7d9266be4c8", tooltip="This modules should only receive self-messages. ", pos="354,14", rects="303,0,406,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,126,14 135,14 144,14 154,14 162,14"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,266,14 276,14 285,14 293,14 302,14"];
+}

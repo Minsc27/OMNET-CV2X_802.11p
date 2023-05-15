@@ -1,0 +1,17 @@
+digraph "veins::ConnectionManager" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,414,232"];
+	Node1 [label="veins::ConnectionManager", height="0.22", width="1.92", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="138,16", rects="69,8,208,24"];
+	Node2 [label="veins::BaseConnectionManager", height="0.22", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_connection_manager.html", tooltip="Module to control the channel and handle all connection related stuff. ", pos="138,70", rects="58,62,219,78"];
+	Node3 [label=cSimpleModule, height="0.22", width="1.19", color=grey75, fillcolor=white, style=filled, pos="43,156", rects="0,148,86,164"];
+	Node4 [label="veins::Coord", height="0.22", width="0.94", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_coord.html", tooltip="Class for storing 3D coordinates. ", pos="138,156", rects="104,148,172,164"];
+	Node5 [label=cObject, height="0.22", width="0.64", color=grey75, fillcolor=white, style=filled, pos="138,216", rects="115,208,162,224"];
+	Node6 [label="veins::BaseConnectionManager\l::GridCoord", height="0.39", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_connection_manager_1_1_grid_coord.html", tooltip="Represents a position inside a grid. ", pos="334,156", rects="254,142,415,170"];
+	Node2 -> Node1 [dir=back, color=midnightblue, style=solid, pos="s,138,62 138,52 138,43 138,31 138,24"];
+	Node3 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,52,148 58,142 78,124 113,92 129,78"];
+	Node4 -> Node2 [dir=back, color=darkorchid3, style=dashed, label=" playgroundSize\nfindDistance", pos="s,138,148 138,140 138,121 138,92 138,78", lp="182,110"];
+	Node5 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,138,208 138,199 138,187 138,173 138,164"];
+	Node4 -> Node4 [dir=back, color=darkorchid3, style=dashed, label=" ZERO", pos="s,172,150 182,151 187,152 190,153 190,156 190,160 182,162 172,162", lp="213,156"];
+	Node6 -> Node2 [dir=back, color=darkorchid3, style=dashed, label=" gridDim", pos="s,313,142 306,137 286,124 258,107 231,96 213,88 193,82 176,78", lp="314,110"];
+}

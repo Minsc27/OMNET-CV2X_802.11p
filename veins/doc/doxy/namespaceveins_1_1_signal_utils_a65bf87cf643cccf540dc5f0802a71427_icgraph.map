@@ -1,0 +1,11 @@
+digraph "veins::SignalUtils::getMinSINR" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,392,28"];
+	Node1 [label="veins::SignalUtils\l::getMinSINR", height="0.39", width="1.25", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="54,14", rects="9,0,100,28"];
+	Node2 [label="veins::Decider80211p\l::checkIfSignalOk", height="0.39", width="1.44", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider80211p.html#a01349c12df6c01678d1e25553b754819", tooltip="Checks a mapping against a specific threshold (element-wise). ", pos="189,14", rects="137,0,242,28"];
+	Node3 [label="veins::Decider80211p\l::processSignalEnd", height="0.39", width="1.44", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider80211p.html#a389f17ab33d4fc22b499593fa0837faf", tooltip="Processes a received AirFrame. ", pos="331,14", rects="279,0,384,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,100,14 110,14 119,14 127,14 136,14"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,242,14 251,14 260,14 270,14 278,14"];
+}

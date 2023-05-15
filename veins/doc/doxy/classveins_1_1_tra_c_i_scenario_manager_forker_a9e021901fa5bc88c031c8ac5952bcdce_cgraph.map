@@ -1,0 +1,11 @@
+digraph "veins::TraCIScenarioManagerForker::getPortNumber" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,360,62"];
+	Node1 [label="veins::TraCIScenarioManager\lForker::getPortNumber", height="0.39", width="2.11", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="85,28", rects="9,14,162,42"];
+	Node2 [label="veins::TraCIScenarioManager\l::getPortNumber", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager.html#ac45933f3ef923e17cd17e0a0e6d7fb7e", pos="275,48", rects="199,34,352,62"];
+	Node3 [label="veins::socket", height="0.22", width="0.94", color=black, fillcolor=white, style=filled, URL="$namespaceveins.html#a3e04988b53f0d0109602feb7895b4302", pos="275,8", rects="241,0,309,16"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,198,40 162,36 171,37 179,38 188,39"];
+	Node1 -> Node3 [color=midnightblue, style=solid, pos="e,241,11 162,20 174,18 186,17 198,16 209,14 221,14 232,12"];
+}

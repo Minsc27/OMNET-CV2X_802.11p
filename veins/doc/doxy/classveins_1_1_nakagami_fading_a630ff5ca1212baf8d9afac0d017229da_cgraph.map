@@ -1,0 +1,27 @@
+digraph "veins::NakagamiFading::filterSignal" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,670,256"];
+	Node1 [label="veins::NakagamiFading\l::filterSignal", height="0.39", width="1.72", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="70,96", rects="8,82,132,110"];
+	Node2 [label="veins::Coord::distance", height="0.22", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_coord.html#a7fc7cefa5db60ae560d5b72ae0a25532", tooltip="Returns the distance to Coord &#39;a&#39;. ", pos="241,190", rects="186,182,296,198"];
+	Node3 [label="anonymous_namespace\l\{BaseConnectionManager\l::cc\}::dist", height="0.56", width="1.89", color=black, fillcolor=white, style=filled, URL="$namespaceanonymous__namespace_02_base_connection_manager_8cc_03.html#a03d2870486bee7d8198d066f67d00e04", tooltip="On a torus the end and the begin of the axes are connected so you get a circle. ", pos="426,236", rects="358,216,495,256"];
+	Node4 [label="veins::FWMath::modulo", height="0.22", width="1.72", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_f_w_math.html#aa66a76d454bf3d91d8ec390c4737a7a1", tooltip="Returns the remainder r on division of dividend a by divisor n, using floored division. ", pos="600,236", rects="538,228,662,244"];
+	Node5 [label="veins::Coord::length", height="0.22", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_coord.html#aa330b25b3ec33bc78389be6589b4daaf", tooltip="Returns the length of this Coords position vector. ", pos="426,190", rects="375,182,477,198"];
+	Node6 [label="veins::Signal::getMax", height="0.22", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#abebe5178153c93685c9213770127e364", tooltip="Return the maximum power level of any frequency. ", pos="241,156", rects="187,148,296,164"];
+	Node7 [label="veins::Signal::getMaxInRange", height="0.22", width="2.08", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#aa1b08d369a6416df8954591047ebdbc1", pos="426,156", rects="351,148,502,164"];
+	Node8 [label="veins::AntennaPosition\l::getPositionAt", height="0.39", width="1.67", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_antenna_position.html#a57098d0c1c13859757b4aaf04cafe6eb", tooltip="Get the (linearly extrapolated) position at time t. ", pos="241,116", rects="181,102,301,130"];
+	Node9 [label="veins::Signal::getReceiverPoa", height="0.22", width="2.03", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#af77d907793446d9521f0424afd751a9c", tooltip="Get this signal&#39;s receiver POA. ", pos="241,76", rects="168,68,314,84"];
+	Node10 [label="veins::Signal::getSenderPoa", height="0.22", width="1.89", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#a733943dcfe581527719363408b4af19a", tooltip="Get this signal&#39;s sender POA. ", pos="241,42", rects="173,34,310,50"];
+	Node11 [label="veins::FWMath::mW2dBm", height="0.22", width="1.92", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_f_w_math.html#ab5d2d31650c0d51144611f7f57abcf99", tooltip="Convert a mW value to dBm. ", pos="241,8", rects="172,0,311,16"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,186,190 132,110 161,132 139,161 168,182 171,184 174,186 177,187"];
+	Node2 -> Node3 [color=midnightblue, style=solid, pos="e,357,219 296,194 302,195 308,196 314,198 331,203 334,208 348,215"];
+	Node3 -> Node4 [color=midnightblue, style=solid, pos="e,538,236 495,236 506,236 517,236 528,236"];
+	Node2 -> Node5 [color=midnightblue, style=solid, pos="e,375,190 296,190 318,190 343,190 365,190"];
+	Node1 -> Node6 [color=midnightblue, style=solid, pos="e,186,154 132,110 153,121 148,137 168,148 171,149 174,151 177,152"];
+	Node6 -> Node7 [color=midnightblue, style=solid, pos="e,350,156 296,156 310,156 325,156 340,156"];
+	Node1 -> Node8 [color=midnightblue, style=solid, pos="e,181,109 132,103 145,105 158,106 171,108"];
+	Node1 -> Node9 [color=midnightblue, style=solid, pos="e,168,84 132,88 141,87 149,86 158,85"];
+	Node1 -> Node10 [color=midnightblue, style=solid, pos="e,172,48 132,82 150,73 149,61 163,52"];
+	Node1 -> Node11 [color=midnightblue, style=solid, pos="e,171,14 132,82 157,62 143,38 163,20"];
+}

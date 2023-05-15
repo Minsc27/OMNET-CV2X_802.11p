@@ -1,0 +1,15 @@
+digraph "veins::NistErrorRate::getFecBpskBer" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,708,28"];
+	Node1 [label="veins::NistErrorRate\l::getFecBpskBer", height="0.39", width="1.50", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="62,14", rects="8,0,116,28"];
+	Node2 [label="veins::NistErrorRate\l::getChunkSuccessRate", height="0.39", width="1.67", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_nist_error_rate.html#a25b315284a666a5065540f8f1da1cbe5", pos="213,14", rects="153,0,274,28"];
+	Node3 [label="veins::Decider80211p\l::packetOk", height="0.39", width="1.44", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider80211p.html#a25ca0927f831000b88741dc0db84246c", tooltip="computes if packet is ok or has errors ", pos="363,14", rects="311,0,416,28"];
+	Node4 [label="veins::Decider80211p\l::checkIfSignalOk", height="0.39", width="1.44", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider80211p.html#a01349c12df6c01678d1e25553b754819", tooltip="Checks a mapping against a specific threshold (element-wise). ", pos="505,14", rects="453,0,558,28"];
+	Node5 [label="veins::Decider80211p\l::processSignalEnd", height="0.39", width="1.44", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider80211p.html#a389f17ab33d4fc22b499593fa0837faf", tooltip="Processes a received AirFrame. ", pos="647,14", rects="595,0,700,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,116,14 126,14 135,14 143,14 152,14"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,274,14 283,14 292,14 302,14 310,14"];
+	Node3 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,416,14 425,14 434,14 444,14 452,14"];
+	Node4 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,558,14 567,14 576,14 586,14 594,14"];
+}

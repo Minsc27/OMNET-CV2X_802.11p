@@ -1,0 +1,33 @@
+digraph "veins::BaseModule::initialize" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,768,235"];
+	Node1 [label="veins::BaseModule::\linitialize", height="0.39", width="1.42", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="59,106", rects="8,92,110,120"];
+	Node2 [label="veins::BaseLayer::initialize", height="0.22", width="1.86", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_layer.html#a5619505dba58f2669af33f9e23f6f1ad", tooltip="Initialization of the module and some variables. ", pos="213,152", rects="146,144,280,160"];
+	Node3 [label="veins::BaseApplLayer\l::initialize", height="0.39", width="1.58", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_appl_layer.html#a709299823ec0e1a8055407ceb765f7f8", tooltip="Initialization of the module and some variables. ", pos="374,198", rects="317,184,432,212"];
+	Node4 [label="veins::DemoBaseApplLayer\l::initialize", height="0.39", width="2.00", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_demo_base_appl_layer.html#acca47f0d4a756e78ca29d2e4271af396", pos="541,198", rects="469,184,614,212"];
+	Node5 [label="veins::MyVeinsApp::\linitialize", height="0.39", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_my_veins_app.html#a73f5b68ba9bb4b66b2a3fecf875be114", pos="705,221", rects="651,207,760,235"];
+	Node6 [label="veins::TraCIDemo11p\l::initialize", height="0.39", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_demo11p.html#ac52eef213e4579f7d5f671385b506b78", pos="705,175", rects="650,161,760,189"];
+	Node7 [label="veins::BaseMacLayer\l::initialize", height="0.39", width="1.56", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mac_layer.html#a689fa06067e9df73c7fa19512fe91117", tooltip="Initialization of the module and some variables. ", pos="374,152", rects="318,138,430,166"];
+	Node8 [label="veins::Mac1609_4::initialize", height="0.22", width="1.89", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_mac1609__4.html#a8d43b34c9fb0b918e447343e5fc344d4", tooltip="States of the channel selecting operation. ", pos="541,152", rects="473,144,610,160"];
+	Node9 [label="veins::ChannelAccess\l::initialize", height="0.39", width="1.56", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_channel_access.html#a70e63408397b7f7a8e00054355905d96", tooltip="Register with ConnectionManager. ", pos="213,106", rects="157,92,269,120"];
+	Node10 [label="veins::BasePhyLayer\l::initialize", height="0.39", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_phy_layer.html#a63e95c45ba5f46514ed9027c53216491", tooltip="Initialize members and associated objects according to parameterization. ", pos="374,106", rects="319,92,429,120"];
+	Node11 [label="veins::PhyLayer80211p\l::initialize", height="0.39", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_phy_layer80211p.html#abdd1c62986d1fd220eb5e51d4458811a", pos="541,106", rects="483,92,600,120"];
+	Node12 [label="veins::BaseMobility\l::initialize", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mobility.html#ac865e9d430a27e6a3076c0d9293fef35", tooltip="Initializes mobility model parameters. ", pos="213,60", rects="162,46,265,74"];
+	Node13 [label="veins::LinearMobility\l::initialize", height="0.39", width="1.56", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_linear_mobility.html#ac94ebc62ac059949810368634398004b", tooltip="Initializes mobility model parameters. ", pos="374,60", rects="318,46,431,74"];
+	Node14 [label="veins::TraCIMobility\l::initialize", height="0.39", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_mobility.html#a9945ece48d11a01a7973f991b467e848", pos="374,14", rects="320,0,429,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,110,120 118,124 128,131 131,139 146,144"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,280,160 289,164 300,170 302,177 316,184"];
+	Node3 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,432,198 442,198 451,198 459,198 468,198"];
+	Node4 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,614,208 622,209 632,210 641,211 650,213"];
+	Node4 -> Node6 [dir=back, color=midnightblue, style=solid, pos="s,614,188 623,187 632,185 641,185 650,183"];
+	Node2 -> Node7 [dir=back, color=midnightblue, style=solid, pos="s,280,152 289,152 299,152 309,152 318,152"];
+	Node7 -> Node8 [dir=back, color=midnightblue, style=solid, pos="s,430,152 439,152 450,152 461,152 472,152"];
+	Node1 -> Node9 [dir=back, color=midnightblue, style=solid, pos="s,110,106 120,106 132,106 145,106 157,106"];
+	Node9 -> Node10 [dir=back, color=midnightblue, style=solid, pos="s,269,106 279,106 292,106 306,106 319,106"];
+	Node10 -> Node11 [dir=back, color=midnightblue, style=solid, pos="s,429,106 439,106 453,106 468,106 482,106"];
+	Node1 -> Node12 [dir=back, color=midnightblue, style=solid, pos="s,110,92 118,89 129,84 133,79 146,74 151,72 156,71 161,70"];
+	Node12 -> Node13 [dir=back, color=midnightblue, style=solid, pos="s,265,60 275,60 289,60 303,60 317,60"];
+	Node12 -> Node14 [dir=back, color=midnightblue, style=solid, pos="s,265,51 274,48 276,48 278,47 280,46 297,41 300,35 316,28 317,28 318,27 319,27"];
+}

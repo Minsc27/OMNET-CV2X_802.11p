@@ -1,0 +1,12 @@
+digraph "TraCITrafficLightAbstractLogic.h" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,331,160"];
+	Node1 [label="TraCITrafficLightAbstract\lLogic.h", height="0.39", width="1.97", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="158,138", rects="87,124,230,152"];
+	Node2 [label="TraCITrafficLightAbstract\lLogic.cc", height="0.39", width="1.97", color=black, fillcolor=white, style=filled, URL="$_tra_c_i_traffic_light_abstract_logic_8cc.html", pos="71,74", rects="0,60,143,88"];
+	Node3 [label="TraCITrafficLightSimpleLogic.h", height="0.22", width="2.36", color=black, fillcolor=white, style=filled, URL="$_tra_c_i_traffic_light_simple_logic_8h.html", pos="245,74", rects="160,66,330,82"];
+	Node4 [label="TraCITrafficLightSimpleLogic.cc", height="0.22", width="2.39", color=black, fillcolor=white, style=filled, URL="$_tra_c_i_traffic_light_simple_logic_8cc.html", pos="245,16", rects="159,8,332,24"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,139,124 131,118 118,108 103,97 90,88"];
+	Node1 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,177,124 185,118 202,106 222,91 234,82"];
+	Node3 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,245,66 245,58 245,47 245,33 245,24"];
+}

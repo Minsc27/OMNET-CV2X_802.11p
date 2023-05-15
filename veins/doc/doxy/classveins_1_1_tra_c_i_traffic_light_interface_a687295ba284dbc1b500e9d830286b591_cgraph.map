@@ -1,0 +1,23 @@
+digraph "veins::TraCITrafficLightInterface::initialize" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,400,350"];
+	Node1 [label="veins::TraCITrafficLight\lInterface::initialize", height="0.39", width="1.78", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="73,175", rects="9,161,138,189"];
+	Node2 [label="veins::TraCICommandInterface\l::Trafficlight::getAssumedNextSwitchTime", height="0.39", width="3.03", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_command_interface_1_1_trafficlight.html#a08af01241b5b7a68b03f0dff77783483", pos="283,336", rects="174,322,392,350"];
+	Node3 [label="veins::TraCITrafficLight\lInterface::getControlledLinks", height="0.39", width="2.08", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_traffic_light_interface.html#a118d918705f50d855a1625dd2ec06cba", pos="283,290", rects="208,276,359,304"];
+	Node4 [label="veins::TraCICommandInterface\l::Trafficlight::getCurrentPhaseIndex", height="0.39", width="2.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_command_interface_1_1_trafficlight.html#a43dccbc924ddc53d630f1c38735a4bb3", pos="283,244", rects="192,230,375,258"];
+	Node5 [label="veins::TraCICommandInterface\l::Trafficlight::getCurrentProgramID", height="0.39", width="2.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_command_interface_1_1_trafficlight.html#a03911a45b92b0fad61daf52996b49a59", pos="283,198", rects="192,184,375,212"];
+	Node6 [label="veins::TraCICommandInterface\l::Trafficlight::getCurrentState", height="0.39", width="2.28", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_command_interface_1_1_trafficlight.html#aeb16e8054f5f8dace883981d72f815fb", pos="283,152", rects="201,138,365,166"];
+	Node7 [label="veins::TraCITrafficLight\lInterface::getTlCommandInterface", height="0.39", width="2.47", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_traffic_light_interface.html#a60b35312e3b352ea4855e2a5d79c576c", pos="283,106", rects="194,92,373,120"];
+	Node8 [label="veins::TraCITrafficLight\lInterface::setControlledLinks", height="0.39", width="2.06", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_traffic_light_interface.html#a4c8228ed99c41d09dc2649d796b04874", pos="283,60", rects="209,46,358,74"];
+	Node9 [label="veins::TraCITrafficLight\lInterface::setProgramDefinition", height="0.39", width="2.28", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_traffic_light_interface.html#a10132851c827649749cece8aec7263d6", pos="283,14", rects="201,0,365,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,174,322 138,189 181,229 134,276 167,315"];
+	Node1 -> Node3 [color=midnightblue, style=solid, pos="e,207,290 138,189 171,215 141,250 174,276 181,281 189,285 197,288"];
+	Node1 -> Node4 [color=midnightblue, style=solid, pos="e,191,237 138,189 159,201 153,218 174,230 176,231 179,233 181,234"];
+	Node1 -> Node5 [color=midnightblue, style=solid, pos="e,191,188 138,182 152,184 167,185 182,187"];
+	Node1 -> Node6 [color=midnightblue, style=solid, pos="e,201,161 138,168 155,166 174,164 192,162"];
+	Node1 -> Node7 [color=midnightblue, style=solid, pos="e,193,112 138,161 159,148 153,131 174,120 177,118 180,117 184,115"];
+	Node1 -> Node8 [color=midnightblue, style=solid, pos="e,208,59 138,161 171,134 141,99 174,74 181,68 190,64 199,62"];
+	Node1 -> Node9 [color=midnightblue, style=solid, pos="e,201,14 138,161 183,118 128,68 174,28 179,23 185,20 192,17"];
+}

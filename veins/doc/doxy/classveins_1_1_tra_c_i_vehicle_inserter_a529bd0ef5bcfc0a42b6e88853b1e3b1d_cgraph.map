@@ -1,0 +1,11 @@
+digraph "veins::TraCIVehicleInserter::initialize" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,486,28"];
+	Node1 [label="veins::TraCIVehicleInserter\l::initialize", height="0.39", width="1.94", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="79,14", rects="9,0,150,28"];
+	Node2 [label="veins::TraCIScenarioManager\lAccess::get", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager_access.html#a327aea423a1acd13027a591fbae8b4c5", pos="263,14", rects="187,0,340,28"];
+	Node3 [label="veins::FindModule::\lfindGlobalModule", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_find_module.html#a5235f90b10b3a297c25baeaa8a4194cf", tooltip="Returns a pointer to the module with the type of this template. ", pos="427,14", rects="376,0,478,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,186,14 150,14 159,14 167,14 176,14"];
+	Node2 -> Node3 [color=midnightblue, style=solid, pos="e,376,14 340,14 349,14 357,14 366,14"];
+}

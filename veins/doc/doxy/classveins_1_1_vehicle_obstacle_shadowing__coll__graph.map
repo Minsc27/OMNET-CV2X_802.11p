@@ -1,0 +1,25 @@
+digraph "veins::VehicleObstacleShadowing" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,940,226"];
+	Node1 [label="veins::VehicleObstacleShadowing", height="0.22", width="2.36", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="846,148", rects="761,140,932,156"];
+	Node2 [label="veins::AnalogueModel", height="0.22", width="1.64", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_analogue_model.html", tooltip="Interface for the analogue models of the physical layer. ", pos="521,216", rects="462,208,580,224"];
+	Node3 [label="veins::HasLogProxy", height="0.22", width="1.47", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_has_log_proxy.html", tooltip="Helper class for logging from classes not derived from cComponent. ", pos="202,216", rects="149,208,255,224"];
+	Node4 [label="veins::Coord", height="0.22", width="0.94", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_coord.html", tooltip="Class for storing 3D coordinates. ", pos="521,148", rects="487,140,555,156"];
+	Node5 [label=cObject, height="0.22", width="0.64", color=grey75, fillcolor=white, style=filled, pos="202,152", rects="179,144,226,160"];
+	Node6 [label="veins::VehicleObstacleControl", height="0.22", width="2.14", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_vehicle_obstacle_control.html", tooltip="VehicleObstacleControl models moving obstacles that block radio transmissions. ", pos="521,74", rects="444,66,598,82"];
+	Node7 [label=cSimpleModule, height="0.22", width="1.19", color=grey75, fillcolor=white, style=filled, pos="51,96", rects="8,88,94,104"];
+	Node8 [label="veins::AnnotationManager", height="0.22", width="1.92", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_annotation_manager.html", tooltip="manages annotations on the OMNeT++ canvas. ", pos="202,71", rects="133,63,272,79"];
+	Node9 [label="veins::AnnotationManager\l::Group", height="0.39", width="1.92", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_annotation_manager_1_1_group.html", pos="202,18", rects="133,4,272,32"];
+	Node2 -> Node1 [dir=back, color=midnightblue, style=solid, pos="s,580,211 589,210 592,209 595,209 598,208 664,195 681,193 742,168 751,164 752,160 760,158 762,157 764,157 767,156"];
+	Node3 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,255,216 264,216 322,216 406,216 462,216"];
+	Node4 -> Node1 [dir=back, color=darkorchid3, style=dashed, label=" playgroundSize", pos="s,555,148 564,148 614,148 697,148 760,148", lp="679,156"];
+	Node5 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,226,152 235,152 295,151 425,149 487,148"];
+	Node4 -> Node4 [dir=back, color=darkorchid3, style=dashed, label=" ZERO", pos="s,541,156 546,161 549,168 541,174 521,174 496,174 490,164 501,156", lp="521,182"];
+	Node6 -> Node1 [dir=back, color=darkorchid3, style=dashed, label=" vehicleObstacleControl", pos="s,598,82 606,84 666,96 684,102 742,128 751,131 752,135 760,138 762,139 765,139 767,140", lp="679,136"];
+	Node7 -> Node6 [dir=back, color=midnightblue, style=solid, pos="s,94,102 103,103 176,111 314,119 426,92 435,89 436,85 444,83 445,83 446,82 447,82"];
+	Node8 -> Node6 [dir=back, color=darkorchid3, style=dashed, label=" annotations", pos="s,272,72 281,72 330,73 394,73 444,73", lp="358,80"];
+	Node7 -> Node8 [dir=back, color=midnightblue, style=solid, pos="s,94,88 102,86 113,83 118,81 132,79"];
+	Node9 -> Node6 [dir=back, color=darkorchid3, style=dashed, label=" vehicleAnnotationGroup", pos="s,272,20 280,21 324,25 380,33 426,51 435,55 436,59 444,63 447,64 450,65 453,66", lp="358,59"];
+}

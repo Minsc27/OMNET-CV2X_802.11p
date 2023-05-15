@@ -1,0 +1,9 @@
+digraph "veins::TraCIVehicleInserter::insertVehicles" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,336,28"];
+	Node1 [label="veins::TraCIVehicleInserter\l::insertVehicles", height="0.39", width="1.94", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="79,14", rects="9,0,150,28"];
+	Node2 [label="veins::TraCIVehicleInserter\l::receiveSignal", height="0.39", width="1.94", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_vehicle_inserter.html#a556643617ac2a26a96baebed9ece0595", pos="257,14", rects="187,0,328,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,150,14 159,14 168,14 177,14 186,14"];
+}

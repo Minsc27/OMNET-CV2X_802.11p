@@ -1,0 +1,23 @@
+digraph "veins::ChannelAccess::sendToChannel" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,820,143"];
+	Node1 [label="veins::ChannelAccess\l::sendToChannel", height="0.39", width="1.56", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="64,37", rects="8,23,120,51"];
+	Node2 [label="veins::ChannelAccess\l::calculatePropagationDelay", height="0.39", width="1.97", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_channel_access.html#a01c12c70034ec0583ee5f4e1ac0f683b", tooltip="Calculates the propagation delay to the passed receiving nic. ", pos="237,60", rects="166,46,309,74"];
+	Node3 [label="veins::Coord::distance", height="0.22", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_coord.html#a7fc7cefa5db60ae560d5b72ae0a25532", tooltip="Returns the distance to Coord &#39;a&#39;. ", pos="416,100", rects="361,92,471,108"];
+	Node4 [label="anonymous_namespace\l\{BaseConnectionManager\l::cc\}::dist", height="0.56", width="1.89", color=black, fillcolor=white, style=filled, URL="$namespaceanonymous__namespace_02_base_connection_manager_8cc_03.html#a03d2870486bee7d8198d066f67d00e04", tooltip="On a torus the end and the begin of the axes are connected so you get a circle. ", pos="583,123", rects="515,103,652,143"];
+	Node5 [label="veins::FWMath::modulo", height="0.22", width="1.72", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_f_w_math.html#aa66a76d454bf3d91d8ec390c4737a7a1", tooltip="Returns the remainder r on division of dividend a by divisor n, using floored division. ", pos="750,123", rects="688,115,812,131"];
+	Node6 [label="veins::Coord::length", height="0.22", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_coord.html#aa330b25b3ec33bc78389be6589b4daaf", tooltip="Returns the length of this Coords position vector. ", pos="583,77", rects="532,69,634,85"];
+	Node7 [label="veins::AntennaPosition\l::getPositionAt", height="0.39", width="1.67", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_antenna_position.html#a57098d0c1c13859757b4aaf04cafe6eb", tooltip="Get the (linearly extrapolated) position at time t. ", pos="416,60", rects="356,46,476,74"];
+	Node8 [label="veins::BaseWorldUtility\l::speedOfLight", height="0.39", width="1.72", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_world_utility.html#a425e4c8fac6fb8309ae2efd494a19fe6", tooltip="Speed of light in meters per second. ", pos="416,14", rects="354,0,478,28"];
+	Node9 [label="veins::BaseConnectionManager\l::getGateList", height="0.39", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_connection_manager.html#ae71cb544584cb71f96e7de50896577f8", tooltip="Returns the ingates of all nics in range. ", pos="237,14", rects="157,0,318,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,165,50 120,44 132,46 143,47 155,49"];
+	Node2 -> Node3 [color=midnightblue, style=solid, pos="e,361,94 309,71 312,72 315,73 318,74 334,79 337,85 351,91"];
+	Node3 -> Node4 [color=midnightblue, style=solid, pos="e,514,113 471,107 474,107 476,108 478,108 487,109 495,110 504,112"];
+	Node4 -> Node5 [color=midnightblue, style=solid, pos="e,688,123 652,123 661,123 669,123 678,123"];
+	Node3 -> Node6 [color=midnightblue, style=solid, pos="e,532,82 471,93 474,93 476,92 478,92 495,89 498,87 514,85 517,85 519,84 522,84"];
+	Node2 -> Node7 [color=midnightblue, style=solid, pos="e,356,60 309,60 321,60 334,60 346,60"];
+	Node2 -> Node8 [color=midnightblue, style=solid, pos="e,354,28 309,49 312,48 315,47 318,46 331,41 336,37 345,32"];
+	Node1 -> Node9 [color=midnightblue, style=solid, pos="e,156,25 120,30 129,29 137,28 146,26"];
+}

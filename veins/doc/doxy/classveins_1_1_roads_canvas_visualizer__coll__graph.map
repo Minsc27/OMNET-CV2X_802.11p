@@ -1,0 +1,10 @@
+digraph "veins::RoadsCanvasVisualizer" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,246,100"];
+	Node1 [label="veins::RoadsCanvasVisualizer", height="0.22", width="2.14", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="101,16", rects="24,8,178,24"];
+	Node2 [label=cSimpleModule, height="0.22", width="1.19", color=grey75, fillcolor=white, style=filled, pos="43,84", rects="0,76,86,92"];
+	Node3 [label="veins::SignalManager", height="0.22", width="1.56", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal_manager.html", pos="160,84", rects="104,76,216,92"];
+	Node2 -> Node1 [dir=back, color=midnightblue, style=solid, pos="s,50,76 55,70 67,56 85,35 94,24"];
+	Node3 -> Node1 [dir=back, color=darkorchid3, style=dashed, label=" signalManager", pos="s,153,76 147,70 135,56 117,35 108,24", lp="180,50"];
+}

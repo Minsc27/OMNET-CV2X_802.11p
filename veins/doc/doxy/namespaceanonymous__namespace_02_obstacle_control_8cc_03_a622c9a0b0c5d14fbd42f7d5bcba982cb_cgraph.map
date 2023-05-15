@@ -1,0 +1,9 @@
+digraph "anonymous_namespace{ObstacleControl::cc}::rebuildBBoxLookup" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,282,40"];
+	Node1 [label="anonymous_namespace\l\{ObstacleControl::cc\}\l::rebuildBBoxLookup", height="0.56", width="1.78", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="72,20", rects="8,0,136,40"];
+	Node2 [label="veins::FindModule::\lfindGlobalModule", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_find_module.html#a5235f90b10b3a297c25baeaa8a4194cf", tooltip="Returns a pointer to the module with the type of this template. ", pos="223,20", rects="172,6,274,34"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,172,20 136,20 145,20 153,20 162,20"];
+}

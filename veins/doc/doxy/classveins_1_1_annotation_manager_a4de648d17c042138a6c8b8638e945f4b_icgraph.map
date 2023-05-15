@@ -1,0 +1,15 @@
+digraph "veins::AnnotationManager::drawLine" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,554,74"];
+	Node1 [label="veins::AnnotationManager\l::drawLine", height="0.39", width="1.92", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="78,37", rects="9,23,148,51"];
+	Node2 [label="veins::AnnotationManager\l::addFromXml", height="0.39", width="1.92", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_annotation_manager.html#a946e1967906528815fbe61cb8cfb2986", tooltip="adds Annotations from an XML document; example below. ", pos="261,60", rects="192,46,331,74"];
+	Node3 [label="veins::AnnotationManager\l::initialize", height="0.39", width="1.92", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_annotation_manager.html#af1b9b5eacc0afa3a90fbf48a7f00a539", pos="460,60", rects="391,46,530,74"];
+	Node4 [label="veins::VehicleObstacleControl\l::getPotentialObstacles", height="0.39", width="2.14", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_vehicle_obstacle_control.html#ab98060c628b51496d26c95962a30517f", tooltip="get distance and height of potential obstacles ", pos="261,14", rects="184,0,338,28"];
+	Node5 [label="veins::VehicleObstacleShadowing\l::filterSignal", height="0.39", width="2.36", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_vehicle_obstacle_shadowing.html#aa1a8069440240b74a7a8ea0c91b06116", tooltip="Filters a specified Signal by adding an attenuation over time to the Signal. ", pos="460,14", rects="375,0,546,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,148,46 157,47 168,48 180,49 191,51"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,331,60 341,60 357,60 374,60 390,60"];
+	Node1 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,148,28 157,27 166,26 175,25 184,24"];
+	Node4 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,338,14 348,14 357,14 365,14 374,14"];
+}

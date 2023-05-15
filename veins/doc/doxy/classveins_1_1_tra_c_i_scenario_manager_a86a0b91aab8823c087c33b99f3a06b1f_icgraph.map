@@ -1,0 +1,9 @@
+digraph "veins::TraCIScenarioManager::handleSelfMsg" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,360,28"];
+	Node1 [label="veins::TraCIScenarioManager\l::handleSelfMsg", height="0.39", width="2.11", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="85,14", rects="9,0,162,28"];
+	Node2 [label="veins::TraCIScenarioManager\l::handleMessage", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager.html#ac66ce95372a25d1860ad24748363090d", pos="275,14", rects="199,0,352,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,162,14 172,14 181,14 189,14 198,14"];
+}

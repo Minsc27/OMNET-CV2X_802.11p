@@ -1,0 +1,11 @@
+digraph "veins::BaseModule::receiveSignal" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,394,28"];
+	Node1 [label="veins::BaseModule::\lreceiveSignal", height="0.39", width="1.42", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="59,14", rects="8,0,110,28"];
+	Node2 [label="veins::BaseModule::\lhandleHostState", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_module.html#a44220aa650488eee8ad121f8bc599265", tooltip="Called whenever the hosts state changes. ", pos="197,14", rects="146,0,248,28"];
+	Node3 [label="veins::HostState::get", height="0.22", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_host_state.html#ae766588077d454e9d5f0415af3660922", tooltip="Returns the host state. ", pos="335,14", rects="284,6,386,22"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,146,14 110,14 119,14 127,14 136,14"];
+	Node2 -> Node3 [color=midnightblue, style=solid, pos="e,284,14 248,14 257,14 265,14 274,14"];
+}

@@ -1,0 +1,38 @@
+digraph "veins::TraCICommandInterface::Trafficlight::getCurrentPhaseIndex" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,1594,192"];
+	Node1 [label="veins::TraCICommandInterface\l::Trafficlight::getCurrentPhaseIndex", height="0.39", width="2.53", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="100,91", rects="9,77,192,105"];
+	Node2 [label="veins::TraCITrafficLight\lInterface::initialize", height="0.39", width="1.78", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_traffic_light_interface.html#a687295ba284dbc1b500e9d830286b591", pos="311,114", rects="247,100,376,128"];
+	Node3 [label="veins::TraCITrafficLight\lInterface::setCurrentPhaseByNr", height="0.39", width="2.31", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_traffic_light_interface.html#a44cf7ae2ea56d79cd51017da1c92696f", pos="311,68", rects="228,54,394,82"];
+	Node4 [label="veins::TraCIScenarioManager\l::processTrafficLightSubscription", height="0.39", width="2.36", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager.html#add02cc9cb92d43c6d9ed80ecae664063", pos="520,94", rects="435,80,606,108"];
+	Node5 [label="veins::TraCIScenarioManager\l::processSubcriptionResult", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager.html#a2f149bc15c3119ab19850b6960689eeb", pos="723,94", rects="647,80,800,108"];
+	Node6 [label="veins::TraCIScenarioManager\l::init_traci", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager.html#a5389f3fc889b1fe3fd126c33a7d9ae36", pos="1129,140", rects="1053,126,1206,154"];
+	Node7 [label="veins::TraCIScenarioManager\l::handleSelfMsg", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager.html#a86a0b91aab8823c087c33b99f3a06b1f", pos="1319,94", rects="1243,80,1396,108"];
+	Node8 [label="veins::TraCIScenarioManager\l::handleMessage", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager.html#ac66ce95372a25d1860ad24748363090d", pos="1509,94", rects="1433,80,1586,108"];
+	Node9 [label="veins::TraCIScenarioManager\lLaunchd::init_traci", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager_launchd.html#a5547124fea3c83e5492a9cdb029948c9", pos="1319,140", rects="1243,126,1396,154"];
+	Node10 [label="veins::TraCIScenarioManager\l::executeOneTimestep", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager.html#a84ebe9fb50441189bd39f949f2593115", tooltip="read and execute all commands for the next timestep ", pos="1129,94", rects="1053,80,1206,108"];
+	Node11 [label="veins::TraCIScenarioManager\l::subscribeToVehicleVariables", height="0.39", width="2.14", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager.html#a999d945fca20d45532a24b492430d742", pos="926,52", rects="849,38,1004,66"];
+	Node12 [label="veins::TraCIScenarioManager\l::processVehicleSubscription", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager.html#a4b6aa1aa798b245ff323c5759a3b848e", pos="1129,29", rects="1053,15,1206,43"];
+	Node13 [label="veins::TraCIScenarioManager\l::subscribeToTrafficLightVariables", height="0.39", width="2.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager.html#a9aff5d4c2403fdc11846bbb27f32fd04", pos="926,136", rects="836,122,1016,150"];
+	Node14 [label="veins::TraCITrafficLight\lInterface::handleChangeCommand\lMessage", height="0.56", width="2.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_traffic_light_interface.html#a21e6f2a1be4ab8952cd2c2ea4e43d712", pos="520,42", rects="430,22,610,62"];
+	Node15 [label="veins::TraCITrafficLight\lInterface::handleMessage", height="0.39", width="1.81", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_traffic_light_interface.html#a04bf7b95b3007906095ccfddb9d830a8", pos="723,42", rects="658,28,789,56"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,192,101 201,102 216,104 232,105 246,107"];
+	Node1 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,192,81 201,80 210,79 219,78 228,77"];
+	Node3 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,394,78 403,79 413,81 424,82 434,83"];
+	Node4 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,606,94 616,94 626,94 636,94 646,94"];
+	Node5 -> Node6 [dir=back, color=midnightblue, style=solid, pos="s,779,108 788,110 792,112 795,114 800,117 821,130 814,148 836,159 909,192 937,165 1016,159 1024,158 1037,156 1052,154"];
+	Node6 -> Node7 [dir=back, color=midnightblue, style=solid, pos="s,1206,126 1214,122 1225,117 1229,112 1242,108"];
+	Node7 -> Node8 [dir=back, color=midnightblue, style=solid, pos="s,1396,94 1406,94 1415,94 1423,94 1432,94"];
+	Node6 -> Node9 [dir=back, color=midnightblue, style=solid, pos="s,1206,140 1216,140 1225,140 1233,140 1242,140"];
+	Node5 -> Node10 [dir=back, color=midnightblue, style=solid, pos="s,800,94 809,94 881,94 983,94 1052,94"];
+	Node10 -> Node7 [dir=back, color=midnightblue, style=solid, pos="s,1206,94 1216,94 1225,94 1233,94 1242,94"];
+	Node5 -> Node11 [dir=back, color=midnightblue, style=solid, pos="s,800,80 809,77 819,74 823,70 836,66 840,65 844,64 848,63"];
+	Node11 -> Node12 [dir=back, color=midnightblue, style=solid, pos="s,1004,43 1013,42 1026,41 1039,40 1052,38"];
+	Node12 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,1052,22 1041,21 969,16 872,13 836,29 814,40 821,58 800,71 792,76 786,79 779,80"];
+	Node5 -> Node13 [dir=back, color=midnightblue, style=solid, pos="s,800,108 809,111 819,114 823,118 836,122"];
+	Node13 -> Node6 [dir=back, color=midnightblue, style=solid, pos="s,1016,138 1025,138 1034,138 1044,138 1052,139"];
+	Node3 -> Node14 [dir=back, color=midnightblue, style=solid, pos="s,394,58 403,57 412,55 421,55 430,53"];
+	Node14 -> Node15 [dir=back, color=midnightblue, style=solid, pos="s,610,42 619,42 632,42 645,42 657,42"];
+}

@@ -1,0 +1,28 @@
+../out/gcc-release/src/inet/linklayer/ieee8021d/common/Ieee8021dBPDU_m.o: \
+ inet/linklayer/ieee8021d/common/Ieee8021dBPDU_m.cc \
+ inet/linklayer/ieee8021d/common/Ieee8021dBPDU_m.h \
+ C:/Users/lulul/Downloads/omnetpp-5.6.2-src-windows/omnetpp-5.6.2/include/omnetpp.h \
+ inet/linklayer/common/MACAddress.h inet/common/INETDefs.h \
+ inet/common/precompiled_release.h inet/common/precompiled.h \
+ inet/opp_defines.h inet/features.h inet/common/Compat.h \
+ inet/common/InitStages.h
+
+inet/linklayer/ieee8021d/common/Ieee8021dBPDU_m.h:
+
+C:/Users/lulul/Downloads/omnetpp-5.6.2-src-windows/omnetpp-5.6.2/include/omnetpp.h:
+
+inet/linklayer/common/MACAddress.h:
+
+inet/common/INETDefs.h:
+
+inet/common/precompiled_release.h:
+
+inet/common/precompiled.h:
+
+inet/opp_defines.h:
+
+inet/features.h:
+
+inet/common/Compat.h:
+
+inet/common/InitStages.h:

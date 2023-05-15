@@ -1,0 +1,23 @@
+digraph "veins::PhyLayer80211p::attachSignal" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,428,244"];
+	Node1 [label="veins::PhyLayer80211p\l::attachSignal", height="0.39", width="1.61", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="67,122", rects="9,108,126,136"];
+	Node2 [label="veins::Signal::at", height="0.22", width="1.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#ae0890d174875e1a543f334165b0748c7", tooltip="Get the power in milliwatt for the given frequency index. ", pos="227,236", rects="187,228,267,244"];
+	Node3 [label="veins::Signal::getDuration", height="0.22", width="1.81", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#ae57e07bf7e6cd6baa0f6db79815cd5cb", tooltip="Get the duration. ", pos="227,202", rects="162,194,292,210"];
+	Node4 [label="veins::PhyLayer80211p\l::getFrameDuration", height="0.39", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_phy_layer80211p.html#a95314a40ce140d551f2976bdb749d244", pos="227,162", rects="169,148,286,176"];
+	Node5 [label="veins::getNDBPS", height="0.22", width="1.28", color=black, fillcolor=white, style=filled, URL="$namespaceveins.html#acec18387f16de0bbed065607cb14f06a", tooltip="returns the number of databits per ofdm symbol ", pos="374,162", rects="328,154,420,170"];
+	Node6 [label="veins::Spectrum::indexOf", height="0.22", width="1.78", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_spectrum.html#afd604ae214c58a5c54c697e9a9055637", pos="227,122", rects="163,114,292,130"];
+	Node7 [label="veins::Signal::setCenter\lFrequencyIndex", height="0.39", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#af89772fce12fd81475a0ecaacbaafd90", tooltip="Set the center frequency position. ", pos="227,82", rects="169,68,285,96"];
+	Node8 [label="veins::Signal::setDataEnd", height="0.22", width="1.78", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#addfd235698dd534e0d972ec762ae6d43", tooltip="Change the data frequency range&#39;s end. ", pos="227,42", rects="163,34,291,50"];
+	Node9 [label="veins::Signal::setDataStart", height="0.22", width="1.81", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#a1c4dfcf7ecd2ecba44cef30f603ea68d", tooltip="Change the data frequency range&#39;s start. ", pos="227,8", rects="162,0,292,16"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,187,237 126,136 160,164 128,201 162,228 166,231 172,234 177,235"];
+	Node1 -> Node3 [color=midnightblue, style=solid, pos="e,162,194 126,136 148,151 140,172 155,188"];
+	Node1 -> Node4 [color=midnightblue, style=solid, pos="e,168,149 126,136 142,140 145,143 158,147"];
+	Node4 -> Node5 [color=midnightblue, style=solid, pos="e,328,162 286,162 297,162 308,162 318,162"];
+	Node1 -> Node6 [color=midnightblue, style=solid, pos="e,162,122 126,122 135,122 143,122 152,122"];
+	Node1 -> Node7 [color=midnightblue, style=solid, pos="e,169,94 126,108 142,103 146,100 159,97"];
+	Node1 -> Node8 [color=midnightblue, style=solid, pos="e,163,49 126,108 148,92 140,71 155,56"];
+	Node1 -> Node9 [color=midnightblue, style=solid, pos="e,162,16 126,108 157,82 133,49 154,23"];
+}

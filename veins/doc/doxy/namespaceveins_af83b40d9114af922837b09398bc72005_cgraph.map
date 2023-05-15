@@ -1,0 +1,9 @@
+digraph "veins::makeTraCICommand" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,318,16"];
+	Node1 [label="veins::makeTraCICommand", height="0.22", width="2.03", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="82,8", rects="9,0,156,16"];
+	Node2 [label="veins::TraCIBuffer::str", height="0.22", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_buffer.html#a82188788949eca6bd7c48b1476f67b95", pos="251,8", rects="193,0,310,16"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,192,8 156,8 165,8 174,8 182,8"];
+}

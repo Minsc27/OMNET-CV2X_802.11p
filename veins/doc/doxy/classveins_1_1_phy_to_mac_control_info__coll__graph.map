@@ -1,0 +1,10 @@
+digraph "veins::PhyToMacControlInfo" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,176,100"];
+	Node1 [label="veins::PhyToMacControlInfo", height="0.22", width="2.11", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="76,16", rects="0,8,152,24"];
+	Node2 [label=cObject, height="0.22", width="0.64", color=grey75, fillcolor=white, style=filled, pos="29,84", rects="6,76,53,92"];
+	Node3 [label="veins::DeciderResult", height="0.22", width="1.47", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider_result.html", tooltip="A class to represent the result of a processed packet (that is not noise) by the Decider. ", pos="123,84", rects="70,76,177,92"];
+	Node2 -> Node1 [dir=back, color=midnightblue, style=solid, pos="s,35,76 40,69 49,55 62,35 70,24"];
+	Node3 -> Node1 [dir=back, color=darkorchid3, style=dashed, label=" result", pos="s,117,76 112,69 103,55 90,35 82,24", lp="124,50"];
+}

@@ -1,0 +1,34 @@
+digraph "veins::BaseConnectionManager::updateConnections" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,1280,260"];
+	Node1 [label="veins::BaseConnectionManager\l::updateConnections", height="0.39", width="2.22", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="89,112", rects="9,98,170,126"];
+	Node2 [label="veins::BaseConnectionManager\l::checkGrid", height="0.39", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_connection_manager.html#a063c137e5a6d73ff846321b511d48a32", tooltip="Check connections of a nic in the grid. ", pos="287,135", rects="207,121,368,149"];
+	Node3 [label="veins::BaseConnectionManager\l::CoordSet::add", height="0.39", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_connection_manager_1_1_coord_set.html#a94f30f431f9664e2fdb17aac5a845992", tooltip="Adds a GridCoord to the set. ", pos="683,246", rects="603,232,764,260"];
+	Node4 [label="veins::BaseConnectionManager\l::fillUnionWithNeighbors", height="0.39", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_connection_manager.html#a9b524c0f46ec4bb2ade902ac0855cac5", tooltip="Adds every direct Neighbor of a GridCoord to a union of coords. ", pos="485,204", rects="405,190,566,218"];
+	Node5 [label="veins::BaseConnectionManager\l::wrapIfTorus", height="0.39", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_connection_manager.html#a77e53c22a7c607482398632b85396a6c", tooltip="If the value is outside of its bounds (zero and max) this function returns -1 if useTorus is false an...", pos="683,200", rects="603,186,764,214"];
+	Node6 [label="veins::BaseConnectionManager\l::getCellEntries", height="0.39", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_connection_manager.html#ae776ac81a8f88a9afba710afaf8573b8", tooltip="Returns the NicEntries of the cell with specified coordinate. ", pos="485,158", rects="405,144,566,172"];
+	Node7 [label="veins::BaseConnectionManager\l::GridCoord::info", height="0.39", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_connection_manager_1_1_grid_coord.html#a8a3b9f1e38411db31b8aa45f11755b27", tooltip="Output string for this coordinate. ", pos="485,112", rects="405,98,566,126"];
+	Node8 [label="veins::BaseConnectionManager\l::CoordSet::next", height="0.39", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_connection_manager_1_1_coord_set.html#a703f38eb2b72f1381d2a3b69f26fdbd6", tooltip="Returns the next GridCoord in the set. ", pos="485,66", rects="405,52,566,80"];
+	Node9 [label="veins::BaseConnectionManager\l::updateNicConnections", height="0.39", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_connection_manager.html#af36a4fd1f31773f63187cc9717441a98", tooltip="Manages the connections of a registered nic. ", pos="485,20", rects="405,6,566,34"];
+	Node10 [label="veins::BaseConnectionManager\l::isInRange", height="0.39", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_connection_manager.html#a418d9fb4151ff38840838a94189ba8b6", tooltip="Check if the two nic&#39;s are in range. ", pos="683,20", rects="603,6,764,34"];
+	Node11 [label="anonymous_namespace\l\{BaseConnectionManager\l::cc\}::sqrTorusDist", height="0.56", width="1.89", color=black, fillcolor=white, style=filled, URL="$namespaceanonymous__namespace_02_base_connection_manager_8cc_03.html#a4c7285eb31fa2914adffc7da4255b6d2", pos="869,20", rects="801,0,938,40"];
+	Node12 [label="anonymous_namespace\l\{BaseConnectionManager\l::cc\}::dist", height="0.56", width="1.89", color=black, fillcolor=white, style=filled, URL="$namespaceanonymous__namespace_02_base_connection_manager_8cc_03.html#a03d2870486bee7d8198d066f67d00e04", tooltip="On a torus the end and the begin of the axes are connected so you get a circle. ", pos="1043,20", rects="975,0,1112,40"];
+	Node13 [label="veins::FWMath::modulo", height="0.22", width="1.72", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_f_w_math.html#aa66a76d454bf3d91d8ec390c4737a7a1", tooltip="Returns the remainder r on division of dividend a by divisor n, using floored division. ", pos="1210,20", rects="1148,12,1272,28"];
+	Node14 [label="veins::BaseConnectionManager\l::getCellForCoordinate", height="0.39", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_connection_manager.html#a7f0e7ff7533bb1f5e3c9bb2c2c0db261", tooltip="Calculates the corresponding cell of a coordinate. ", pos="287,89", rects="207,75,368,103"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,206,126 170,121 179,122 187,123 196,125"];
+	Node2 -> Node3 [color=midnightblue, style=solid, pos="e,602,249 356,149 360,151 364,153 368,157 396,178 375,207 404,227 434,247 523,250 592,249"];
+	Node2 -> Node4 [color=midnightblue, style=solid, pos="e,404,190 368,149 387,158 384,173 396,184"];
+	Node4 -> Node3 [color=midnightblue, style=solid, pos="e,602,232 566,218 579,221 584,225 592,228"];
+	Node4 -> Node5 [color=midnightblue, style=solid, pos="e,602,201 566,202 575,202 583,202 592,202"];
+	Node2 -> Node6 [color=midnightblue, style=solid, pos="e,404,149 368,144 377,145 385,146 394,148"];
+	Node2 -> Node7 [color=midnightblue, style=solid, pos="e,404,121 368,126 377,125 385,124 394,122"];
+	Node2 -> Node8 [color=midnightblue, style=solid, pos="e,404,80 368,121 387,111 384,96 396,85"];
+	Node2 -> Node9 [color=midnightblue, style=solid, pos="e,404,34 368,121 398,96 377,66 397,41"];
+	Node9 -> Node10 [color=midnightblue, style=solid, pos="e,602,20 566,20 575,20 583,20 592,20"];
+	Node10 -> Node11 [color=midnightblue, style=solid, pos="e,800,20 764,20 773,20 782,20 790,20"];
+	Node11 -> Node12 [color=midnightblue, style=solid, pos="e,974,20 938,20 947,20 955,20 964,20"];
+	Node12 -> Node13 [color=midnightblue, style=solid, pos="e,1148,20 1112,20 1121,20 1129,20 1138,20"];
+	Node1 -> Node14 [color=midnightblue, style=solid, pos="e,206,98 170,103 179,102 187,101 196,99"];
+}

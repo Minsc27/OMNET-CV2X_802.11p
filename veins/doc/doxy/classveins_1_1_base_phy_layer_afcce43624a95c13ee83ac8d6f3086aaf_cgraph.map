@@ -1,0 +1,17 @@
+digraph "veins::BasePhyLayer::encapsMsg" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,286,212"];
+	Node1 [label="veins::BasePhyLayer\l::encapsMsg", height="0.39", width="1.53", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="63,106", rects="8,92,118,120"];
+	Node2 [label="veins::BasePhyLayer\l::airFramePriority", height="0.39", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_phy_layer.html#ac5571de9711dc5adda0d4281a6a78f2e", tooltip="Defines the scheduling priority of AirFrames. ", pos="216,198", rects="161,184,271,212"];
+	Node3 [label="veins::BasePhyLayer\l::attachSignal", height="0.39", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_phy_layer.html#a5e9c914412f6eae586f5a41d5308a7f5", tooltip="Create a signal corresponding to the received control information. ", pos="216,152", rects="161,138,271,166"];
+	Node4 [label="veins::BasePhyLayer\l::createAirFrame", height="0.39", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_phy_layer.html#afa9969e29e4da7c827662e03522abd9f", tooltip="Create a protocol-specific AirFrame. ", pos="216,106", rects="161,92,271,120"];
+	Node5 [label="veins::BaseWorldUtility\l::getUniqueAirFrameId", height="0.39", width="1.72", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_world_utility.html#a4dd7a66a8ccbc52ff7ff43c66f832d5c", tooltip="Returns an Id for an AirFrame, at the moment simply an incremented long-value. ", pos="216,60", rects="154,46,278,74"];
+	Node6 [label="veins::BasePhyLayer\l::myProtocolId", height="0.39", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_phy_layer.html#ae32956b372dbacefb9c97ec6f16ffe91", tooltip="Return the identifier of the protocol this phy uses to send messages. ", pos="216,14", rects="161,0,271,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,161,188 118,120 143,139 129,163 152,183"];
+	Node1 -> Node3 [color=midnightblue, style=solid, pos="e,161,140 118,120 134,126 138,130 151,137"];
+	Node1 -> Node4 [color=midnightblue, style=solid, pos="e,161,106 118,106 129,106 140,106 151,106"];
+	Node1 -> Node5 [color=midnightblue, style=solid, pos="e,154,74 118,92 131,87 136,83 144,78"];
+	Node1 -> Node6 [color=midnightblue, style=solid, pos="e,161,24 118,92 143,72 129,48 152,29"];
+}

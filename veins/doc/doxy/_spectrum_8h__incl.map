@@ -1,0 +1,29 @@
+digraph "Spectrum.h" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,581,136"];
+	Node1 [label="Spectrum.h", height="0.22", width="0.89", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="286,120", rects="254,112,319,128"];
+	Node2 [label="stdint.h", height="0.22", width="0.61", color=grey75, fillcolor=white, style=filled, pos="22,68", rects="0,60,45,76"];
+	Node3 [label=iostream, height="0.22", width="0.69", color=grey75, fillcolor=white, style=filled, pos="87,68", rects="62,60,113,76"];
+	Node4 [label=algorithm, height="0.22", width="0.81", color=grey75, fillcolor=white, style=filled, pos="159,68", rects="130,60,188,76"];
+	Node5 [label=vector, height="0.22", width="0.56", color=grey75, fillcolor=white, style=filled, pos="226,68", rects="206,60,246,76"];
+	Node6 [label=iterator, height="0.22", width="0.61", color=grey75, fillcolor=white, style=filled, pos="286,68", rects="264,60,309,76"];
+	Node7 [label=memory, height="0.22", width="0.72", color=grey75, fillcolor=white, style=filled, pos="377,16", rects="351,8,403,24"];
+	Node8 [label=fstream, height="0.22", width="0.67", color=grey75, fillcolor=white, style=filled, pos="388,68", rects="364,60,412,76"];
+	Node9 [label=map, height="0.22", width="0.44", color=grey75, fillcolor=white, style=filled, pos="446,68", rects="430,60,462,76"];
+	Node10 [label="veins/veins.h", height="0.22", width="1.00", color=black, fillcolor=white, style=filled, URL="$veins_8h.html", pos="516,68", rects="480,60,552,76"];
+	Node11 [label=utility, height="0.22", width="0.53", color=grey75, fillcolor=white, style=filled, pos="482,16", rects="463,8,502,24"];
+	Node12 [label="omnetpp.h", height="0.22", width="0.86", color=grey75, fillcolor=white, style=filled, pos="550,16", rects="519,8,581,24"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,45,76 254,112 164,93 138,99 53,78"];
+	Node1 -> Node3 [color=midnightblue, style=solid, pos="e,113,76 254,112 213,101 143,84 119,78"];
+	Node1 -> Node4 [color=midnightblue, style=solid, pos="e,179,76 266,112 245,103 211,89 187,79"];
+	Node1 -> Node5 [color=midnightblue, style=solid, pos="e,236,76 277,112 268,104 254,92 243,82"];
+	Node1 -> Node6 [color=midnightblue, style=solid, pos="e,286,76 286,112 286,105 286,94 286,85"];
+	Node1 -> Node7 [color=midnightblue, style=solid, pos="e,370,24 293,112 308,94 345,53 364,31"];
+	Node1 -> Node8 [color=midnightblue, style=solid, pos="e,372,76 302,112 319,103 345,90 364,80"];
+	Node1 -> Node9 [color=midnightblue, style=solid, pos="e,430,76 317,112 344,105 385,93 421,79"];
+	Node1 -> Node10 [color=midnightblue, style=solid, pos="e,480,76 319,112 333,108 417,89 471,78"];
+	Node10 -> Node7 [color=midnightblue, style=solid, pos="e,399,24 495,60 472,51 434,37 407,27"];
+	Node10 -> Node11 [color=midnightblue, style=solid, pos="e,487,24 511,60 506,52 498,41 492,32"];
+	Node10 -> Node12 [color=midnightblue, style=solid, pos="e,545,24 521,60 526,52 534,41 540,32"];
+}

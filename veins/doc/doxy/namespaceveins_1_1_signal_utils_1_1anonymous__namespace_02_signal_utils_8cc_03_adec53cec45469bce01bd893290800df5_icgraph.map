@@ -1,0 +1,13 @@
+digraph "veins::SignalUtils::anonymous_namespace{SignalUtils::cc}::getMaxInterference" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,612,40"];
+	Node1 [label="veins::SignalUtils\l::anonymous_namespace\l\{SignalUtils::cc\}::getMaxInterference", height="0.56", width="2.56", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="100,20", rects="8,0,192,40"];
+	Node2 [label="veins::SignalUtils\l::getMinSINR", height="0.39", width="1.25", color=black, fillcolor=white, style=filled, URL="$namespaceveins_1_1_signal_utils.html#a65bf87cf643cccf540dc5f0802a71427", tooltip="return the minimal Signal to (Interference + Noise) Ratio at any data channel of signalFrame&#39;s signal...", pos="274,20", rects="229,6,320,34"];
+	Node3 [label="veins::Decider80211p\l::checkIfSignalOk", height="0.39", width="1.44", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider80211p.html#a01349c12df6c01678d1e25553b754819", tooltip="Checks a mapping against a specific threshold (element-wise). ", pos="409,20", rects="357,6,462,34"];
+	Node4 [label="veins::Decider80211p\l::processSignalEnd", height="0.39", width="1.44", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider80211p.html#a389f17ab33d4fc22b499593fa0837faf", tooltip="Processes a received AirFrame. ", pos="551,20", rects="499,6,604,34"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,192,20 202,20 211,20 220,20 228,20"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,320,20 330,20 339,20 347,20 356,20"];
+	Node3 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,462,20 471,20 480,20 490,20 498,20"];
+}

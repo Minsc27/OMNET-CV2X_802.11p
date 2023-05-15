@@ -1,0 +1,13 @@
+digraph "veins::NistErrorRate::getChunkSuccessRate" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,564,28"];
+	Node1 [label="veins::NistErrorRate\l::getChunkSuccessRate", height="0.39", width="1.67", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="69,14", rects="9,0,130,28"];
+	Node2 [label="veins::Decider80211p\l::packetOk", height="0.39", width="1.44", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider80211p.html#a25ca0927f831000b88741dc0db84246c", tooltip="computes if packet is ok or has errors ", pos="219,14", rects="167,0,272,28"];
+	Node3 [label="veins::Decider80211p\l::checkIfSignalOk", height="0.39", width="1.44", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider80211p.html#a01349c12df6c01678d1e25553b754819", tooltip="Checks a mapping against a specific threshold (element-wise). ", pos="361,14", rects="309,0,414,28"];
+	Node4 [label="veins::Decider80211p\l::processSignalEnd", height="0.39", width="1.44", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_decider80211p.html#a389f17ab33d4fc22b499593fa0837faf", tooltip="Processes a received AirFrame. ", pos="503,14", rects="451,0,556,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,130,14 139,14 148,14 158,14 166,14"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,272,14 281,14 290,14 300,14 308,14"];
+	Node3 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,414,14 423,14 432,14 442,14 450,14"];
+}

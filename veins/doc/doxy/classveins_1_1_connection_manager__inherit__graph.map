@@ -1,0 +1,10 @@
+digraph "veins::ConnectionManager" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,160,136"];
+	Node1 [label="veins::ConnectionManager", height="0.22", width="1.92", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="80,16", rects="11,8,150,24"];
+	Node2 [label="veins::BaseConnectionManager", height="0.22", width="2.22", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_connection_manager.html", tooltip="Module to control the channel and handle all connection related stuff. ", pos="80,68", rects="0,60,161,76"];
+	Node3 [label=cSimpleModule, height="0.22", width="1.19", color=grey75, fillcolor=white, style=filled, pos="80,120", rects="37,112,123,128"];
+	Node2 -> Node1 [dir=back, color=midnightblue, style=solid, pos="s,80,60 80,51 80,42 80,31 80,24"];
+	Node3 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,80,112 80,103 80,94 80,83 80,76"];
+}

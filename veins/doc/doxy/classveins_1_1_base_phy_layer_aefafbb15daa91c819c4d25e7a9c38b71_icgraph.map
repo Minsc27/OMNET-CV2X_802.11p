@@ -1,0 +1,9 @@
+digraph "veins::BasePhyLayer::setRadioState" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,280,28"];
+	Node1 [label="veins::BasePhyLayer\l::setRadioState", height="0.39", width="1.53", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="63,14", rects="8,0,118,28"];
+	Node2 [label="veins::PhyLayer80211p\l::setRadioState", height="0.39", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_phy_layer80211p.html#a5d9eccb7ec311b0d1add0ccd0e69fcde", tooltip="Tell the BasePhyLayer to switch to the specified radio state. ", pos="213,14", rects="155,0,272,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,118,14 128,14 137,14 145,14 154,14"];
+}

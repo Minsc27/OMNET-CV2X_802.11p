@@ -1,0 +1,15 @@
+digraph "veins::BasePhyLayer::setRadioState" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,614,74"];
+	Node1 [label="veins::BasePhyLayer\l::setRadioState", height="0.39", width="1.53", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="63,37", rects="8,23,118,51"];
+	Node2 [label="veins::BasePhyLayer\l::finishRadioSwitching", height="0.39", width="1.64", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_phy_layer.html#ada6c556e50ead146f822dadf6ea2a472", tooltip="Called when the switching process of the Radio is finished. ", pos="214,60", rects="155,46,274,74"];
+	Node3 [label="veins::BasePhyLayer\l::sendControlMsgToMac", height="0.39", width="1.78", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_phy_layer.html#a7839a1e342516ba1cde3a001a72965f3", tooltip="Send the given message to via the control gate to the mac. ", pos="375,60", rects="311,46,440,74"];
+	Node4 [label="veins::BasePhyLayer\l::sendControlMessageUp", height="0.39", width="1.78", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_phy_layer.html#aaa439e85a8bc20a39477055aecf04993", tooltip="Send the passed control message to the upper layer. ", pos="541,60", rects="477,46,606,74"];
+	Node5 [label="veins::BasePhyLayer\l::sendSelfMessage", height="0.39", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_phy_layer.html#aa59aef501cadd36c94d4f82efe9b64be", tooltip="Schedule self message to passed point in time. ", pos="214,14", rects="159,0,269,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,154,51 118,45 127,46 135,48 144,49"];
+	Node2 -> Node3 [color=midnightblue, style=solid, pos="e,310,60 274,60 283,60 291,60 300,60"];
+	Node3 -> Node4 [color=midnightblue, style=solid, pos="e,476,60 440,60 449,60 457,60 466,60"];
+	Node1 -> Node5 [color=midnightblue, style=solid, pos="e,159,22 118,29 128,27 139,26 150,24"];
+}

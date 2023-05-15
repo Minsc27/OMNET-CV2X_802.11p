@@ -1,0 +1,11 @@
+digraph "veins::Obstacle::containsPoint" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,320,62"];
+	Node1 [label="veins::Obstacle::contains\lPoint", height="0.39", width="1.69", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="69,34", rects="8,20,130,48"];
+	Node2 [label="veins::Obstacle::getShape", height="0.22", width="1.75", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_obstacle.html#a1e5a701e21f19186862a7e93fbf3727f", pos="239,54", rects="176,46,302,62"];
+	Node3 [label="anonymous_namespace\l\{BBoxLookup::cc\}::intersects", height="0.39", width="2.00", color=black, fillcolor=white, style=filled, URL="$namespaceanonymous__namespace_02_b_box_lookup_8cc_03.html#ad29edbecc2bba7cf9afb525f0aff0f25", tooltip="Return whether ray intersects with box. ", pos="239,14", rects="167,0,312,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,176,47 130,41 142,43 154,44 166,46 166,46 166,46 166,46"];
+	Node1 -> Node3 [color=midnightblue, style=solid, pos="e,166,23 130,27 139,26 147,25 156,24"];
+}

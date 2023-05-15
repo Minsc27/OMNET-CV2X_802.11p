@@ -1,0 +1,11 @@
+digraph "veins::BaseMobility::initialize" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,270,74"];
+	Node1 [label="veins::BaseMobility\l::initialize", height="0.39", width="1.42", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="60,37", rects="9,23,112,51"];
+	Node2 [label="veins::LinearMobility\l::initialize", height="0.39", width="1.56", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_linear_mobility.html#ac94ebc62ac059949810368634398004b", tooltip="Initializes mobility model parameters. ", pos="205,60", rects="149,46,262,74"];
+	Node3 [label="veins::TraCIMobility\l::initialize", height="0.39", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_mobility.html#a9945ece48d11a01a7973f991b467e848", pos="205,14", rects="151,0,260,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,112,45 121,46 130,48 139,49 148,51"];
+	Node1 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,112,29 121,28 130,26 141,25 150,23"];
+}

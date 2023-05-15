@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,100,16"];
+	Node1 [label="veins::FWMath", height="0.22", width="1.17", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_f_w_math.html", tooltip="Support functions for mathematical operations. ", pos="50,8", rects="8,0,92,16"];
+}

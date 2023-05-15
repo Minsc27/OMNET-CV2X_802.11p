@@ -1,0 +1,9 @@
+digraph "veins::Signal::getMax" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,314,16"];
+	Node1 [label="veins::Signal::getMax", height="0.22", width="1.50", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="63,8", rects="9,0,118,16"];
+	Node2 [label="veins::Signal::getMaxInRange", height="0.22", width="2.08", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#aa1b08d369a6416df8954591047ebdbc1", pos="230,8", rects="155,0,306,16"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,154,8 118,8 127,8 135,8 144,8"];
+}

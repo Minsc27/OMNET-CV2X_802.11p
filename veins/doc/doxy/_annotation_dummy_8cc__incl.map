@@ -1,0 +1,16 @@
+digraph "AnnotationDummy.cc" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,189,200"];
+	Node1 [label="AnnotationDummy.cc", height="0.22", width="1.67", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="90,184", rects="30,176,150,192"];
+	Node2 [label="veins/modules/world\l/annotations/AnnotationDummy.h", height="0.39", width="2.50", color=black, fillcolor=white, style=filled, URL="$_annotation_dummy_8h.html", pos="90,126", rects="0,112,181,140"];
+	Node3 [label="veins/veins.h", height="0.22", width="1.00", color=black, fillcolor=white, style=filled, URL="$veins_8h.html", pos="90,68", rects="54,60,126,76"];
+	Node4 [label=memory, height="0.22", width="0.72", color=grey75, fillcolor=white, style=filled, pos="27,16", rects="1,8,53,24"];
+	Node5 [label=utility, height="0.22", width="0.53", color=grey75, fillcolor=white, style=filled, pos="90,16", rects="71,8,110,24"];
+	Node6 [label="omnetpp.h", height="0.22", width="0.86", color=grey75, fillcolor=white, style=filled, pos="158,16", rects="127,8,189,24"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,90,140 90,176 90,170 90,159 90,150"];
+	Node2 -> Node3 [color=midnightblue, style=solid, pos="e,90,76 90,112 90,104 90,94 90,85"];
+	Node3 -> Node4 [color=midnightblue, style=solid, pos="e,37,24 80,60 70,52 56,40 44,30"];
+	Node3 -> Node5 [color=midnightblue, style=solid, pos="e,90,24 90,60 90,53 90,42 90,33"];
+	Node3 -> Node6 [color=midnightblue, style=solid, pos="e,147,24 101,60 112,52 128,39 140,30"];
+}

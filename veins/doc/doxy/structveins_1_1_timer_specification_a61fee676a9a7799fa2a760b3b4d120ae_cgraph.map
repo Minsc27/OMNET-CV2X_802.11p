@@ -1,0 +1,9 @@
+digraph "veins::TimerSpecification::TimerSpecification" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,316,28"];
+	Node1 [label="veins::TimerSpecification\l::TimerSpecification", height="0.39", width="1.81", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="74,14", rects="9,0,140,28"];
+	Node2 [label="veins::TimerSpecification\l::interval", height="0.39", width="1.81", color=black, fillcolor=white, style=filled, URL="$structveins_1_1_timer_specification.html#a53c295b62afa9fa7d3275ef23e59dc33", tooltip="Set the period between two timer occurences. ", pos="242,14", rects="177,0,308,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,176,14 140,14 149,14 157,14 166,14"];
+}

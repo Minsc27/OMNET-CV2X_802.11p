@@ -1,0 +1,11 @@
+digraph "veins::TraCIMobility::calculateCO2emission" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,428,28"];
+	Node1 [label="veins::TraCIMobility\l::calculateCO2emission", height="0.39", width="1.64", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="68,14", rects="9,0,128,28"];
+	Node2 [label="veins::TraCIMobility\l::changePosition", height="0.39", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_mobility.html#a3137899bb330551c9823c40b4ed8b8fc", pos="219,14", rects="165,0,274,28"];
+	Node3 [label="veins::TraCIMobility\l::nextPosition", height="0.39", width="1.50", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_mobility.html#ae53642be0d88b9f146cf55a5d990f1a2", pos="365,14", rects="311,0,420,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,128,14 137,14 146,14 156,14 164,14"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,274,14 284,14 293,14 301,14 310,14"];
+}

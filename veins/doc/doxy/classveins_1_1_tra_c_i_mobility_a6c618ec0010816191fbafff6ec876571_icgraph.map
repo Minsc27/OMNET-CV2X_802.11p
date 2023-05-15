@@ -1,0 +1,11 @@
+digraph "veins::TraCIMobility::getParkingState" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,490,28"];
+	Node1 [label="veins::TraCIMobility\l::getParkingState", height="0.39", width="1.50", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="63,14", rects="9,0,118,28"];
+	Node2 [label="veins::DemoBaseApplLayer\l::handleParkingUpdate", height="0.39", width="2.00", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_demo_base_appl_layer.html#ab5cc9db685df1f2f180359af47a3140c", tooltip="this function is called every time the vehicle parks or starts moving again ", pos="227,14", rects="155,0,300,28"];
+	Node3 [label="veins::DemoBaseApplLayer\l::receiveSignal", height="0.39", width="2.00", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_demo_base_appl_layer.html#acf0b4977efacc25c723cc44a938ee0f9", pos="409,14", rects="337,0,482,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,118,14 128,14 137,14 145,14 154,14"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,300,14 310,14 319,14 327,14 336,14"];
+}

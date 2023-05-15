@@ -1,0 +1,11 @@
+digraph "veins::ObstacleControl::CacheKey" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,156,178"];
+	Node1 [label="veins::ObstacleControl\l::CacheKey", height="0.39", width="1.61", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="58,22", rects="0,8,116,36"];
+	Node2 [label="veins::Coord", height="0.22", width="0.94", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_coord.html", tooltip="Class for storing 3D coordinates. ", pos="58,108", rects="24,100,92,116"];
+	Node3 [label=cObject, height="0.22", width="0.64", color=grey75, fillcolor=white, style=filled, pos="58,162", rects="35,154,82,170"];
+	Node2 -> Node1 [dir=back, color=darkorchid3, style=dashed, label=" receiverPos\nsenderPos", pos="s,58,100 58,92 58,76 58,51 58,36", lp="92,68"];
+	Node3 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,58,154 58,144 58,135 58,123 58,116"];
+	Node2 -> Node2 [dir=back, color=darkorchid3, style=dashed, label=" ZERO", pos="s,92,102 103,103 107,104 110,106 110,108 110,112 102,114 92,114", lp="133,108"];
+}

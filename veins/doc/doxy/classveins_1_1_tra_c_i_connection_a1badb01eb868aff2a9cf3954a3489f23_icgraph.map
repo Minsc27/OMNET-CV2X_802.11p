@@ -1,0 +1,13 @@
+digraph "veins::TraCIConnection::TraCIConnection" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,680,28"];
+	Node1 [label="veins::TraCIConnection\l::TraCIConnection", height="0.39", width="1.69", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="70,14", rects="9,0,132,28"];
+	Node2 [label="veins::TraCIConnection\l::connect", height="0.39", width="1.69", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_connection.html#a877f117bb16b8c6097fd1419058b1e2f", pos="230,14", rects="169,0,292,28"];
+	Node3 [label="veins::TraCIScenarioManager\l::handleSelfMsg", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager.html#a86a0b91aab8823c087c33b99f3a06b1f", pos="405,14", rects="329,0,482,28"];
+	Node4 [label="veins::TraCIScenarioManager\l::handleMessage", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager.html#ac66ce95372a25d1860ad24748363090d", pos="595,14", rects="519,0,672,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,132,14 142,14 151,14 159,14 168,14"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,292,14 302,14 311,14 319,14 328,14"];
+	Node3 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,482,14 492,14 501,14 509,14 518,14"];
+}

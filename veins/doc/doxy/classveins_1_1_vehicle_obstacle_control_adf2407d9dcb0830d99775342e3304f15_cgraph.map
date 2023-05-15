@@ -1,0 +1,20 @@
+digraph "veins::VehicleObstacleControl::getVehicleAttenuationDZ" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,542,164"];
+	Node1 [label="veins::VehicleObstacleControl\l::getVehicleAttenuationDZ", height="0.39", width="2.14", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="85,121", rects="8,107,162,135"];
+	Node2 [label="veins::Signal::getSpectrum", height="0.22", width="1.83", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#a28faf6285303ba6bec080132f959ca6f", tooltip="Get the Spectrum this Signal is defined on. ", pos="461,156", rects="395,148,528,164"];
+	Node3 [label="veins::VehicleObstacleControl\l::getVehicleAttenuationSingle", height="0.39", width="2.14", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_vehicle_obstacle_control.html#aba9a4a4986cd0141c6bd5404069f9460", tooltip="compute attenuation due to (single) vehicle. ", pos="275,94", rects="198,80,352,108"];
+	Node4 [label="veins::Signal::getNumValues", height="0.22", width="2.03", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#acdbd8efad115871fd4cb81128c9847c6", tooltip="Returns the number of power values stored in this signal. ", pos="461,122", rects="388,114,534,130"];
+	Node5 [label="veins::Spectrum::freqAt", height="0.22", width="1.69", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_spectrum.html#af6b615b2fa018730c48f98b1a855ca64", pos="461,88", rects="400,80,522,96"];
+	Node6 [label="veins::BaseWorldUtility\l::speedOfLight", height="0.39", width="1.72", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_world_utility.html#a425e4c8fac6fb8309ae2efd494a19fe6", tooltip="Speed of light in meters per second. ", pos="461,48", rects="399,34,523,62"];
+	Node7 [label="veins::Signal::at", height="0.22", width="1.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#ae0890d174875e1a543f334165b0748c7", tooltip="Get the power in milliwatt for the given frequency index. ", pos="461,8", rects="421,0,501,16"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,394,150 162,128 228,134 321,143 385,149"];
+	Node1 -> Node3 [color=midnightblue, style=solid, pos="e,198,105 162,110 171,109 179,108 188,106"];
+	Node3 -> Node2 [color=midnightblue, style=solid, pos="e,394,151 352,108 372,118 368,135 385,146"];
+	Node3 -> Node4 [color=midnightblue, style=solid, pos="e,388,114 352,108 364,110 375,112 382,113"];
+	Node3 -> Node5 [color=midnightblue, style=solid, pos="e,400,90 352,92 365,91 378,91 390,91"];
+	Node3 -> Node6 [color=midnightblue, style=solid, pos="e,399,59 352,80 369,74 372,67 388,62 388,62 389,62 389,62"];
+	Node3 -> Node7 [color=midnightblue, style=solid, pos="e,421,6 352,80 379,61 361,33 388,16 395,12 403,9 411,7"];
+}

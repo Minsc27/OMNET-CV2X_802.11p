@@ -1,0 +1,26 @@
+digraph "veins::TraCIScenarioManager::initialize" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,714,302"];
+	Node1 [label="veins::TraCIScenarioManager\l::initialize", height="0.39", width="2.11", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="85,154", rects="9,140,162,168"];
+	Node2 [label="veins::TraCIRegionOfInterest\l::addRectangles", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_region_of_interest.html#ab117030ff1f84dc9739c084aca782c91", tooltip="Add rectangles to constraints. ", pos="275,288", rects="199,274,352,302"];
+	Node3 [label="veins::TraCIRegionOfInterest\l::addRoads", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_region_of_interest.html#ae2bf4df47c7a3674ee200b26ecd39846", tooltip="Add roads to contraints. ", pos="275,242", rects="199,228,352,256"];
+	Node4 [label="veins::TraCIRegionOfInterest\l::clear", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_region_of_interest.html#a80b878563f3c841063e1fffdba95f185", tooltip="Remove all constraints. ", pos="275,196", rects="199,182,352,210"];
+	Node5 [label="veins::FindModule::\lfindGlobalModule", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_find_module.html#a5235f90b10b3a297c25baeaa8a4194cf", tooltip="Returns a pointer to the module with the type of this template. ", pos="465,133", rects="414,119,516,147"];
+	Node6 [label="veins::AnnotationManager\lAccess::getIfExists", height="0.39", width="1.92", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_annotation_manager_access.html#a078a458514be3927ea589e843a9bef72", pos="275,112", rects="206,98,345,126"];
+	Node7 [label="veins::TraCIScenarioManager\l::getPortNumber", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager.html#ac45933f3ef923e17cd17e0a0e6d7fb7e", pos="275,66", rects="199,52,352,80"];
+	Node8 [label="veins::TraCIScenarioManager\l::parseModuleTypes", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager.html#a45673008abaef567b3c5c0241ff4392f", tooltip="parses the vector of module types in ini file ", pos="275,20", rects="199,6,352,34"];
+	Node9 [label="veins::TraCIScenarioManager\l::parseMappings", height="0.39", width="2.11", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_tra_c_i_scenario_manager.html#a2078c66faf6fa4efd7cf245f4b4ca88e", tooltip="transforms a list of mappings of an omnetpp.ini parameter in a list ", pos="465,20", rects="389,6,542,34"];
+	Node10 [label="anonymous_namespace\l\{TraCIScenarioManager\l::cc\}::getMapping", height="0.56", width="1.78", color=black, fillcolor=white, style=filled, URL="$namespaceanonymous__namespace_02_tra_c_i_scenario_manager_8cc_03.html#aee10972a597261c51d4978b2e596294a", pos="642,20", rects="578,0,706,40"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,198,274 162,168 197,198 166,235 191,267"];
+	Node1 -> Node3 [color=midnightblue, style=solid, pos="e,198,228 162,168 185,183 176,205 191,222"];
+	Node1 -> Node4 [color=midnightblue, style=solid, pos="e,198,182 162,168 175,171 180,175 188,178"];
+	Node1 -> Node5 [color=midnightblue, style=solid, pos="e,414,136 162,150 233,146 337,141 403,137"];
+	Node1 -> Node6 [color=midnightblue, style=solid, pos="e,205,124 162,140 178,135 182,131 195,127"];
+	Node6 -> Node5 [color=midnightblue, style=solid, pos="e,414,128 345,120 365,123 386,124 405,127"];
+	Node1 -> Node7 [color=midnightblue, style=solid, pos="e,198,80 162,140 185,124 176,102 191,86"];
+	Node1 -> Node8 [color=midnightblue, style=solid, pos="e,198,34 162,140 197,110 167,73 190,42"];
+	Node8 -> Node9 [color=midnightblue, style=solid, pos="e,388,20 352,20 361,20 369,20 378,20"];
+	Node9 -> Node10 [color=midnightblue, style=solid, pos="e,578,20 542,20 551,20 559,20 568,20"];
+}

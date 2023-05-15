@@ -1,0 +1,15 @@
+digraph "veins::ChannelAccess::calculatePropagationDelay" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,756,28"];
+	Node1 [label="veins::ChannelAccess\l::calculatePropagationDelay", height="0.39", width="1.97", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="80,14", rects="9,0,152,28"];
+	Node2 [label="veins::ChannelAccess\l::sendToChannel", height="0.39", width="1.56", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_channel_access.html#ae370934ad7b1feacc1cb6bd6ad437198", tooltip="Sends a message to all nics connected to this one. ", pos="244,14", rects="188,0,300,28"];
+	Node3 [label="veins::BasePhyLayer\l::sendMessageDown", height="0.39", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_phy_layer.html#a1fe847ed3e50ccf3a3740234dfee42b1", tooltip="Send the passed AirFrame to the channel. ", pos="391,14", rects="336,0,446,28"];
+	Node4 [label="veins::BasePhyLayer\l::handleUpperMessage", height="0.39", width="1.64", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_phy_layer.html#a17b1d469775962d23835dd5f43a639ac", tooltip="Handle messages received from the upper layer and start transmitting them. ", pos="542,14", rects="483,0,602,28"];
+	Node5 [label="veins::BasePhyLayer\l::handleMessage", height="0.39", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_phy_layer.html#a54c20b44779b724638e62f941b656f9c", tooltip="Process received messages and pass to specific handlers. ", pos="693,14", rects="638,0,748,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,152,14 162,14 171,14 179,14 188,14"];
+	Node2 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,300,14 309,14 318,14 327,14 336,14"];
+	Node3 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,446,14 456,14 465,14 473,14 482,14"];
+	Node4 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,602,14 612,14 621,14 629,14 638,14"];
+}

@@ -1,0 +1,13 @@
+digraph "veins::ObstacleControl::add" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,478,74"];
+	Node1 [label="veins::ObstacleControl::add", height="0.22", width="1.89", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="77,37", rects="9,29,146,45"];
+	Node2 [label="veins::ObstacleControl\l::addFromTypeAndShape", height="0.39", width="1.86", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_obstacle_control.html#a5854911238d0af091d44f155bb768437", pos="250,60", rects="183,46,318,74"];
+	Node3 [label="veins::ObstacleControl\l::addFromXml", height="0.39", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_obstacle_control.html#a1e5fceb8e8d9616622cc12551231c9d3", pos="250,14", rects="192,0,308,28"];
+	Node4 [label="veins::ObstacleControl\l::initialize", height="0.39", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_obstacle_control.html#adffe1ace6d536aa9a27402006707962f", pos="412,14", rects="354,0,470,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,146,45 155,46 164,48 173,48 182,50"];
+	Node1 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,146,29 155,28 167,26 180,24 192,22"];
+	Node3 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,308,14 318,14 330,14 342,14 354,14"];
+}

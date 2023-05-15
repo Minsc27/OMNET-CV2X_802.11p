@@ -1,0 +1,11 @@
+digraph "veins::Mac1609_4::channelIdle" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,364,62"];
+	Node1 [label="veins::Mac1609_4::channelIdle", height="0.22", width="2.11", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="85,34", rects="9,26,162,42"];
+	Node2 [label="veins::Mac1609_4::guardActive", height="0.22", width="2.17", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_mac1609__4.html#a621bca21c2e13d7312361fd86d648a2e", pos="277,54", rects="199,46,356,62"];
+	Node3 [label="veins::Mac1609_4::timeLeft\lTillGuardOver", height="0.39", width="1.92", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_mac1609__4.html#a41a9c4025c9840048f72a0d758230af8", pos="277,14", rects="208,0,347,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,198,46 162,42 175,43 180,44 188,45"];
+	Node1 -> Node3 [color=midnightblue, style=solid, pos="e,207,21 162,26 174,24 186,23 197,22"];
+}

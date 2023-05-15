@@ -1,0 +1,17 @@
+digraph "veins::BaseMobility::reflectCoordinate" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,420,120"];
+	Node1 [label="veins::BaseMobility\l::reflectCoordinate", height="0.39", width="1.42", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="60,60", rects="9,46,112,74"];
+	Node2 [label="veins::BaseMobility\l::playgroundSizeX", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mobility.html#ab06dd8e4488b41a0a030807b6bdb639d", tooltip="Returns the width of the playground. ", pos="200,106", rects="149,92,252,120"];
+	Node3 [label="veins::BaseWorldUtility\l::getPgs", height="0.39", width="1.72", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_world_utility.html#a08a8c00b81e5b70ab4cdfe611d4169b7", tooltip="Returns the playgroundSize. ", pos="350,60", rects="288,46,412,74"];
+	Node4 [label="veins::BaseMobility\l::playgroundSizeY", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mobility.html#a1e3b73db40c3fb6cdfc4120bef6f1d88", tooltip="Returns the height of the playground. ", pos="200,60", rects="149,46,252,74"];
+	Node5 [label="veins::BaseMobility\l::playgroundSizeZ", height="0.39", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_mobility.html#ae6263a43c7959ae008a21874dda4e622", tooltip="Returns the height of the playground. ", pos="200,14", rects="149,0,252,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,148,92 112,74 125,79 130,83 139,88"];
+	Node2 -> Node3 [color=midnightblue, style=solid, pos="e,288,74 252,92 265,87 270,83 278,78"];
+	Node1 -> Node4 [color=midnightblue, style=solid, pos="e,148,60 112,60 121,60 129,60 138,60"];
+	Node4 -> Node3 [color=midnightblue, style=solid, pos="e,288,60 252,60 261,60 269,60 278,60"];
+	Node1 -> Node5 [color=midnightblue, style=solid, pos="e,148,28 112,46 125,41 130,37 138,32"];
+	Node5 -> Node3 [color=midnightblue, style=solid, pos="e,288,46 252,28 265,33 270,37 279,42"];
+}

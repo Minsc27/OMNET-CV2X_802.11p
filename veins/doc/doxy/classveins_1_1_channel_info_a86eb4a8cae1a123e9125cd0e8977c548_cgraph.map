@@ -1,0 +1,9 @@
+digraph "veins::ChannelInfo::assertNoIntersections" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,314,28"];
+	Node1 [label="veins::ChannelInfo\l::assertNoIntersections", height="0.39", width="1.61", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="66,14", rects="8,0,124,28"];
+	Node2 [label="anonymous_namespace\l\{BBoxLookup::cc\}::intersects", height="0.39", width="2.00", color=black, fillcolor=white, style=filled, URL="$namespaceanonymous__namespace_02_b_box_lookup_8cc_03.html#ad29edbecc2bba7cf9afb525f0aff0f25", tooltip="Return whether ray intersects with box. ", pos="233,14", rects="161,0,306,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,160,14 124,14 133,14 141,14 150,14"];
+}

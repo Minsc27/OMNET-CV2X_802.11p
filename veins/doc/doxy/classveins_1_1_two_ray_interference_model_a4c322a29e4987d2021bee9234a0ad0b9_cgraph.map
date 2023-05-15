@@ -1,0 +1,31 @@
+digraph "veins::TwoRayInterferenceModel::filterSignal" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,674,347"];
+	Node1 [label="veins::TwoRayInterference\lModel::filterSignal", height="0.39", width="1.97", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="79,156", rects="8,142,150,170"];
+	Node2 [label="veins::Coord::distance", height="0.22", width="1.53", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_coord.html#a7fc7cefa5db60ae560d5b72ae0a25532", tooltip="Returns the distance to Coord &#39;a&#39;. ", pos="259,304", rects="204,296,314,312"];
+	Node3 [label="anonymous_namespace\l\{BaseConnectionManager\l::cc\}::dist", height="0.56", width="1.89", color=black, fillcolor=white, style=filled, URL="$namespaceanonymous__namespace_02_base_connection_manager_8cc_03.html#a03d2870486bee7d8198d066f67d00e04", tooltip="On a torus the end and the begin of the axes are connected so you get a circle. ", pos="437,327", rects="369,307,506,347"];
+	Node4 [label="veins::FWMath::modulo", height="0.22", width="1.72", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_f_w_math.html#aa66a76d454bf3d91d8ec390c4737a7a1", tooltip="Returns the remainder r on division of dividend a by divisor n, using floored division. ", pos="604,327", rects="542,319,666,335"];
+	Node5 [label="veins::Coord::length", height="0.22", width="1.42", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_coord.html#aa330b25b3ec33bc78389be6589b4daaf", tooltip="Returns the length of this Coords position vector. ", pos="437,281", rects="386,273,488,289"];
+	Node6 [label="veins::Spectrum::freqAt", height="0.22", width="1.69", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_spectrum.html#af6b615b2fa018730c48f98b1a855ca64", pos="259,270", rects="198,262,320,278"];
+	Node7 [label="veins::Signal::getNumValues", height="0.22", width="2.03", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#acdbd8efad115871fd4cb81128c9847c6", tooltip="Returns the number of power values stored in this signal. ", pos="259,236", rects="186,228,332,244"];
+	Node8 [label="veins::AntennaPosition\l::getPositionAt", height="0.39", width="1.67", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_antenna_position.html#a57098d0c1c13859757b4aaf04cafe6eb", tooltip="Get the (linearly extrapolated) position at time t. ", pos="259,196", rects="199,182,319,210"];
+	Node9 [label="veins::Signal::getReceiverPoa", height="0.22", width="2.03", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#af77d907793446d9521f0424afd751a9c", tooltip="Get this signal&#39;s receiver POA. ", pos="259,156", rects="186,148,332,164"];
+	Node10 [label="veins::Signal::getSenderPoa", height="0.22", width="1.89", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#a733943dcfe581527719363408b4af19a", tooltip="Get this signal&#39;s sender POA. ", pos="259,122", rects="191,114,328,130"];
+	Node11 [label="veins::Signal::getSpectrum", height="0.22", width="1.83", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_signal.html#a28faf6285303ba6bec080132f959ca6f", tooltip="Get the Spectrum this Signal is defined on. ", pos="259,88", rects="193,80,326,96"];
+	Node12 [label="veins::FWMath::mW2dBm", height="0.22", width="1.92", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_f_w_math.html#ab5d2d31650c0d51144611f7f57abcf99", tooltip="Convert a mW value to dBm. ", pos="259,54", rects="190,46,329,62"];
+	Node13 [label="veins::BaseWorldUtility\l::speedOfLight", height="0.39", width="1.72", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_base_world_utility.html#a425e4c8fac6fb8309ae2efd494a19fe6", tooltip="Speed of light in meters per second. ", pos="259,14", rects="197,0,321,28"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,204,305 150,170 193,209 142,258 186,296 189,298 191,300 194,301"];
+	Node2 -> Node3 [color=midnightblue, style=solid, pos="e,368,316 314,310 320,310 326,311 332,312 341,313 349,314 358,315"];
+	Node3 -> Node4 [color=midnightblue, style=solid, pos="e,542,327 506,327 515,327 523,327 532,327"];
+	Node2 -> Node5 [color=midnightblue, style=solid, pos="e,386,286 314,298 320,297 326,297 332,296 349,293 352,291 368,289 371,289 373,288 376,288"];
+	Node1 -> Node6 [color=midnightblue, style=solid, pos="e,198,268 150,170 184,198 152,235 186,262 187,263 188,264 189,264"];
+	Node1 -> Node7 [color=midnightblue, style=solid, pos="e,186,228 150,170 172,185 164,206 179,222"];
+	Node1 -> Node8 [color=midnightblue, style=solid, pos="e,199,185 150,170 167,174 170,177 186,182 187,182 188,183 189,183"];
+	Node1 -> Node9 [color=midnightblue, style=solid, pos="e,186,156 150,156 159,156 167,156 176,156"];
+	Node1 -> Node10 [color=midnightblue, style=solid, pos="e,190,129 150,142 165,138 169,134 180,131"];
+	Node1 -> Node11 [color=midnightblue, style=solid, pos="e,192,93 150,142 172,129 165,110 183,98"];
+	Node1 -> Node12 [color=midnightblue, style=solid, pos="e,189,60 150,142 179,119 158,89 180,67"];
+	Node1 -> Node13 [color=midnightblue, style=solid, pos="e,197,21 150,142 190,106 147,63 186,28 187,27 188,27 188,26"];
+}

@@ -1,0 +1,13 @@
+digraph "veins::ObstacleControl::getAttenuationPerCut" {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,462,74"];
+	Node1 [label="veins::ObstacleControl\l::getAttenuationPerCut", height="0.39", width="1.67", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="69,37", rects="9,23,130,51"];
+	Node2 [label="veins::ObstacleControl\l::addFromTypeAndShape", height="0.39", width="1.86", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_obstacle_control.html#a5854911238d0af091d44f155bb768437", pos="234,60", rects="167,46,302,74"];
+	Node3 [label="veins::ObstacleControl\l::addFromXml", height="0.39", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_obstacle_control.html#a1e5fceb8e8d9616622cc12551231c9d3", pos="234,14", rects="176,0,292,28"];
+	Node4 [label="veins::ObstacleControl\l::initialize", height="0.39", width="1.61", color=black, fillcolor=white, style=filled, URL="$classveins_1_1_obstacle_control.html#adffe1ace6d536aa9a27402006707962f", pos="396,14", rects="338,0,454,28"];
+	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,130,45 139,46 148,48 157,49 166,50"];
+	Node1 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,130,29 139,28 151,26 164,24 176,22"];
+	Node3 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,292,14 302,14 314,14 326,14 338,14"];
+}

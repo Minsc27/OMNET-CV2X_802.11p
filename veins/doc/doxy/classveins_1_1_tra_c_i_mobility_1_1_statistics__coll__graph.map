@@ -1,0 +1,8 @@
+digraph "veins::TraCIMobility::Statistics" {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,112,136"];
+	Node1 [label="veins::TraCIMobility\l::Statistics", height="0.39", width="1.50", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="54,22", rects="0,8,109,36"];
+	Node2 [label=simtime_t, height="0.22", width="0.81", color=grey75, fillcolor=white, style=filled, pos="54,120", rects="25,112,84,128"];
+	Node2 -> Node1 [dir=back, color=darkorchid3, style=dashed, label=" stopTime\ntotalTime\nstartTime", pos="s,54,112 54,105 54,86 54,54 54,36", lp="83,74"];
+}
